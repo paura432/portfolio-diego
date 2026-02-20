@@ -1,3 +1,6 @@
+'use client';
+
+import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { Photo } from '@/types/content';
 
@@ -7,15 +10,58 @@ interface PhotoGridProps {
 
 /**
  * Componente PhotoGrid: Grid visual mejorado para fotografías
+ * Las fotos aparecen gradualmente al hacer scroll
  */
 export default function PhotoGrid({ photos }: PhotoGridProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
       {photos.map((photo) => (
-        <figure 
-          key={photo.id} 
-          className="group space-y-4"
-        >
+        <PhotoGridItem key={photo.id} photo={photo} />
+      ))}
+    </div>
+  );
+}
+
+// Componente para cada foto del grid con efecto de aparición
+function PhotoGridItem({ photo }: { photo: Photo }) {
+  const [isVisible, setIsVisible] = useState(false);
+  const photoRef = useRef<HTMLElement | null>(null);
+
+  useEffect(() => {
+    const element = photoRef.current;
+    if (!element) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(element);
+        }
+      },
+      {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px',
+      }
+    );
+
+    observer.observe(element);
+
+    return () => {
+      if (element) {
+        observer.unobserve(element);
+      }
+    };
+  }, []);
+
+  return (
+    <figure 
+      ref={photoRef}
+      className={`group space-y-4 transition-all duration-700 ease-out ${
+        isVisible 
+          ? 'opacity-100 translate-y-0' 
+          : 'opacity-0 translate-y-8'
+      }`}
+    >
           <div className="relative aspect-[4/3] bg-gray-100 dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg group-hover:shadow-2xl transition-all duration-300">
             <Image
               src={photo.src}
@@ -34,8 +80,6 @@ export default function PhotoGrid({ photos }: PhotoGridProps) {
             <p className="font-medium">{photo.caption}</p>
             <p className="text-gray-500 dark:text-gray-500">{photo.place}</p>
           </figcaption>
-        </figure>
-      ))}
-    </div>
+    </figure>
   );
 }

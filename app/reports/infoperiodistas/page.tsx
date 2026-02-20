@@ -1,6 +1,5 @@
 'use client';
 
-import Link from 'next/link';
 import { getReports } from '@/lib/content';
 import { useTheme } from '@/contexts/ThemeContext';
 import ArticleCard from '@/components/ArticleCard';
@@ -30,13 +29,15 @@ export default function InfoperiodistasPage() {
         ))}
       </div>
       <div className="pt-12 pb-8 text-center">
-        <Link
-          href="/reports/all"
+        <a
+          href="https://diario.infoperiodistas.info/?s=diego+delgado"
+          target="_blank"
+          rel="noopener noreferrer"
           className="group inline-flex items-center gap-2 text-gray-300 hover:text-white font-medium transition-colors underline underline-offset-4 decoration-2"
         >
           {t.reports.viewAll}
           <span className="transition-transform group-hover:translate-x-1">→</span>
-        </Link>
+        </a>
       </div>
     </Section>
   );

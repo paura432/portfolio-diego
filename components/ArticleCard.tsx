@@ -14,50 +14,40 @@ interface ArticleCardProps {
 /**
  * Componente ArticleCard: Tarjeta visual mejorada para reportajes
  * Con imagen destacada y mejor diseño
- * Las imágenes se difuminan y desaparecen al hacer scroll
+ * Los reportajes aparecen gradualmente al hacer scroll
  */
 export default function ArticleCard({ report, isFirst = false }: ArticleCardProps) {
   const { language } = useTheme();
   const t = getTranslations(language);
-  const [opacity, setOpacity] = useState(1);
+  const [isVisible, setIsVisible] = useState(false);
   const articleRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
-    // Solo aplicar el efecto al primer artículo
-    if (!isFirst) {
-      setOpacity(1);
-      return;
-    }
-
     const element = articleRef.current;
     if (!element) return;
 
-    const handleScroll = () => {
-      const heroSection = document.querySelector('section[class*="bg-black"]') as HTMLElement | null;
-      if (!heroSection) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          // Una vez visible, ya no necesitamos observar
+          observer.unobserve(element);
+        }
+      },
+      {
+        threshold: 0.1, // Se activa cuando el 10% del elemento es visible
+        rootMargin: '0px 0px -50px 0px', // Se activa un poco antes de que entre completamente
+      }
+    );
 
-      const heroBottom = heroSection.getBoundingClientRect().bottom;
-      const articleTop = element.getBoundingClientRect().top;
-      const viewportHeight = window.innerHeight;
-
-      // Calcular opacidad basada en la distancia desde el hero, igual que el título
-      const distanceFromHero = articleTop - heroBottom;
-      const heroHeight = heroSection.offsetHeight;
-      const opacityValue = Math.max(0, 1 - distanceFromHero / (heroHeight * 0.5));
-      
-      setOpacity(opacityValue);
-    };
-
-    // Ejecutar al montar y en cada scroll
-    handleScroll();
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    window.addEventListener('resize', handleScroll, { passive: true });
+    observer.observe(element);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('resize', handleScroll);
+      if (element) {
+        observer.unobserve(element);
+      }
     };
-  }, [isFirst]);
+  }, []);
 
   const imageUrl = report.image || 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&h=600&fit=crop';
   
@@ -69,10 +59,11 @@ export default function ArticleCard({ report, isFirst = false }: ArticleCardProp
   return (
     <article
       ref={articleRef}
-      className="max-w-4xl transition-opacity duration-300"
-      style={{
-        opacity: opacity,
-      }}
+      className={`max-w-4xl transition-all duration-700 ease-out ${
+        isVisible 
+          ? 'opacity-100 translate-y-0' 
+          : 'opacity-0 translate-y-8'
+      }`}
     >
       <div className="grid md:grid-cols-3 gap-6 items-start">
         {/* Imagen */}

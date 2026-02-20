@@ -38,7 +38,16 @@ export default function Home() {
     return opacity;
   };
 
+  // Calcular opacidad de la imagen (inversa al texto)
+  const getImageOpacity = () => {
+    if (!heroRef.current) return 0;
+    const heroHeight = heroRef.current.offsetHeight;
+    const opacity = Math.min(1, scrollY / (heroHeight * 0.5));
+    return opacity;
+  };
+
   const textOpacity = getTextOpacity();
+  const imageOpacity = getImageOpacity();
 
   return (
     <>
@@ -51,9 +60,9 @@ export default function Home() {
         >
           <div className="absolute inset-0 gradient-overlay"></div>
           <Section className="relative z-10">
-            <div className="flex flex-col md:flex-row gap-12 items-start">
+            <div className="flex flex-col md:flex-row gap-12 items-center">
               <div 
-                className="flex-1 md:flex-[1.6] space-y-6 transition-opacity duration-300 max-w-3xl"
+                className="flex-1 md:flex-[1.6] space-y-6 transition-opacity duration-300 max-w-5xl"
                 style={{ opacity: textOpacity }}
               >
                 <div>
@@ -88,7 +97,7 @@ export default function Home() {
 
               <div 
                 className="flex-1 md:flex-[0.9] relative transition-opacity duration-300"
-                style={{ opacity: textOpacity }}
+                style={{ opacity: imageOpacity }}
               >
                 <div className="relative aspect-square rounded-lg overflow-hidden shadow-2xl">
                   <Image
