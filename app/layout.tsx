@@ -3,7 +3,7 @@ import { ThemeProvider } from "@/contexts/ThemeContext";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Diego Delgado - Periodista",
+  title: "Diego Delgado Lerma - Periodista",
   description: "Portfolio profesional. Reportajes, fotografía y trabajos periodísticos.",
 };
 

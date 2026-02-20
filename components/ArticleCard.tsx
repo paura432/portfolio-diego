@@ -19,14 +19,12 @@ interface ArticleCardProps {
 export default function ArticleCard({ report, isFirst = false }: ArticleCardProps) {
   const { language } = useTheme();
   const t = getTranslations(language);
-  const [blurValue, setBlurValue] = useState(0);
   const [opacity, setOpacity] = useState(1);
   const articleRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     // Solo aplicar el efecto al primer artículo
     if (!isFirst) {
-      setBlurValue(0);
       setOpacity(1);
       return;
     }
@@ -35,30 +33,19 @@ export default function ArticleCard({ report, isFirst = false }: ArticleCardProp
     if (!element) return;
 
     const handleScroll = () => {
-      const heroSection = document.querySelector('section[class*="bg-gradient-to-br"]');
+      const heroSection = document.querySelector('section[class*="bg-black"]');
       if (!heroSection) return;
 
       const heroBottom = heroSection.getBoundingClientRect().bottom;
       const articleTop = element.getBoundingClientRect().top;
-      const articleBottom = element.getBoundingClientRect().bottom;
       const viewportHeight = window.innerHeight;
 
-      // Sin gradiente: blur máximo o sin blur, dependiendo de la posición
-      // Cuando el artículo está entrando desde abajo (cerca del bottom del viewport), blur máximo
-      // Cuando el artículo está más arriba (pasado un umbral), sin blur completamente
+      // Calcular opacidad basada en la distancia desde el hero, igual que el título
+      const distanceFromHero = articleTop - heroBottom;
+      const heroHeight = heroSection.offsetHeight;
+      const opacityValue = Math.max(0, 1 - distanceFromHero / (heroHeight * 0.5));
       
-      const threshold = viewportHeight * 0.5; // Umbral: mitad del viewport
-      const distanceFromBottom = viewportHeight - articleTop;
-      
-      // Si el artículo está por debajo del umbral (entrando desde abajo), blur máximo
-      if (distanceFromBottom < threshold && articleTop < viewportHeight) {
-        setBlurValue(8);
-        setOpacity(0.3);
-      } else {
-        // Si el artículo está por encima del umbral o completamente visible, sin blur
-        setBlurValue(0);
-        setOpacity(1);
-      }
+      setOpacity(opacityValue);
     };
 
     // Ejecutar al montar y en cada scroll
@@ -82,9 +69,8 @@ export default function ArticleCard({ report, isFirst = false }: ArticleCardProp
   return (
     <article
       ref={articleRef}
-      className="max-w-4xl transition-all duration-300"
+      className="max-w-4xl transition-opacity duration-300"
       style={{
-        filter: `blur(${blurValue}px)`,
         opacity: opacity,
       }}
     >

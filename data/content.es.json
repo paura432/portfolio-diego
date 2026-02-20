@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "Diego Delgado",
+    "name": "Diego Delgado Lerma",
     "role": "Periodista / Estudiante de Periodismo",
     "location": "Madrid, España",
     "languages": [
@@ -265,30 +265,44 @@
     {
       "id": "1",
       "role": "Grado en Periodismo",
-      "organization": "Universidad Complutense de Madrid",
-      "dates": "2021–Presente",
-      "description": "Formación en redacción periodística, investigación, fotografía, edición de video y radio. Especialización en periodismo de investigación y comunicación digital."
+      "organization": "Universidad Carlos III de Madrid",
+      "dates": "2021–Act.",
+      "description": "GETAFE (MADRID)"
     },
     {
       "id": "2",
-      "role": "Prácticas Profesionales",
-      "organization": "El Diario Universitario",
-      "dates": "2024",
-      "description": "Redacción de artículos, cobertura de eventos universitarios, entrevistas y reportajes. Aprendizaje en el día a día de una redacción digital."
+      "role": "Redactor digital",
+      "organization": "Diario AS",
+      "dates": "Febrero 2025–Octubre 2025",
+      "description": "Redacción digital del diario, concretamente en su sección de \"Actualidad\". He escrito noticias de todos sus apartados: Sociedad, Política, Ciencia, Economía y Sorteos. También he realizado entrevistas a diversas personalidades, principalmente de redes sociales y música. Algunas de estas comprenden a los fotógrafos profesionales Eugenio Recuenco y Samuel Nacar (este último ganador de un World Press Photo); o los cantantes y artistas Teo Lucadamo y Guitarricadelafuente."
     },
     {
       "id": "3",
-      "role": "Colaboradora Freelance",
-      "organization": "Medios Locales y Digitales",
-      "dates": "2023–Presente",
-      "description": "Redacción de artículos sobre cultura, sociedad y actualidad. Trabajo en equipo con editores y fotógrafos."
+      "role": "Colaborador, redactor, cronista y fotógrafo",
+      "organization": "El Generacional",
+      "dates": "2024–Act.",
+      "description": "Colaborador, redactor, cronista y fotógrafo del diario digital El Generacional. Escribo para las diversas secciones del medio, cubro y fotografío eventos. También gestiono el contenido de redes sociales de sus diferentes perfiles. Eventos cubiertos a destacar: ElRow Town Madrid 2024, Time Warp Festival 2024, Final Internacional de Red Bull Batalla 2024, diversos conciertos en salas y estadios como La Riviera o el Movistar Arena, entre otros."
     },
     {
       "id": "4",
-      "role": "Voluntariado",
-      "organization": "Asociación de Periodistas Jóvenes",
-      "dates": "2022–2023",
-      "description": "Organización de eventos, talleres de formación y creación de contenido para redes sociales. Promoción del periodismo responsable entre jóvenes."
+      "role": "Redactor digital",
+      "organization": "Infoperiodistas",
+      "dates": "Abril 2024–Septiembre 2024",
+      "description": "Redacción digital del diario, gestión y actualización de la base de datos del medio. He escrito sobre todos los temas y apartados que ofrece el medio: desde medios de comunicación y salud hasta nombramientos y agencias. Eventos cubiertos a destacar: Gala de los Premios Nacionales del Marketing 2024."
+    },
+    {
+      "id": "5",
+      "role": "Podcast propio. Creación de contenido",
+      "organization": "El Arco",
+      "dates": "2021–Act.",
+      "description": "Podcast propio. Creación de contenido, participación y gestión de redes sociales del medio de comunicación El Arco, presente en TikTok, Spotify, Instagram, Youtube y X (+1000 seguidores en total) @elarcopod."
+    },
+    {
+      "id": "6",
+      "role": "Creación de contenido audiovisual",
+      "organization": "EnduroDesinquieto",
+      "dates": "2018–Act.",
+      "description": "Desde 2018, he trabajado en tareas organizativas y creación de contenido audiovisual en redes sociales para el canal de Youtube especializado en Hard Enduro, EnduroDesinquieto (@Endurodesinquieto). He grabado material audiovisual para los videos del medio, y he realizado reportajes fotográficos y entrevistas adaptadas a su sector deportivo."
     }
   ],
   "contact": {

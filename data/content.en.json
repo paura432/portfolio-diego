@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "Diego Delgado",
+    "name": "Diego Delgado Lerma",
     "role": "Journalist / Journalism Student",
     "location": "Madrid, Spain",
     "languages": [
@@ -266,30 +266,44 @@
     {
       "id": "1",
       "role": "Journalism Degree",
-      "organization": "Complutense University of Madrid",
+      "organization": "Carlos III University of Madrid",
       "dates": "2021–Present",
-      "description": "Training in journalistic writing, research, photography, video and radio editing. Specialization in investigative journalism and digital communication."
+      "description": "GETAFE (MADRID)"
     },
     {
       "id": "2",
-      "role": "Professional Internship",
-      "organization": "University Daily",
-      "dates": "2024",
-      "description": "Article writing, coverage of university events, interviews and reports. Learning in the day-to-day of a digital newsroom."
+      "role": "Digital editor",
+      "organization": "Diario AS",
+      "dates": "February 2025–October 2025",
+      "description": "Digital editing of the newspaper, specifically in its \"Current Affairs\" section. I have written news articles covering all its sections: Society, Politics, Science, Economy, and Lotteries. I have also conducted interviews with various personalities, mainly from social media and music. Some of these include professional photographers Eugenio Recuenco and Samuel Nacar (the latter winner of a World Press Photo); or singers and artists Teo Lucadamo and Guitarricadelafuente."
     },
     {
       "id": "3",
-      "role": "Freelance Contributor",
-      "organization": "Local and Digital Media",
-      "dates": "2023–Present",
-      "description": "Writing articles on culture, society and current affairs. Teamwork with editors and photographers."
+      "role": "Contributor, editor, chronicler and photographer",
+      "organization": "El Generacional",
+      "dates": "2024–Present",
+      "description": "Contributor, editor, chronicler and photographer for the digital newspaper El Generacional. I write for various sections of the media, cover and photograph events. I also manage social media content for its different profiles. Notable events covered: ElRow Town Madrid 2024, Time Warp Festival 2024, Red Bull Batalla International Final 2024, various concerts in venues and stadiums such as La Riviera or Movistar Arena, among others."
     },
     {
       "id": "4",
-      "role": "Volunteer",
-      "organization": "Young Journalists Association",
-      "dates": "2022–2023",
-      "description": "Event organization, training workshops and content creation for social media. Promotion of responsible journalism among young people."
+      "role": "Digital editor",
+      "organization": "Infoperiodistas",
+      "dates": "April 2024–September 2024",
+      "description": "Digital editing of the newspaper, management and updating of the media database. I have written about all topics and sections offered by the media: from media and health to appointments and agencies. Notable events covered: National Marketing Awards Gala 2024."
+    },
+    {
+      "id": "5",
+      "role": "Own podcast. Content creation",
+      "organization": "El Arco",
+      "dates": "2021–Present",
+      "description": "Own podcast. Content creation, participation and social media management for the media outlet El Arco, present on TikTok, Spotify, Instagram, Youtube and X (+1000 total followers) @elarcopod."
+    },
+    {
+      "id": "6",
+      "role": "Audiovisual content creation",
+      "organization": "EnduroDesinquieto",
+      "dates": "2018–Present",
+      "description": "Since 2018, I have worked on organizational tasks and audiovisual content creation on social media for the Youtube channel specialized in Hard Enduro, EnduroDesinquieto (@Endurodesinquieto). I have recorded audiovisual material for the media's videos, and have carried out photographic reports and interviews adapted to their sports sector."
     }
   ],
   "contact": {
