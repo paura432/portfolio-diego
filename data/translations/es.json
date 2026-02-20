@@ -24,12 +24,19 @@
     "languages": "Idiomas"
   },
   "photography": {
-    "title": "Fotografía"
+    "title": "Fotografía",
+    "conciertos": "Conciertos",
+    "carreras": "Carreras",
+    "fotoReportages": "Foto-reportajes",
+    "coberturas": "Coberturas"
   },
   "reports": {
     "title": "Reportajes",
     "subtitle": "Selección de trabajos periodísticos realizados durante mi formación académica y colaboraciones con medios.",
-    "readMore": "Leer más"
+    "readMore": "Leer más",
+    "diarioAs": "Diario AS",
+    "infoperiodistas": "Infoperiodistas",
+    "elGeneracional": "El Generacional"
   },
   "work": {
     "title": "Vida laboral"

@@ -47,13 +47,13 @@ export default function Home() {
         {/* Hero Section con fondo visual suave */}
         <section 
           ref={heroRef}
-          className="relative bg-gradient-to-br from-primary-50 via-gray-50 to-accent-50 dark:from-black dark:via-gray-900 dark:to-black py-24 md:py-32 min-h-[80vh] flex items-center"
+          className="relative bg-gradient-to-br from-primary-50 via-gray-50 to-accent-50 dark:from-black dark:via-gray-900 dark:to-black pt-12 pb-24 md:pt-16 md:pb-32 min-h-[80vh] flex items-center"
         >
           <div className="absolute inset-0 gradient-overlay"></div>
           <Section className="relative z-10">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="flex flex-col md:flex-row gap-12 items-start">
               <div 
-                className="space-y-6 transition-opacity duration-300"
+                className="flex-1 md:flex-[1.6] space-y-6 transition-opacity duration-300 max-w-3xl"
                 style={{ opacity: textOpacity }}
               >
                 <div>
@@ -69,7 +69,7 @@ export default function Home() {
                 </div>
 
                 <div className="pt-6 border-t border-primary-200 dark:border-gray-700">
-                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg">
+                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg whitespace-pre-line">
                     {about.bio}
                   </p>
                 </div>
@@ -87,7 +87,7 @@ export default function Home() {
               </div>
 
               <div 
-                className="relative transition-opacity duration-300"
+                className="flex-1 md:flex-[0.9] relative transition-opacity duration-300"
                 style={{ opacity: textOpacity }}
               >
                 <div className="relative aspect-square rounded-lg overflow-hidden shadow-2xl">

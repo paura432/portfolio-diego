@@ -3,7 +3,7 @@ import { ThemeProvider } from "@/contexts/ThemeContext";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "María Pérez - Periodista",
+  title: "Diego Delgado - Periodista",
   description: "Portfolio profesional. Reportajes, fotografía y trabajos periodísticos.",
 };
 
@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" suppressHydrationWarning>
+    <html lang="es" className="dark" suppressHydrationWarning>
       <body className="antialiased">
         <ThemeProvider>
           {children}

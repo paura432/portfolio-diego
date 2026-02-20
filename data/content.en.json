@@ -1,63 +1,126 @@
 {
   "site": {
-    "name": "María Pérez",
+    "name": "Diego Delgado",
     "role": "Journalist / Journalism Student",
     "location": "Madrid, Spain",
-    "languages": ["Spanish", "Italian", "English"]
+    "languages": [
+      "Spanish",
+      "Italian",
+      "English"
+    ]
   },
   "about": {
     "bio": "I am a journalist specialized in human narratives and social analysis. My work focuses on exploring the complex realities of our contemporary society through written word and documentary imagery. Trained at the Complutense University of Madrid, I have developed my career combining rigorous research with an ethical and empathetic approach to the stories I tell.",
-    "focus": ["Politics", "Society", "Culture", "International"]
+    "focus": [
+      "Politics",
+      "Society",
+      "Culture",
+      "International"
+    ]
   },
   "photography": {
     "intro": "Documentary photography allows me to capture moments that reflect social and human reality. Each image tells a story, documents an instant of truth that deserves to be preserved and shared.",
-    "photos": [
+    "conciertos": [
       {
-        "id": "1",
+        "id": "c1",
+        "src": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1200&h=800&fit=crop",
+        "caption": "Live concert under the lights",
+        "place": "Madrid, 2024"
+      },
+      {
+        "id": "c2",
+        "src": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1200&h=800&fit=crop",
+        "caption": "Outdoor music festival",
+        "place": "Barcelona, 2024"
+      },
+      {
+        "id": "c3",
+        "src": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&h=800&fit=crop",
+        "caption": "Independent music festival",
+        "place": "Madrid, 2023"
+      },
+      {
+        "id": "c4",
+        "src": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200&h=800&fit=crop",
+        "caption": "Crowd atmosphere at a concert",
+        "place": "Valencia, 2023"
+      }
+    ],
+    "carreras": [
+      {
+        "id": "r1",
+        "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=800&fit=crop",
+        "caption": "Enduro motorcycle race",
+        "place": "Spain, 2024"
+      },
+      {
+        "id": "r2",
+        "src": "https://images.unsplash.com/photo-1541443131876-44b03de101c5?w=1200&h=800&fit=crop",
+        "caption": "Motocross competition",
+        "place": "Castilla y León, 2024"
+      },
+      {
+        "id": "r3",
+        "src": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=1200&h=800&fit=crop",
+        "caption": "Rider in action during the race",
+        "place": "Andalucía, 2023"
+      },
+      {
+        "id": "r4",
+        "src": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&h=800&fit=crop",
+        "caption": "Hard Enduro in extreme terrain",
+        "place": "Pyrenees, 2023"
+      }
+    ],
+    "fotoReportages": [
+      {
+        "id": "fr1",
         "src": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=800&fit=crop",
         "caption": "Student demonstration for public education",
         "place": "Madrid, 2023"
       },
       {
-        "id": "2",
+        "id": "fr2",
         "src": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop",
         "caption": "Local market in Lavapiés neighborhood",
         "place": "Madrid, 2023"
       },
       {
-        "id": "3",
-        "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop",
-        "caption": "Series on urban diversity",
-        "place": "Madrid, 2023"
-      },
-      {
-        "id": "4",
+        "id": "fr3",
         "src": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=800&fit=crop",
         "caption": "Municipal library as a meeting space",
         "place": "Madrid, 2023"
       },
       {
-        "id": "5",
+        "id": "fr4",
         "src": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1200&h=800&fit=crop",
         "caption": "Documentary on construction workers",
         "place": "Madrid, 2023"
+      }
+    ],
+    "coberturas": [
+      {
+        "id": "cb1",
+        "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop",
+        "caption": "Cultural event coverage",
+        "place": "Madrid, 2024"
       },
       {
-        "id": "6",
+        "id": "cb2",
         "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=800&fit=crop",
         "caption": "Street art and cultural expression",
-        "place": "Madrid, 2023"
+        "place": "Barcelona, 2023"
       },
       {
-        "id": "7",
+        "id": "cb3",
         "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop",
-        "caption": "Environmental photography and sustainability",
-        "place": "Madrid, 2023"
+        "caption": "Sports event coverage",
+        "place": "Valencia, 2024"
       },
       {
-        "id": "8",
+        "id": "cb4",
         "src": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&h=800&fit=crop",
-        "caption": "Independent music festival",
+        "caption": "Festival and live event",
         "place": "Madrid, 2023"
       }
     ]
@@ -65,43 +128,138 @@
   "reports": [
     {
       "id": "1",
-      "title": "The student housing crisis in Madrid",
-      "medium": "University Daily",
-      "year": "2024",
-      "summary": "An in-depth analysis of the difficulties students face in finding affordable housing in the capital. The report includes interviews with those affected, official data, and proposed solutions from student associations.",
-      "url": "#"
+      "title": "Guitarricadelafuente: \"Internationally, we are living a moment when Spanish is cool\"",
+      "medium": "AS.com Tikitakas",
+      "year": "2025",
+      "summary": "Interview with the Castellón singer-songwriter about his album \"Spanish Leather\", renewed folk and the international moment of Spanish music. From his beginnings with covers to viralizing contemporary folk.",
+      "url": "https://as.com/tikitakas/musica/guitarricadelafuente-internacionalmente-estamos-viviendo-un-momento-en-el-que-lo-espanol-es-guay-n/",
+      "image": "/Guitarricadelafuente.jpg"
     },
     {
       "id": "2",
-      "title": "Women in journalism: breaking glass ceilings",
-      "medium": "UCM Digital Magazine",
-      "year": "2024",
-      "summary": "Report on the situation of women journalists in Spain. Interviews with established professionals and young women opening paths in traditional and digital media, analyzing the challenges and opportunities in the sector.",
-      "url": "#"
+      "title": "Teo Lucadamo: \"I have made songs to find my own path, I never wanted to be associated with my mother's career\"",
+      "medium": "AS.com Tikitakas",
+      "year": "2025",
+      "summary": "Interview with the musician about his independent career and his search for his own identity away from family comparisons.",
+      "url": "https://as.com/tikitakas/musica/teo-lucadamo-yo-he-hecho-canciones-para-pillar-un-camino-propio-nunca-he-querido-que-se-me-asocie-con-la-carrera-de-mi-madre-n/",
+      "image": "/Teo Lucadamo: “Nunca he querido que se me asocie con la carrera de mi madre”.avif"
     },
     {
       "id": "3",
-      "title": "Neighborhood transformation: gentrification and resistance",
-      "medium": "Local Media",
-      "year": "2023",
-      "summary": "Investigation into gentrification processes in central Madrid. Voices from long-time residents, new residents, and merchants reflecting the changes and tensions in the urban territory.",
-      "url": "#"
+      "title": "The Delicias fire in images",
+      "medium": "AS.com",
+      "year": "2025",
+      "summary": "Photo reportage of the fire on Párroco Eusebio Cuenca street, in the Delicias Espacio and Railway Museum area of Madrid.",
+      "url": "https://as.com/actualidad/fotorrelato/el-incendio-de-delicias-en-imagenes-f/",
+      "image": "/El incendio de Delicias en imágenes.jpg"
     },
     {
       "id": "4",
-      "title": "Disinformation and social media: the election case",
-      "medium": "Academic Work",
-      "year": "2023",
-      "summary": "Analysis of how disinformation spread during the last general elections. Fact-checking, expert interviews, and proposals to improve media literacy in digital society.",
-      "url": "#"
+      "title": "Víctor Conde steps down as general director of AMKT",
+      "medium": "Infoperiodistas",
+      "year": "2024",
+      "summary": "During the National Marketing Awards gala, Víctor Conde announced he is leaving the general director position after 11 years to lead the I International Marketing Meeting and institutional relations with Latin America.",
+      "url": "https://diario.infoperiodistas.info/victor-conde-deja-su-cargo-como-director-general-de-amkt/",
+      "image": "/Víctor Conde deja su cargo como director general de AMKT.jpg"
     },
     {
       "id": "5",
-      "title": "The future of local journalism in the digital age",
-      "medium": "External Collaboration",
-      "year": "2023",
-      "summary": "Report on how local media are adapting to digital transformation. Success stories, economic challenges, and the fundamental role of proximity journalism in local democracies.",
-      "url": "#"
+      "title": "A Palestinian woman embraces the body of her niece, World Press Photo winner of the year",
+      "medium": "Infoperiodistas",
+      "year": "2024",
+      "summary": "Coverage of the winning image of the World Press Photo that portrays the conflict in Palestine through an embrace between a woman and her niece's body.",
+      "url": "https://diario.infoperiodistas.info/una-mujer-palestina-abraza-el-cuerpo-de-su-sobrina-ganadora-del-world-press-photo-del-ano/",
+      "image": "/Valores.jpeg"
+    },
+    {
+      "id": "6",
+      "title": "Work absenteeism, a national problem",
+      "medium": "Infoperiodistas",
+      "year": "2024",
+      "summary": "Analysis of work absenteeism in Spain and its impact on the business sector and economy.",
+      "url": "https://diario.infoperiodistas.info/el-absentismo-laboral-un-problema-nacional/",
+      "image": "/Empresas.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Advertising investment grows during the first half of 2024",
+      "medium": "Infoperiodistas",
+      "year": "2024",
+      "summary": "Report on the evolution of the Spanish advertising market and the growth of investment in the first half of the year.",
+      "url": "https://diario.infoperiodistas.info/la-inversion-publicitaria-crece-durante-la-primera-mitad-de-2024/",
+      "image": "/La inversión publicitaria crece durante la primera mitad de 2024.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Paul Thin: \"To this day people still think El Triunfito is less of a musician and that's completely false\"",
+      "medium": "AS.com Tikitakas",
+      "year": "2025",
+      "summary": "Interview with musician Paul Thin about the perception of El Triunfito and the valuation of talent in the Spanish music industry.",
+      "url": "https://as.com/tikitakas/musica/paul-thin-a-dia-de-hoy-se-sigue-pensando-que-el-triunfito-es-menos-musico-y-es-completamente-falso-n/",
+      "image": "/Paul Thin: “A día de hoy, se sigue pensando que el triunfito es menos músico, y es completamente falso”.jpeg"
+    },
+    {
+      "id": "9",
+      "title": "Eugenio Recuenco: \"Financial markets completely destroy the essence of art\"",
+      "medium": "AS.com",
+      "year": "2025",
+      "summary": "Interview with the photographer and filmmaker about his 365º work, the \"One Thousand and One Nights\" project, and the relationship between art, market and precariousness in artistic creation.",
+      "url": "https://as.com/actualidad/sociedad/eugenio-recuenco-los-mercados-financieros-se-cargan-totalmente-la-esencia-del-arte-n/",
+      "image": "/Eugenio Recuenco: “Los mercados financieros se cargan totalmente la esencia del arte”.avif"
+    },
+    {
+      "id": "10",
+      "title": "Samuel Nacar, World Press Photo winner: \"Society implies at least 15 years of precariousness for photojournalists and journalists before people trust them\"",
+      "medium": "AS.com",
+      "year": "2025",
+      "summary": "Interview with the photojournalist about his World Press Photo 2025 winning reportage \"The shadows now have a name\", which gives visibility to survivors of Syrian prisons after the fall of Bashar al-Assad.",
+      "url": "https://as.com/actualidad/sociedad/samuel-nacar-ganador-de-un-world-press-photo-la-sociedad-implica-al-fotoperiodista-y-al-periodista-al-menos-15-anos-de-precariedad-para-que-la-gente-confie-en-ellos-n/",
+      "image": "/Samuel Nacar, ganador de un World Press Photo: “La sociedad implica al fotoperiodista y al periodista al menos 15 años de precariedad para que la gente confíe en ellos”.jpg"
+    },
+    {
+      "id": "11",
+      "title": "The monitors or education outside the classroom",
+      "medium": "El Generacional",
+      "year": "2024",
+      "summary": "Report on the reality of canteen and extracurricular activity monitors: poorly trained, underpaid and with a responsibility that goes beyond mere supervision. Their invisible influence on children's development.",
+      "url": "https://elgeneracionalpost.com/actualidad/sociedad-actualidad/2024/1121/177741/los-monitores-o-la-educacion-fuera-de-las-aulas.html",
+      "image": "/Los monitores o la educación fuera de las aulas.webp"
+    },
+    {
+      "id": "12",
+      "title": "Natos y Waor: decalogue of how to take underground music to the top",
+      "medium": "El Generacional",
+      "year": "2025",
+      "summary": "Chronicle of Natos y Waor's concert at a packed Metropolitano Stadium, a new chapter in the history of Spanish rap with Fer and Gonzalo as protagonists.",
+      "url": "https://elgeneracionalpost.com/cultura/2025/0608/226187/natos-y-waor-decalogo-de-como-llevar-la-musica-underground-a-lo-mas-alto.html",
+      "image": "/Natos y Waor: decálogo de cómo llevar la música underground a lo más alto.webp"
+    },
+    {
+      "id": "13",
+      "title": "Israel B: one man alone with a whole army in Madrid",
+      "medium": "El Generacional",
+      "year": "2025",
+      "summary": "Chronicle of Israel B's concert in Madrid, where the artist demonstrated his ability to fill the stage with his solo presence.",
+      "url": "https://elgeneracionalpost.com/cultura/musica/2025/0404/213129/israel-b-un-hombre-solo-con-todo-un-ejercito-en-madrid.html",
+      "image": "/Israel B: un hombre solo con todo un ejército en Madrid.webp"
+    },
+    {
+      "id": "14",
+      "title": "Twenty years and a concert for posterity: Pignoise fills and moves the Movistar Arena on their anniversary tour",
+      "medium": "El Generacional",
+      "year": "2025",
+      "summary": "Chronicle of Pignoise's anniversary concert at the Movistar Arena: two decades of music, collaborations with Hens, Taburete, Rulo, Los Secretos, Loquillo and Hombres G, and a night of nostalgia and euphoria.",
+      "url": "https://elgeneracionalpost.com/cultura/musica/2025/0309/206650/pignoise-llena-y-emociona-el-movistar-arena-en-su-gira-de-aniversario.html",
+      "image": "/Veinte años y un concierto para la posteridad: Pignoise llena y emociona el Movistar Arena en su gira de aniversario.webp"
+    },
+    {
+      "id": "15",
+      "title": "Natos y Waor: \"We would tell those Fer and Gonzalo from 15 years ago to make all the mistakes they have to make\"",
+      "medium": "El Generacional",
+      "year": "2025",
+      "summary": "Press conference before the Metropolitano concert. The Madrid duo looks back at their beginnings in a squat in Embajadores, their 15 years in music and the advice they would give their younger selves.",
+      "url": "https://elgeneracionalpost.com/cultura/musica/2025/0606/226398/natos-y-waor-a-esos-fer-y-gonzalo-de-hace-15-anos-les-diriamos-que-se-equivoquen-todo-lo-se-tengan-que-equivocar.html",
+      "image": "/Natos y Waor: «A esos Fer y Gonzalo de hace 15 años les diríamos que se equivoquen todo lo se tengan que equivocar».webp"
     }
   ],
   "work": [

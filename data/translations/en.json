@@ -24,12 +24,19 @@
     "languages": "Languages"
   },
   "photography": {
-    "title": "Photography"
+    "title": "Photography",
+    "conciertos": "Concerts",
+    "carreras": "Races",
+    "fotoReportages": "Photo reports",
+    "coberturas": "Coverages"
   },
   "reports": {
     "title": "Reports",
     "subtitle": "Selection of journalistic works carried out during my academic training and collaborations with media.",
-    "readMore": "Read more"
+    "readMore": "Read more",
+    "diarioAs": "Diario AS",
+    "infoperiodistas": "Infoperiodistas",
+    "elGeneracional": "El Generacional"
   },
   "work": {
     "title": "Work Experience"

@@ -5,7 +5,6 @@ import { usePathname } from 'next/navigation';
 import { getSiteInfo } from '@/lib/content';
 import { useTheme } from '@/contexts/ThemeContext';
 import { getTranslations } from '@/lib/i18n';
-import ThemeToggle from './ThemeToggle';
 import LanguageToggle from './LanguageToggle';
 
 /**
@@ -44,7 +43,8 @@ export default function Header() {
                   <Link
                     href={link.href}
                     className={`relative transition-colors underline-offset-4 ${
-                      pathname === link.href
+                      pathname === link.href ||
+                      (link.href !== '/' && pathname.startsWith(link.href))
                         ? 'text-primary-700 dark:text-primary-400 font-medium underline decoration-2 decoration-accent-500 dark:decoration-accent-400'
                         : 'text-gray-600 dark:text-gray-300 hover:text-primary-700 dark:hover:text-primary-400 hover:underline decoration-2 decoration-primary-300 dark:decoration-primary-600'
                     }`}
@@ -55,10 +55,9 @@ export default function Header() {
               ))}
             </ul>
 
-            {/* Theme and Language Toggles */}
+            {/* Language Toggle */}
             <div className="flex items-center gap-2">
               <LanguageToggle />
-              <ThemeToggle />
             </div>
           </div>
         </div>

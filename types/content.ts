@@ -26,7 +26,10 @@ export interface About {
 
 export interface Photography {
   intro: string;
-  photos: Photo[];
+  conciertos: Photo[];
+  carreras: Photo[];
+  fotoReportages: Photo[];
+  coberturas: Photo[];
 }
 
 export interface Photo {
@@ -43,6 +46,7 @@ export interface Report {
   year: string;
   summary: string;
   url: string;
+  image?: string;
 }
 
 export interface WorkExperience {

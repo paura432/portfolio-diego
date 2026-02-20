@@ -1,63 +1,125 @@
 {
   "site": {
-    "name": "María Pérez",
+    "name": "Diego Delgado",
     "role": "Periodista / Estudiante de Periodismo",
     "location": "Madrid, España",
-    "languages": ["Español", "Italiano", "Inglés"]
+    "languages": [
+      "Español",
+      "Inglés"
+    ]
   },
   "about": {
-    "bio": "Soy periodista especializada en narrativas humanas y análisis social. Mi trabajo se centra en explorar las realidades complejas de nuestra sociedad contemporánea a través de la palabra escrita y la imagen documental. Formada en la Universidad Complutense de Madrid, he desarrollado mi carrera combinando la investigación rigurosa con un enfoque ético y empático hacia las historias que cuento.",
-    "focus": ["Política", "Sociedad", "Cultura", "Internacional"]
+    "bio": "Me apasionan la imagen, el texto y el deporte. Contar historias —con cámara o con palabras— es el eje de mi trabajo. Redacción, fotografía, edición y creación audiovisual son los pilares de mi perfil profesional.\n\nDesde 2018 creo contenido para el canal de YouTube EnduroDesinquieto, especializado en Hard Enduro. He gestionado y producido proyectos multiplataforma en El Arco y he trabajado como redactor, cronista y fotógrafo en El Generacional, cubriendo eventos culturales y deportivos. Además, he adquirido experiencia en gestión de medios en Infoperiodistas y en dinámica de redacción en la sección de Actualidad de Diario AS.",
+    "focus": [
+      "Política",
+      "Sociedad",
+      "Cultura",
+      "Internacional"
+    ]
   },
   "photography": {
     "intro": "La fotografía documental me permite capturar momentos que reflejan la realidad social y humana. Cada imagen cuenta una historia, documenta un instante de verdad que merece ser preservado y compartido.",
-    "photos": [
+    "conciertos": [
       {
-        "id": "1",
+        "id": "c1",
+        "src": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1200&h=800&fit=crop",
+        "caption": "Concierto en directo bajo las luces",
+        "place": "Madrid, 2024"
+      },
+      {
+        "id": "c2",
+        "src": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1200&h=800&fit=crop",
+        "caption": "Festival de música al aire libre",
+        "place": "Barcelona, 2024"
+      },
+      {
+        "id": "c3",
+        "src": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&h=800&fit=crop",
+        "caption": "Festival de música independiente",
+        "place": "Madrid, 2023"
+      },
+      {
+        "id": "c4",
+        "src": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200&h=800&fit=crop",
+        "caption": "Ambiente del público en un concierto",
+        "place": "Valencia, 2023"
+      }
+    ],
+    "carreras": [
+      {
+        "id": "r1",
+        "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=800&fit=crop",
+        "caption": "Carrera de motos enduro",
+        "place": "España, 2024"
+      },
+      {
+        "id": "r2",
+        "src": "https://images.unsplash.com/photo-1541443131876-44b03de101c5?w=1200&h=800&fit=crop",
+        "caption": "Competencia de motocross",
+        "place": "Castilla y León, 2024"
+      },
+      {
+        "id": "r3",
+        "src": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=1200&h=800&fit=crop",
+        "caption": "Piloto en acción durante la carrera",
+        "place": "Andalucía, 2023"
+      },
+      {
+        "id": "r4",
+        "src": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&h=800&fit=crop",
+        "caption": "Hard Enduro en terreno extremo",
+        "place": "Pirineos, 2023"
+      }
+    ],
+    "fotoReportages": [
+      {
+        "id": "fr1",
         "src": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=800&fit=crop",
         "caption": "Manifestación estudiantil por la educación pública",
         "place": "Madrid, 2023"
       },
       {
-        "id": "2",
+        "id": "fr2",
         "src": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop",
         "caption": "Mercado de abastos en el barrio de Lavapiés",
         "place": "Madrid, 2023"
       },
       {
-        "id": "3",
-        "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop",
-        "caption": "Serie sobre la diversidad urbana",
-        "place": "Madrid, 2023"
-      },
-      {
-        "id": "4",
+        "id": "fr3",
         "src": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=800&fit=crop",
         "caption": "Biblioteca municipal como espacio de encuentro",
         "place": "Madrid, 2023"
       },
       {
-        "id": "5",
+        "id": "fr4",
         "src": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1200&h=800&fit=crop",
         "caption": "Documental sobre trabajadores de la construcción",
         "place": "Madrid, 2023"
+      }
+    ],
+    "coberturas": [
+      {
+        "id": "cb1",
+        "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop",
+        "caption": "Cobertura de evento cultural",
+        "place": "Madrid, 2024"
       },
       {
-        "id": "6",
+        "id": "cb2",
         "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=800&fit=crop",
         "caption": "Arte callejero y expresión cultural",
-        "place": "Madrid, 2023"
+        "place": "Barcelona, 2023"
       },
       {
-        "id": "7",
+        "id": "cb3",
         "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop",
-        "caption": "Fotografía ambiental y sostenibilidad",
-        "place": "Madrid, 2023"
+        "caption": "Cobertura de evento deportivo",
+        "place": "Valencia, 2024"
       },
       {
-        "id": "8",
+        "id": "cb4",
         "src": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&h=800&fit=crop",
-        "caption": "Festival de música independiente",
+        "caption": "Festival y evento en vivo",
         "place": "Madrid, 2023"
       }
     ]
@@ -65,43 +127,138 @@
   "reports": [
     {
       "id": "1",
-      "title": "La crisis de la vivienda estudiantil en Madrid",
-      "medium": "El Diario Universitario",
-      "year": "2024",
-      "summary": "Un análisis en profundidad sobre las dificultades que enfrentan los estudiantes para encontrar alojamiento asequible en la capital. El reportaje incluye entrevistas con afectados, datos oficiales y propuestas de solución desde las asociaciones estudiantiles.",
-      "url": "#"
+      "title": "Guitarricadelafuente: \"Internacionalmente, estamos viviendo un momento en el que lo español es guay\"",
+      "medium": "AS.com Tikitakas",
+      "year": "2025",
+      "summary": "Entrevista al cantautor castellonense sobre su álbum \"Spanish Leather\", el folclore renovado y el momento internacional de la música española. Desde sus inicios con covers hasta viralizar el folk contemporáneo.",
+      "url": "https://as.com/tikitakas/musica/guitarricadelafuente-internacionalmente-estamos-viviendo-un-momento-en-el-que-lo-espanol-es-guay-n/",
+      "image": "/Guitarricadelafuente.jpg"
     },
     {
       "id": "2",
-      "title": "Mujeres en el periodismo: rompiendo techos de cristal",
-      "medium": "Revista Digital UCM",
-      "year": "2024",
-      "summary": "Reportaje sobre la situación de las mujeres periodistas en España. Entrevistas con profesionales consolidadas y jóvenes que están abriendo camino en medios tradicionales y digitales, analizando los desafíos y oportunidades del sector.",
-      "url": "#"
+      "title": "Teo Lucadamo: \"Yo he hecho canciones para pillar un camino propio, nunca he querido que se me asocie con la carrera de mi madre\"",
+      "medium": "AS.com Tikitakas",
+      "year": "2025",
+      "summary": "Entrevista al músico sobre su trayectoria independiente y su búsqueda de una identidad propia alejada de las comparaciones familiares.",
+      "url": "https://as.com/tikitakas/musica/teo-lucadamo-yo-he-hecho-canciones-para-pillar-un-camino-propio-nunca-he-querido-que-se-me-asocie-con-la-carrera-de-mi-madre-n/",
+      "image": "/Teo Lucadamo: “Nunca he querido que se me asocie con la carrera de mi madre”.avif"
     },
     {
       "id": "3",
-      "title": "La transformación del barrio: gentrificación y resistencia",
-      "medium": "Medio Local",
-      "year": "2023",
-      "summary": "Investigación sobre los procesos de gentrificación en el centro de Madrid. Voces de vecinos históricos, nuevos residentes y comerciantes que reflejan los cambios y las tensiones en el territorio urbano.",
-      "url": "#"
+      "title": "El incendio de Delicias en imágenes",
+      "medium": "AS.com",
+      "year": "2025",
+      "summary": "Fotorrelato del incendio en la calle Párroco Eusebio Cuenca, en la zona de Espacio Delicias y el Museo del Ferrocarril de Madrid.",
+      "url": "https://as.com/actualidad/fotorrelato/el-incendio-de-delicias-en-imagenes-f/",
+      "image": "/El incendio de Delicias en imágenes.jpg"
     },
     {
       "id": "4",
-      "title": "Desinformación y redes sociales: el caso de las elecciones",
-      "medium": "Trabajo Académico",
-      "year": "2023",
-      "summary": "Análisis sobre cómo se propagó la desinformación durante las últimas elecciones generales. Fact-checking, entrevistas con expertos y propuestas para mejorar la alfabetización mediática en la sociedad digital.",
-      "url": "#"
+      "title": "Víctor Conde deja su cargo como director general de AMKT",
+      "medium": "Infoperiodistas",
+      "year": "2024",
+      "summary": "Durante la gala de los Premios Nacionales del Marketing, Víctor Conde anunció que deja la dirección general tras 11 años para liderar el I Encuentro Internacional del Marketing y las relaciones institucionales con Latinoamérica.",
+      "url": "https://diario.infoperiodistas.info/victor-conde-deja-su-cargo-como-director-general-de-amkt/",
+      "image": "/Víctor Conde deja su cargo como director general de AMKT.jpg"
     },
     {
       "id": "5",
-      "title": "El futuro del periodismo local en la era digital",
-      "medium": "Colaboración Externa",
-      "year": "2023",
-      "summary": "Reportaje sobre cómo los medios locales están adaptándose a la transformación digital. Casos de éxito, desafíos económicos y el papel fundamental del periodismo de proximidad en las democracias locales.",
-      "url": "#"
+      "title": "Una mujer palestina abraza el cuerpo de su sobrina ganadora del World Press Photo del año",
+      "medium": "Infoperiodistas",
+      "year": "2024",
+      "summary": "Cobertura de la imagen ganadora del World Press Photo que retrata el conflicto en Palestina a través de un abrazo entre una mujer y el cuerpo de su sobrina.",
+      "url": "https://diario.infoperiodistas.info/una-mujer-palestina-abraza-el-cuerpo-de-su-sobrina-ganadora-del-world-press-photo-del-ano/",
+      "image": "/Valores.jpeg"
+    },
+    {
+      "id": "6",
+      "title": "El absentismo laboral, un problema nacional",
+      "medium": "Infoperiodistas",
+      "year": "2024",
+      "summary": "Análisis del absentismo laboral en España y su impacto en el tejido empresarial y la economía nacional.",
+      "url": "https://diario.infoperiodistas.info/el-absentismo-laboral-un-problema-nacional/",
+      "image": "/Empresas.jpg"
+    },
+    {
+      "id": "7",
+      "title": "La inversión publicitaria crece durante la primera mitad de 2024",
+      "medium": "Infoperiodistas",
+      "year": "2024",
+      "summary": "Reportaje sobre la evolución del mercado publicitario español y el crecimiento de la inversión en el primer semestre del año.",
+      "url": "https://diario.infoperiodistas.info/la-inversion-publicitaria-crece-durante-la-primera-mitad-de-2024/",
+      "image": "/La inversión publicitaria crece durante la primera mitad de 2024.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Paul Thin: \"A día de hoy se sigue pensando que El Triunfito es menos músico y es completamente falso\"",
+      "medium": "AS.com Tikitakas",
+      "year": "2025",
+      "summary": "Entrevista al músico Paul Thin sobre la percepción de El Triunfito y la valoración del talento en la industria musical española.",
+      "url": "https://as.com/tikitakas/musica/paul-thin-a-dia-de-hoy-se-sigue-pensando-que-el-triunfito-es-menos-musico-y-es-completamente-falso-n/",
+      "image": "/Paul Thin: “A día de hoy, se sigue pensando que el triunfito es menos músico, y es completamente falso”.jpeg"
+    },
+    {
+      "id": "9",
+      "title": "Eugenio Recuenco: \"Los mercados financieros se cargan totalmente la esencia del arte\"",
+      "medium": "AS.com",
+      "year": "2025",
+      "summary": "Entrevista al fotógrafo y cineasta sobre su obra 365º, el proyecto \"Mil y Una Noches\", y la relación entre arte, mercado y precariedad en la creación artística.",
+      "url": "https://as.com/actualidad/sociedad/eugenio-recuenco-los-mercados-financieros-se-cargan-totalmente-la-esencia-del-arte-n/",
+      "image": "/Eugenio Recuenco: “Los mercados financieros se cargan totalmente la esencia del arte”.avif"
+    },
+    {
+      "id": "10",
+      "title": "Samuel Nacar, ganador de un World Press Photo: \"La sociedad implica al fotoperiodista y al periodista al menos 15 años de precariedad para que la gente confíe en ellos\"",
+      "medium": "AS.com",
+      "year": "2025",
+      "summary": "Entrevista al fotoperiodista sobre su reportaje ganador del World Press Photo 2025 \"Las sombras ya tienen nombre\", que visibiliza a los supervivientes de las cárceles sirias tras la caída de Bashar al-Ásad.",
+      "url": "https://as.com/actualidad/sociedad/samuel-nacar-ganador-de-un-world-press-photo-la-sociedad-implica-al-fotoperiodista-y-al-periodista-al-menos-15-anos-de-precariedad-para-que-la-gente-confie-en-ellos-n/",
+      "image": "/Samuel Nacar, ganador de un World Press Photo: “La sociedad implica al fotoperiodista y al periodista al menos 15 años de precariedad para que la gente confíe en ellos”.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Los monitores o la educación fuera de las aulas",
+      "medium": "El Generacional",
+      "year": "2024",
+      "summary": "Reportaje sobre la realidad de los monitores de comedor y actividades extraescolares: mal formados, mal pagados y con una responsabilidad que trasciende la simple supervisión. Su influencia invisible en el desarrollo de los niños.",
+      "url": "https://elgeneracionalpost.com/actualidad/sociedad-actualidad/2024/1121/177741/los-monitores-o-la-educacion-fuera-de-las-aulas.html",
+      "image": "/Los monitores o la educación fuera de las aulas.webp"
+    },
+    {
+      "id": "12",
+      "title": "Natos y Waor: decálogo de cómo llevar la música underground a lo más alto",
+      "medium": "El Generacional",
+      "year": "2025",
+      "summary": "Crónica del concierto de Natos y Waor en el Estadio Metropolitano a rebosar, un nuevo capítulo para la historia del rap español con Fer y Gonzalo como protagonistas.",
+      "url": "https://elgeneracionalpost.com/cultura/2025/0608/226187/natos-y-waor-decalogo-de-como-llevar-la-musica-underground-a-lo-mas-alto.html",
+      "image": "/Natos y Waor: decálogo de cómo llevar la música underground a lo más alto.webp"
+    },
+    {
+      "id": "13",
+      "title": "Israel B: un hombre solo con todo un ejército en Madrid",
+      "medium": "El Generacional",
+      "year": "2025",
+      "summary": "Crónica del concierto de Israel B en Madrid, donde el artista demostró su capacidad para llenar el escenario con su presencia en solitario.",
+      "url": "https://elgeneracionalpost.com/cultura/musica/2025/0404/213129/israel-b-un-hombre-solo-con-todo-un-ejercito-en-madrid.html",
+      "image": "/Israel B: un hombre solo con todo un ejército en Madrid.webp"
+    },
+    {
+      "id": "14",
+      "title": "Veinte años y un concierto para la posteridad: Pignoise llena y emociona el Movistar Arena en su gira de aniversario",
+      "medium": "El Generacional",
+      "year": "2025",
+      "summary": "Crónica del concierto de aniversario de Pignoise en el Movistar Arena: dos décadas de música, colaboraciones con Hens, Taburete, Rulo, Los Secretos, Loquillo y Hombres G, y una noche de nostalgia y euforia.",
+      "url": "https://elgeneracionalpost.com/cultura/musica/2025/0309/206650/pignoise-llena-y-emociona-el-movistar-arena-en-su-gira-de-aniversario.html",
+      "image": "/Veinte años y un concierto para la posteridad: Pignoise llena y emociona el Movistar Arena en su gira de aniversario.webp"
+    },
+    {
+      "id": "15",
+      "title": "Natos y Waor: \"A esos Fer y Gonzalo de hace 15 años les diríamos que se equivoquen todo lo se tengan que equivocar\"",
+      "medium": "El Generacional",
+      "year": "2025",
+      "summary": "Rueda de prensa previa al concierto en el Metropolitano. El dúo madrileño repasa sus inicios en una okupa de Embajadores, sus 15 años en la música y el consejo que se darían a sí mismos.",
+      "url": "https://elgeneracionalpost.com/cultura/musica/2025/0606/226398/natos-y-waor-a-esos-fer-y-gonzalo-de-hace-15-anos-les-diriamos-que-se-equivoquen-todo-lo-se-tengan-que-equivocar.html",
+      "image": "/Natos y Waor: «A esos Fer y Gonzalo de hace 15 años les diríamos que se equivoquen todo lo se tengan que equivocar».webp"
     }
   ],
   "work": [
