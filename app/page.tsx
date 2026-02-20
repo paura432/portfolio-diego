@@ -1,6 +1,5 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Section from '@/components/Section';
@@ -11,60 +10,23 @@ import { getTranslations } from '@/lib/i18n';
 
 /**
  * Página de inicio: Presentación visual y profesional
- * Con efecto de texto que desaparece al hacer scroll
  */
 export default function Home() {
   const { language } = useTheme();
   const siteInfo = getSiteInfo(language);
   const about = getAbout(language);
   const t = getTranslations(language);
-  const [scrollY, setScrollY] = useState(0);
-  const heroRef = useRef<HTMLElement>(null);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  // Calcular opacidad del texto basado en scroll
-  const getTextOpacity = () => {
-    if (!heroRef.current) return 1;
-    const heroHeight = heroRef.current.offsetHeight;
-    const opacity = Math.max(0, 1 - scrollY / (heroHeight * 0.5));
-    return opacity;
-  };
-
-  // Calcular opacidad de la imagen (inversa al texto)
-  const getImageOpacity = () => {
-    if (!heroRef.current) return 0;
-    const heroHeight = heroRef.current.offsetHeight;
-    const opacity = Math.min(1, scrollY / (heroHeight * 0.5));
-    return opacity;
-  };
-
-  const textOpacity = getTextOpacity();
-  const imageOpacity = getImageOpacity();
 
   return (
     <>
       <Header />
       <main>
         {/* Hero Section con fondo visual suave */}
-        <section 
-          ref={heroRef}
-          className="relative bg-gradient-to-br from-primary-50 via-gray-50 to-accent-50 dark:from-black dark:via-gray-900 dark:to-black pt-12 pb-24 md:pt-16 md:pb-32 min-h-[80vh] flex items-center"
-        >
+        <section className="relative bg-gradient-to-br from-primary-50 via-gray-50 to-accent-50 dark:from-black dark:via-gray-900 dark:to-black pt-12 pb-24 md:pt-16 md:pb-32 min-h-[80vh] flex items-center">
           <div className="absolute inset-0 gradient-overlay"></div>
           <Section className="relative z-10">
             <div className="flex flex-col md:flex-row gap-12 items-center">
-              <div 
-                className="flex-1 md:flex-[1.6] space-y-6 transition-opacity duration-300 max-w-5xl"
-                style={{ opacity: textOpacity }}
-              >
+              <div className="flex-1 md:flex-[1.6] space-y-6 max-w-5xl">
                 <div>
                   <h1 className="font-serif text-5xl md:text-6xl font-normal mb-4 text-gray-900 dark:text-gray-100 leading-tight">
                     {siteInfo.name}
@@ -95,10 +57,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div 
-                className="flex-1 md:flex-[0.9] relative transition-opacity duration-300"
-                style={{ opacity: imageOpacity }}
-              >
+              <div className="flex-1 md:flex-[0.9] relative">
                 <div className="relative aspect-square rounded-lg overflow-hidden shadow-2xl">
                   <Image
                     src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&h=800&fit=crop"
