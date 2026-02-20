@@ -22,7 +22,7 @@
     "conciertos": [
       {
         "id": "c1",
-        "src": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1200&h=800&fit=crop",
+        "src": "public/Guitarricadelafuente.jpg",
         "caption": "Concierto en directo bajo las luces",
         "place": "Madrid, 2024"
       },
@@ -141,7 +141,7 @@
       "year": "2025",
       "summary": "Entrevista al músico sobre su trayectoria independiente y su búsqueda de una identidad propia alejada de las comparaciones familiares.",
       "url": "https://as.com/tikitakas/musica/teo-lucadamo-yo-he-hecho-canciones-para-pillar-un-camino-propio-nunca-he-querido-que-se-me-asocie-con-la-carrera-de-mi-madre-n/",
-      "image": "/Teo Lucadamo: “Nunca he querido que se me asocie con la carrera de mi madre”.avif"
+      "image": "/Teo-Lucadamo:-“Nunca-he-querido-que-se-me-asocie-con-la-carrera-de-mi-madre”.avif"
     },
     {
       "id": "3",
@@ -150,7 +150,7 @@
       "year": "2025",
       "summary": "Fotorrelato del incendio en la calle Párroco Eusebio Cuenca, en la zona de Espacio Delicias y el Museo del Ferrocarril de Madrid.",
       "url": "https://as.com/actualidad/fotorrelato/el-incendio-de-delicias-en-imagenes-f/",
-      "image": "/El incendio de Delicias en imágenes.jpg"
+      "image": "/El-incendio-de-Delicias-en-imágenes.jpg"
     },
     {
       "id": "4",
@@ -159,7 +159,7 @@
       "year": "2024",
       "summary": "Durante la gala de los Premios Nacionales del Marketing, Víctor Conde anunció que deja la dirección general tras 11 años para liderar el I Encuentro Internacional del Marketing y las relaciones institucionales con Latinoamérica.",
       "url": "https://diario.infoperiodistas.info/victor-conde-deja-su-cargo-como-director-general-de-amkt/",
-      "image": "/Víctor Conde deja su cargo como director general de AMKT.jpg"
+      "image": "/Víctor-Conde-deja-su-cargo-como-director-general-de-AMKT.jpg"
     },
     {
       "id": "5",
@@ -186,7 +186,7 @@
       "year": "2024",
       "summary": "Reportaje sobre la evolución del mercado publicitario español y el crecimiento de la inversión en el primer semestre del año.",
       "url": "https://diario.infoperiodistas.info/la-inversion-publicitaria-crece-durante-la-primera-mitad-de-2024/",
-      "image": "/La inversión publicitaria crece durante la primera mitad de 2024.jpg"
+      "image": "/La-inversión-publicitaria-crece-durante-la-primera-mitad-de-2024.jpg"
     },
     {
       "id": "8",
@@ -195,7 +195,7 @@
       "year": "2025",
       "summary": "Entrevista al músico Paul Thin sobre la percepción de El Triunfito y la valoración del talento en la industria musical española.",
       "url": "https://as.com/tikitakas/musica/paul-thin-a-dia-de-hoy-se-sigue-pensando-que-el-triunfito-es-menos-musico-y-es-completamente-falso-n/",
-      "image": "/Paul Thin: “A día de hoy, se sigue pensando que el triunfito es menos músico, y es completamente falso”.jpeg"
+      "image": "/Paul-Thin:-“A-día-de-hoy,-se-sigue-pensando-que-el-triunfito-es-menos-músico,-y-es-completamente-falso”.jpeg"
     },
     {
       "id": "9",
@@ -204,7 +204,7 @@
       "year": "2025",
       "summary": "Entrevista al fotógrafo y cineasta sobre su obra 365º, el proyecto \"Mil y Una Noches\", y la relación entre arte, mercado y precariedad en la creación artística.",
       "url": "https://as.com/actualidad/sociedad/eugenio-recuenco-los-mercados-financieros-se-cargan-totalmente-la-esencia-del-arte-n/",
-      "image": "/Eugenio Recuenco: “Los mercados financieros se cargan totalmente la esencia del arte”.avif"
+      "image": "/Eugenio-Recuenco:-“Los-mercados-financieros-se-cargan-totalmente-la-esencia-del-arte”.avif"
     },
     {
       "id": "10",
@@ -213,7 +213,7 @@
       "year": "2025",
       "summary": "Entrevista al fotoperiodista sobre su reportaje ganador del World Press Photo 2025 \"Las sombras ya tienen nombre\", que visibiliza a los supervivientes de las cárceles sirias tras la caída de Bashar al-Ásad.",
       "url": "https://as.com/actualidad/sociedad/samuel-nacar-ganador-de-un-world-press-photo-la-sociedad-implica-al-fotoperiodista-y-al-periodista-al-menos-15-anos-de-precariedad-para-que-la-gente-confie-en-ellos-n/",
-      "image": "/Samuel Nacar, ganador de un World Press Photo: “La sociedad implica al fotoperiodista y al periodista al menos 15 años de precariedad para que la gente confíe en ellos”.jpg"
+      "image": "/Samuel-Nacar,-ganador-de-un-World-Press-Photo:-“La-sociedad-implica-al-fotoperiodista-y-al-periodista-al-menos-15-años-de-precariedad-para-que-la-gente-confíe-en-ellos”.jpg"
     },
     {
       "id": "11",
@@ -222,7 +222,7 @@
       "year": "2024",
       "summary": "Reportaje sobre la realidad de los monitores de comedor y actividades extraescolares: mal formados, mal pagados y con una responsabilidad que trasciende la simple supervisión. Su influencia invisible en el desarrollo de los niños.",
       "url": "https://elgeneracionalpost.com/actualidad/sociedad-actualidad/2024/1121/177741/los-monitores-o-la-educacion-fuera-de-las-aulas.html",
-      "image": "/Los monitores o la educación fuera de las aulas.webp"
+      "image": "/Los-monitores-o-la-educación-fuera-de-las-aulas.webp"
     },
     {
       "id": "12",
@@ -231,7 +231,7 @@
       "year": "2025",
       "summary": "Crónica del concierto de Natos y Waor en el Estadio Metropolitano a rebosar, un nuevo capítulo para la historia del rap español con Fer y Gonzalo como protagonistas.",
       "url": "https://elgeneracionalpost.com/cultura/2025/0608/226187/natos-y-waor-decalogo-de-como-llevar-la-musica-underground-a-lo-mas-alto.html",
-      "image": "/Natos y Waor: decálogo de cómo llevar la música underground a lo más alto.webp"
+      "image": "/Natos-y-Waor:-decálogo-de-cómo-llevar-la-música-underground-a-lo-más-alto.webp"
     },
     {
       "id": "13",
@@ -240,7 +240,7 @@
       "year": "2025",
       "summary": "Crónica del concierto de Israel B en Madrid, donde el artista demostró su capacidad para llenar el escenario con su presencia en solitario.",
       "url": "https://elgeneracionalpost.com/cultura/musica/2025/0404/213129/israel-b-un-hombre-solo-con-todo-un-ejercito-en-madrid.html",
-      "image": "/Israel B: un hombre solo con todo un ejército en Madrid.webp"
+      "image": "/Israel-B:-un-hombre-solo-con-todo-un-ejército-en-Madrid.webp"
     },
     {
       "id": "14",
@@ -249,7 +249,7 @@
       "year": "2025",
       "summary": "Crónica del concierto de aniversario de Pignoise en el Movistar Arena: dos décadas de música, colaboraciones con Hens, Taburete, Rulo, Los Secretos, Loquillo y Hombres G, y una noche de nostalgia y euforia.",
       "url": "https://elgeneracionalpost.com/cultura/musica/2025/0309/206650/pignoise-llena-y-emociona-el-movistar-arena-en-su-gira-de-aniversario.html",
-      "image": "/Veinte años y un concierto para la posteridad: Pignoise llena y emociona el Movistar Arena en su gira de aniversario.webp"
+      "image": "/Veinte-años-y-un-concierto-para-la-posteridad:-Pignoise-llena-y-emociona-el-Movistar-Arena-en-su-gira-de-aniversario.webp"
     },
     {
       "id": "15",
@@ -258,7 +258,7 @@
       "year": "2025",
       "summary": "Rueda de prensa previa al concierto en el Metropolitano. El dúo madrileño repasa sus inicios en una okupa de Embajadores, sus 15 años en la música y el consejo que se darían a sí mismos.",
       "url": "https://elgeneracionalpost.com/cultura/musica/2025/0606/226398/natos-y-waor-a-esos-fer-y-gonzalo-de-hace-15-anos-les-diriamos-que-se-equivoquen-todo-lo-se-tengan-que-equivocar.html",
-      "image": "/Natos y Waor: «A esos Fer y Gonzalo de hace 15 años les diríamos que se equivoquen todo lo se tengan que equivocar».webp"
+      "image": "/Natos-y-Waor:-«A-esos-Fer-y-Gonzalo-de-hace-15-años-les-diríamos-que-se-equivoquen-todo-lo-se-tengan-que-equivocar».webp"
     }
   ],
   "work": [

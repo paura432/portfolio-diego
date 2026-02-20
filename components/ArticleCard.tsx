@@ -33,7 +33,7 @@ export default function ArticleCard({ report, isFirst = false }: ArticleCardProp
     if (!element) return;
 
     const handleScroll = () => {
-      const heroSection = document.querySelector('section[class*="bg-black"]');
+      const heroSection = document.querySelector('section[class*="bg-black"]') as HTMLElement | null;
       if (!heroSection) return;
 
       const heroBottom = heroSection.getBoundingClientRect().bottom;
