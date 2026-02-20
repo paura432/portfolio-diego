@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "photography": "Fotografía",
+    "reports": "Reportajes",
+    "work": "Vida laboral"
+  },
+  "home": {
+    "subtitle": "Explorando historias que importan, con palabras e imágenes",
+    "quickLinks": {
+      "photography": "Fotografía",
+      "photographyDesc": "Documental y periodística",
+      "reports": "Reportajes",
+      "reportsDesc": "Artículos y trabajos periodísticos",
+      "experience": "Experiencia",
+      "experienceDesc": "Trayectoria profesional"
+    }
+  },
+  "about": {
+    "title": "Conóceme",
+    "focus": "Áreas de enfoque",
+    "info": "Información",
+    "location": "Ubicación",
+    "languages": "Idiomas"
+  },
+  "photography": {
+    "title": "Fotografía"
+  },
+  "reports": {
+    "title": "Reportajes",
+    "subtitle": "Selección de trabajos periodísticos realizados durante mi formación académica y colaboraciones con medios.",
+    "readMore": "Leer más"
+  },
+  "work": {
+    "title": "Vida laboral"
+  },
+  "footer": {
+    "contact": "Contacto",
+    "socials": "Redes sociales",
+    "location": "Ubicación",
+    "rights": "Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "site": {
+    "name": "María Pérez",
+    "role": "Periodista / Estudiante de Periodismo",
+    "location": "Madrid, España",
+    "languages": ["Español", "Italiano", "Inglés"]
+  },
+  "about": {
+    "bio": "Soy periodista especializada en narrativas humanas y análisis social. Mi trabajo se centra en explorar las realidades complejas de nuestra sociedad contemporánea a través de la palabra escrita y la imagen documental. Formada en la Universidad Complutense de Madrid, he desarrollado mi carrera combinando la investigación rigurosa con un enfoque ético y empático hacia las historias que cuento.",
+    "focus": ["Política", "Sociedad", "Cultura", "Internacional"]
+  },
+  "photography": {
+    "intro": "La fotografía documental me permite capturar momentos que reflejan la realidad social y humana. Cada imagen cuenta una historia, documenta un instante de verdad que merece ser preservado y compartido.",
+    "photos": [
+      {
+        "id": "1",
+        "src": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=800&fit=crop",
+        "caption": "Manifestación estudiantil por la educación pública",
+        "place": "Madrid, 2023"
+      },
+      {
+        "id": "2",
+        "src": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop",
+        "caption": "Mercado de abastos en el barrio de Lavapiés",
+        "place": "Madrid, 2023"
+      },
+      {
+        "id": "3",
+        "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop",
+        "caption": "Serie sobre la diversidad urbana",
+        "place": "Madrid, 2023"
+      },
+      {
+        "id": "4",
+        "src": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=800&fit=crop",
+        "caption": "Biblioteca municipal como espacio de encuentro",
+        "place": "Madrid, 2023"
+      },
+      {
+        "id": "5",
+        "src": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1200&h=800&fit=crop",
+        "caption": "Documental sobre trabajadores de la construcción",
+        "place": "Madrid, 2023"
+      },
+      {
+        "id": "6",
+        "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=800&fit=crop",
+        "caption": "Arte callejero y expresión cultural",
+        "place": "Madrid, 2023"
+      },
+      {
+        "id": "7",
+        "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop",
+        "caption": "Fotografía ambiental y sostenibilidad",
+        "place": "Madrid, 2023"
+      },
+      {
+        "id": "8",
+        "src": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&h=800&fit=crop",
+        "caption": "Festival de música independiente",
+        "place": "Madrid, 2023"
+      }
+    ]
+  },
+  "reports": [
+    {
+      "id": "1",
+      "title": "La crisis de la vivienda estudiantil en Madrid",
+      "medium": "El Diario Universitario",
+      "year": "2024",
+      "summary": "Un análisis en profundidad sobre las dificultades que enfrentan los estudiantes para encontrar alojamiento asequible en la capital. El reportaje incluye entrevistas con afectados, datos oficiales y propuestas de solución desde las asociaciones estudiantiles.",
+      "url": "#"
+    },
+    {
+      "id": "2",
+      "title": "Mujeres en el periodismo: rompiendo techos de cristal",
+      "medium": "Revista Digital UCM",
+      "year": "2024",
+      "summary": "Reportaje sobre la situación de las mujeres periodistas en España. Entrevistas con profesionales consolidadas y jóvenes que están abriendo camino en medios tradicionales y digitales, analizando los desafíos y oportunidades del sector.",
+      "url": "#"
+    },
+    {
+      "id": "3",
+      "title": "La transformación del barrio: gentrificación y resistencia",
+      "medium": "Medio Local",
+      "year": "2023",
+      "summary": "Investigación sobre los procesos de gentrificación en el centro de Madrid. Voces de vecinos históricos, nuevos residentes y comerciantes que reflejan los cambios y las tensiones en el territorio urbano.",
+      "url": "#"
+    },
+    {
+      "id": "4",
+      "title": "Desinformación y redes sociales: el caso de las elecciones",
+      "medium": "Trabajo Académico",
+      "year": "2023",
+      "summary": "Análisis sobre cómo se propagó la desinformación durante las últimas elecciones generales. Fact-checking, entrevistas con expertos y propuestas para mejorar la alfabetización mediática en la sociedad digital.",
+      "url": "#"
+    },
+    {
+      "id": "5",
+      "title": "El futuro del periodismo local en la era digital",
+      "medium": "Colaboración Externa",
+      "year": "2023",
+      "summary": "Reportaje sobre cómo los medios locales están adaptándose a la transformación digital. Casos de éxito, desafíos económicos y el papel fundamental del periodismo de proximidad en las democracias locales.",
+      "url": "#"
+    }
+  ],
+  "work": [
+    {
+      "id": "1",
+      "role": "Grado en Periodismo",
+      "organization": "Universidad Complutense de Madrid",
+      "dates": "2021–Presente",
+      "description": "Formación en redacción periodística, investigación, fotografía, edición de video y radio. Especialización en periodismo de investigación y comunicación digital."
+    },
+    {
+      "id": "2",
+      "role": "Prácticas Profesionales",
+      "organization": "El Diario Universitario",
+      "dates": "2024",
+      "description": "Redacción de artículos, cobertura de eventos universitarios, entrevistas y reportajes. Aprendizaje en el día a día de una redacción digital."
+    },
+    {
+      "id": "3",
+      "role": "Colaboradora Freelance",
+      "organization": "Medios Locales y Digitales",
+      "dates": "2023–Presente",
+      "description": "Redacción de artículos sobre cultura, sociedad y actualidad. Trabajo en equipo con editores y fotógrafos."
+    },
+    {
+      "id": "4",
+      "role": "Voluntariado",
+      "organization": "Asociación de Periodistas Jóvenes",
+      "dates": "2022–2023",
+      "description": "Organización de eventos, talleres de formación y creación de contenido para redes sociales. Promoción del periodismo responsable entre jóvenes."
+    }
+  ],
+  "contact": {
+    "email": "maria.perez@email.com",
+    "socials": {
+      "LinkedIn": "https://linkedin.com/in/maria-perez",
+      "Twitter": "https://twitter.com/maria_perez"
+    }
+  }
+}

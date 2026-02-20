@@ -1,0 +1,144 @@
+{
+  "site": {
+    "name": "María Pérez",
+    "role": "Journalist / Journalism Student",
+    "location": "Madrid, Spain",
+    "languages": ["Spanish", "Italian", "English"]
+  },
+  "about": {
+    "bio": "I am a journalist specialized in human narratives and social analysis. My work focuses on exploring the complex realities of our contemporary society through written word and documentary imagery. Trained at the Complutense University of Madrid, I have developed my career combining rigorous research with an ethical and empathetic approach to the stories I tell.",
+    "focus": ["Politics", "Society", "Culture", "International"]
+  },
+  "photography": {
+    "intro": "Documentary photography allows me to capture moments that reflect social and human reality. Each image tells a story, documents an instant of truth that deserves to be preserved and shared.",
+    "photos": [
+      {
+        "id": "1",
+        "src": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=800&fit=crop",
+        "caption": "Student demonstration for public education",
+        "place": "Madrid, 2023"
+      },
+      {
+        "id": "2",
+        "src": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop",
+        "caption": "Local market in Lavapiés neighborhood",
+        "place": "Madrid, 2023"
+      },
+      {
+        "id": "3",
+        "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop",
+        "caption": "Series on urban diversity",
+        "place": "Madrid, 2023"
+      },
+      {
+        "id": "4",
+        "src": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=800&fit=crop",
+        "caption": "Municipal library as a meeting space",
+        "place": "Madrid, 2023"
+      },
+      {
+        "id": "5",
+        "src": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1200&h=800&fit=crop",
+        "caption": "Documentary on construction workers",
+        "place": "Madrid, 2023"
+      },
+      {
+        "id": "6",
+        "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=800&fit=crop",
+        "caption": "Street art and cultural expression",
+        "place": "Madrid, 2023"
+      },
+      {
+        "id": "7",
+        "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop",
+        "caption": "Environmental photography and sustainability",
+        "place": "Madrid, 2023"
+      },
+      {
+        "id": "8",
+        "src": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&h=800&fit=crop",
+        "caption": "Independent music festival",
+        "place": "Madrid, 2023"
+      }
+    ]
+  },
+  "reports": [
+    {
+      "id": "1",
+      "title": "The student housing crisis in Madrid",
+      "medium": "University Daily",
+      "year": "2024",
+      "summary": "An in-depth analysis of the difficulties students face in finding affordable housing in the capital. The report includes interviews with those affected, official data, and proposed solutions from student associations.",
+      "url": "#"
+    },
+    {
+      "id": "2",
+      "title": "Women in journalism: breaking glass ceilings",
+      "medium": "UCM Digital Magazine",
+      "year": "2024",
+      "summary": "Report on the situation of women journalists in Spain. Interviews with established professionals and young women opening paths in traditional and digital media, analyzing the challenges and opportunities in the sector.",
+      "url": "#"
+    },
+    {
+      "id": "3",
+      "title": "Neighborhood transformation: gentrification and resistance",
+      "medium": "Local Media",
+      "year": "2023",
+      "summary": "Investigation into gentrification processes in central Madrid. Voices from long-time residents, new residents, and merchants reflecting the changes and tensions in the urban territory.",
+      "url": "#"
+    },
+    {
+      "id": "4",
+      "title": "Disinformation and social media: the election case",
+      "medium": "Academic Work",
+      "year": "2023",
+      "summary": "Analysis of how disinformation spread during the last general elections. Fact-checking, expert interviews, and proposals to improve media literacy in digital society.",
+      "url": "#"
+    },
+    {
+      "id": "5",
+      "title": "The future of local journalism in the digital age",
+      "medium": "External Collaboration",
+      "year": "2023",
+      "summary": "Report on how local media are adapting to digital transformation. Success stories, economic challenges, and the fundamental role of proximity journalism in local democracies.",
+      "url": "#"
+    }
+  ],
+  "work": [
+    {
+      "id": "1",
+      "role": "Journalism Degree",
+      "organization": "Complutense University of Madrid",
+      "dates": "2021–Present",
+      "description": "Training in journalistic writing, research, photography, video and radio editing. Specialization in investigative journalism and digital communication."
+    },
+    {
+      "id": "2",
+      "role": "Professional Internship",
+      "organization": "University Daily",
+      "dates": "2024",
+      "description": "Article writing, coverage of university events, interviews and reports. Learning in the day-to-day of a digital newsroom."
+    },
+    {
+      "id": "3",
+      "role": "Freelance Contributor",
+      "organization": "Local and Digital Media",
+      "dates": "2023–Present",
+      "description": "Writing articles on culture, society and current affairs. Teamwork with editors and photographers."
+    },
+    {
+      "id": "4",
+      "role": "Volunteer",
+      "organization": "Young Journalists Association",
+      "dates": "2022–2023",
+      "description": "Event organization, training workshops and content creation for social media. Promotion of responsible journalism among young people."
+    }
+  ],
+  "contact": {
+    "email": "maria.perez@email.com",
+    "socials": {
+      "LinkedIn": "https://linkedin.com/in/maria-perez",
+      "Twitter": "https://twitter.com/maria_perez"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "home": "Home",
+    "photography": "Photography",
+    "reports": "Reports",
+    "work": "Work"
+  },
+  "home": {
+    "subtitle": "Exploring stories that matter, through words and images",
+    "quickLinks": {
+      "photography": "Photography",
+      "photographyDesc": "Documentary and journalistic",
+      "reports": "Reports",
+      "reportsDesc": "Articles and journalistic work",
+      "experience": "Experience",
+      "experienceDesc": "Professional trajectory"
+    }
+  },
+  "about": {
+    "title": "About",
+    "focus": "Focus Areas",
+    "info": "Information",
+    "location": "Location",
+    "languages": "Languages"
+  },
+  "photography": {
+    "title": "Photography"
+  },
+  "reports": {
+    "title": "Reports",
+    "subtitle": "Selection of journalistic works carried out during my academic training and collaborations with media.",
+    "readMore": "Read more"
+  },
+  "work": {
+    "title": "Work Experience"
+  },
+  "footer": {
+    "contact": "Contact",
+    "socials": "Social Media",
+    "location": "Location",
+    "rights": "All rights reserved."
+  }
+}
