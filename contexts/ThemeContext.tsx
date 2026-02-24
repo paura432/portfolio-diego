@@ -31,6 +31,42 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     localStorage.setItem('language', language);
   }, [language]);
 
+  // Manejar errores de extensiones del navegador (como MetaMask)
+  useEffect(() => {
+    const handleError = (event: ErrorEvent) => {
+      // Ignorar errores de extensiones del navegador como MetaMask
+      if (
+        event.message?.includes('MetaMask') ||
+        event.message?.includes('Failed to connect') ||
+        event.message?.includes('chrome-extension://') ||
+        event.filename?.includes('chrome-extension://')
+      ) {
+        event.preventDefault();
+        return false;
+      }
+    };
+
+    const handleUnhandledRejection = (event: PromiseRejectionEvent) => {
+      const reason = event.reason?.toString() || '';
+      if (
+        reason.includes('MetaMask') ||
+        reason.includes('Failed to connect') ||
+        reason.includes('chrome-extension://')
+      ) {
+        event.preventDefault();
+        return false;
+      }
+    };
+
+    window.addEventListener('error', handleError);
+    window.addEventListener('unhandledrejection', handleUnhandledRejection);
+
+    return () => {
+      window.removeEventListener('error', handleError);
+      window.removeEventListener('unhandledrejection', handleUnhandledRejection);
+    };
+  }, []);
+
   return (
     <ThemeContext.Provider value={{ language, setLanguage }}>
       {children}

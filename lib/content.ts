@@ -32,6 +32,30 @@ export function getPhotography(language: Language = 'es') {
 }
 
 /**
+ * Obtiene un evento de fotografía por categoría e ID
+ */
+export function getPhotoEvent(
+  category: 'conciertos' | 'carreras' | 'fotoReportages' | 'coberturas',
+  eventId: string,
+  language: Language = 'es'
+) {
+  const photography = getPhotography(language);
+  const events = photography[category];
+  return events.find(event => event.id === eventId) || null;
+}
+
+/**
+ * Obtiene todos los eventos de una categoría de fotografía
+ */
+export function getPhotoEvents(
+  category: 'conciertos' | 'carreras' | 'fotoReportages' | 'coberturas',
+  language: Language = 'es'
+) {
+  const photography = getPhotography(language);
+  return photography[category];
+}
+
+/**
  * Obtiene todos los reportajes según el idioma
  */
 export function getReports(language: Language = 'es') {

@@ -14,7 +14,8 @@ export default function CarrerasPage() {
     <div className="max-w-7xl mx-auto px-4 md:px-6 py-12">
       <PhotoCategory
         title={t.photography.carreras}
-        photos={photography.carreras}
+        events={photography.carreras}
+        category="carreras"
       />
     </div>
   );

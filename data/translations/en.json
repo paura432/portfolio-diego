@@ -28,7 +28,10 @@
     "conciertos": "Concerts",
     "carreras": "Races",
     "fotoReportages": "Photo reports",
-    "coberturas": "Coverages"
+    "coberturas": "Coverages",
+    "photo": "photo",
+    "photos": "photos",
+    "backTo": "Back to"
   },
   "reports": {
     "title": "Reports",

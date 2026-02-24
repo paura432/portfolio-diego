@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { Photo } from '@/types/content';
+import PhotoModal from './photography/PhotoModal';
 
 interface PhotoGridProps {
   photos: Photo[];
@@ -10,20 +11,44 @@ interface PhotoGridProps {
 
 /**
  * Componente PhotoGrid: Grid visual mejorado para fotografías
- * Las fotos aparecen gradualmente al hacer scroll
+ * Las fotos aparecen gradualmente al hacer scroll y son clickeables para ver en grande
  */
 export default function PhotoGrid({ photos }: PhotoGridProps) {
+  const [selectedPhoto, setSelectedPhoto] = useState<Photo | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handlePhotoClick = (photo: Photo) => {
+    setSelectedPhoto(photo);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedPhoto(null);
+  };
+
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-      {photos.map((photo) => (
-        <PhotoGridItem key={photo.id} photo={photo} />
-      ))}
-    </div>
+    <>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+        {photos.map((photo) => (
+          <PhotoGridItem 
+            key={photo.id} 
+            photo={photo}
+            onClick={() => handlePhotoClick(photo)}
+          />
+        ))}
+      </div>
+      <PhotoModal 
+        photo={selectedPhoto} 
+        isOpen={isModalOpen} 
+        onClose={handleCloseModal}
+      />
+    </>
   );
 }
 
 // Componente para cada foto del grid con efecto de aparición
-function PhotoGridItem({ photo }: { photo: Photo }) {
+function PhotoGridItem({ photo, onClick }: { photo: Photo; onClick: () => void }) {
   const [isVisible, setIsVisible] = useState(false);
   const photoRef = useRef<HTMLElement | null>(null);
 
@@ -62,7 +87,10 @@ function PhotoGridItem({ photo }: { photo: Photo }) {
           : 'opacity-0 translate-y-8'
       }`}
     >
-          <div className="relative aspect-[4/3] bg-gray-100 dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg group-hover:shadow-2xl transition-all duration-300">
+          <div 
+            onClick={onClick}
+            className="relative aspect-[4/3] bg-gray-100 dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg group-hover:shadow-2xl transition-all duration-300 cursor-pointer"
+          >
             <Image
               src={photo.src}
               alt={photo.caption}

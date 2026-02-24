@@ -1,0 +1,69 @@
+'use client';
+
+import { useParams } from 'next/navigation';
+import Link from 'next/link';
+import { getPhotoEvent } from '@/lib/content';
+import { useTheme } from '@/contexts/ThemeContext';
+import EventGallery from '@/components/photography/EventGallery';
+import { getTranslations } from '@/lib/i18n';
+
+export default function CoberturaEventPage() {
+  const { language } = useTheme();
+  const params = useParams();
+  const id = params.id as string;
+  const t = getTranslations(language);
+  
+  const event = getPhotoEvent('coberturas', id, language);
+
+  if (!event) {
+    return (
+      <div className="max-w-7xl mx-auto px-4 md:px-6 py-12 text-center">
+        <h1 className="text-2xl mb-4">Evento no encontrado</h1>
+        <Link href="/photography/coberturas" className="text-primary-600 dark:text-primary-400">
+          Volver a coberturas
+        </Link>
+      </div>
+    );
+  }
+
+  return (
+    <div className="max-w-7xl mx-auto px-4 md:px-6 py-12">
+      <Link
+        href="/photography/coberturas"
+        className="inline-flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white mb-8 transition-colors"
+      >
+        <svg
+          className="w-5 h-5"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M15 19l-7-7 7-7"
+          />
+        </svg>
+        {t.photography.backTo} {t.photography.coberturas}
+      </Link>
+
+      <div className="mb-12">
+        <h1 className="font-serif text-4xl md:text-5xl font-normal mb-4 text-gray-900 dark:text-white">
+          {event.title}
+        </h1>
+        <div className="flex items-center gap-3 text-lg text-gray-600 dark:text-gray-400">
+          <span>{event.place}</span>
+          {event.date && (
+            <>
+              <span>•</span>
+              <span>{event.date}</span>
+            </>
+          )}
+        </div>
+      </div>
+
+      <EventGallery photos={event.photos} />
+    </div>
+  );
+}

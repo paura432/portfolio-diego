@@ -21,106 +21,310 @@
     "intro": "La fotografía documental me permite capturar momentos que reflejan la realidad social y humana. Cada imagen cuenta una historia, documenta un instante de verdad que merece ser preservado y compartido.",
     "conciertos": [
       {
-        "id": "c1",
-        "src": "/Guitarricadelafuente.jpg",
-        "caption": "Concierto en directo bajo las luces",
-        "place": "Madrid, 2024"
+        "id": "antonio-orozco",
+        "title": "Concierto de Antonio Orozco",
+        "coverImage": "/concierto-antonio-orozco/IMG_8465.webp",
+        "place": "Madrid",
+        "date": "2024",
+        "photos": [
+          {
+            "id": "antonio-orozco-1",
+            "src": "/concierto-antonio-orozco/IMG_8465.webp",
+            "caption": "Antonio Orozco en el escenario"
+          },
+          {
+            "id": "antonio-orozco-2",
+            "src": "/concierto-antonio-orozco/IMG_8504.webp",
+            "caption": "Momento del concierto"
+          },
+          {
+            "id": "antonio-orozco-3",
+            "src": "/concierto-antonio-orozco/IMG_8584.webp",
+            "caption": "Interpretación en directo"
+          },
+          {
+            "id": "antonio-orozco-4",
+            "src": "/concierto-antonio-orozco/IMG_8805.webp",
+            "caption": "Escenario y luces"
+          },
+          {
+            "id": "antonio-orozco-5",
+            "src": "/concierto-antonio-orozco/IMG_8885.webp",
+            "caption": "Antonio Orozco durante el concierto"
+          },
+          {
+            "id": "antonio-orozco-6",
+            "src": "/concierto-antonio-orozco/IMG_8929.webp",
+            "caption": "Momento íntimo en el escenario"
+          },
+          {
+            "id": "antonio-orozco-7",
+            "src": "/concierto-antonio-orozco/IMG_8976.webp",
+            "caption": "Interacción con el público"
+          },
+          {
+            "id": "antonio-orozco-8",
+            "src": "/concierto-antonio-orozco/IMG_9010.webp",
+            "caption": "Ambiente del concierto"
+          },
+          {
+            "id": "antonio-orozco-9",
+            "src": "/concierto-antonio-orozco/IMG_9061.webp",
+            "caption": "Momento especial"
+          },
+          {
+            "id": "antonio-orozco-10",
+            "src": "/concierto-antonio-orozco/IMG_9077.webp",
+            "caption": "Final del concierto"
+          }
+        ]
       },
       {
-        "id": "c2",
-        "src": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1200&h=800&fit=crop",
-        "caption": "Festival de música al aire libre",
-        "place": "Barcelona, 2024"
+        "id": "israel-b",
+        "title": "Concierto de Israel B",
+        "coverImage": "/concierto-israel-b/IMG_0573.webp",
+        "place": "Madrid",
+        "date": "2025",
+        "photos": [
+          {
+            "id": "israel-b-1",
+            "src": "/concierto-israel-b/IMG_0573.webp",
+            "caption": "Israel B en el escenario"
+          },
+          {
+            "id": "israel-b-2",
+            "src": "/concierto-israel-b/IMG_0842.webp",
+            "caption": "Momento del concierto"
+          },
+          {
+            "id": "israel-b-3",
+            "src": "/concierto-israel-b/IMG_0895.webp",
+            "caption": "Interpretación en directo"
+          },
+          {
+            "id": "israel-b-4",
+            "src": "/concierto-israel-b/IMG_0902.webp",
+            "caption": "Escenario y luces"
+          },
+          {
+            "id": "israel-b-5",
+            "src": "/concierto-israel-b/IMG_1150.webp",
+            "caption": "Israel B durante el concierto"
+          },
+          {
+            "id": "israel-b-6",
+            "src": "/concierto-israel-b/IMG_1396.webp",
+            "caption": "Momento íntimo en el escenario"
+          },
+          {
+            "id": "israel-b-7",
+            "src": "/concierto-israel-b/IMG_1415.webp",
+            "caption": "Interacción con el público"
+          },
+          {
+            "id": "israel-b-8",
+            "src": "/concierto-israel-b/IMG_1437.webp",
+            "caption": "Final del concierto"
+          }
+        ]
       },
       {
-        "id": "c3",
-        "src": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&h=800&fit=crop",
-        "caption": "Festival de música independiente",
-        "place": "Madrid, 2023"
+        "id": "pignoise",
+        "title": "Concierto de Pignoise",
+        "coverImage": "/concierto-pignoise/IMG_7829.webp",
+        "place": "Madrid",
+        "date": "2025",
+        "photos": [
+          {
+            "id": "pignoise-1",
+            "src": "/concierto-pignoise/IMG_7829.webp",
+            "caption": "Pignoise en el escenario"
+          },
+          {
+            "id": "pignoise-2",
+            "src": "/concierto-pignoise/IMG_7836.webp",
+            "caption": "Momento del concierto"
+          },
+          {
+            "id": "pignoise-3",
+            "src": "/concierto-pignoise/IMG_7859.webp",
+            "caption": "Interpretación en directo"
+          },
+          {
+            "id": "pignoise-4",
+            "src": "/concierto-pignoise/IMG_7862.webp",
+            "caption": "Escenario y luces"
+          },
+          {
+            "id": "pignoise-5",
+            "src": "/concierto-pignoise/IMG_7910.webp",
+            "caption": "Pignoise durante el concierto"
+          },
+          {
+            "id": "pignoise-6",
+            "src": "/concierto-pignoise/IMG_7928.webp",
+            "caption": "Momento íntimo en el escenario"
+          },
+          {
+            "id": "pignoise-7",
+            "src": "/concierto-pignoise/IMG_7930.webp",
+            "caption": "Interacción con el público"
+          },
+          {
+            "id": "pignoise-8",
+            "src": "/concierto-pignoise/IMG_7942.webp",
+            "caption": "Ambiente del concierto"
+          },
+          {
+            "id": "pignoise-9",
+            "src": "/concierto-pignoise/IMG_7967.webp",
+            "caption": "Momento especial"
+          },
+          {
+            "id": "pignoise-10",
+            "src": "/concierto-pignoise/IMG_7969.webp",
+            "caption": "Final del concierto"
+          }
+        ]
       },
       {
-        "id": "c4",
-        "src": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200&h=800&fit=crop",
-        "caption": "Ambiente del público en un concierto",
-        "place": "Valencia, 2023"
+        "id": "festival-barcelona",
+        "title": "Festival de música al aire libre",
+        "coverImage": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1200&h=800&fit=crop",
+        "place": "Barcelona",
+        "date": "2024",
+        "photos": [
+          {
+            "id": "c2-1",
+            "src": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1200&h=800&fit=crop",
+            "caption": "Escenario principal del festival"
+          },
+          {
+            "id": "c2-2",
+            "src": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200&h=800&fit=crop",
+            "caption": "Ambiente del público"
+          }
+        ]
       }
     ],
     "carreras": [
       {
-        "id": "r1",
-        "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=800&fit=crop",
-        "caption": "Carrera de motos enduro",
-        "place": "España, 2024"
+        "id": "enduro-espana",
+        "title": "Carrera de motos enduro",
+        "coverImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=800&fit=crop",
+        "place": "España",
+        "date": "2024",
+        "photos": [
+          {
+            "id": "r1-1",
+            "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=800&fit=crop",
+            "caption": "Piloto en terreno difícil"
+          },
+          {
+            "id": "r1-2",
+            "src": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=1200&h=800&fit=crop",
+            "caption": "Acción durante la carrera"
+          }
+        ]
       },
       {
-        "id": "r2",
-        "src": "https://images.unsplash.com/photo-1541443131876-44b03de101c5?w=1200&h=800&fit=crop",
-        "caption": "Competencia de motocross",
-        "place": "Castilla y León, 2024"
-      },
-      {
-        "id": "r3",
-        "src": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=1200&h=800&fit=crop",
-        "caption": "Piloto en acción durante la carrera",
-        "place": "Andalucía, 2023"
-      },
-      {
-        "id": "r4",
-        "src": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&h=800&fit=crop",
-        "caption": "Hard Enduro en terreno extremo",
-        "place": "Pirineos, 2023"
+        "id": "motocross-castilla",
+        "title": "Competencia de motocross",
+        "coverImage": "https://images.unsplash.com/photo-1541443131876-44b03de101c5?w=1200&h=800&fit=crop",
+        "place": "Castilla y León",
+        "date": "2024",
+        "photos": [
+          {
+            "id": "r2-1",
+            "src": "https://images.unsplash.com/photo-1541443131876-44b03de101c5?w=1200&h=800&fit=crop",
+            "caption": "Salto en la pista"
+          },
+          {
+            "id": "r2-2",
+            "src": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&h=800&fit=crop",
+            "caption": "Hard Enduro en terreno extremo"
+          }
+        ]
       }
     ],
     "fotoReportages": [
       {
-        "id": "fr1",
-        "src": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=800&fit=crop",
-        "caption": "Manifestación estudiantil por la educación pública",
-        "place": "Madrid, 2023"
+        "id": "manifestacion-estudiantil",
+        "title": "Manifestación estudiantil por la educación pública",
+        "coverImage": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=800&fit=crop",
+        "place": "Madrid",
+        "date": "2023",
+        "photos": [
+          {
+            "id": "fr1-1",
+            "src": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=800&fit=crop",
+            "caption": "Estudiantes en la manifestación"
+          },
+          {
+            "id": "fr1-2",
+            "src": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop",
+            "caption": "Momento de la protesta"
+          }
+        ]
       },
       {
-        "id": "fr2",
-        "src": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop",
-        "caption": "Mercado de abastos en el barrio de Lavapiés",
-        "place": "Madrid, 2023"
-      },
-      {
-        "id": "fr3",
-        "src": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=800&fit=crop",
-        "caption": "Biblioteca municipal como espacio de encuentro",
-        "place": "Madrid, 2023"
-      },
-      {
-        "id": "fr4",
-        "src": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1200&h=800&fit=crop",
-        "caption": "Documental sobre trabajadores de la construcción",
-        "place": "Madrid, 2023"
+        "id": "mercado-lavapies",
+        "title": "Mercado de abastos en el barrio de Lavapiés",
+        "coverImage": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop",
+        "place": "Madrid",
+        "date": "2023",
+        "photos": [
+          {
+            "id": "fr2-1",
+            "src": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop",
+            "caption": "Vendedores en el mercado"
+          },
+          {
+            "id": "fr2-2",
+            "src": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=800&fit=crop",
+            "caption": "Vida cotidiana en el barrio"
+          }
+        ]
       }
     ],
     "coberturas": [
       {
-        "id": "cb1",
-        "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop",
-        "caption": "Cobertura de evento cultural",
-        "place": "Madrid, 2024"
+        "id": "evento-cultural-madrid",
+        "title": "Cobertura de evento cultural",
+        "coverImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop",
+        "place": "Madrid",
+        "date": "2024",
+        "photos": [
+          {
+            "id": "cb1-1",
+            "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop",
+            "caption": "Momento del evento"
+          },
+          {
+            "id": "cb1-2",
+            "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=800&fit=crop",
+            "caption": "Arte y expresión cultural"
+          }
+        ]
       },
       {
-        "id": "cb2",
-        "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=800&fit=crop",
-        "caption": "Arte callejero y expresión cultural",
-        "place": "Barcelona, 2023"
-      },
-      {
-        "id": "cb3",
-        "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop",
-        "caption": "Cobertura de evento deportivo",
-        "place": "Valencia, 2024"
-      },
-      {
-        "id": "cb4",
-        "src": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&h=800&fit=crop",
-        "caption": "Festival y evento en vivo",
-        "place": "Madrid, 2023"
+        "id": "evento-deportivo-valencia",
+        "title": "Cobertura de evento deportivo",
+        "coverImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop",
+        "place": "Valencia",
+        "date": "2024",
+        "photos": [
+          {
+            "id": "cb2-1",
+            "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop",
+            "caption": "Acción del evento"
+          },
+          {
+            "id": "cb2-2",
+            "src": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&h=800&fit=crop",
+            "caption": "Festival en vivo"
+          }
+        ]
       }
     ]
   },

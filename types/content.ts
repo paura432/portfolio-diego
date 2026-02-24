@@ -26,17 +26,26 @@ export interface About {
 
 export interface Photography {
   intro: string;
-  conciertos: Photo[];
-  carreras: Photo[];
-  fotoReportages: Photo[];
-  coberturas: Photo[];
+  conciertos: PhotoEvent[];
+  carreras: PhotoEvent[];
+  fotoReportages: PhotoEvent[];
+  coberturas: PhotoEvent[];
+}
+
+export interface PhotoEvent {
+  id: string;
+  title: string;
+  coverImage: string;
+  place: string;
+  date?: string;
+  photos: Photo[];
 }
 
 export interface Photo {
   id: string;
   src: string;
   caption: string;
-  place: string;
+  place?: string;
 }
 
 export interface Report {

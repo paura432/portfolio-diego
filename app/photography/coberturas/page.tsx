@@ -14,7 +14,8 @@ export default function CoberturasPage() {
     <div className="max-w-7xl mx-auto px-4 md:px-6 py-12">
       <PhotoCategory
         title={t.photography.coberturas}
-        photos={photography.coberturas}
+        events={photography.coberturas}
+        category="coberturas"
       />
     </div>
   );

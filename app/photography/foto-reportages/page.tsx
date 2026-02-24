@@ -14,7 +14,8 @@ export default function FotoReportagesPage() {
     <div className="max-w-7xl mx-auto px-4 md:px-6 py-12">
       <PhotoCategory
         title={t.photography.fotoReportages}
-        photos={photography.fotoReportages}
+        events={photography.fotoReportages}
+        category="foto-reportages"
       />
     </div>
   );

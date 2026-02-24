@@ -14,7 +14,8 @@ export default function ConciertosPage() {
     <div className="max-w-7xl mx-auto px-4 md:px-6 py-12">
       <PhotoCategory
         title={t.photography.conciertos}
-        photos={photography.conciertos}
+        events={photography.conciertos}
+        category="conciertos"
       />
     </div>
   );
