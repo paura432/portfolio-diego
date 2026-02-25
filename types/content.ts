@@ -48,6 +48,9 @@ export interface Photo {
   place?: string;
   /** Orientación de la foto: vertical se muestra en pares lado a lado */
   orientation?: 'horizontal' | 'vertical';
+  /** Dimensiones originales para mostrar sin deformar */
+  width?: number;
+  height?: number;
 }
 
 export interface Report {

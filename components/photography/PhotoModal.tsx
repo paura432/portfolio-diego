@@ -78,8 +78,9 @@ export default function PhotoModal({ photo, isOpen, onClose }: PhotoModalProps) 
               src={photo.src}
               alt={photo.caption}
               fill
+              quality={95}
               className="object-contain"
-              sizes="95vw"
+              sizes="(max-width: 1024px) 95vw, 1536px"
               priority
             />
           </div>

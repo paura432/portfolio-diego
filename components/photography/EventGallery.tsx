@@ -138,8 +138,8 @@ function GalleryPhotoItem({
         }
       },
       {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px',
+        threshold: 0.05,
+        rootMargin: '0px 0px -80px 0px',
       }
     );
 
@@ -152,35 +152,50 @@ function GalleryPhotoItem({
     };
   }, []);
 
+  const hasDimensions = photo.width != null && photo.height != null;
   const isHorizontal = layout === 'horizontal';
 
   return (
     <article
       ref={photoRef}
       onClick={onClick}
+      style={{ zIndex: 1000 - index }}
       className={`group relative overflow-hidden bg-gray-100 dark:bg-gray-900 rounded-md sm:rounded-lg transition-all duration-700 ease-out cursor-pointer hover:shadow-xl w-full ${
-        isHorizontal
-          ? 'aspect-[4/3] min-h-[240px] sm:min-h-[320px] md:min-h-[420px] lg:min-h-[500px]'
-          : 'aspect-[3/4] min-h-[280px] sm:min-h-[360px] md:min-h-[420px] max-w-full'
-      } ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+        hasDimensions ? 'flex justify-center min-h-[200px]' : isHorizontal ? 'aspect-[4/3] min-h-[240px] sm:min-h-[320px] md:min-h-[420px] lg:min-h-[500px]' : 'aspect-[3/4] min-h-[280px] sm:min-h-[360px] md:min-h-[420px] max-w-full'
+      } ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-6'}`}
     >
-      <Image
-        src={photo.src}
-        alt={photo.caption}
-        fill
-        className={`transition-transform duration-500 ease-out group-hover:scale-105 group-active:scale-[1.02] ${
-          isHorizontal ? 'object-cover' : 'object-contain'
-        }`}
-        sizes={
-          isHorizontal
-            ? '(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 896px'
-            : '(max-width: 640px) 100vw, 50vw'
-        }
-      />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-opacity duration-300" />
-      <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 transform translate-y-4 group-hover:translate-y-0 group-active:translate-y-0 opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-all duration-300">
-        <p className="text-white text-xs sm:text-sm font-medium line-clamp-2">{photo.caption}</p>
-      </div>
+      {hasDimensions ? (
+        <div className="relative w-fit max-w-full mx-auto">
+          <Image
+            src={photo.src}
+            alt={photo.caption}
+            width={photo.width}
+            height={photo.height}
+            quality={95}
+            className="w-full h-auto max-w-full block transition-transform duration-500 ease-out group-hover:scale-[1.02] group-active:scale-[1.01]"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, (max-width: 1536px) 1280px, 1536px"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-opacity duration-300 rounded-md sm:rounded-lg" />
+          <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 transform translate-y-4 group-hover:translate-y-0 group-active:translate-y-0 opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-all duration-300">
+            <p className="text-white text-xs sm:text-sm font-medium line-clamp-2">{photo.caption}</p>
+          </div>
+        </div>
+      ) : (
+        <>
+          <Image
+            src={photo.src}
+            alt={photo.caption}
+            fill
+            quality={95}
+            className={`transition-transform duration-500 ease-out group-hover:scale-105 group-active:scale-[1.02] ${isHorizontal ? 'object-cover' : 'object-contain'}`}
+            sizes={isHorizontal ? '(max-width: 640px) 100vw, (max-width: 1024px) 90vw, (max-width: 1536px) 1280px, 1536px' : '(max-width: 640px) 100vw, (max-width: 1024px) 45vw, 768px'}
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-opacity duration-300" />
+          <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 transform translate-y-4 group-hover:translate-y-0 group-active:translate-y-0 opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-all duration-300">
+            <p className="text-white text-xs sm:text-sm font-medium line-clamp-2">{photo.caption}</p>
+          </div>
+        </>
+      )}
     </article>
   );
 }

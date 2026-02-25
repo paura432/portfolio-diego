@@ -30,52 +30,72 @@
           {
             "id": "antonio-orozco-1",
             "src": "/concierto-antonio-orozco/IMG_8465.webp",
-            "caption": "Antonio Orozco en el escenario"
+            "caption": "Antonio Orozco en el escenario",
+            "width": 6000,
+            "height": 4000
           },
           {
             "id": "antonio-orozco-2",
             "src": "/concierto-antonio-orozco/IMG_8504.webp",
-            "caption": "Momento del concierto"
+            "caption": "Momento del concierto",
+            "width": 6000,
+            "height": 4000
           },
           {
             "id": "antonio-orozco-3",
             "src": "/concierto-antonio-orozco/IMG_8584.webp",
-            "caption": "Interpretación en directo"
+            "caption": "Interpretación en directo",
+            "width": 6000,
+            "height": 4000
           },
           {
             "id": "antonio-orozco-4",
             "src": "/concierto-antonio-orozco/IMG_8805.webp",
-            "caption": "Escenario y luces"
+            "caption": "Escenario y luces",
+            "width": 6000,
+            "height": 4000
           },
           {
             "id": "antonio-orozco-5",
             "src": "/concierto-antonio-orozco/IMG_8885.webp",
-            "caption": "Antonio Orozco durante el concierto"
+            "caption": "Antonio Orozco durante el concierto",
+            "width": 6000,
+            "height": 4000
           },
           {
             "id": "antonio-orozco-6",
             "src": "/concierto-antonio-orozco/IMG_8929.webp",
-            "caption": "Momento íntimo en el escenario"
+            "caption": "Momento íntimo en el escenario",
+            "width": 6000,
+            "height": 4000
           },
           {
             "id": "antonio-orozco-7",
             "src": "/concierto-antonio-orozco/IMG_8976.webp",
-            "caption": "Interacción con el público"
+            "caption": "Interacción con el público",
+            "width": 6000,
+            "height": 4000
           },
           {
             "id": "antonio-orozco-8",
             "src": "/concierto-antonio-orozco/IMG_9010.webp",
-            "caption": "Ambiente del concierto"
+            "caption": "Ambiente del concierto",
+            "width": 6000,
+            "height": 4000
           },
           {
             "id": "antonio-orozco-9",
             "src": "/concierto-antonio-orozco/IMG_9061.webp",
-            "caption": "Momento especial"
+            "caption": "Momento especial",
+            "width": 6000,
+            "height": 4000
           },
           {
             "id": "antonio-orozco-10",
             "src": "/concierto-antonio-orozco/IMG_9077.webp",
-            "caption": "Final del concierto"
+            "caption": "Final del concierto",
+            "width": 6000,
+            "height": 4000
           }
         ]
       },
@@ -90,45 +110,61 @@
             "id": "israel-b-1",
             "src": "/concierto-israel-b/IMG_0573.webp",
             "caption": "Israel B en el escenario",
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
           },
           {
             "id": "israel-b-2",
             "src": "/concierto-israel-b/IMG_0895.webp",
             "caption": "Interpretación en directo",
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
           },
           {
             "id": "israel-b-3",
             "src": "/concierto-israel-b/IMG_0902.webp",
             "caption": "Escenario y luces",
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
           },
           {
             "id": "israel-b-4",
             "src": "/concierto-israel-b/IMG_1150.webp",
             "caption": "Israel B durante el concierto",
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
           },
           {
             "id": "israel-b-5",
             "src": "/concierto-israel-b/IMG_0842.webp",
-            "caption": "Momento del concierto"
+            "caption": "Momento del concierto",
+            "width": 2048,
+            "height": 1365
           },
           {
             "id": "israel-b-6",
             "src": "/concierto-israel-b/IMG_1396.webp",
-            "caption": "Momento íntimo en el escenario"
+            "caption": "Momento íntimo en el escenario",
+            "width": 2048,
+            "height": 1365
           },
           {
             "id": "israel-b-7",
             "src": "/concierto-israel-b/IMG_1415.webp",
-            "caption": "Interacción con el público"
+            "caption": "Interacción con el público",
+            "width": 2048,
+            "height": 1365
           },
           {
             "id": "israel-b-8",
             "src": "/concierto-israel-b/IMG_1437.webp",
-            "caption": "Final del concierto"
+            "caption": "Final del concierto",
+            "width": 2048,
+            "height": 1365
           }
         ]
       },
@@ -142,52 +178,72 @@
           {
             "id": "pignoise-1",
             "src": "/concierto-pignoise/IMG_7829.webp",
-            "caption": "Pignoise en el escenario"
+            "caption": "Pignoise en el escenario",
+            "width": 2048,
+            "height": 1365
           },
           {
             "id": "pignoise-2",
             "src": "/concierto-pignoise/IMG_7836.webp",
-            "caption": "Momento del concierto"
+            "caption": "Momento del concierto",
+            "width": 2048,
+            "height": 1365
           },
           {
             "id": "pignoise-3",
             "src": "/concierto-pignoise/IMG_7859.webp",
-            "caption": "Interpretación en directo"
+            "caption": "Interpretación en directo",
+            "width": 2048,
+            "height": 1365
           },
           {
             "id": "pignoise-4",
             "src": "/concierto-pignoise/IMG_7862.webp",
-            "caption": "Escenario y luces"
+            "caption": "Escenario y luces",
+            "width": 2048,
+            "height": 1365
           },
           {
             "id": "pignoise-5",
             "src": "/concierto-pignoise/IMG_7910.webp",
-            "caption": "Pignoise durante el concierto"
+            "caption": "Pignoise durante el concierto",
+            "width": 2048,
+            "height": 1365
           },
           {
             "id": "pignoise-6",
             "src": "/concierto-pignoise/IMG_7928.webp",
-            "caption": "Momento íntimo en el escenario"
+            "caption": "Momento íntimo en el escenario",
+            "width": 2048,
+            "height": 1365
           },
           {
             "id": "pignoise-7",
             "src": "/concierto-pignoise/IMG_7930.webp",
-            "caption": "Interacción con el público"
+            "caption": "Interacción con el público",
+            "width": 2048,
+            "height": 1365
           },
           {
             "id": "pignoise-8",
             "src": "/concierto-pignoise/IMG_7942.webp",
-            "caption": "Ambiente del concierto"
+            "caption": "Ambiente del concierto",
+            "width": 2048,
+            "height": 1365
           },
           {
             "id": "pignoise-9",
             "src": "/concierto-pignoise/IMG_7967.webp",
-            "caption": "Momento especial"
+            "caption": "Momento especial",
+            "width": 2048,
+            "height": 1365
           },
           {
             "id": "pignoise-10",
             "src": "/concierto-pignoise/IMG_7969.webp",
-            "caption": "Final del concierto"
+            "caption": "Final del concierto",
+            "width": 2048,
+            "height": 1365
           }
         ]
       },
@@ -303,43 +359,59 @@
             "id": "julieta-pona-1",
             "src": "/entrevista-julieta-pona/IMG_8539.webp",
             "caption": "Julieta Pona",
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "julieta-pona-2",
             "src": "/entrevista-julieta-pona/IMG_8541.webp",
             "caption": "Durante la conversación",
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "julieta-pona-3",
             "src": "/entrevista-julieta-pona/IMG_8629.webp",
-            "caption": "Julieta Pona durante la entrevista"
+            "caption": "Julieta Pona durante la entrevista",
+            "width": 6000,
+            "height": 4000
           },
           {
             "id": "julieta-pona-4",
             "src": "/entrevista-julieta-pona/IMG_8583.webp",
-            "caption": "Momento de la entrevista"
+            "caption": "Momento de la entrevista",
+            "width": 6000,
+            "height": 4000
           },
           {
             "id": "julieta-pona-5",
             "src": "/entrevista-julieta-pona/IMG_8619.webp",
-            "caption": "Entrevista a Julieta Pona"
+            "caption": "Entrevista a Julieta Pona",
+            "width": 6000,
+            "height": 4000
           },
           {
             "id": "julieta-pona-6",
             "src": "/entrevista-julieta-pona/IMG_8622.webp",
-            "caption": "Momento íntimo de la entrevista"
+            "caption": "Momento íntimo de la entrevista",
+            "width": 6000,
+            "height": 4000
           },
           {
             "id": "julieta-pona-7",
             "src": "/entrevista-julieta-pona/IMG_8560.webp",
-            "caption": "Julieta Pona"
+            "caption": "Julieta Pona",
+            "width": 6000,
+            "height": 4000
           },
           {
             "id": "julieta-pona-8",
             "src": "/entrevista-julieta-pona/IMG_8587.webp",
-            "caption": "Cobertura de la entrevista"
+            "caption": "Cobertura de la entrevista",
+            "width": 6000,
+            "height": 4000
           }
         ]
       },
