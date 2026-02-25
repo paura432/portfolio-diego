@@ -90,27 +90,31 @@
           {
             "id": "israel-b-1",
             "src": "/concierto-israel-b/IMG_0573.webp",
-            "caption": "Israel B on stage"
+            "caption": "Israel B on stage",
+            "orientation": "vertical"
           },
           {
             "id": "israel-b-2",
-            "src": "/concierto-israel-b/IMG_0842.webp",
-            "caption": "Concert moment"
+            "src": "/concierto-israel-b/IMG_0895.webp",
+            "caption": "Live performance",
+            "orientation": "vertical"
           },
           {
             "id": "israel-b-3",
-            "src": "/concierto-israel-b/IMG_0895.webp",
-            "caption": "Live performance"
+            "src": "/concierto-israel-b/IMG_0902.webp",
+            "caption": "Stage and lights",
+            "orientation": "vertical"
           },
           {
             "id": "israel-b-4",
-            "src": "/concierto-israel-b/IMG_0902.webp",
-            "caption": "Stage and lights"
+            "src": "/concierto-israel-b/IMG_1150.webp",
+            "caption": "Israel B during the concert",
+            "orientation": "vertical"
           },
           {
             "id": "israel-b-5",
-            "src": "/concierto-israel-b/IMG_1150.webp",
-            "caption": "Israel B during the concert"
+            "src": "/concierto-israel-b/IMG_0842.webp",
+            "caption": "Concert moment"
           },
           {
             "id": "israel-b-6",
@@ -289,6 +293,57 @@
       }
     ],
     "coberturas": [
+      {
+        "id": "entrevista-julieta-pona",
+        "title": "Interview with Julieta Pona",
+        "coverImage": "/entrevista-julieta-pona/IMG_8629.webp",
+        "place": "Madrid",
+        "date": "2025",
+        "photos": [
+          {
+            "id": "julieta-pona-1",
+            "src": "/entrevista-julieta-pona/IMG_8539.webp",
+            "caption": "Julieta Pona",
+            "orientation": "vertical"
+          },
+          {
+            "id": "julieta-pona-2",
+            "src": "/entrevista-julieta-pona/IMG_8541.webp",
+            "caption": "During the conversation",
+            "orientation": "vertical"
+          },
+          {
+            "id": "julieta-pona-3",
+            "src": "/entrevista-julieta-pona/IMG_8629.webp",
+            "caption": "Julieta Pona during the interview"
+          },
+          {
+            "id": "julieta-pona-4",
+            "src": "/entrevista-julieta-pona/IMG_8583.webp",
+            "caption": "Interview moment"
+          },
+          {
+            "id": "julieta-pona-5",
+            "src": "/entrevista-julieta-pona/IMG_8619.webp",
+            "caption": "Interview with Julieta Pona"
+          },
+          {
+            "id": "julieta-pona-6",
+            "src": "/entrevista-julieta-pona/IMG_8622.webp",
+            "caption": "Intimate moment of the interview"
+          },
+          {
+            "id": "julieta-pona-7",
+            "src": "/entrevista-julieta-pona/IMG_8560.webp",
+            "caption": "Julieta Pona"
+          },
+          {
+            "id": "julieta-pona-8",
+            "src": "/entrevista-julieta-pona/IMG_8587.webp",
+            "caption": "Interview coverage"
+          }
+        ]
+      },
       {
         "id": "evento-cultural-madrid",
         "title": "Cultural event coverage",

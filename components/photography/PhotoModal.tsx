@@ -48,7 +48,7 @@ export default function PhotoModal({ photo, isOpen, onClose }: PhotoModalProps) 
       {/* Botón de cerrar */}
       <button
         onClick={onClose}
-        className="absolute top-4 right-4 z-10 p-2 text-white hover:text-gray-300 transition-colors"
+        className="absolute top-3 right-3 sm:top-4 sm:right-4 z-10 p-3 sm:p-2 -m-1 sm:m-0 text-white hover:text-gray-300 active:text-gray-400 transition-colors touch-manipulation"
         aria-label="Cerrar"
       >
         <svg
@@ -68,12 +68,12 @@ export default function PhotoModal({ photo, isOpen, onClose }: PhotoModalProps) 
 
       {/* Contenedor de la imagen - evita que el click cierre el modal */}
       <div
-        className="relative max-w-[95vw] max-h-[95vh] w-full mx-4 flex flex-col"
+        className="relative max-w-[95vw] max-h-[95vh] w-full mx-2 sm:mx-4 flex flex-col"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Imagen */}
         <div className="relative w-full flex-1 flex items-center justify-center bg-black rounded-t-lg overflow-hidden">
-          <div className="relative w-full h-full min-h-[60vh] max-h-[85vh]">
+          <div className="relative w-full h-full min-h-[50vh] sm:min-h-[60vh] max-h-[85vh]">
             <Image
               src={photo.src}
               alt={photo.caption}
@@ -86,11 +86,11 @@ export default function PhotoModal({ photo, isOpen, onClose }: PhotoModalProps) 
         </div>
 
         {/* Pie de foto */}
-        <div className="bg-white dark:bg-gray-900 px-6 py-4 rounded-b-lg border-t border-gray-200 dark:border-gray-800">
-          <h3 className="font-serif text-xl md:text-2xl font-normal text-gray-900 dark:text-white mb-2">
+        <div className="bg-white dark:bg-gray-900 px-4 sm:px-6 py-3 sm:py-4 rounded-b-lg border-t border-gray-200 dark:border-gray-800">
+          <h3 className="font-serif text-base sm:text-xl md:text-2xl font-normal text-gray-900 dark:text-white mb-1 sm:mb-2">
             {photo.caption}
           </h3>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">
             {photo.place}
           </p>
         </div>

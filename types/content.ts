@@ -46,6 +46,8 @@ export interface Photo {
   src: string;
   caption: string;
   place?: string;
+  /** Orientación de la foto: vertical se muestra en pares lado a lado */
+  orientation?: 'horizontal' | 'vertical';
 }
 
 export interface Report {
