@@ -43,7 +43,7 @@ export default function PhotoModal({ photo, isOpen, onClose, place }: PhotoModal
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex flex-col bg-black"
+      className="fixed inset-0 z-[1200] flex flex-col bg-black"
       onClick={onClose}
     >
       {/* Botón de cerrar */}

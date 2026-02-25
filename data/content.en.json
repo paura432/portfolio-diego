@@ -22,6 +22,20 @@
     "intro": "Documentary photography allows me to capture moments that reflect social and human reality. Each image tells a story, documents an instant of truth that deserves to be preserved and shared.",
     "conciertos": [
       {
+        "id": "vanesa-martin",
+        "title": "Vanesa Martín Concert",
+        "coverImage": "/concierto-vanesa-martin/IMG_2512.jpg",
+        "place": "Madrid",
+        "date": "2025",
+        "photos": [
+          {"id": "vanesa-martin-1", "src": "/concierto-vanesa-martin/IMG_2512.jpg", "caption": "Vanesa Martín on stage", "width": 6000, "height": 4000},
+          {"id": "vanesa-martin-2", "src": "/concierto-vanesa-martin/IMG_2548.jpg", "caption": "Concert moment", "width": 6000, "height": 4000},
+          {"id": "vanesa-martin-3", "src": "/concierto-vanesa-martin/IMG_2586.jpg", "caption": "Live performance", "width": 6000, "height": 4000},
+          {"id": "vanesa-martin-4", "src": "/concierto-vanesa-martin/IMG_2599.jpg", "caption": "Vanesa Martín during the concert", "width": 6000, "height": 4000},
+          {"id": "vanesa-martin-5", "src": "/concierto-vanesa-martin/IMG_2748.jpg", "caption": "Special moment", "orientation": "vertical", "width": 4000, "height": 6000}
+        ]
+      },
+      {
         "id": "antonio-orozco",
         "title": "Antonio Orozco Concert",
         "coverImage": "/concierto-antonio-orozco/IMG_8465.webp",
