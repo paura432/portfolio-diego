@@ -7,6 +7,7 @@ import PhotoModal from './PhotoModal';
 
 interface EventGalleryProps {
   photos: Photo[];
+  eventPlace?: string;
 }
 
 type GalleryItem =
@@ -40,7 +41,7 @@ function buildGalleryItems(photos: Photo[]): GalleryItem[] {
 /**
  * Galería: horizontales a ancho completo, verticales en pares lado a lado
  */
-export default function EventGallery({ photos }: EventGalleryProps) {
+export default function EventGallery({ photos, eventPlace }: EventGalleryProps) {
   const [selectedPhoto, setSelectedPhoto] = useState<Photo | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const items = buildGalleryItems(photos);
@@ -106,6 +107,7 @@ export default function EventGallery({ photos }: EventGalleryProps) {
         photo={selectedPhoto}
         isOpen={isModalOpen}
         onClose={handleCloseModal}
+        place={eventPlace}
       />
     </>
   );

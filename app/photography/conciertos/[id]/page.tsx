@@ -66,7 +66,7 @@ export default function ConciertoEventPage() {
       </div>
 
       {/* Galería de fotos */}
-      <EventGallery photos={event.photos} />
+      <EventGallery photos={event.photos} eventPlace={event.place} />
     </div>
   );
 }

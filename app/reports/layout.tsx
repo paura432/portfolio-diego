@@ -33,7 +33,7 @@ export default function ReportsLayout({
   return (
     <>
       <Header />
-      <main className="bg-black">
+      <main className="pt-20 bg-black">
         {/* Hero Section */}
         <section
           ref={heroRef}

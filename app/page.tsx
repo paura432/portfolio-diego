@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main>
+      <main className="pt-20">
         {/* Hero Section con fondo visual suave */}
         <section className="relative bg-gradient-to-br from-primary-50 via-gray-50 to-accent-50 dark:from-black dark:via-gray-900 dark:to-black pt-12 pb-24 md:pt-16 md:pb-32 min-h-[80vh] flex items-center">
           <div className="absolute inset-0 gradient-overlay"></div>

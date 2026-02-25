@@ -8,7 +8,7 @@ export default function ContactPage() {
   return (
     <>
       <Header />
-      <main className="pt-20 min-h-screen flex items-center justify-center">
+      <main className="pt-24 min-h-screen flex items-center justify-center">
         <section className="max-w-2xl mx-auto px-4 py-16 md:py-24 text-center">
           <h1 className="font-serif text-4xl md:text-5xl font-normal mb-4 text-gray-900">
             Contacto

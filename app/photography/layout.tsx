@@ -35,7 +35,7 @@ export default function PhotographyLayout({
   return (
     <>
       <Header />
-      <main className="bg-gray-50 dark:bg-black">
+      <main className="pt-20 bg-gray-50 dark:bg-black">
         {/* Hero Section */}
         <section
           ref={heroRef}

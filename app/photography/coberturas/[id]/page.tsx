@@ -63,7 +63,7 @@ export default function CoberturaEventPage() {
         </div>
       </div>
 
-      <EventGallery photos={event.photos} />
+      <EventGallery photos={event.photos} eventPlace={event.place} />
     </div>
   );
 }

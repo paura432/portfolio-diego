@@ -8,12 +8,13 @@ interface PhotoModalProps {
   photo: Photo | null;
   isOpen: boolean;
   onClose: () => void;
+  place?: string;
 }
 
 /**
  * Modal para mostrar una foto en grande con su pie de foto
  */
-export default function PhotoModal({ photo, isOpen, onClose }: PhotoModalProps) {
+export default function PhotoModal({ photo, isOpen, onClose, place }: PhotoModalProps) {
   useEffect(() => {
     if (isOpen) {
       // Prevenir scroll del body cuando el modal está abierto
@@ -42,13 +43,13 @@ export default function PhotoModal({ photo, isOpen, onClose }: PhotoModalProps) 
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-sm"
+      className="fixed inset-0 z-[100] flex flex-col bg-black"
       onClick={onClose}
     >
       {/* Botón de cerrar */}
       <button
         onClick={onClose}
-        className="absolute top-3 right-3 sm:top-4 sm:right-4 z-10 p-3 sm:p-2 -m-1 sm:m-0 text-white hover:text-gray-300 active:text-gray-400 transition-colors touch-manipulation"
+        className="absolute top-4 right-4 z-10 p-2 text-white/90 hover:text-white transition-colors touch-manipulation"
         aria-label="Cerrar"
       >
         <svg
@@ -66,35 +67,35 @@ export default function PhotoModal({ photo, isOpen, onClose }: PhotoModalProps) 
         </svg>
       </button>
 
-      {/* Contenedor de la imagen - evita que el click cierre el modal */}
+      {/* Imagen a pantalla completa */}
       <div
-        className="relative max-w-[95vw] max-h-[95vh] w-full mx-2 sm:mx-4 flex flex-col"
+        className="relative flex-1 w-full min-h-0 flex items-center justify-center"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Imagen */}
-        <div className="relative w-full flex-1 flex items-center justify-center bg-black rounded-t-lg overflow-hidden">
-          <div className="relative w-full h-full min-h-[50vh] sm:min-h-[60vh] max-h-[85vh]">
-            <Image
-              src={photo.src}
-              alt={photo.caption}
-              fill
-              quality={95}
-              className="object-contain"
-              sizes="(max-width: 1024px) 95vw, 1536px"
-              priority
-            />
-          </div>
-        </div>
+        <Image
+          src={photo.src}
+          alt={photo.caption}
+          fill
+          quality={95}
+          className="object-contain"
+          sizes="100vw"
+          priority
+        />
+      </div>
 
-        {/* Pie de foto */}
-        <div className="bg-white dark:bg-gray-900 px-4 sm:px-6 py-3 sm:py-4 rounded-b-lg border-t border-gray-200 dark:border-gray-800">
-          <h3 className="font-serif text-base sm:text-xl md:text-2xl font-normal text-gray-900 dark:text-white mb-1 sm:mb-2">
-            {photo.caption}
-          </h3>
-          <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">
-            {photo.place}
+      {/* Pie de foto superpuesto en la parte inferior */}
+      <div
+        className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 via-black/80 to-transparent px-4 sm:px-6 py-6 sm:py-8"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <h3 className="font-serif text-base sm:text-xl md:text-2xl font-normal text-white mb-1">
+          {photo.caption}
+        </h3>
+        {(photo.place || place) && (
+          <p className="text-sm text-white/80">
+            {photo.place || place}
           </p>
-        </div>
+        )}
       </div>
     </div>
   );
