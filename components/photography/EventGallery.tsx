@@ -4,11 +4,15 @@ import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { Photo } from '@/types/content';
 import PhotoModal from './PhotoModal';
+import { useTheme } from '@/contexts/ThemeContext';
+import { getTranslations } from '@/lib/i18n';
 
 interface EventGalleryProps {
   photos: Photo[];
   eventPlace?: string;
 }
+
+type ViewMode = 'list' | 'grid';
 
 type GalleryItem =
   | { type: 'horizontal'; photo: Photo }
@@ -40,8 +44,12 @@ function buildGalleryItems(photos: Photo[]): GalleryItem[] {
 
 /**
  * Galería: horizontales a ancho completo, verticales en pares lado a lado
+ * Con toggle para vista lista (1 por fila) o cuadrícula (4 por fila)
  */
 export default function EventGallery({ photos, eventPlace }: EventGalleryProps) {
+  const { language } = useTheme();
+  const t = getTranslations(language);
+  const [viewMode, setViewMode] = useState<ViewMode>('list');
   const [selectedPhoto, setSelectedPhoto] = useState<Photo | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const items = buildGalleryItems(photos);
@@ -58,6 +66,43 @@ export default function EventGallery({ photos, eventPlace }: EventGalleryProps) 
 
   return (
     <>
+      {/* Toggle de vista debajo del nombre del álbum */}
+      <div className="flex gap-2 mb-6 md:mb-8">
+        <button
+          onClick={() => setViewMode('list')}
+          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+            viewMode === 'list'
+              ? 'bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900'
+              : 'bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+          }`}
+        >
+          {t.photography.viewList}
+        </button>
+        <button
+          onClick={() => setViewMode('grid')}
+          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+            viewMode === 'grid'
+              ? 'bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900'
+              : 'bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+          }`}
+        >
+          {t.photography.viewGrid}
+        </button>
+      </div>
+
+      {viewMode === 'grid' ? (
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4">
+          {photos.map((photo, index) => (
+            <GalleryPhotoItem
+              key={photo.id}
+              photo={photo}
+              index={index}
+              layout="grid"
+              onClick={() => handlePhotoClick(photo)}
+            />
+          ))}
+        </div>
+      ) : (
       <div className="flex flex-col gap-4 sm:gap-6 md:gap-8 lg:gap-12">
         {items.map((item, index) => {
           if (item.type === 'horizontal') {
@@ -103,6 +148,7 @@ export default function EventGallery({ photos, eventPlace }: EventGalleryProps) 
           );
         })}
       </div>
+      )}
       <PhotoModal
         photo={selectedPhoto}
         isOpen={isModalOpen}
@@ -122,7 +168,7 @@ function GalleryPhotoItem({
 }: {
   photo: Photo;
   index: number;
-  layout: 'horizontal' | 'vertical';
+  layout: 'horizontal' | 'vertical' | 'grid';
   onClick: () => void;
 }) {
   const [isVisible, setIsVisible] = useState(false);
@@ -156,6 +202,7 @@ function GalleryPhotoItem({
 
   const hasDimensions = photo.width != null && photo.height != null;
   const isHorizontal = layout === 'horizontal';
+  const isGrid = layout === 'grid';
 
   return (
     <article
@@ -163,10 +210,31 @@ function GalleryPhotoItem({
       onClick={onClick}
       style={{ zIndex: 1000 - index }}
       className={`group relative overflow-hidden bg-gray-100 dark:bg-gray-900 rounded-md sm:rounded-lg transition-all duration-700 ease-out cursor-pointer hover:shadow-xl w-full ${
-        hasDimensions ? 'flex justify-center min-h-[200px]' : isHorizontal ? 'aspect-[4/3] min-h-[240px] sm:min-h-[320px] md:min-h-[420px] lg:min-h-[500px]' : 'aspect-[3/4] min-h-[280px] sm:min-h-[360px] md:min-h-[420px] max-w-full'
+        isGrid
+          ? 'aspect-square min-h-[120px]'
+          : hasDimensions
+            ? 'flex justify-center min-h-[200px]'
+            : isHorizontal
+              ? 'aspect-[4/3] min-h-[240px] sm:min-h-[320px] md:min-h-[420px] lg:min-h-[500px]'
+              : 'aspect-[3/4] min-h-[280px] sm:min-h-[360px] md:min-h-[420px] max-w-full'
       } ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-6'}`}
     >
-      {hasDimensions ? (
+      {isGrid ? (
+        <>
+          <Image
+            src={photo.src}
+            alt={photo.caption}
+            fill
+            quality={90}
+            className="transition-transform duration-500 ease-out group-hover:scale-105 group-active:scale-[1.02] object-cover"
+            sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-opacity duration-300" />
+          <div className="absolute bottom-0 left-0 right-0 p-2 sm:p-3 transform translate-y-4 group-hover:translate-y-0 group-active:translate-y-0 opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-all duration-300">
+            <p className="text-white text-xs font-medium line-clamp-2">{photo.caption}</p>
+          </div>
+        </>
+      ) : hasDimensions ? (
         <div className="relative w-fit max-w-full mx-auto">
           <Image
             src={photo.src}

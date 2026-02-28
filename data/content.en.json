@@ -1302,112 +1302,115 @@
       {
         "id": "mani-alquileres-2024",
         "title": "Housing rights demonstration",
-        "coverImage": "/mani-alquileres-2024/IMG_1003.webp",
+        "coverImage": "/MANI ALQUILERES 2024/IMG_1003.webp",
         "place": "Madrid",
         "date": "2024",
         "photos": [
           {
             "id": "mani_alq-1",
-            "src": "/mani-alquileres-2024/IMG_1003.webp",
+            "src": "/MANI ALQUILERES 2024/IMG_1003.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_alq-2",
-            "src": "/mani-alquileres-2024/IMG_1004.webp",
+            "src": "/MANI ALQUILERES 2024/IMG_1004.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_alq-3",
-            "src": "/mani-alquileres-2024/IMG_1006.webp",
+            "src": "/MANI ALQUILERES 2024/IMG_1006.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_alq-4",
-            "src": "/mani-alquileres-2024/IMG_1007.webp",
+            "src": "/MANI ALQUILERES 2024/IMG_1007.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_alq-5",
-            "src": "/mani-alquileres-2024/IMG_1009.webp",
+            "src": "/MANI ALQUILERES 2024/IMG_1009.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_alq-6",
-            "src": "/mani-alquileres-2024/IMG_1017.webp",
+            "src": "/MANI ALQUILERES 2024/IMG_1017.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_alq-7",
-            "src": "/mani-alquileres-2024/IMG_1019.webp",
+            "src": "/MANI ALQUILERES 2024/IMG_1019.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_alq-8",
-            "src": "/mani-alquileres-2024/IMG_1023.webp",
+            "src": "/MANI ALQUILERES 2024/IMG_1023.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_alq-9",
-            "src": "/mani-alquileres-2024/IMG_1026.webp",
+            "src": "/MANI ALQUILERES 2024/IMG_1026.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_alq-10",
-            "src": "/mani-alquileres-2024/IMG_1028.webp",
+            "src": "/MANI ALQUILERES 2024/IMG_1028.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_alq-11",
-            "src": "/mani-alquileres-2024/IMG_1051.webp",
+            "src": "/MANI ALQUILERES 2024/IMG_1051.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_alq-12",
-            "src": "/mani-alquileres-2024/IMG_1057.webp",
+            "src": "/MANI ALQUILERES 2024/IMG_1057.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_alq-13",
-            "src": "/mani-alquileres-2024/IMG_1061.webp",
+            "src": "/MANI ALQUILERES 2024/IMG_1061.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_alq-14",
-            "src": "/mani-alquileres-2024/IMG_1065.webp",
+            "src": "/MANI ALQUILERES 2024/IMG_1065.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_alq-15",
-            "src": "/mani-alquileres-2024/IMG_1067.webp",
+            "src": "/MANI ALQUILERES 2024/IMG_1067.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_alq-16",
-            "src": "/mani-alquileres-2024/IMG_1073.webp",
+            "src": "/MANI ALQUILERES 2024/IMG_1073.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_alq-17",
-            "src": "/mani-alquileres-2024/IMG_1076.webp",
-            "caption": "Coverage moment"
+            "src": "/MANI ALQUILERES 2024/IMG_1076.webp",
+            "caption": "Coverage moment",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           }
         ]
       },
       {
         "id": "mani-flotilla-2025",
         "title": "Flotilla for Palestine demonstration",
-        "coverImage": "/mani-flotilla-2025/IMG_1779.webp",
+        "coverImage": "/MANI FLOTILLA 2025/IMG_1779.webp",
         "place": "Madrid",
         "date": "2025",
         "photos": [
           {
             "id": "mani_flo-1",
-            "src": "/mani-flotilla-2025/IMG_1779.webp",
+            "src": "/MANI FLOTILLA 2025/IMG_1779.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_flo-2",
-            "src": "/mani-flotilla-2025/IMG_1801.webp",
+            "src": "/MANI FLOTILLA 2025/IMG_1801.webp",
             "caption": "Coverage moment",
             "orientation": "vertical",
             "width": 4000,
@@ -1415,42 +1418,45 @@
           },
           {
             "id": "mani_flo-3",
-            "src": "/mani-flotilla-2025/IMG_1806.webp",
+            "src": "/MANI FLOTILLA 2025/IMG_1806.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_flo-4",
-            "src": "/mani-flotilla-2025/IMG_1897.webp",
+            "src": "/MANI FLOTILLA 2025/IMG_1897.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_flo-5",
-            "src": "/mani-flotilla-2025/IMG_1944.webp",
+            "src": "/MANI FLOTILLA 2025/IMG_1944.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_flo-6",
-            "src": "/mani-flotilla-2025/IMG_2036.webp",
+            "src": "/MANI FLOTILLA 2025/IMG_2036.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_flo-7",
-            "src": "/mani-flotilla-2025/IMG_2042.webp",
+            "src": "/MANI FLOTILLA 2025/IMG_2042.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_flo-8",
-            "src": "/mani-flotilla-2025/IMG_2180.webp",
-            "caption": "Coverage moment"
+            "src": "/MANI FLOTILLA 2025/IMG_2180.webp",
+            "caption": "Coverage moment",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "mani_flo-9",
-            "src": "/mani-flotilla-2025/IMG_2215.webp",
+            "src": "/MANI FLOTILLA 2025/IMG_2215.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_flo-10",
-            "src": "/mani-flotilla-2025/IMG_2283.webp",
+            "src": "/MANI FLOTILLA 2025/IMG_2283.webp",
             "caption": "Coverage moment",
             "orientation": "vertical",
             "width": 4000,
@@ -1458,17 +1464,17 @@
           },
           {
             "id": "mani_flo-11",
-            "src": "/mani-flotilla-2025/IMG_2290.webp",
+            "src": "/MANI FLOTILLA 2025/IMG_2290.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_flo-12",
-            "src": "/mani-flotilla-2025/IMG_2320.webp",
+            "src": "/MANI FLOTILLA 2025/IMG_2320.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_flo-13",
-            "src": "/mani-flotilla-2025/IMG_2330.webp",
+            "src": "/MANI FLOTILLA 2025/IMG_2330.webp",
             "caption": "Coverage moment",
             "orientation": "vertical",
             "width": 4000,
@@ -1476,27 +1482,27 @@
           },
           {
             "id": "mani_flo-14",
-            "src": "/mani-flotilla-2025/IMG_2334.webp",
+            "src": "/MANI FLOTILLA 2025/IMG_2334.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_flo-15",
-            "src": "/mani-flotilla-2025/IMG_2380.webp",
+            "src": "/MANI FLOTILLA 2025/IMG_2380.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_flo-16",
-            "src": "/mani-flotilla-2025/IMG_2410.webp",
+            "src": "/MANI FLOTILLA 2025/IMG_2410.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_flo-17",
-            "src": "/mani-flotilla-2025/IMG_2438.webp",
+            "src": "/MANI FLOTILLA 2025/IMG_2438.webp",
             "caption": "Coverage moment"
           },
           {
             "id": "mani_flo-18",
-            "src": "/mani-flotilla-2025/IMG_2458.webp",
+            "src": "/MANI FLOTILLA 2025/IMG_2458.webp",
             "caption": "Coverage moment"
           }
         ]

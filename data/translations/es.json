@@ -31,7 +31,9 @@
     "coberturas": "Coberturas",
     "photo": "foto",
     "photos": "fotos",
-    "backTo": "Volver a"
+    "backTo": "Volver a",
+    "viewList": "Lista",
+    "viewGrid": "Cuadrícula"
   },
   "reports": {
     "title": "Reportajes",
