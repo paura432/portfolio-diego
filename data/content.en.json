@@ -284,41 +284,88 @@
     ],
     "carreras": [
       {
-        "id": "enduro-espana",
-        "title": "Enduro motorcycle race",
-        "coverImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=800&fit=crop",
-        "place": "Spain",
-        "date": "2024",
+        "id": "fuentetoba-2025",
+        "title": "Fuentetoba 2025",
+        "coverImage": "/FUENTETOBA 2025/IMG_6620.webp",
+        "place": "Soria, Spain",
+        "date": "2025",
         "photos": [
-          {
-            "id": "r1-1",
-            "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=800&fit=crop",
-            "caption": "Rider on difficult terrain"
-          },
-          {
-            "id": "r1-2",
-            "src": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=1200&h=800&fit=crop",
-            "caption": "Action during the race"
-          }
+          {"id": "ft1", "src": "/FUENTETOBA 2025/IMG_6620.webp", "caption": "Action at Fuentetoba"},
+          {"id": "ft2", "src": "/FUENTETOBA 2025/IMG_6820.webp", "caption": "Rider on terrain"},
+          {"id": "ft3", "src": "/FUENTETOBA 2025/IMG_6852.webp", "caption": "Race moment"},
+          {"id": "ft4", "src": "/FUENTETOBA 2025/IMG_6864.webp", "caption": "Hard Enduro"},
+          {"id": "ft5", "src": "/FUENTETOBA 2025/IMG_7114.webp", "caption": "Rider in action"},
+          {"id": "ft6", "src": "/FUENTETOBA 2025/IMG_7129.webp", "caption": "Difficult terrain"},
+          {"id": "ft7", "src": "/FUENTETOBA 2025/IMG_7241.webp", "caption": "Enduro competition"},
+          {"id": "ft8", "src": "/FUENTETOBA 2025/IMG_7347.webp", "caption": "Race moment"}
         ]
       },
       {
-        "id": "motocross-castilla",
-        "title": "Motocross competition",
-        "coverImage": "https://images.unsplash.com/photo-1541443131876-44b03de101c5?w=1200&h=800&fit=crop",
-        "place": "Castilla y León",
+        "id": "san-silvestre-endurera-2024",
+        "title": "San Silvestre Endurera 2024",
+        "coverImage": "/SAN SILVESTRE ENDURERA 2024/IMG_3581.webp",
+        "place": "Spain",
         "date": "2024",
         "photos": [
-          {
-            "id": "r2-1",
-            "src": "https://images.unsplash.com/photo-1541443131876-44b03de101c5?w=1200&h=800&fit=crop",
-            "caption": "Jump on the track"
-          },
-          {
-            "id": "r2-2",
-            "src": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&h=800&fit=crop",
-            "caption": "Hard Enduro in extreme terrain"
-          }
+          {"id": "sse1", "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3581.webp", "caption": "San Silvestre Endurera"},
+          {"id": "sse2", "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3599.webp", "caption": "Race action"},
+          {"id": "sse3", "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3634.webp", "caption": "Rider in competition"},
+          {"id": "sse4", "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3643.webp", "caption": "Enduro moment"},
+          {"id": "sse5", "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3655.webp", "caption": "Race terrain"},
+          {"id": "sse6", "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3728.webp", "caption": "Action during the race"},
+          {"id": "sse7", "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3736.webp", "caption": "Rider on extreme terrain"},
+          {"id": "sse8", "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3833.webp", "caption": "Hard Enduro competition"}
+        ]
+      },
+      {
+        "id": "tudela-veguin-2025",
+        "title": "Tudela Veguín 2025",
+        "coverImage": "/TUDELA VEGUÍN 2025/IMG_8671.webp",
+        "place": "Asturias, Spain",
+        "date": "2025",
+        "photos": [
+          {"id": "tv1", "src": "/TUDELA VEGUÍN 2025/IMG_8671.webp", "caption": "Tudela Veguín 2025"},
+          {"id": "tv2", "src": "/TUDELA VEGUÍN 2025/IMG_8679.webp", "caption": "Race action"},
+          {"id": "tv3", "src": "/TUDELA VEGUÍN 2025/IMG_8702.webp", "caption": "Rider in competition"},
+          {"id": "tv4", "src": "/TUDELA VEGUÍN 2025/IMG_8710.webp", "caption": "Enduro moment"},
+          {"id": "tv5", "src": "/TUDELA VEGUÍN 2025/IMG_8755.webp", "caption": "Asturian terrain"},
+          {"id": "tv6", "src": "/TUDELA VEGUÍN 2025/IMG_8772.webp", "caption": "Action during the race"},
+          {"id": "tv7", "src": "/TUDELA VEGUÍN 2025/IMG_8892.webp", "caption": "Hard Enduro at Tudela Veguín"},
+          {"id": "tv8", "src": "/TUDELA VEGUÍN 2025/IMG_9038-2.webp", "caption": "Enduro competition"}
+        ]
+      },
+      {
+        "id": "hixpania-hard-enduro-2025",
+        "title": "Hixpania Hard Enduro 2025",
+        "coverImage": "/HIXPANIA HARD ENDURO 2025/IMG_1015.webp",
+        "place": "Castilla y León, Spain",
+        "date": "2025",
+        "photos": [
+          {"id": "hhe1", "src": "/HIXPANIA HARD ENDURO 2025/IMG_1015.webp", "caption": "Hixpania Hard Enduro"},
+          {"id": "hhe2", "src": "/HIXPANIA HARD ENDURO 2025/IMG_1022.webp", "caption": "Race action"},
+          {"id": "hhe3", "src": "/HIXPANIA HARD ENDURO 2025/IMG_1033.webp", "caption": "Rider in competition"},
+          {"id": "hhe4", "src": "/HIXPANIA HARD ENDURO 2025/IMG_1063.webp", "caption": "Enduro moment"},
+          {"id": "hhe5", "src": "/HIXPANIA HARD ENDURO 2025/IMG_1081.webp", "caption": "Extreme terrain"},
+          {"id": "hhe6", "src": "/HIXPANIA HARD ENDURO 2025/IMG_1118.webp", "caption": "Action during the race"},
+          {"id": "hhe7", "src": "/HIXPANIA HARD ENDURO 2025/IMG_1169.webp", "caption": "Hard Enduro"},
+          {"id": "hhe8", "src": "/HIXPANIA HARD ENDURO 2025/IMG_1173.webp", "caption": "Hixpania competition"}
+        ]
+      },
+      {
+        "id": "la-pesquera-2025",
+        "title": "La Pesquera 2025",
+        "coverImage": "/LA PESQUERA 2025/IMG_5232.webp",
+        "place": "Castilla-La Mancha, Spain",
+        "date": "2025",
+        "photos": [
+          {"id": "lp1", "src": "/LA PESQUERA 2025/IMG_5232.webp", "caption": "La Pesquera 2025"},
+          {"id": "lp2", "src": "/LA PESQUERA 2025/IMG_5266.webp", "caption": "Race action"},
+          {"id": "lp3", "src": "/LA PESQUERA 2025/IMG_5280.webp", "caption": "Rider in competition"},
+          {"id": "lp4", "src": "/LA PESQUERA 2025/IMG_5291.webp", "caption": "Enduro moment"},
+          {"id": "lp5", "src": "/LA PESQUERA 2025/IMG_5314.webp", "caption": "La Pesquera terrain"},
+          {"id": "lp6", "src": "/LA PESQUERA 2025/IMG_5347.webp", "caption": "Action during the race"},
+          {"id": "lp7", "src": "/LA PESQUERA 2025/IMG_5367.webp", "caption": "Hard Enduro"},
+          {"id": "lp8", "src": "/LA PESQUERA 2025/IMG_5392.webp", "caption": "Enduro competition"}
         ]
       }
     ],

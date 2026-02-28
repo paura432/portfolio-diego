@@ -22,9 +22,9 @@ export default function Home() {
       <Header />
       <main className="pt-20">
         {/* Hero Section con fondo visual suave */}
-        <section className="relative bg-gradient-to-br from-primary-50 via-gray-50 to-accent-50 dark:from-black dark:via-gray-900 dark:to-black pt-12 pb-24 md:pt-16 md:pb-32 min-h-[80vh] flex items-center">
+        <section className="relative bg-gradient-to-br from-primary-50 via-gray-50 to-accent-50 dark:from-black dark:via-gray-900 dark:to-black pt-6 pb-24 md:pt-8 md:pb-32 min-h-[80vh] flex items-center">
           <div className="absolute inset-0 gradient-overlay"></div>
-          <Section className="relative z-10">
+          <Section className="relative z-10 !pt-8 md:!pt-12 !pb-16 md:!pb-20">
             <div className="flex flex-col md:flex-row gap-12 items-center">
               <div className="flex-1 md:flex-[1.6] space-y-6 max-w-5xl">
                 <div>
