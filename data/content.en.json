@@ -28,11 +28,51 @@
         "place": "Madrid",
         "date": "2025",
         "photos": [
-          {"id": "vanesa-martin-1", "src": "/concierto-vanesa-martin/IMG_2512.jpg", "caption": "Vanesa Martín on stage", "width": 6000, "height": 4000},
-          {"id": "vanesa-martin-2", "src": "/concierto-vanesa-martin/IMG_2548.jpg", "caption": "Concert moment", "width": 6000, "height": 4000},
-          {"id": "vanesa-martin-3", "src": "/concierto-vanesa-martin/IMG_2586.jpg", "caption": "Live performance", "width": 6000, "height": 4000},
-          {"id": "vanesa-martin-4", "src": "/concierto-vanesa-martin/IMG_2599.jpg", "caption": "Vanesa Martín during the concert", "width": 6000, "height": 4000},
-          {"id": "vanesa-martin-5", "src": "/concierto-vanesa-martin/IMG_2748.jpg", "caption": "Special moment", "orientation": "vertical", "width": 4000, "height": 6000}
+          {
+            "id": "vanesa_m-1",
+            "src": "/concierto-vanesa-martin/IMG_2512.jpg",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "vanesa_m-2",
+            "src": "/concierto-vanesa-martin/IMG_2512.webp",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "vanesa_m-3",
+            "src": "/concierto-vanesa-martin/IMG_2548.jpg",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "vanesa_m-4",
+            "src": "/concierto-vanesa-martin/IMG_2548.webp",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "vanesa_m-5",
+            "src": "/concierto-vanesa-martin/IMG_2586.jpg",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "vanesa_m-6",
+            "src": "/concierto-vanesa-martin/IMG_2586.webp",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "vanesa_m-7",
+            "src": "/concierto-vanesa-martin/IMG_2599.jpg",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "vanesa_m-8",
+            "src": "/concierto-vanesa-martin/IMG_2599.webp",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "vanesa_m-9",
+            "src": "/concierto-vanesa-martin/IMG_2748.jpg",
+            "caption": "Concert moment"
+          }
         ]
       },
       {
@@ -43,74 +83,54 @@
         "date": "2024",
         "photos": [
           {
-            "id": "antonio-orozco-1",
+            "id": "antonio_-1",
             "src": "/concierto-antonio-orozco/IMG_8465.webp",
-            "caption": "Antonio Orozco on stage",
-            "width": 6000,
-            "height": 4000
+            "caption": "Concert moment"
           },
           {
-            "id": "antonio-orozco-2",
+            "id": "antonio_-2",
             "src": "/concierto-antonio-orozco/IMG_8504.webp",
-            "caption": "Concert moment",
-            "width": 6000,
-            "height": 4000
+            "caption": "Concert moment"
           },
           {
-            "id": "antonio-orozco-3",
+            "id": "antonio_-3",
             "src": "/concierto-antonio-orozco/IMG_8584.webp",
-            "caption": "Live performance",
-            "width": 6000,
-            "height": 4000
+            "caption": "Concert moment"
           },
           {
-            "id": "antonio-orozco-4",
+            "id": "antonio_-4",
             "src": "/concierto-antonio-orozco/IMG_8805.webp",
-            "caption": "Stage and lights",
-            "width": 6000,
-            "height": 4000
+            "caption": "Concert moment"
           },
           {
-            "id": "antonio-orozco-5",
+            "id": "antonio_-5",
             "src": "/concierto-antonio-orozco/IMG_8885.webp",
-            "caption": "Antonio Orozco during the concert",
-            "width": 6000,
-            "height": 4000
+            "caption": "Concert moment"
           },
           {
-            "id": "antonio-orozco-6",
+            "id": "antonio_-6",
             "src": "/concierto-antonio-orozco/IMG_8929.webp",
-            "caption": "Intimate moment on stage",
-            "width": 6000,
-            "height": 4000
+            "caption": "Concert moment"
           },
           {
-            "id": "antonio-orozco-7",
+            "id": "antonio_-7",
             "src": "/concierto-antonio-orozco/IMG_8976.webp",
-            "caption": "Interaction with the audience",
-            "width": 6000,
-            "height": 4000
+            "caption": "Concert moment"
           },
           {
-            "id": "antonio-orozco-8",
+            "id": "antonio_-8",
             "src": "/concierto-antonio-orozco/IMG_9010.webp",
-            "caption": "Concert atmosphere",
-            "width": 6000,
-            "height": 4000
+            "caption": "Concert moment"
           },
           {
-            "id": "antonio-orozco-9",
+            "id": "antonio_-9",
             "src": "/concierto-antonio-orozco/IMG_9061.webp",
-            "caption": "Special moment",
-            "width": 6000,
-            "height": 4000
+            "caption": "Concert moment"
           },
           {
-            "id": "antonio-orozco-10",
+            "id": "antonio_-10",
             "src": "/concierto-antonio-orozco/IMG_9077.webp",
-            "caption": "End of the concert",
-            "width": 6000,
-            "height": 4000
+            "caption": "Concert moment"
           }
         ]
       },
@@ -122,64 +142,94 @@
         "date": "2025",
         "photos": [
           {
-            "id": "israel-b-1",
+            "id": "israel_b-1",
             "src": "/concierto-israel-b/IMG_0573.webp",
-            "caption": "Israel B on stage",
-            "orientation": "vertical",
-            "width": 1365,
-            "height": 2048
+            "caption": "Concert moment"
           },
           {
-            "id": "israel-b-2",
-            "src": "/concierto-israel-b/IMG_0895.webp",
-            "caption": "Live performance",
-            "orientation": "vertical",
-            "width": 1365,
-            "height": 2048
+            "id": "israel_b-2",
+            "src": "/concierto-israel-b/IMG_0573_q88.webp",
+            "caption": "Concert moment"
           },
           {
-            "id": "israel-b-3",
-            "src": "/concierto-israel-b/IMG_0902.webp",
-            "caption": "Stage and lights",
-            "orientation": "vertical",
-            "width": 1365,
-            "height": 2048
-          },
-          {
-            "id": "israel-b-4",
-            "src": "/concierto-israel-b/IMG_1150.webp",
-            "caption": "Israel B during the concert",
-            "orientation": "vertical",
-            "width": 1365,
-            "height": 2048
-          },
-          {
-            "id": "israel-b-5",
+            "id": "israel_b-3",
             "src": "/concierto-israel-b/IMG_0842.webp",
-            "caption": "Concert moment",
-            "width": 2048,
-            "height": 1365
+            "caption": "Concert moment"
           },
           {
-            "id": "israel-b-6",
+            "id": "israel_b-4",
+            "src": "/concierto-israel-b/IMG_0842_q88.webp",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "israel_b-5",
+            "src": "/concierto-israel-b/IMG_0895.webp",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "israel_b-6",
+            "src": "/concierto-israel-b/IMG_0895_q88.webp",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "israel_b-7",
+            "src": "/concierto-israel-b/IMG_0902.webp",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "israel_b-8",
+            "src": "/concierto-israel-b/IMG_0902_q88.webp",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "israel_b-9",
+            "src": "/concierto-israel-b/IMG_1150.webp",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "israel_b-10",
+            "src": "/concierto-israel-b/IMG_1150_q88.webp",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "israel_b-11",
             "src": "/concierto-israel-b/IMG_1396.webp",
-            "caption": "Intimate moment on stage",
-            "width": 2048,
-            "height": 1365
+            "caption": "Concert moment"
           },
           {
-            "id": "israel-b-7",
+            "id": "israel_b-12",
+            "src": "/concierto-israel-b/IMG_1396_q88.webp",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "israel_b-13",
             "src": "/concierto-israel-b/IMG_1415.webp",
-            "caption": "Interaction with the audience",
-            "width": 2048,
-            "height": 1365
+            "caption": "Concert moment"
           },
           {
-            "id": "israel-b-8",
+            "id": "israel_b-14",
+            "src": "/concierto-israel-b/IMG_1415_1.webp",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "israel_b-15",
+            "src": "/concierto-israel-b/IMG_1415_1_q88.webp",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "israel_b-16",
+            "src": "/concierto-israel-b/IMG_1415_q88.webp",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "israel_b-17",
             "src": "/concierto-israel-b/IMG_1437.webp",
-            "caption": "End of the concert",
-            "width": 2048,
-            "height": 1365
+            "caption": "Concert moment"
+          },
+          {
+            "id": "israel_b-18",
+            "src": "/concierto-israel-b/IMG_1437_q88.webp",
+            "caption": "Concert moment"
           }
         ]
       },
@@ -193,72 +243,52 @@
           {
             "id": "pignoise-1",
             "src": "/concierto-pignoise/IMG_7829.webp",
-            "caption": "Pignoise on stage",
-            "width": 2048,
-            "height": 1365
+            "caption": "Concert moment"
           },
           {
             "id": "pignoise-2",
             "src": "/concierto-pignoise/IMG_7836.webp",
-            "caption": "Concert moment",
-            "width": 2048,
-            "height": 1365
+            "caption": "Concert moment"
           },
           {
             "id": "pignoise-3",
             "src": "/concierto-pignoise/IMG_7859.webp",
-            "caption": "Live performance",
-            "width": 2048,
-            "height": 1365
+            "caption": "Concert moment"
           },
           {
             "id": "pignoise-4",
             "src": "/concierto-pignoise/IMG_7862.webp",
-            "caption": "Stage and lights",
-            "width": 2048,
-            "height": 1365
+            "caption": "Concert moment"
           },
           {
             "id": "pignoise-5",
             "src": "/concierto-pignoise/IMG_7910.webp",
-            "caption": "Pignoise during the concert",
-            "width": 2048,
-            "height": 1365
+            "caption": "Concert moment"
           },
           {
             "id": "pignoise-6",
             "src": "/concierto-pignoise/IMG_7928.webp",
-            "caption": "Intimate moment on stage",
-            "width": 2048,
-            "height": 1365
+            "caption": "Concert moment"
           },
           {
             "id": "pignoise-7",
             "src": "/concierto-pignoise/IMG_7930.webp",
-            "caption": "Interaction with the audience",
-            "width": 2048,
-            "height": 1365
+            "caption": "Concert moment"
           },
           {
             "id": "pignoise-8",
             "src": "/concierto-pignoise/IMG_7942.webp",
-            "caption": "Concert atmosphere",
-            "width": 2048,
-            "height": 1365
+            "caption": "Concert moment"
           },
           {
             "id": "pignoise-9",
             "src": "/concierto-pignoise/IMG_7967.webp",
-            "caption": "Special moment",
-            "width": 2048,
-            "height": 1365
+            "caption": "Concert moment"
           },
           {
             "id": "pignoise-10",
             "src": "/concierto-pignoise/IMG_7969.webp",
-            "caption": "End of the concert",
-            "width": 2048,
-            "height": 1365
+            "caption": "Concert moment"
           }
         ]
       },
@@ -272,12 +302,12 @@
           {
             "id": "c2-1",
             "src": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1200&h=800&fit=crop",
-            "caption": "Main festival stage"
+            "caption": "Concert moment"
           },
           {
             "id": "c2-2",
             "src": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200&h=800&fit=crop",
-            "caption": "Crowd atmosphere"
+            "caption": "Concert moment"
           }
         ]
       }
@@ -290,14 +320,146 @@
         "place": "Soria, Spain",
         "date": "2025",
         "photos": [
-          {"id": "ft1", "src": "/FUENTETOBA 2025/IMG_6620.webp", "caption": "Action at Fuentetoba"},
-          {"id": "ft2", "src": "/FUENTETOBA 2025/IMG_6820.webp", "caption": "Rider on terrain"},
-          {"id": "ft3", "src": "/FUENTETOBA 2025/IMG_6852.webp", "caption": "Race moment"},
-          {"id": "ft4", "src": "/FUENTETOBA 2025/IMG_6864.webp", "caption": "Hard Enduro"},
-          {"id": "ft5", "src": "/FUENTETOBA 2025/IMG_7114.webp", "caption": "Rider in action"},
-          {"id": "ft6", "src": "/FUENTETOBA 2025/IMG_7129.webp", "caption": "Difficult terrain"},
-          {"id": "ft7", "src": "/FUENTETOBA 2025/IMG_7241.webp", "caption": "Enduro competition"},
-          {"id": "ft8", "src": "/FUENTETOBA 2025/IMG_7347.webp", "caption": "Race moment"}
+          {
+            "id": "ft1",
+            "src": "/FUENTETOBA 2025/IMG_6620.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft2",
+            "src": "/FUENTETOBA 2025/IMG_6820.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft3",
+            "src": "/FUENTETOBA 2025/IMG_6852.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft4",
+            "src": "/FUENTETOBA 2025/IMG_6864.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft5",
+            "src": "/FUENTETOBA 2025/IMG_7114.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft6",
+            "src": "/FUENTETOBA 2025/IMG_7129.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft7",
+            "src": "/FUENTETOBA 2025/IMG_7241.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft8",
+            "src": "/FUENTETOBA 2025/IMG_7347.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft9",
+            "src": "/FUENTETOBA 2025/IMG_7447.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft10",
+            "src": "/FUENTETOBA 2025/IMG_7534.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft11",
+            "src": "/FUENTETOBA 2025/IMG_7575.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft12",
+            "src": "/FUENTETOBA 2025/IMG_7669.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft13",
+            "src": "/FUENTETOBA 2025/IMG_7674.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft14",
+            "src": "/FUENTETOBA 2025/IMG_7685.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft15",
+            "src": "/FUENTETOBA 2025/IMG_7729.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft16",
+            "src": "/FUENTETOBA 2025/IMG_7813.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft17",
+            "src": "/FUENTETOBA 2025/IMG_7837.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft18",
+            "src": "/FUENTETOBA 2025/IMG_7874.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft19",
+            "src": "/FUENTETOBA 2025/IMG_7933.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft20",
+            "src": "/FUENTETOBA 2025/IMG_7942.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft21",
+            "src": "/FUENTETOBA 2025/IMG_8024.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft22",
+            "src": "/FUENTETOBA 2025/IMG_8045.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft23",
+            "src": "/FUENTETOBA 2025/IMG_8069.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft24",
+            "src": "/FUENTETOBA 2025/IMG_8086.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft25",
+            "src": "/FUENTETOBA 2025/IMG_8105.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft26",
+            "src": "/FUENTETOBA 2025/IMG_8208.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft27",
+            "src": "/FUENTETOBA 2025/IMG_8345.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "ft28",
+            "src": "/FUENTETOBA 2025/IMG_8348.webp",
+            "caption": "Action during the race"
+          }
         ]
       },
       {
@@ -307,14 +469,121 @@
         "place": "Spain",
         "date": "2024",
         "photos": [
-          {"id": "sse1", "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3581.webp", "caption": "San Silvestre Endurera"},
-          {"id": "sse2", "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3599.webp", "caption": "Race action"},
-          {"id": "sse3", "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3634.webp", "caption": "Rider in competition"},
-          {"id": "sse4", "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3643.webp", "caption": "Enduro moment"},
-          {"id": "sse5", "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3655.webp", "caption": "Race terrain"},
-          {"id": "sse6", "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3728.webp", "caption": "Action during the race"},
-          {"id": "sse7", "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3736.webp", "caption": "Rider on extreme terrain"},
-          {"id": "sse8", "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3833.webp", "caption": "Hard Enduro competition"}
+          {
+            "id": "sse1",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3581.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse2",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3599.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse3",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3634.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse4",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3643.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse5",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3655.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse6",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3728.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse7",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3736.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse8",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3833.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse9",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3890.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse10",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4030.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse11",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4191.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse12",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4209.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse13",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4210.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse14",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4381.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse15",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4393.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse16",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4527.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse17",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4745.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse18",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4857.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse19",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4966.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse20",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_5018.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse21",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_5029.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse22",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_5030.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "sse23",
+            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_5087.webp",
+            "caption": "Action during the race"
+          }
         ]
       },
       {
@@ -324,14 +593,146 @@
         "place": "Asturias, Spain",
         "date": "2025",
         "photos": [
-          {"id": "tv1", "src": "/TUDELA VEGUÍN 2025/IMG_8671.webp", "caption": "Tudela Veguín 2025"},
-          {"id": "tv2", "src": "/TUDELA VEGUÍN 2025/IMG_8679.webp", "caption": "Race action"},
-          {"id": "tv3", "src": "/TUDELA VEGUÍN 2025/IMG_8702.webp", "caption": "Rider in competition"},
-          {"id": "tv4", "src": "/TUDELA VEGUÍN 2025/IMG_8710.webp", "caption": "Enduro moment"},
-          {"id": "tv5", "src": "/TUDELA VEGUÍN 2025/IMG_8755.webp", "caption": "Asturian terrain"},
-          {"id": "tv6", "src": "/TUDELA VEGUÍN 2025/IMG_8772.webp", "caption": "Action during the race"},
-          {"id": "tv7", "src": "/TUDELA VEGUÍN 2025/IMG_8892.webp", "caption": "Hard Enduro at Tudela Veguín"},
-          {"id": "tv8", "src": "/TUDELA VEGUÍN 2025/IMG_9038-2.webp", "caption": "Enduro competition"}
+          {
+            "id": "tv1",
+            "src": "/TUDELA VEGUÍN 2025/IMG_8671.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv2",
+            "src": "/TUDELA VEGUÍN 2025/IMG_8679.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv3",
+            "src": "/TUDELA VEGUÍN 2025/IMG_8702.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv4",
+            "src": "/TUDELA VEGUÍN 2025/IMG_8710.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv5",
+            "src": "/TUDELA VEGUÍN 2025/IMG_8755.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv6",
+            "src": "/TUDELA VEGUÍN 2025/IMG_8772.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv7",
+            "src": "/TUDELA VEGUÍN 2025/IMG_8892.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv8",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9038-2.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv9",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9060.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv10",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9094.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv11",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9268.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv12",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9335.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv13",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9436.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv14",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9495.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv15",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9499.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv16",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9597.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv17",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9606.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv18",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9724.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv19",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9745.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv20",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9756.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv21",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9774.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv22",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9779.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv23",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9781.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv24",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9785.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv25",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9799.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv26",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9808.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv27",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9810.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "tv28",
+            "src": "/TUDELA VEGUÍN 2025/IMG_9813.webp",
+            "caption": "Action during the race"
+          }
         ]
       },
       {
@@ -341,14 +742,161 @@
         "place": "Castilla y León, Spain",
         "date": "2025",
         "photos": [
-          {"id": "hhe1", "src": "/HIXPANIA HARD ENDURO 2025/IMG_1015.webp", "caption": "Hixpania Hard Enduro"},
-          {"id": "hhe2", "src": "/HIXPANIA HARD ENDURO 2025/IMG_1022.webp", "caption": "Race action"},
-          {"id": "hhe3", "src": "/HIXPANIA HARD ENDURO 2025/IMG_1033.webp", "caption": "Rider in competition"},
-          {"id": "hhe4", "src": "/HIXPANIA HARD ENDURO 2025/IMG_1063.webp", "caption": "Enduro moment"},
-          {"id": "hhe5", "src": "/HIXPANIA HARD ENDURO 2025/IMG_1081.webp", "caption": "Extreme terrain"},
-          {"id": "hhe6", "src": "/HIXPANIA HARD ENDURO 2025/IMG_1118.webp", "caption": "Action during the race"},
-          {"id": "hhe7", "src": "/HIXPANIA HARD ENDURO 2025/IMG_1169.webp", "caption": "Hard Enduro"},
-          {"id": "hhe8", "src": "/HIXPANIA HARD ENDURO 2025/IMG_1173.webp", "caption": "Hixpania competition"}
+          {
+            "id": "hhe1",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1015.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe2",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1022.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe3",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1033.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe4",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1063.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe5",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1081.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe6",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1118.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe7",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1169.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe8",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1173.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe9",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1184.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe10",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1218.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe11",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1230.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe12",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1278.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe13",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1303.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe14",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1322.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe15",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1348.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe16",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1384.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe17",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1416.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe18",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1452.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe19",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1533.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe20",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1580.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe21",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1600.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe22",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1611.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe23",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1615.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe24",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1624.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe25",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1667.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe26",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1681.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe27",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1689.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe28",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1694.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe29",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1717.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe30",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1721.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "hhe31",
+            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1739.webp",
+            "caption": "Action during the race"
+          }
         ]
       },
       {
@@ -358,14 +906,146 @@
         "place": "Castilla-La Mancha, Spain",
         "date": "2025",
         "photos": [
-          {"id": "lp1", "src": "/LA PESQUERA 2025/IMG_5232.webp", "caption": "La Pesquera 2025"},
-          {"id": "lp2", "src": "/LA PESQUERA 2025/IMG_5266.webp", "caption": "Race action"},
-          {"id": "lp3", "src": "/LA PESQUERA 2025/IMG_5280.webp", "caption": "Rider in competition"},
-          {"id": "lp4", "src": "/LA PESQUERA 2025/IMG_5291.webp", "caption": "Enduro moment"},
-          {"id": "lp5", "src": "/LA PESQUERA 2025/IMG_5314.webp", "caption": "La Pesquera terrain"},
-          {"id": "lp6", "src": "/LA PESQUERA 2025/IMG_5347.webp", "caption": "Action during the race"},
-          {"id": "lp7", "src": "/LA PESQUERA 2025/IMG_5367.webp", "caption": "Hard Enduro"},
-          {"id": "lp8", "src": "/LA PESQUERA 2025/IMG_5392.webp", "caption": "Enduro competition"}
+          {
+            "id": "lp1",
+            "src": "/LA PESQUERA 2025/IMG_5232.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp2",
+            "src": "/LA PESQUERA 2025/IMG_5266.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp3",
+            "src": "/LA PESQUERA 2025/IMG_5280.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp4",
+            "src": "/LA PESQUERA 2025/IMG_5291.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp5",
+            "src": "/LA PESQUERA 2025/IMG_5314.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp6",
+            "src": "/LA PESQUERA 2025/IMG_5347.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp7",
+            "src": "/LA PESQUERA 2025/IMG_5367.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp8",
+            "src": "/LA PESQUERA 2025/IMG_5392.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp9",
+            "src": "/LA PESQUERA 2025/IMG_5397.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp10",
+            "src": "/LA PESQUERA 2025/IMG_5480.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp11",
+            "src": "/LA PESQUERA 2025/IMG_5552.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp12",
+            "src": "/LA PESQUERA 2025/IMG_5575.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp13",
+            "src": "/LA PESQUERA 2025/IMG_5577.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp14",
+            "src": "/LA PESQUERA 2025/IMG_5644.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp15",
+            "src": "/LA PESQUERA 2025/IMG_5781.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp16",
+            "src": "/LA PESQUERA 2025/IMG_5825.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp17",
+            "src": "/LA PESQUERA 2025/IMG_5865.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp18",
+            "src": "/LA PESQUERA 2025/IMG_5876.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp19",
+            "src": "/LA PESQUERA 2025/IMG_5897.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp20",
+            "src": "/LA PESQUERA 2025/IMG_5925.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp21",
+            "src": "/LA PESQUERA 2025/IMG_5953.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp22",
+            "src": "/LA PESQUERA 2025/IMG_6018.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp23",
+            "src": "/LA PESQUERA 2025/IMG_6054.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp24",
+            "src": "/LA PESQUERA 2025/IMG_6065.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp25",
+            "src": "/LA PESQUERA 2025/IMG_6069.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp26",
+            "src": "/LA PESQUERA 2025/IMG_6105.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp27",
+            "src": "/LA PESQUERA 2025/IMG_6114.webp",
+            "caption": "Action during the race"
+          },
+          {
+            "id": "lp28",
+            "src": "/LA PESQUERA 2025/IMG_6131.webp",
+            "caption": "Action during the race"
+          }
         ]
       }
     ],
@@ -380,12 +1060,12 @@
           {
             "id": "fr1-1",
             "src": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=800&fit=crop",
-            "caption": "Students at the demonstration"
+            "caption": "Report moment"
           },
           {
             "id": "fr1-2",
             "src": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop",
-            "caption": "Protest moment"
+            "caption": "Report moment"
           }
         ]
       },
@@ -399,12 +1079,12 @@
           {
             "id": "fr2-1",
             "src": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop",
-            "caption": "Vendors at the market"
+            "caption": "Report moment"
           },
           {
             "id": "fr2-2",
             "src": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=800&fit=crop",
-            "caption": "Daily life in the neighborhood"
+            "caption": "Report moment"
           }
         ]
       }
@@ -417,24 +1097,96 @@
         "place": "Madrid",
         "date": "2026",
         "photos": [
-          {"id": "goya-2026-1", "src": "/goya-2026/IMG_0004.webp", "caption": "Goya Awards 2026", "width": 6000, "height": 4000},
-          {"id": "goya-2026-2", "src": "/goya-2026/IMG_0121.webp", "caption": "Awards ceremony moment", "width": 6000, "height": 4000},
-          {"id": "goya-2026-3", "src": "/goya-2026/IMG_0176.webp", "caption": "Goya Awards coverage", "width": 6000, "height": 4000},
-          {"id": "goya-2026-4", "src": "/goya-2026/IMG_0207.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "goya-2026-5", "src": "/goya-2026/IMG_0236.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "goya-2026-6", "src": "/goya-2026/IMG_0254.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "goya-2026-7", "src": "/goya-2026/IMG_0277.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "goya-2026-8", "src": "/goya-2026/IMG_0293.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "goya-2026-9", "src": "/goya-2026/IMG_0304.webp", "caption": "Coverage moment", "orientation": "vertical", "width": 4000, "height": 6000},
-          {"id": "goya-2026-10", "src": "/goya-2026/IMG_0321.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "goya-2026-11", "src": "/goya-2026/IMG_0409.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "goya-2026-12", "src": "/goya-2026/IMG_9545.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "goya-2026-13", "src": "/goya-2026/IMG_9626.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "goya-2026-14", "src": "/goya-2026/IMG_9809.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "goya-2026-15", "src": "/goya-2026/IMG_9846.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "goya-2026-16", "src": "/goya-2026/IMG_9931.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "goya-2026-17", "src": "/goya-2026/IMG_9952.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "goya-2026-18", "src": "/goya-2026/IMG_9972.webp", "caption": "Coverage moment", "width": 6000, "height": 4000}
+          {
+            "id": "goya_202-1",
+            "src": "/goya-2026/IMG_0004.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "goya_202-2",
+            "src": "/goya-2026/IMG_0121.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "goya_202-3",
+            "src": "/goya-2026/IMG_0176.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "goya_202-4",
+            "src": "/goya-2026/IMG_0207.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "goya_202-5",
+            "src": "/goya-2026/IMG_0236.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "goya_202-6",
+            "src": "/goya-2026/IMG_0254.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "goya_202-7",
+            "src": "/goya-2026/IMG_0277.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "goya_202-8",
+            "src": "/goya-2026/IMG_0293.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "goya_202-9",
+            "src": "/goya-2026/IMG_0304.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "goya_202-10",
+            "src": "/goya-2026/IMG_0321.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "goya_202-11",
+            "src": "/goya-2026/IMG_0409.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "goya_202-12",
+            "src": "/goya-2026/IMG_9545.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "goya_202-13",
+            "src": "/goya-2026/IMG_9626.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "goya_202-14",
+            "src": "/goya-2026/IMG_9809.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "goya_202-15",
+            "src": "/goya-2026/IMG_9846.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "goya_202-16",
+            "src": "/goya-2026/IMG_9931.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "goya_202-17",
+            "src": "/goya-2026/IMG_9952.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "goya_202-18",
+            "src": "/goya-2026/IMG_9972.webp",
+            "caption": "Coverage moment"
+          }
         ]
       },
       {
@@ -444,23 +1196,91 @@
         "place": "Madrid",
         "date": "2025",
         "photos": [
-          {"id": "incendio-1", "src": "/incendio-museo-ferrocarril/IMG_9527.webp", "caption": "Railway Museum fire", "width": 2048, "height": 1365},
-          {"id": "incendio-2", "src": "/incendio-museo-ferrocarril/IMG_9532.webp", "caption": "Fire moment", "width": 2048, "height": 1365},
-          {"id": "incendio-3", "src": "/incendio-museo-ferrocarril/IMG_9534.webp", "caption": "Fire coverage", "width": 2048, "height": 1365},
-          {"id": "incendio-4", "src": "/incendio-museo-ferrocarril/IMG_9536.webp", "caption": "Coverage moment", "width": 2048, "height": 1366},
-          {"id": "incendio-5", "src": "/incendio-museo-ferrocarril/IMG_9539.webp", "caption": "Coverage moment", "width": 2048, "height": 1366},
-          {"id": "incendio-6", "src": "/incendio-museo-ferrocarril/IMG_9546.webp", "caption": "Coverage moment", "width": 2048, "height": 1365},
-          {"id": "incendio-7", "src": "/incendio-museo-ferrocarril/IMG_9550.webp", "caption": "Coverage moment", "width": 2048, "height": 1365},
-          {"id": "incendio-8", "src": "/incendio-museo-ferrocarril/IMG_9553.webp", "caption": "Coverage moment", "width": 2048, "height": 1365},
-          {"id": "incendio-9", "src": "/incendio-museo-ferrocarril/IMG_9563.webp", "caption": "Coverage moment", "width": 2048, "height": 1365},
-          {"id": "incendio-10", "src": "/incendio-museo-ferrocarril/IMG_9576.webp", "caption": "Coverage moment", "width": 2048, "height": 1365},
-          {"id": "incendio-11", "src": "/incendio-museo-ferrocarril/IMG_9587.webp", "caption": "Coverage moment", "width": 2048, "height": 1365},
-          {"id": "incendio-12", "src": "/incendio-museo-ferrocarril/IMG_9590.webp", "caption": "Coverage moment", "width": 2048, "height": 1365},
-          {"id": "incendio-13", "src": "/incendio-museo-ferrocarril/IMG_9592.webp", "caption": "Coverage moment", "width": 2048, "height": 1365},
-          {"id": "incendio-14", "src": "/incendio-museo-ferrocarril/IMG_9602.webp", "caption": "Coverage moment", "width": 2048, "height": 1365},
-          {"id": "incendio-15", "src": "/incendio-museo-ferrocarril/IMG_9606.webp", "caption": "Coverage moment", "width": 2048, "height": 1365},
-          {"id": "incendio-16", "src": "/incendio-museo-ferrocarril/IMG_9609.webp", "caption": "Coverage moment", "width": 2048, "height": 1365},
-          {"id": "incendio-17", "src": "/incendio-museo-ferrocarril/IMG_9653.webp", "caption": "Coverage moment", "width": 2048, "height": 1365}
+          {
+            "id": "incendio-1",
+            "src": "/incendio-museo-ferrocarril/IMG_9527.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "incendio-2",
+            "src": "/incendio-museo-ferrocarril/IMG_9532.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "incendio-3",
+            "src": "/incendio-museo-ferrocarril/IMG_9534.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "incendio-4",
+            "src": "/incendio-museo-ferrocarril/IMG_9536.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "incendio-5",
+            "src": "/incendio-museo-ferrocarril/IMG_9539.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "incendio-6",
+            "src": "/incendio-museo-ferrocarril/IMG_9546.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "incendio-7",
+            "src": "/incendio-museo-ferrocarril/IMG_9550.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "incendio-8",
+            "src": "/incendio-museo-ferrocarril/IMG_9553.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "incendio-9",
+            "src": "/incendio-museo-ferrocarril/IMG_9563.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "incendio-10",
+            "src": "/incendio-museo-ferrocarril/IMG_9576.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "incendio-11",
+            "src": "/incendio-museo-ferrocarril/IMG_9587.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "incendio-12",
+            "src": "/incendio-museo-ferrocarril/IMG_9590.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "incendio-13",
+            "src": "/incendio-museo-ferrocarril/IMG_9592.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "incendio-14",
+            "src": "/incendio-museo-ferrocarril/IMG_9602.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "incendio-15",
+            "src": "/incendio-museo-ferrocarril/IMG_9606.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "incendio-16",
+            "src": "/incendio-museo-ferrocarril/IMG_9609.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "incendio-17",
+            "src": "/incendio-museo-ferrocarril/IMG_9653.webp",
+            "caption": "Coverage moment"
+          }
         ]
       },
       {
@@ -470,23 +1290,91 @@
         "place": "Madrid",
         "date": "2024",
         "photos": [
-          {"id": "alquileres-1", "src": "/mani-alquileres-2024/IMG_1003.webp", "caption": "Housing demonstration", "width": 6000, "height": 4000},
-          {"id": "alquileres-2", "src": "/mani-alquileres-2024/IMG_1004.webp", "caption": "Demonstration moment", "width": 6000, "height": 4000},
-          {"id": "alquileres-3", "src": "/mani-alquileres-2024/IMG_1006.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "alquileres-4", "src": "/mani-alquileres-2024/IMG_1007.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "alquileres-5", "src": "/mani-alquileres-2024/IMG_1009.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "alquileres-6", "src": "/mani-alquileres-2024/IMG_1017.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "alquileres-7", "src": "/mani-alquileres-2024/IMG_1019.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "alquileres-8", "src": "/mani-alquileres-2024/IMG_1023.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "alquileres-9", "src": "/mani-alquileres-2024/IMG_1026.webp", "caption": "Coverage moment"},
-          {"id": "alquileres-10", "src": "/mani-alquileres-2024/IMG_1028.webp", "caption": "Coverage moment"},
-          {"id": "alquileres-11", "src": "/mani-alquileres-2024/IMG_1051.webp", "caption": "Coverage moment"},
-          {"id": "alquileres-12", "src": "/mani-alquileres-2024/IMG_1057.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "alquileres-13", "src": "/mani-alquileres-2024/IMG_1061.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "alquileres-14", "src": "/mani-alquileres-2024/IMG_1065.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "alquileres-15", "src": "/mani-alquileres-2024/IMG_1067.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "alquileres-16", "src": "/mani-alquileres-2024/IMG_1073.webp", "caption": "Coverage moment"},
-          {"id": "alquileres-17", "src": "/mani-alquileres-2024/IMG_1076.webp", "caption": "Coverage moment"}
+          {
+            "id": "mani_alq-1",
+            "src": "/mani-alquileres-2024/IMG_1003.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_alq-2",
+            "src": "/mani-alquileres-2024/IMG_1004.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_alq-3",
+            "src": "/mani-alquileres-2024/IMG_1006.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_alq-4",
+            "src": "/mani-alquileres-2024/IMG_1007.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_alq-5",
+            "src": "/mani-alquileres-2024/IMG_1009.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_alq-6",
+            "src": "/mani-alquileres-2024/IMG_1017.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_alq-7",
+            "src": "/mani-alquileres-2024/IMG_1019.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_alq-8",
+            "src": "/mani-alquileres-2024/IMG_1023.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_alq-9",
+            "src": "/mani-alquileres-2024/IMG_1026.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_alq-10",
+            "src": "/mani-alquileres-2024/IMG_1028.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_alq-11",
+            "src": "/mani-alquileres-2024/IMG_1051.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_alq-12",
+            "src": "/mani-alquileres-2024/IMG_1057.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_alq-13",
+            "src": "/mani-alquileres-2024/IMG_1061.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_alq-14",
+            "src": "/mani-alquileres-2024/IMG_1065.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_alq-15",
+            "src": "/mani-alquileres-2024/IMG_1067.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_alq-16",
+            "src": "/mani-alquileres-2024/IMG_1073.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_alq-17",
+            "src": "/mani-alquileres-2024/IMG_1076.webp",
+            "caption": "Coverage moment"
+          }
         ]
       },
       {
@@ -496,24 +1384,96 @@
         "place": "Madrid",
         "date": "2025",
         "photos": [
-          {"id": "flotilla-1", "src": "/mani-flotilla-2025/IMG_1779.webp", "caption": "Flotilla for Palestine demonstration", "width": 6000, "height": 4000},
-          {"id": "flotilla-2", "src": "/mani-flotilla-2025/IMG_1801.webp", "caption": "Demonstration moment", "orientation": "vertical", "width": 4000, "height": 6000},
-          {"id": "flotilla-3", "src": "/mani-flotilla-2025/IMG_1806.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "flotilla-4", "src": "/mani-flotilla-2025/IMG_1897.webp", "caption": "Coverage moment"},
-          {"id": "flotilla-5", "src": "/mani-flotilla-2025/IMG_1944.webp", "caption": "Coverage moment"},
-          {"id": "flotilla-6", "src": "/mani-flotilla-2025/IMG_2036.webp", "caption": "Coverage moment"},
-          {"id": "flotilla-7", "src": "/mani-flotilla-2025/IMG_2042.webp", "caption": "Coverage moment"},
-          {"id": "flotilla-8", "src": "/mani-flotilla-2025/IMG_2180.webp", "caption": "Coverage moment"},
-          {"id": "flotilla-9", "src": "/mani-flotilla-2025/IMG_2215.webp", "caption": "Coverage moment"},
-          {"id": "flotilla-10", "src": "/mani-flotilla-2025/IMG_2283.webp", "caption": "Coverage moment", "orientation": "vertical", "width": 4000, "height": 6000},
-          {"id": "flotilla-11", "src": "/mani-flotilla-2025/IMG_2290.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "flotilla-12", "src": "/mani-flotilla-2025/IMG_2320.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "flotilla-13", "src": "/mani-flotilla-2025/IMG_2330.webp", "caption": "Coverage moment", "orientation": "vertical", "width": 4000, "height": 6000},
-          {"id": "flotilla-14", "src": "/mani-flotilla-2025/IMG_2334.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "flotilla-15", "src": "/mani-flotilla-2025/IMG_2380.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "flotilla-16", "src": "/mani-flotilla-2025/IMG_2410.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "flotilla-17", "src": "/mani-flotilla-2025/IMG_2438.webp", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "flotilla-18", "src": "/mani-flotilla-2025/IMG_2458.webp", "caption": "Coverage moment", "width": 6000, "height": 4000}
+          {
+            "id": "mani_flo-1",
+            "src": "/mani-flotilla-2025/IMG_1779.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_flo-2",
+            "src": "/mani-flotilla-2025/IMG_1801.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_flo-3",
+            "src": "/mani-flotilla-2025/IMG_1806.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_flo-4",
+            "src": "/mani-flotilla-2025/IMG_1897.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_flo-5",
+            "src": "/mani-flotilla-2025/IMG_1944.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_flo-6",
+            "src": "/mani-flotilla-2025/IMG_2036.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_flo-7",
+            "src": "/mani-flotilla-2025/IMG_2042.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_flo-8",
+            "src": "/mani-flotilla-2025/IMG_2180.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_flo-9",
+            "src": "/mani-flotilla-2025/IMG_2215.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_flo-10",
+            "src": "/mani-flotilla-2025/IMG_2283.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_flo-11",
+            "src": "/mani-flotilla-2025/IMG_2290.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_flo-12",
+            "src": "/mani-flotilla-2025/IMG_2320.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_flo-13",
+            "src": "/mani-flotilla-2025/IMG_2330.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_flo-14",
+            "src": "/mani-flotilla-2025/IMG_2334.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_flo-15",
+            "src": "/mani-flotilla-2025/IMG_2380.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_flo-16",
+            "src": "/mani-flotilla-2025/IMG_2410.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_flo-17",
+            "src": "/mani-flotilla-2025/IMG_2438.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_flo-18",
+            "src": "/mani-flotilla-2025/IMG_2458.webp",
+            "caption": "Coverage moment"
+          }
         ]
       },
       {
@@ -523,24 +1483,96 @@
         "place": "Madrid",
         "date": "2024",
         "photos": [
-          {"id": "palestina-1", "src": "/mani-palestina/IMG_3685.jpeg", "caption": "Demonstration for Palestine", "orientation": "vertical", "width": 4000, "height": 6000},
-          {"id": "palestina-2", "src": "/mani-palestina/IMG_4211.jpeg", "caption": "Demonstration moment", "width": 6000, "height": 4000},
-          {"id": "palestina-3", "src": "/mani-palestina/IMG_4257.jpeg", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "palestina-4", "src": "/mani-palestina/IMG_4294.jpeg", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "palestina-5", "src": "/mani-palestina/IMG_4416.jpeg", "caption": "Coverage moment", "orientation": "vertical", "width": 4000, "height": 6000},
-          {"id": "palestina-6", "src": "/mani-palestina/IMG_4449.jpeg", "caption": "Coverage moment", "orientation": "vertical", "width": 4000, "height": 6000},
-          {"id": "palestina-7", "src": "/mani-palestina/IMG_4793.jpeg", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "palestina-8", "src": "/mani-palestina/IMG_4852.jpeg", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "palestina-9", "src": "/mani-palestina/IMG_4869.jpeg", "caption": "Coverage moment", "orientation": "vertical", "width": 4000, "height": 6000},
-          {"id": "palestina-10", "src": "/mani-palestina/IMG_4948.jpeg", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "palestina-11", "src": "/mani-palestina/IMG_4958.jpeg", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "palestina-12", "src": "/mani-palestina/IMG_4981.jpeg", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "palestina-13", "src": "/mani-palestina/IMG_5085.jpeg", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "palestina-14", "src": "/mani-palestina/IMG_5095.jpeg", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "palestina-15", "src": "/mani-palestina/IMG_5120.jpeg", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "palestina-16", "src": "/mani-palestina/IMG_5125.jpeg", "caption": "Coverage moment", "orientation": "vertical", "width": 4000, "height": 6000},
-          {"id": "palestina-17", "src": "/mani-palestina/IMG_5144.jpeg", "caption": "Coverage moment", "width": 6000, "height": 4000},
-          {"id": "palestina-18", "src": "/mani-palestina/IMG_5183.jpeg", "caption": "Coverage moment", "orientation": "vertical", "width": 4000, "height": 6000}
+          {
+            "id": "mani_pal-1",
+            "src": "/mani-palestina/IMG_3685.jpeg",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_pal-2",
+            "src": "/mani-palestina/IMG_4211.jpeg",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_pal-3",
+            "src": "/mani-palestina/IMG_4257.jpeg",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_pal-4",
+            "src": "/mani-palestina/IMG_4294.jpeg",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_pal-5",
+            "src": "/mani-palestina/IMG_4416.jpeg",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_pal-6",
+            "src": "/mani-palestina/IMG_4449.jpeg",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_pal-7",
+            "src": "/mani-palestina/IMG_4793.jpeg",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_pal-8",
+            "src": "/mani-palestina/IMG_4852.jpeg",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_pal-9",
+            "src": "/mani-palestina/IMG_4869.jpeg",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_pal-10",
+            "src": "/mani-palestina/IMG_4948.jpeg",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_pal-11",
+            "src": "/mani-palestina/IMG_4958.jpeg",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_pal-12",
+            "src": "/mani-palestina/IMG_4981.jpeg",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_pal-13",
+            "src": "/mani-palestina/IMG_5085.jpeg",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_pal-14",
+            "src": "/mani-palestina/IMG_5095.jpeg",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_pal-15",
+            "src": "/mani-palestina/IMG_5120.jpeg",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_pal-16",
+            "src": "/mani-palestina/IMG_5125.jpeg",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_pal-17",
+            "src": "/mani-palestina/IMG_5144.jpeg",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "mani_pal-18",
+            "src": "/mani-palestina/IMG_5183.jpeg",
+            "caption": "Coverage moment"
+          }
         ]
       },
       {
@@ -551,62 +1583,44 @@
         "date": "2025",
         "photos": [
           {
-            "id": "julieta-pona-1",
+            "id": "entrevis-1",
             "src": "/entrevista-julieta-pona/IMG_8539.webp",
-            "caption": "Julieta Pona",
-            "orientation": "vertical",
-            "width": 4000,
-            "height": 6000
+            "caption": "Coverage moment"
           },
           {
-            "id": "julieta-pona-2",
+            "id": "entrevis-2",
             "src": "/entrevista-julieta-pona/IMG_8541.webp",
-            "caption": "During the conversation",
-            "orientation": "vertical",
-            "width": 4000,
-            "height": 6000
+            "caption": "Coverage moment"
           },
           {
-            "id": "julieta-pona-3",
-            "src": "/entrevista-julieta-pona/IMG_8629.webp",
-            "caption": "Julieta Pona during the interview",
-            "width": 6000,
-            "height": 4000
-          },
-          {
-            "id": "julieta-pona-4",
-            "src": "/entrevista-julieta-pona/IMG_8583.webp",
-            "caption": "Interview moment",
-            "width": 6000,
-            "height": 4000
-          },
-          {
-            "id": "julieta-pona-5",
-            "src": "/entrevista-julieta-pona/IMG_8619.webp",
-            "caption": "Interview with Julieta Pona",
-            "width": 6000,
-            "height": 4000
-          },
-          {
-            "id": "julieta-pona-6",
-            "src": "/entrevista-julieta-pona/IMG_8622.webp",
-            "caption": "Intimate moment of the interview",
-            "width": 6000,
-            "height": 4000
-          },
-          {
-            "id": "julieta-pona-7",
+            "id": "entrevis-3",
             "src": "/entrevista-julieta-pona/IMG_8560.webp",
-            "caption": "Julieta Pona",
-            "width": 6000,
-            "height": 4000
+            "caption": "Coverage moment"
           },
           {
-            "id": "julieta-pona-8",
+            "id": "entrevis-4",
+            "src": "/entrevista-julieta-pona/IMG_8583.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "entrevis-5",
             "src": "/entrevista-julieta-pona/IMG_8587.webp",
-            "caption": "Interview coverage",
-            "width": 6000,
-            "height": 4000
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "entrevis-6",
+            "src": "/entrevista-julieta-pona/IMG_8619.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "entrevis-7",
+            "src": "/entrevista-julieta-pona/IMG_8622.webp",
+            "caption": "Coverage moment"
+          },
+          {
+            "id": "entrevis-8",
+            "src": "/entrevista-julieta-pona/IMG_8629.webp",
+            "caption": "Coverage moment"
           }
         ]
       },
@@ -620,12 +1634,12 @@
           {
             "id": "cb1-1",
             "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop",
-            "caption": "Event moment"
+            "caption": "Coverage moment"
           },
           {
             "id": "cb1-2",
             "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=800&fit=crop",
-            "caption": "Art and cultural expression"
+            "caption": "Coverage moment"
           }
         ]
       },
@@ -639,12 +1653,12 @@
           {
             "id": "cb2-1",
             "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop",
-            "caption": "Event action"
+            "caption": "Coverage moment"
           },
           {
             "id": "cb2-2",
             "src": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&h=800&fit=crop",
-            "caption": "Live festival"
+            "caption": "Coverage moment"
           }
         ]
       }
