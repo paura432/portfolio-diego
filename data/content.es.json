@@ -70,7 +70,10 @@
           {
             "id": "vanesa_m-9",
             "src": "/concierto-vanesa-martin/IMG_2748.jpg",
-            "caption": "Momento del concierto"
+            "caption": "Momento del concierto",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           }
         ]
       },
@@ -143,12 +146,18 @@
           {
             "id": "israel_b-1",
             "src": "/concierto-israel-b/IMG_0573.webp",
-            "caption": "Momento del concierto"
+            "caption": "Momento del concierto",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
           },
           {
             "id": "israel_b-2",
             "src": "/concierto-israel-b/IMG_0573_q88.webp",
-            "caption": "Momento del concierto"
+            "caption": "Momento del concierto",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
           },
           {
             "id": "israel_b-3",
@@ -163,32 +172,50 @@
           {
             "id": "israel_b-5",
             "src": "/concierto-israel-b/IMG_0895.webp",
-            "caption": "Momento del concierto"
+            "caption": "Momento del concierto",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
           },
           {
             "id": "israel_b-6",
             "src": "/concierto-israel-b/IMG_0895_q88.webp",
-            "caption": "Momento del concierto"
+            "caption": "Momento del concierto",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
           },
           {
             "id": "israel_b-7",
             "src": "/concierto-israel-b/IMG_0902.webp",
-            "caption": "Momento del concierto"
+            "caption": "Momento del concierto",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
           },
           {
             "id": "israel_b-8",
             "src": "/concierto-israel-b/IMG_0902_q88.webp",
-            "caption": "Momento del concierto"
+            "caption": "Momento del concierto",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
           },
           {
             "id": "israel_b-9",
             "src": "/concierto-israel-b/IMG_1150.webp",
-            "caption": "Momento del concierto"
+            "caption": "Momento del concierto",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
           },
           {
             "id": "israel_b-10",
             "src": "/concierto-israel-b/IMG_1150_q88.webp",
-            "caption": "Momento del concierto"
+            "caption": "Momento del concierto",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
           },
           {
             "id": "israel_b-11",
@@ -397,7 +424,10 @@
           {
             "id": "ft16",
             "src": "/FUENTETOBA 2025/IMG_7813.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
           },
           {
             "id": "ft17",
@@ -437,7 +467,10 @@
           {
             "id": "ft24",
             "src": "/FUENTETOBA 2025/IMG_8086.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
           },
           {
             "id": "ft25",
@@ -495,100 +528,84 @@
           },
           {
             "id": "sse6",
-            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3728.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "sse7",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3736.webp",
             "caption": "Acción durante la carrera"
           },
           {
-            "id": "sse8",
+            "id": "sse7",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3833.webp",
             "caption": "Acción durante la carrera"
           },
           {
-            "id": "sse9",
+            "id": "sse8",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3890.webp",
             "caption": "Acción durante la carrera"
           },
           {
-            "id": "sse10",
+            "id": "sse9",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4030.webp",
             "caption": "Acción durante la carrera"
           },
           {
-            "id": "sse11",
-            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4191.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "sse12",
+            "id": "sse10",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4209.webp",
             "caption": "Acción durante la carrera"
           },
           {
-            "id": "sse13",
-            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4210.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "sse14",
+            "id": "sse11",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4381.webp",
             "caption": "Acción durante la carrera"
           },
           {
-            "id": "sse15",
+            "id": "sse12",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4393.webp",
             "caption": "Acción durante la carrera"
           },
           {
-            "id": "sse16",
+            "id": "sse13",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4527.webp",
             "caption": "Acción durante la carrera"
           },
           {
-            "id": "sse17",
+            "id": "sse14",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4745.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
-            "id": "sse18",
-            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4857.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "sse19",
+            "id": "sse15",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4966.webp",
             "caption": "Acción durante la carrera"
           },
           {
-            "id": "sse20",
+            "id": "sse16",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_5018.webp",
             "caption": "Acción durante la carrera"
           },
           {
-            "id": "sse21",
+            "id": "sse17",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_5029.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
-            "id": "sse22",
-            "src": "/SAN SILVESTRE ENDURERA 2024/IMG_5030.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "sse23",
+            "id": "sse18",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_5087.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           }
         ]
       },
       {
         "id": "tudela-veguin-2025",
         "title": "Tudela Veguín 2025",
-        "coverImage": "/TUDELA VEGUÍN 2025/IMG_8671.webp",
+        "coverImage": "/TUDELA VEGUÍN 2025/IMG_9724.webp",
         "place": "Asturias, España",
         "date": "2025",
         "photos": [
@@ -706,31 +723,6 @@
             "id": "tv23",
             "src": "/TUDELA VEGUÍN 2025/IMG_9781.webp",
             "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "tv24",
-            "src": "/TUDELA VEGUÍN 2025/IMG_9785.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "tv25",
-            "src": "/TUDELA VEGUÍN 2025/IMG_9799.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "tv26",
-            "src": "/TUDELA VEGUÍN 2025/IMG_9808.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "tv27",
-            "src": "/TUDELA VEGUÍN 2025/IMG_9810.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "tv28",
-            "src": "/TUDELA VEGUÍN 2025/IMG_9813.webp",
-            "caption": "Acción durante la carrera"
           }
         ]
       },
@@ -784,7 +776,10 @@
           {
             "id": "hhe9",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1184.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "hhe10",
@@ -814,7 +809,10 @@
           {
             "id": "hhe15",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1348.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "hhe16",
@@ -869,7 +867,10 @@
           {
             "id": "hhe26",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1681.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "hhe27",
@@ -889,7 +890,10 @@
           {
             "id": "hhe30",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1721.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "hhe31",
@@ -993,12 +997,18 @@
           {
             "id": "lp18",
             "src": "/LA PESQUERA 2025/IMG_5876.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "lp19",
             "src": "/LA PESQUERA 2025/IMG_5897.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "lp20",
@@ -1043,7 +1053,10 @@
           {
             "id": "lp28",
             "src": "/LA PESQUERA 2025/IMG_6131.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           }
         ]
       }
@@ -1139,7 +1152,10 @@
           {
             "id": "goya_202-9",
             "src": "/goya-2026/IMG_0304.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Momento de la cobertura",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "goya_202-10",
@@ -1391,7 +1407,10 @@
           {
             "id": "mani_flo-2",
             "src": "/mani-flotilla-2025/IMG_1801.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Momento de la cobertura",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "mani_flo-3",
@@ -1431,7 +1450,10 @@
           {
             "id": "mani_flo-10",
             "src": "/mani-flotilla-2025/IMG_2283.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Momento de la cobertura",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "mani_flo-11",
@@ -1446,7 +1468,10 @@
           {
             "id": "mani_flo-13",
             "src": "/mani-flotilla-2025/IMG_2330.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Momento de la cobertura",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "mani_flo-14",
@@ -1485,7 +1510,10 @@
           {
             "id": "mani_pal-1",
             "src": "/mani-palestina/IMG_3685.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "Momento de la cobertura",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "mani_pal-2",
@@ -1505,12 +1533,18 @@
           {
             "id": "mani_pal-5",
             "src": "/mani-palestina/IMG_4416.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "Momento de la cobertura",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "mani_pal-6",
             "src": "/mani-palestina/IMG_4449.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "Momento de la cobertura",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "mani_pal-7",
@@ -1525,7 +1559,10 @@
           {
             "id": "mani_pal-9",
             "src": "/mani-palestina/IMG_4869.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "Momento de la cobertura",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "mani_pal-10",
@@ -1560,7 +1597,10 @@
           {
             "id": "mani_pal-16",
             "src": "/mani-palestina/IMG_5125.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "Momento de la cobertura",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "mani_pal-17",
@@ -1570,7 +1610,10 @@
           {
             "id": "mani_pal-18",
             "src": "/mani-palestina/IMG_5183.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "Momento de la cobertura",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           }
         ]
       },
@@ -1584,12 +1627,18 @@
           {
             "id": "entrevis-1",
             "src": "/entrevista-julieta-pona/IMG_8539.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Momento de la cobertura",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "entrevis-2",
             "src": "/entrevista-julieta-pona/IMG_8541.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Momento de la cobertura",
+            "orientation": "vertical",
+            "width": 4000,
+            "height": 6000
           },
           {
             "id": "entrevis-3",
