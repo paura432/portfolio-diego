@@ -74,6 +74,7 @@ export interface WorkExperience {
 }
 
 export interface Contact {
+  phone: string;
   email: string;
   socials: {
     [key: string]: string;

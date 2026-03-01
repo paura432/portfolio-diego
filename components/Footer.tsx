@@ -23,12 +23,34 @@ export default function Footer() {
             <h3 className="font-serif text-xl font-normal mb-4">
               {t.footer.contact}
             </h3>
-            <a
-              href={`mailto:${contact.email}`}
-              className="text-primary-200 dark:text-gray-300 hover:text-white transition-colors text-base"
-            >
-              {contact.email}
-            </a>
+            <ul className="space-y-2 text-primary-200 dark:text-gray-300">
+              <li>
+                <a
+                  href={`tel:${contact.phone?.replace(/\s/g, '')}`}
+                  className="hover:text-white transition-colors text-base"
+                >
+                  {contact.phone}
+                </a>
+              </li>
+              <li>
+                <a
+                  href={`mailto:${contact.email}`}
+                  className="hover:text-white transition-colors text-base"
+                >
+                  {contact.email}
+                </a>
+              </li>
+              <li>
+                <a
+                  href={contact.socials.LinkedIn}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors text-base"
+                >
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
           </div>
 
           {/* Socials */}
@@ -37,7 +59,9 @@ export default function Footer() {
               {t.footer.socials}
             </h3>
             <ul className="space-y-2">
-              {Object.entries(contact.socials).map(([platform, url]) => (
+              {Object.entries(contact.socials)
+                .filter(([platform]) => platform !== 'LinkedIn')
+                .map(([platform, url]) => (
                 <li key={platform}>
                   <a
                     href={url}

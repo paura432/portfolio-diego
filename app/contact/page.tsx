@@ -18,6 +18,17 @@ export default function ContactPage() {
           </p>
 
           <div className="space-y-8">
+            {/* Phone */}
+            <a
+              href={`tel:${contact.phone?.replace(/\s/g, '')}`}
+              className="block p-6 border-2 border-gray-200 hover:border-accent transition-colors group"
+            >
+              <span className="text-sm text-gray-500 block mb-2">Teléfono</span>
+              <span className="text-xl md:text-2xl text-accent font-semibold group-hover:text-accent-light transition-colors">
+                {contact.phone}
+              </span>
+            </a>
+
             {/* Email */}
             <a
               href={`mailto:${contact.email}`}
