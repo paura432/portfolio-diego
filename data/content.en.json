@@ -265,26 +265,6 @@
             "caption": "Benito introducing himself to the audience"
           }
         ]
-      },
-      {
-        "id": "festival-barcelona",
-        "title": "Outdoor music festival",
-        "description": "Outdoor music festival in Barcelona.",
-        "coverImage": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1200&h=800&fit=crop",
-        "place": "Barcelona",
-        "date": "2024",
-        "photos": [
-          {
-            "id": "c2-1",
-            "src": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1200&h=800&fit=crop",
-            "caption": "Main festival stage"
-          },
-          {
-            "id": "c2-2",
-            "src": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200&h=800&fit=crop",
-            "caption": "Audience atmosphere"
-          }
-        ]
       }
     ],
     "carreras": [
@@ -994,48 +974,7 @@
         ]
       }
     ],
-    "fotoReportages": [
-      {
-        "id": "manifestacion-estudiantil",
-        "title": "Student demonstration for public education",
-        "description": "Students demanding public education.",
-        "coverImage": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=800&fit=crop",
-        "place": "Madrid",
-        "date": "2023",
-        "photos": [
-          {
-            "id": "fr1-1",
-            "src": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=800&fit=crop",
-            "caption": "Students at the demonstration"
-          },
-          {
-            "id": "fr1-2",
-            "src": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop",
-            "caption": "Protest moment"
-          }
-        ]
-      },
-      {
-        "id": "mercado-lavapies",
-        "title": "Local market in Lavapiés neighborhood",
-        "description": "Daily life at the Lavapiés market.",
-        "coverImage": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop",
-        "place": "Madrid",
-        "date": "2023",
-        "photos": [
-          {
-            "id": "fr2-1",
-            "src": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop",
-            "caption": "Vendors at the market"
-          },
-          {
-            "id": "fr2-2",
-            "src": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=800&fit=crop",
-            "caption": "Daily life in the neighborhood"
-          }
-        ]
-      }
-    ],
+    "fotoReportages": [],
     "coberturas": [
       {
         "id": "goya-2026",
@@ -1616,46 +1555,6 @@
             "id": "entrevis-8",
             "src": "/entrevista-julieta-pona/IMG_8629.webp",
             "caption": "Coverage moment"
-          }
-        ]
-      },
-      {
-        "id": "evento-cultural-madrid",
-        "title": "Cultural event coverage",
-        "description": "Cultural event coverage in Madrid.",
-        "coverImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop",
-        "place": "Madrid",
-        "date": "2024",
-        "photos": [
-          {
-            "id": "cb1-1",
-            "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop",
-            "caption": "Event moment"
-          },
-          {
-            "id": "cb1-2",
-            "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=800&fit=crop",
-            "caption": "Art and cultural expression"
-          }
-        ]
-      },
-      {
-        "id": "evento-deportivo-valencia",
-        "title": "Sports event coverage",
-        "description": "Sports event coverage in Valencia.",
-        "coverImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop",
-        "place": "Valencia",
-        "date": "2024",
-        "photos": [
-          {
-            "id": "cb2-1",
-            "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop",
-            "caption": "Event action"
-          },
-          {
-            "id": "cb2-2",
-            "src": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&h=800&fit=crop",
-            "caption": "Live festival"
           }
         ]
       }
