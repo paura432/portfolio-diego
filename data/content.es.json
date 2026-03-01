@@ -24,6 +24,7 @@
       {
         "id": "vanesa-martin",
         "title": "Vanesa Martín en el Movistar Arena",
+        "description": "La cantante malagueña en una noche memorable en el Movistar Arena.",
         "coverImage": "/concierto-vanesa-martin/IMG_2548.webp",
         "place": "Madrid",
         "date": "2025",
@@ -86,6 +87,7 @@
       {
         "id": "antonio-orozco",
         "title": "Concierto de Antonio Orozco en Madrid",
+        "description": "El artista barcelonés presentando \"El Tiempo no es oro\" en Madrid.",
         "coverImage": "/concierto-antonio-orozco/IMG_8465.webp",
         "place": "Madrid",
         "date": "2025",
@@ -145,6 +147,7 @@
       {
         "id": "israel-b",
         "title": "Israel B en La Riviera",
+        "description": "El rapero de Orcasitas junto a Cruz Cafuné y Ergo Pro en La Riviera.",
         "coverImage": "/concierto-israel-b/IMG_0573.webp",
         "place": "Madrid",
         "date": "2025",
@@ -211,6 +214,7 @@
       {
         "id": "pignoise",
         "title": "Concierto de Pignoise",
+        "description": "Veinte años de Pignoise celebrados en el Movistar Arena con colaboraciones históricas.",
         "coverImage": "/concierto-pignoise/IMG_7829.webp",
         "place": "Madrid",
         "date": "2025",
@@ -265,6 +269,7 @@
       {
         "id": "festival-barcelona",
         "title": "Festival de música al aire libre",
+        "description": "Festival de música al aire libre en Barcelona.",
         "coverImage": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1200&h=800&fit=crop",
         "place": "Barcelona",
         "date": "2024",
@@ -286,6 +291,7 @@
       {
         "id": "fuentetoba-2025",
         "title": "Fuentetoba, la última cita del Campeonato de España de Hard Enduro de 2025",
+        "description": "Última cita del Campeonato de España de Hard Enduro en Soria.",
         "coverImage": "/FUENTETOBA 2025/IMG_6620.webp",
         "place": "Soria, España",
         "date": "2025",
@@ -420,6 +426,7 @@
       {
         "id": "san-silvestre-endurera-2024",
         "title": "San Silvestre Endurera 2024",
+        "description": "Carrera de Hard Enduro para despedir el año.",
         "coverImage": "/SAN SILVESTRE ENDURERA 2024/IMG_3581.webp",
         "place": "España",
         "date": "2024",
@@ -528,6 +535,7 @@
       {
         "id": "tudela-veguin-2025",
         "title": "Tudela Veguín 2025",
+        "description": "Competición de Hard Enduro en las montañas asturianas.",
         "coverImage": "/TUDELA VEGUÍN 2025/IMG_9724.webp",
         "place": "Asturias, España",
         "date": "2025",
@@ -652,6 +660,7 @@
       {
         "id": "hixpania-hard-enduro-2025",
         "title": "Hixpania Hard Enduro 2025",
+        "description": "Una de las pruebas más exigentes del calendario nacional.",
         "coverImage": "/HIXPANIA HARD ENDURO 2025/IMG_1015.webp",
         "place": "Castilla y León, España",
         "date": "2025",
@@ -828,6 +837,7 @@
       {
         "id": "la-pesquera-2025",
         "title": "La Pesquera 2025",
+        "description": "Carrera de Hard Enduro en Castilla-La Mancha.",
         "coverImage": "/LA PESQUERA 2025/IMG_5232.webp",
         "place": "Castilla-La Mancha, España",
         "date": "2025",
@@ -988,6 +998,7 @@
       {
         "id": "manifestacion-estudiantil",
         "title": "Manifestación estudiantil por la educación pública",
+        "description": "Estudiantes reivindicando la educación pública.",
         "coverImage": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=800&fit=crop",
         "place": "Madrid",
         "date": "2023",
@@ -1007,6 +1018,7 @@
       {
         "id": "mercado-lavapies",
         "title": "Mercado de abastos en el barrio de Lavapiés",
+        "description": "Vida cotidiana en el mercado de abastos de Lavapiés.",
         "coverImage": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop",
         "place": "Madrid",
         "date": "2023",
@@ -1028,6 +1040,7 @@
       {
         "id": "goya-2026",
         "title": "Premios Goya 2026",
+        "description": "Cobertura de la gala de los Premios Goya.",
         "coverImage": "/goya-2026/IMG_0004.webp",
         "place": "Madrid",
         "date": "2026",
@@ -1130,6 +1143,7 @@
       {
         "id": "incendio-museo-ferrocarril",
         "title": "Incendio Museo del Ferrocarril",
+        "description": "Fotorrelato del incendio en el Museo del Ferrocarril de Madrid.",
         "coverImage": "/incendio-museo-ferrocarril/IMG_9527.webp",
         "place": "Madrid",
         "date": "2025",
@@ -1224,6 +1238,7 @@
       {
         "id": "mani-alquileres-2024",
         "title": "Manifestación por el derecho a la vivienda",
+        "description": "Manifestación por el derecho a la vivienda en Madrid.",
         "coverImage": "/MANI ALQUILERES 2024/IMG_1003.webp",
         "place": "Madrid",
         "date": "2024",
@@ -1321,6 +1336,7 @@
       {
         "id": "mani-flotilla-2025",
         "title": "Manifestación Flotilla por Palestina",
+        "description": "Manifestación Flotilla por Palestina.",
         "coverImage": "/MANI FLOTILLA 2025/IMG_1779.webp",
         "place": "Madrid",
         "date": "2025",
@@ -1432,6 +1448,7 @@
       {
         "id": "mani-palestina",
         "title": "Manifestación por Palestina",
+        "description": "Manifestación en apoyo al pueblo palestino.",
         "coverImage": "/mani-palestina/IMG_3685.jpeg",
         "place": "Madrid",
         "date": "2024",
@@ -1549,6 +1566,7 @@
       {
         "id": "entrevista-julieta-pona",
         "title": "Entrevista a Julieta Pona",
+        "description": "Sesión fotográfica con la periodista Julieta Pona.",
         "coverImage": "/entrevista-julieta-pona/IMG_8629.webp",
         "place": "Madrid",
         "date": "2025",
@@ -1604,6 +1622,7 @@
       {
         "id": "evento-cultural-madrid",
         "title": "Cobertura de evento cultural",
+        "description": "Cobertura de evento cultural en Madrid.",
         "coverImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop",
         "place": "Madrid",
         "date": "2024",
@@ -1623,6 +1642,7 @@
       {
         "id": "evento-deportivo-valencia",
         "title": "Cobertura de evento deportivo",
+        "description": "Cobertura de evento deportivo en Valencia.",
         "coverImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop",
         "place": "Valencia",
         "date": "2024",

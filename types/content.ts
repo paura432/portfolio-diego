@@ -36,6 +36,7 @@ export interface Photography {
 export interface PhotoEvent {
   id: string;
   title: string;
+  description?: string;
   coverImage: string;
   place: string;
   date?: string;

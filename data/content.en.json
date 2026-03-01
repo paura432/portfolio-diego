@@ -6,12 +6,11 @@
     "profileImage": "/diego-profile.png",
     "languages": [
       "Spanish",
-      "Italian",
       "English"
     ]
   },
   "about": {
-    "bio": "I am a journalist specialized in human narratives and social analysis. My work focuses on exploring the complex realities of our contemporary society through written word and documentary imagery. Trained at the Complutense University of Madrid, I have developed my career combining rigorous research with an ethical and empathetic approach to the stories I tell.",
+    "bio": "I am passionate about image, text and sport. Telling stories —with camera or words— is the core of my work. Writing, photography, editing and audiovisual creation are the pillars of my professional profile.\n\nSince 2018 I have been creating content for the YouTube channel EnduroDesinquieto, specialized in Hard Enduro. I have managed and produced multiplatform projects at El Arco and worked as editor, chronicler and photographer at El Generacional, covering cultural and sports events. I have also gained experience in media management at Infoperiodistas and in newsroom dynamics in the Current Affairs section of Diario AS.",
     "focus": [
       "Politics",
       "Society",
@@ -25,6 +24,7 @@
       {
         "id": "vanesa-martin",
         "title": "Vanesa Martín at Movistar Arena",
+        "description": "The singer from Málaga on a memorable night at Movistar Arena.",
         "coverImage": "/concierto-vanesa-martin/IMG_2548.webp",
         "place": "Madrid",
         "date": "2025",
@@ -87,6 +87,7 @@
       {
         "id": "antonio-orozco",
         "title": "Antonio Orozco Concert in Madrid",
+        "description": "The Barcelona artist presenting \"El Tiempo no es oro\" in Madrid.",
         "coverImage": "/concierto-antonio-orozco/IMG_8465.webp",
         "place": "Madrid",
         "date": "2025",
@@ -146,6 +147,7 @@
       {
         "id": "israel-b",
         "title": "Israel B at La Riviera",
+        "description": "The rapper from Orcasitas with Cruz Cafuné and Ergo Pro at La Riviera.",
         "coverImage": "/concierto-israel-b/IMG_0573.webp",
         "place": "Madrid",
         "date": "2025",
@@ -212,6 +214,7 @@
       {
         "id": "pignoise",
         "title": "Pignoise Concert",
+        "description": "Twenty years of Pignoise celebrated at Movistar Arena with historic collaborations.",
         "coverImage": "/concierto-pignoise/IMG_7829.webp",
         "place": "Madrid",
         "date": "2025",
@@ -266,6 +269,7 @@
       {
         "id": "festival-barcelona",
         "title": "Outdoor music festival",
+        "description": "Outdoor music festival in Barcelona.",
         "coverImage": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1200&h=800&fit=crop",
         "place": "Barcelona",
         "date": "2024",
@@ -287,6 +291,7 @@
       {
         "id": "fuentetoba-2025",
         "title": "Fuentetoba, the last round of the 2025 Spanish Hard Enduro Championship",
+        "description": "Last round of the Spanish Hard Enduro Championship in Soria.",
         "coverImage": "/FUENTETOBA 2025/IMG_6620.webp",
         "place": "Soria, Spain",
         "date": "2025",
@@ -294,133 +299,134 @@
           {
             "id": "ft1",
             "src": "/FUENTETOBA 2025/IMG_6620.webp",
-            "caption": "Race start grid"
+            "caption": "Parrilla de salida de la carrera"
           },
           {
             "id": "ft2",
             "src": "/FUENTETOBA 2025/IMG_6820.webp",
-            "caption": "Silvia Piñeiro, Spanish Hard Enduro Cup champion"
+            "caption": "Silvia Piñeiro, campeona de la Copa de España de Hard Enduro"
           },
           {
             "id": "ft3",
             "src": "/FUENTETOBA 2025/IMG_6852.webp",
-            "caption": "Piñeiro during the race"
+            "caption": "Piñeiro durante la carrera"
           },
           {
             "id": "ft4",
             "src": "/FUENTETOBA 2025/IMG_6864.webp",
-            "caption": "Trial section of the circuit"
+            "caption": "Sección de trial del circuito"
           },
           {
             "id": "ft5",
             "src": "/FUENTETOBA 2025/IMG_7114.webp",
-            "caption": "Amateur riders during the race"
+            "caption": "Pilotos amateur durante la carrera"
           },
           {
             "id": "ft6",
             "src": "/FUENTETOBA 2025/IMG_7129.webp",
-            "caption": "Amateur riders during the race"
+            "caption": "Pilotos amateur durante la carrera"
           },
           {
             "id": "ft7",
             "src": "/FUENTETOBA 2025/IMG_7241.webp",
-            "caption": "One of the most demanding climbs"
+            "caption": "Una de las subidas más exigentes"
           },
           {
             "id": "ft8",
             "src": "/FUENTETOBA 2025/IMG_7347.webp",
-            "caption": "Action during the event"
+            "caption": "Acción durante la cita"
           },
           {
             "id": "ft9",
             "src": "/FUENTETOBA 2025/IMG_7447.webp",
-            "caption": "Action during the event"
+            "caption": "Acción durante la cita"
           },
           {
             "id": "ft10",
             "src": "/FUENTETOBA 2025/IMG_7534.webp",
-            "caption": "Amateur rider assessing how to tackle one of the circuit climbs"
+            "caption": "Piloto amateur valorando cómo realizar una de las subidas del circuito"
           },
           {
             "id": "ft11",
             "src": "/FUENTETOBA 2025/IMG_7575.webp",
-            "caption": "Rider holding his bike to prevent it from falling down a ravine"
+            "caption": "Piloto agarra su moto para evitar que caiga por un barranco"
           },
           {
             "id": "ft12",
             "src": "/FUENTETOBA 2025/IMG_7669.webp",
-            "caption": "Francesc Moret, current Spanish Hard Enduro champion, passing through one of the climbs"
+            "caption": "Francesc Moret, actual campeón de España de Hard Enduro, a su paso por una de las subidas"
           },
           {
             "id": "ft13",
             "src": "/FUENTETOBA 2025/IMG_7674.webp",
-            "caption": "Eric Miquel, Championship runner-up, on Moret's tail"
+            "caption": "Eric Miquel, subcamepeón del Campeonato, a la estela de Moret"
           },
           {
             "id": "ft14",
             "src": "/FUENTETOBA 2025/IMG_7685.webp",
-            "caption": "Andorran rider Marc Font on the fast section of the circuit"
+            "caption": "El piloto andorrano, Marc Font, por la zona rápida del circuito"
           },
           {
             "id": "ft17",
             "src": "/FUENTETOBA 2025/IMG_7837.webp",
-            "caption": "A group of marshals helping a rider stuck on a climb"
+            "caption": "Un grupo de marshalls ayudan a un piloto estancado en una subida"
           },
           {
             "id": "ft18",
             "src": "/FUENTETOBA 2025/IMG_7874.webp",
-            "caption": "Font, who finished third in the standings"
+            "caption": "Font, que acabó tercero en la clasificación"
           },
           {
             "id": "ft19",
             "src": "/FUENTETOBA 2025/IMG_7933.webp",
-            "caption": "Moret celebrating his national title"
+            "caption": "Moret celebrando su título nacional"
           },
           {
             "id": "ft20",
             "src": "/FUENTETOBA 2025/IMG_7942.webp",
-            "caption": "Moret celebrating his national title"
+            "caption": "Moret celebrando su título nacional"
           },
           {
             "id": "ft21",
             "src": "/FUENTETOBA 2025/IMG_8024.webp",
-            "caption": "The Spanish Hard Enduro champion's bike"
+            "caption": "La moto del campeón de España de Hard Enduro"
           },
           {
             "id": "ft22",
             "src": "/FUENTETOBA 2025/IMG_8045.webp",
-            "caption": "Moret and his parents posing for the cameras"
+            "caption": "Moret y sus padres posando para las cámaras"
           },
           {
             "id": "ft23",
             "src": "/FUENTETOBA 2025/IMG_8069.webp",
-            "caption": "Miquel and Moret chatting after the race"
+            "caption": "Miquel y Moret charlando tras la carrera"
           },
           {
             "id": "ft25",
             "src": "/FUENTETOBA 2025/IMG_8105.webp",
-            "caption": "Super Enduro session to close the Fuentetoba event"
+            "caption": "Sesión de Super Enduro para dar fin a la cita en Fuentetoba"
           },
           {
             "id": "ft26",
             "src": "/FUENTETOBA 2025/IMG_8208.webp",
-            "caption": "Super Enduro session"
+            "caption": "Sesión de Super Enduro"
           },
           {
             "id": "ft27",
             "src": "/FUENTETOBA 2025/IMG_8345.webp",
-            "caption": "Super Enduro session"
+            "caption": "Sesión de Super Enduro"
           },
           {
             "id": "ft28",
             "src": "/FUENTETOBA 2025/IMG_8348.webp",
-            "caption": "Super Enduro session"
+            "caption": "Sesión de Super Enduro"
           }
         ]
       },
       {
         "id": "san-silvestre-endurera-2024",
         "title": "San Silvestre Endurera 2024",
+        "description": "Hard Enduro race to bid farewell to the year.",
         "coverImage": "/SAN SILVESTRE ENDURERA 2024/IMG_3581.webp",
         "place": "Spain",
         "date": "2024",
@@ -529,6 +535,7 @@
       {
         "id": "tudela-veguin-2025",
         "title": "Tudela Veguín 2025",
+        "description": "Hard Enduro competition in the Asturian mountains.",
         "coverImage": "/TUDELA VEGUÍN 2025/IMG_9724.webp",
         "place": "Asturias, Spain",
         "date": "2025",
@@ -653,6 +660,7 @@
       {
         "id": "hixpania-hard-enduro-2025",
         "title": "Hixpania Hard Enduro 2025",
+        "description": "One of the most demanding rounds of the national calendar.",
         "coverImage": "/HIXPANIA HARD ENDURO 2025/IMG_1015.webp",
         "place": "Castilla y León, Spain",
         "date": "2025",
@@ -829,6 +837,7 @@
       {
         "id": "la-pesquera-2025",
         "title": "La Pesquera 2025",
+        "description": "Hard Enduro race in Castilla-La Mancha.",
         "coverImage": "/LA PESQUERA 2025/IMG_5232.webp",
         "place": "Castilla-La Mancha, Spain",
         "date": "2025",
@@ -989,6 +998,7 @@
       {
         "id": "manifestacion-estudiantil",
         "title": "Student demonstration for public education",
+        "description": "Students demanding public education.",
         "coverImage": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=800&fit=crop",
         "place": "Madrid",
         "date": "2023",
@@ -996,18 +1006,19 @@
           {
             "id": "fr1-1",
             "src": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=800&fit=crop",
-            "caption": "Report moment"
+            "caption": "Students at the demonstration"
           },
           {
             "id": "fr1-2",
             "src": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop",
-            "caption": "Report moment"
+            "caption": "Protest moment"
           }
         ]
       },
       {
         "id": "mercado-lavapies",
         "title": "Local market in Lavapiés neighborhood",
+        "description": "Daily life at the Lavapiés market.",
         "coverImage": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop",
         "place": "Madrid",
         "date": "2023",
@@ -1015,12 +1026,12 @@
           {
             "id": "fr2-1",
             "src": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop",
-            "caption": "Report moment"
+            "caption": "Vendors at the market"
           },
           {
             "id": "fr2-2",
             "src": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=800&fit=crop",
-            "caption": "Report moment"
+            "caption": "Daily life in the neighborhood"
           }
         ]
       }
@@ -1029,6 +1040,7 @@
       {
         "id": "goya-2026",
         "title": "Goya Awards 2026",
+        "description": "Coverage of the Goya Awards gala.",
         "coverImage": "/goya-2026/IMG_0004.webp",
         "place": "Madrid",
         "date": "2026",
@@ -1131,6 +1143,7 @@
       {
         "id": "incendio-museo-ferrocarril",
         "title": "Railway Museum Fire",
+        "description": "Photo reportage of the fire at the Railway Museum in Madrid.",
         "coverImage": "/incendio-museo-ferrocarril/IMG_9527.webp",
         "place": "Madrid",
         "date": "2025",
@@ -1225,6 +1238,7 @@
       {
         "id": "mani-alquileres-2024",
         "title": "Housing rights demonstration",
+        "description": "Demonstration for housing rights in Madrid.",
         "coverImage": "/MANI ALQUILERES 2024/IMG_1003.webp",
         "place": "Madrid",
         "date": "2024",
@@ -1322,6 +1336,7 @@
       {
         "id": "mani-flotilla-2025",
         "title": "Flotilla for Palestine demonstration",
+        "description": "Flotilla for Palestine demonstration.",
         "coverImage": "/MANI FLOTILLA 2025/IMG_1779.webp",
         "place": "Madrid",
         "date": "2025",
@@ -1433,6 +1448,7 @@
       {
         "id": "mani-palestina",
         "title": "Demonstration for Palestine",
+        "description": "Demonstration in support of the Palestinian people.",
         "coverImage": "/mani-palestina/IMG_3685.jpeg",
         "place": "Madrid",
         "date": "2024",
@@ -1550,6 +1566,7 @@
       {
         "id": "entrevista-julieta-pona",
         "title": "Interview with Julieta Pona",
+        "description": "Photo session with journalist Julieta Pona.",
         "coverImage": "/entrevista-julieta-pona/IMG_8629.webp",
         "place": "Madrid",
         "date": "2025",
@@ -1605,6 +1622,7 @@
       {
         "id": "evento-cultural-madrid",
         "title": "Cultural event coverage",
+        "description": "Cultural event coverage in Madrid.",
         "coverImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop",
         "place": "Madrid",
         "date": "2024",
@@ -1612,18 +1630,19 @@
           {
             "id": "cb1-1",
             "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=800&fit=crop",
-            "caption": "Coverage moment"
+            "caption": "Event moment"
           },
           {
             "id": "cb1-2",
             "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&h=800&fit=crop",
-            "caption": "Coverage moment"
+            "caption": "Art and cultural expression"
           }
         ]
       },
       {
         "id": "evento-deportivo-valencia",
         "title": "Sports event coverage",
+        "description": "Sports event coverage in Valencia.",
         "coverImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop",
         "place": "Valencia",
         "date": "2024",
@@ -1631,12 +1650,12 @@
           {
             "id": "cb2-1",
             "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop",
-            "caption": "Coverage moment"
+            "caption": "Event action"
           },
           {
             "id": "cb2-2",
             "src": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&h=800&fit=crop",
-            "caption": "Coverage moment"
+            "caption": "Live festival"
           }
         ]
       }
@@ -1648,7 +1667,7 @@
       "title": "Guitarricadelafuente: \"Internationally, we are living a moment when Spanish is cool\"",
       "medium": "AS.com Tikitakas",
       "year": "2025",
-      "summary": "Interview with the Castellón singer-songwriter about his album \"Spanish Leather\", renewed folk and the international moment of Spanish music. From his beginnings with covers to viralizing contemporary folk.",
+      "summary": "Interview with the Castellón singer-songwriter about his album \"Spanish Leather\", renewed folk and the international moment of Spanish music.",
       "url": "https://as.com/tikitakas/musica/guitarricadelafuente-internacionalmente-estamos-viviendo-un-momento-en-el-que-lo-espanol-es-guay-n/",
       "image": "/Guitarricadelafuente.jpg"
     },
@@ -1668,7 +1687,7 @@
       "year": "2025",
       "summary": "Photo reportage of the fire on Párroco Eusebio Cuenca street, in the Delicias Espacio and Railway Museum area of Madrid.",
       "url": "https://as.com/actualidad/fotorrelato/el-incendio-de-delicias-en-imagenes-f/",
-      "image": "/El-incendio-de-Delicias-en-imágenes.jpg"
+      "image": "/El-incendio-de-Delicias-en-imagenes.jpg"
     },
     {
       "id": "4",
@@ -1704,7 +1723,7 @@
       "year": "2024",
       "summary": "Report on the evolution of the Spanish advertising market and the growth of investment in the first half of the year.",
       "url": "https://diario.infoperiodistas.info/la-inversion-publicitaria-crece-durante-la-primera-mitad-de-2024/",
-      "image": "/La-inversión-publicitaria-crece-durante-la-primera-mitad-de-2024.jpg"
+      "image": "/La-inversion-publicitaria-crece-durante-la-primera-mitad-de-2024.jpg"
     },
     {
       "id": "8",
@@ -1738,9 +1757,9 @@
       "title": "The monitors or education outside the classroom",
       "medium": "El Generacional",
       "year": "2024",
-      "summary": "Report on the reality of canteen and extracurricular activity monitors: poorly trained, underpaid and with a responsibility that goes beyond mere supervision. Their invisible influence on children's development.",
+      "summary": "Report on the reality of canteen and extracurricular activity monitors: poorly trained, underpaid and with a responsibility that goes beyond mere supervision.",
       "url": "https://elgeneracionalpost.com/actualidad/sociedad-actualidad/2024/1121/177741/los-monitores-o-la-educacion-fuera-de-las-aulas.html",
-      "image": "/Los-monitores-o-la-educación-fuera-de-las-aulas.webp"
+      "image": "/Los-monitores-o-la-educacion-fuera-de-las-aulas.webp"
     },
     {
       "id": "12",
@@ -1749,7 +1768,7 @@
       "year": "2025",
       "summary": "Chronicle of Natos y Waor's concert at a packed Metropolitano Stadium, a new chapter in the history of Spanish rap with Fer and Gonzalo as protagonists.",
       "url": "https://elgeneracionalpost.com/cultura/2025/0608/226187/natos-y-waor-decalogo-de-como-llevar-la-musica-underground-a-lo-mas-alto.html",
-      "image": "/Natos-y-Waor:-decálogo-de-cómo-llevar-la-música-underground-a-lo-más-alto.webp"
+      "image": "/Natos-y-Waor-decalogo-de-como-llevar-la-musica-underground-a-lo-mas-alto.webp"
     },
     {
       "id": "13",
@@ -1758,7 +1777,7 @@
       "year": "2025",
       "summary": "Chronicle of Israel B's concert in Madrid, where the artist demonstrated his ability to fill the stage with his solo presence.",
       "url": "https://elgeneracionalpost.com/cultura/musica/2025/0404/213129/israel-b-un-hombre-solo-con-todo-un-ejercito-en-madrid.html",
-      "image": "/Israel-B:-un-hombre-solo-con-todo-un-ejército-en-Madrid.webp"
+      "image": "/Israel-B-un-hombre-solo-con-todo-un-ejercito-en-Madrid.webp"
     },
     {
       "id": "14",
@@ -1767,7 +1786,7 @@
       "year": "2025",
       "summary": "Chronicle of Pignoise's anniversary concert at the Movistar Arena: two decades of music, collaborations with Hens, Taburete, Rulo, Los Secretos, Loquillo and Hombres G, and a night of nostalgia and euphoria.",
       "url": "https://elgeneracionalpost.com/cultura/musica/2025/0309/206650/pignoise-llena-y-emociona-el-movistar-arena-en-su-gira-de-aniversario.html",
-      "image": "/Veinte-años-y-un-concierto-para-la-posteridad:-Pignoise-llena-y-emociona-el-Movistar-Arena-en-su-gira-de-aniversario.webp"
+      "image": "/Veinte-anos-y-un-concierto-para-la-posteridad-Pignoise-llena-y-emociona-el-Movistar-Arena.webp"
     },
     {
       "id": "15",
@@ -1776,14 +1795,14 @@
       "year": "2025",
       "summary": "Press conference before the Metropolitano concert. The Madrid duo looks back at their beginnings in a squat in Embajadores, their 15 years in music and the advice they would give their younger selves.",
       "url": "https://elgeneracionalpost.com/cultura/musica/2025/0606/226398/natos-y-waor-a-esos-fer-y-gonzalo-de-hace-15-anos-les-diriamos-que-se-equivoquen-todo-lo-se-tengan-que-equivocar.html",
-      "image": "/Natos-y-Waor:-«A-esos-Fer-y-Gonzalo-de-hace-15-años-les-diríamos-que-se-equivoquen-todo-lo-se-tengan-que-equivocar».webp"
+      "image": "/Natos-y-Waor-A-esos-Fer-y-Gonzalo-de-hace-15-anos-les-dirian-que-se-equivoquen.webp"
     }
   ],
   "work": [
     {
       "id": "1",
       "role": "Journalism Degree",
-      "organization": "Carlos III University of Madrid",
+      "organization": "Universidad Carlos III de Madrid",
       "dates": "2021–Present",
       "description": "GETAFE (MADRID)"
     },

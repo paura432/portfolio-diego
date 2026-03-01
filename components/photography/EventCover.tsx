@@ -76,6 +76,11 @@ export default function EventCover({ event, category }: EventCoverProps) {
           <h3 className="font-serif text-2xl md:text-3xl font-normal text-white mb-2 leading-tight">
             {event.title}
           </h3>
+          {event.description && (
+            <p className="text-gray-200 text-sm md:text-base mb-3 line-clamp-2">
+              {event.description}
+            </p>
+          )}
           <div className="flex items-center gap-3 text-sm text-gray-300">
             <span>{event.place}</span>
             {event.date && (
