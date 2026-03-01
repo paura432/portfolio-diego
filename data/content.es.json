@@ -1,8 +1,9 @@
 {
   "site": {
     "name": "Diego Delgado Lerma",
-    "role": "Periodista / Estudiante de Periodismo",
+    "role": "Periodista y fotógrafo",
     "location": "Madrid, España",
+    "profileImage": "/diego-profile.png",
     "languages": [
       "Español",
       "Inglés"
@@ -22,20 +23,20 @@
     "conciertos": [
       {
         "id": "vanesa-martin",
-        "title": "Concierto de Vanesa Martín",
+        "title": "Vanesa Martín en el Movistar Arena",
         "coverImage": "/concierto-vanesa-martin/IMG_2512.jpg",
         "place": "Madrid",
         "date": "2025",
         "photos": [
           {
-            "id": "vanesa_m-1",
-            "src": "/concierto-vanesa-martin/IMG_2512.jpg",
-            "caption": "Momento del concierto"
-          },
-          {
             "id": "vanesa_m-3",
             "src": "/concierto-vanesa-martin/IMG_2548.jpg",
-            "caption": "Momento del concierto"
+            "caption": "Presentación ante el Movistar Arena"
+          },
+          {
+            "id": "vanesa_m-1",
+            "src": "/concierto-vanesa-martin/IMG_2512.jpg",
+            "caption": "Guitarra perteneciente a la banda de Vanesa Martín"
           },
           {
             "id": "vanesa_m-5",
@@ -59,66 +60,66 @@
       },
       {
         "id": "antonio-orozco",
-        "title": "Concierto de Antonio Orozco",
+        "title": "Concierto de Antonio Orozco en Madrid",
         "coverImage": "/concierto-antonio-orozco/IMG_8465.webp",
         "place": "Madrid",
-        "date": "2024",
+        "date": "2025",
         "photos": [
           {
             "id": "antonio_-1",
             "src": "/concierto-antonio-orozco/IMG_8465.webp",
-            "caption": "Momento del concierto"
+            "caption": "Inicio del concierto, representando la temática de su álbum, \"El Tiempo no es oro\""
           },
           {
             "id": "antonio_-2",
             "src": "/concierto-antonio-orozco/IMG_8504.webp",
-            "caption": "Momento del concierto"
+            "caption": "Orozco ante el Movistar Arena"
           },
           {
             "id": "antonio_-3",
             "src": "/concierto-antonio-orozco/IMG_8584.webp",
-            "caption": "Momento del concierto"
+            "caption": "Orozco ante el Movistar Arena"
           },
           {
             "id": "antonio_-4",
             "src": "/concierto-antonio-orozco/IMG_8805.webp",
-            "caption": "Momento del concierto"
+            "caption": "El artista barcelonés en la primera canción del concierto"
           },
           {
             "id": "antonio_-5",
             "src": "/concierto-antonio-orozco/IMG_8885.webp",
-            "caption": "Momento del concierto"
+            "caption": "Dándolo todo en el escenario"
           },
           {
             "id": "antonio_-6",
             "src": "/concierto-antonio-orozco/IMG_8929.webp",
-            "caption": "Momento del concierto"
+            "caption": "Orozco palmeando para una de sus canciones"
           },
           {
             "id": "antonio_-7",
             "src": "/concierto-antonio-orozco/IMG_8976.webp",
-            "caption": "Momento del concierto"
+            "caption": "El cantante bajo la luz del antiguo Wizink Center"
           },
           {
             "id": "antonio_-8",
             "src": "/concierto-antonio-orozco/IMG_9010.webp",
-            "caption": "Momento del concierto"
+            "caption": "El artista y compositor, visiblemente emocionado"
           },
           {
             "id": "antonio_-9",
             "src": "/concierto-antonio-orozco/IMG_9061.webp",
-            "caption": "Momento del concierto"
+            "caption": "El artista y compositor, visiblemente emocionado"
           },
           {
             "id": "antonio_-10",
             "src": "/concierto-antonio-orozco/IMG_9077.webp",
-            "caption": "Momento del concierto"
+            "caption": "Antonio Orozco, y su actuación en el Movistar Arena"
           }
         ]
       },
       {
         "id": "israel-b",
-        "title": "Concierto de Israel B",
+        "title": "Israel B en La Riviera",
         "coverImage": "/concierto-israel-b/IMG_0573.webp",
         "place": "Madrid",
         "date": "2025",
@@ -126,6 +127,14 @@
           {
             "id": "israel_b-1",
             "src": "/concierto-israel-b/IMG_0573.webp",
+            "caption": "El artista urbano Israel B iniciando su concierto en La Riviera",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
+          },
+          {
+            "id": "israel_b-2",
+            "src": "/concierto-israel-b/IMG_0573_q88.webp",
             "caption": "Momento del concierto",
             "orientation": "vertical",
             "width": 1365,
@@ -134,11 +143,24 @@
           {
             "id": "israel_b-3",
             "src": "/concierto-israel-b/IMG_0842.webp",
+            "caption": "El público y el rapero"
+          },
+          {
+            "id": "israel_b-4",
+            "src": "/concierto-israel-b/IMG_0842_q88.webp",
             "caption": "Momento del concierto"
           },
           {
             "id": "israel_b-5",
             "src": "/concierto-israel-b/IMG_0895.webp",
+            "caption": "Una asistente graba la actuación con su teléfono móvil",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
+          },
+          {
+            "id": "israel_b-6",
+            "src": "/concierto-israel-b/IMG_0895_q88.webp",
             "caption": "Momento del concierto",
             "orientation": "vertical",
             "width": 1365,
@@ -147,6 +169,14 @@
           {
             "id": "israel_b-7",
             "src": "/concierto-israel-b/IMG_0902.webp",
+            "caption": "Israel B señalando, emocionado, a su público",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
+          },
+          {
+            "id": "israel_b-8",
+            "src": "/concierto-israel-b/IMG_0902_q88.webp",
             "caption": "Momento del concierto",
             "orientation": "vertical",
             "width": 1365,
@@ -155,6 +185,14 @@
           {
             "id": "israel_b-9",
             "src": "/concierto-israel-b/IMG_1150.webp",
+            "caption": "El rapero de Orcasitas bajo la luz de La Riviera",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
+          },
+          {
+            "id": "israel_b-10",
+            "src": "/concierto-israel-b/IMG_1150_q88.webp",
             "caption": "Momento del concierto",
             "orientation": "vertical",
             "width": 1365,
@@ -163,16 +201,41 @@
           {
             "id": "israel_b-11",
             "src": "/concierto-israel-b/IMG_1396.webp",
+            "caption": "De izquierda a derecha, Ergo Pro, Israel B y Cruz Cafuné en el escenario"
+          },
+          {
+            "id": "israel_b-12",
+            "src": "/concierto-israel-b/IMG_1396_q88.webp",
             "caption": "Momento del concierto"
           },
           {
             "id": "israel_b-13",
             "src": "/concierto-israel-b/IMG_1415.webp",
+            "caption": "De izquierda a derecha, Ergo Pro, Israel B y Cruz Cafuné"
+          },
+          {
+            "id": "israel_b-14",
+            "src": "/concierto-israel-b/IMG_1415_1.webp",
+            "caption": "Momento del concierto"
+          },
+          {
+            "id": "israel_b-15",
+            "src": "/concierto-israel-b/IMG_1415_1_q88.webp",
+            "caption": "Momento del concierto"
+          },
+          {
+            "id": "israel_b-16",
+            "src": "/concierto-israel-b/IMG_1415_q88.webp",
             "caption": "Momento del concierto"
           },
           {
             "id": "israel_b-17",
             "src": "/concierto-israel-b/IMG_1437.webp",
+            "caption": "El artista canario durante una de las colaboraciones con Israel B"
+          },
+          {
+            "id": "israel_b-18",
+            "src": "/concierto-israel-b/IMG_1437_q88.webp",
             "caption": "Momento del concierto"
           }
         ]
@@ -187,52 +250,47 @@
           {
             "id": "pignoise-1",
             "src": "/concierto-pignoise/IMG_7829.webp",
-            "caption": "Momento del concierto"
+            "caption": "Álvaro Benito, vocalista de la banda; de fondo, Héctor Polo, batería"
           },
           {
             "id": "pignoise-2",
             "src": "/concierto-pignoise/IMG_7836.webp",
-            "caption": "Momento del concierto"
+            "caption": "Pablo Alonso, corista, durante la actuación"
           },
           {
             "id": "pignoise-3",
             "src": "/concierto-pignoise/IMG_7859.webp",
-            "caption": "Momento del concierto"
+            "caption": "Benito tocando la guitarra mientras canta"
           },
           {
             "id": "pignoise-4",
             "src": "/concierto-pignoise/IMG_7862.webp",
-            "caption": "Momento del concierto"
-          },
-          {
-            "id": "pignoise-5",
-            "src": "/concierto-pignoise/IMG_7910.webp",
-            "caption": "Momento del concierto"
+            "caption": "Benito tocando la guitarra mientras canta"
           },
           {
             "id": "pignoise-6",
             "src": "/concierto-pignoise/IMG_7928.webp",
-            "caption": "Momento del concierto"
+            "caption": "Alonso bajo los focos del escenario"
           },
           {
             "id": "pignoise-7",
             "src": "/concierto-pignoise/IMG_7930.webp",
-            "caption": "Momento del concierto"
+            "caption": "Benito durante la actuación"
           },
           {
             "id": "pignoise-8",
             "src": "/concierto-pignoise/IMG_7942.webp",
-            "caption": "Momento del concierto"
+            "caption": "De izquierda a derecha, Jesús Mateos, Álvaro Benito, Pablo Alonso y Héctor Polo"
           },
           {
             "id": "pignoise-9",
             "src": "/concierto-pignoise/IMG_7967.webp",
-            "caption": "Momento del concierto"
+            "caption": "Pignoise en el Movistar Arena"
           },
           {
             "id": "pignoise-10",
             "src": "/concierto-pignoise/IMG_7969.webp",
-            "caption": "Momento del concierto"
+            "caption": "Benito presentándose al público"
           }
         ]
       },
@@ -259,7 +317,7 @@
     "carreras": [
       {
         "id": "fuentetoba-2025",
-        "title": "Fuentetoba 2025",
+        "title": "Fuentetoba, la última cita del Campeonato de España de Hard Enduro de 2025",
         "coverImage": "/FUENTETOBA 2025/IMG_6620.webp",
         "place": "Soria, España",
         "date": "2025",
@@ -267,148 +325,127 @@
           {
             "id": "ft1",
             "src": "/FUENTETOBA 2025/IMG_6620.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Parrilla de salida de la carrera"
           },
           {
             "id": "ft2",
             "src": "/FUENTETOBA 2025/IMG_6820.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Silvia Piñeiro, campeona de la Copa de España de Hard Enduro"
           },
           {
             "id": "ft3",
             "src": "/FUENTETOBA 2025/IMG_6852.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Piñeiro durante la carrera"
           },
           {
             "id": "ft4",
             "src": "/FUENTETOBA 2025/IMG_6864.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Sección de trial del circuito"
           },
           {
             "id": "ft5",
             "src": "/FUENTETOBA 2025/IMG_7114.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Pilotos amateur durante la carrera"
           },
           {
             "id": "ft6",
             "src": "/FUENTETOBA 2025/IMG_7129.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Pilotos amateur durante la carrera"
           },
           {
             "id": "ft7",
             "src": "/FUENTETOBA 2025/IMG_7241.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Una de las subidas más exigentes"
           },
           {
             "id": "ft8",
             "src": "/FUENTETOBA 2025/IMG_7347.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la cita"
           },
           {
             "id": "ft9",
             "src": "/FUENTETOBA 2025/IMG_7447.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la cita"
           },
           {
             "id": "ft10",
             "src": "/FUENTETOBA 2025/IMG_7534.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Piloto amateur valorando cómo realizar una de las subidas del circuito"
           },
           {
             "id": "ft11",
             "src": "/FUENTETOBA 2025/IMG_7575.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Piloto agarra su moto para evitar que caiga por un barranco"
           },
           {
             "id": "ft12",
             "src": "/FUENTETOBA 2025/IMG_7669.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Francesc Moret, actual campeón de España de Hard Enduro, a su paso por una de las subidas"
           },
           {
             "id": "ft13",
             "src": "/FUENTETOBA 2025/IMG_7674.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Eric Miquel, subcamepeón del Campeonato, a la estela de Moret"
           },
           {
             "id": "ft14",
             "src": "/FUENTETOBA 2025/IMG_7685.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "ft15",
-            "src": "/FUENTETOBA 2025/IMG_7729.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "ft16",
-            "src": "/FUENTETOBA 2025/IMG_7813.webp",
-            "caption": "Acción durante la carrera",
-            "orientation": "vertical",
-            "width": 1365,
-            "height": 2048
+            "caption": "El piloto andorrano, Marc Font, por la zona rápida del circuito"
           },
           {
             "id": "ft17",
             "src": "/FUENTETOBA 2025/IMG_7837.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Un grupo de marshalls ayudan a un piloto estancado en una subida"
           },
           {
             "id": "ft18",
             "src": "/FUENTETOBA 2025/IMG_7874.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Font, que acabó tercero en la clasificación"
           },
           {
             "id": "ft19",
             "src": "/FUENTETOBA 2025/IMG_7933.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Moret celebrando su título nacional"
           },
           {
             "id": "ft20",
             "src": "/FUENTETOBA 2025/IMG_7942.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Moret celebrando su título nacional"
           },
           {
             "id": "ft21",
             "src": "/FUENTETOBA 2025/IMG_8024.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "La moto del campeón de España de Hard Enduro"
           },
           {
             "id": "ft22",
             "src": "/FUENTETOBA 2025/IMG_8045.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Moret y sus padres posando para las cámaras"
           },
           {
             "id": "ft23",
             "src": "/FUENTETOBA 2025/IMG_8069.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "ft24",
-            "src": "/FUENTETOBA 2025/IMG_8086.webp",
-            "caption": "Acción durante la carrera",
-            "orientation": "vertical",
-            "width": 1365,
-            "height": 2048
+            "caption": "Miquel y Moret charlando tras la carrera"
           },
           {
             "id": "ft25",
             "src": "/FUENTETOBA 2025/IMG_8105.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Sesión de Super Enduro para dar fin a la cita en Fuentetoba"
           },
           {
             "id": "ft26",
             "src": "/FUENTETOBA 2025/IMG_8208.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Sesión de Super Enduro"
           },
           {
             "id": "ft27",
             "src": "/FUENTETOBA 2025/IMG_8345.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Sesión de Super Enduro"
           },
           {
             "id": "ft28",
             "src": "/FUENTETOBA 2025/IMG_8348.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Sesión de Super Enduro"
           }
         ]
       },
@@ -1653,7 +1690,7 @@
       "year": "2025",
       "summary": "Entrevista al músico sobre su trayectoria independiente y su búsqueda de una identidad propia alejada de las comparaciones familiares.",
       "url": "https://as.com/tikitakas/musica/teo-lucadamo-yo-he-hecho-canciones-para-pillar-un-camino-propio-nunca-he-querido-que-se-me-asocie-con-la-carrera-de-mi-madre-n/",
-      "image": "/Teo-Lucadamo:-“Nunca-he-querido-que-se-me-asocie-con-la-carrera-de-mi-madre”.avif"
+      "image": "/Teo-Lucadamo--Nunca-he-querido-que-se-me-asocie-con-la-carrera-de-mi-madre.avif"
     },
     {
       "id": "3",
@@ -1662,7 +1699,7 @@
       "year": "2025",
       "summary": "Fotorrelato del incendio en la calle Párroco Eusebio Cuenca, en la zona de Espacio Delicias y el Museo del Ferrocarril de Madrid.",
       "url": "https://as.com/actualidad/fotorrelato/el-incendio-de-delicias-en-imagenes-f/",
-      "image": "/El-incendio-de-Delicias-en-imágenes.jpg"
+      "image": "/El-incendio-de-Delicias-en-imagenes.jpg"
     },
     {
       "id": "4",
@@ -1671,7 +1708,7 @@
       "year": "2024",
       "summary": "Durante la gala de los Premios Nacionales del Marketing, Víctor Conde anunció que deja la dirección general tras 11 años para liderar el I Encuentro Internacional del Marketing y las relaciones institucionales con Latinoamérica.",
       "url": "https://diario.infoperiodistas.info/victor-conde-deja-su-cargo-como-director-general-de-amkt/",
-      "image": "/Víctor-Conde-deja-su-cargo-como-director-general-de-AMKT.jpg"
+      "image": "/Victor-Conde-deja-su-cargo-como-director-general-de-AMKT.jpg"
     },
     {
       "id": "5",
@@ -1698,7 +1735,7 @@
       "year": "2024",
       "summary": "Reportaje sobre la evolución del mercado publicitario español y el crecimiento de la inversión en el primer semestre del año.",
       "url": "https://diario.infoperiodistas.info/la-inversion-publicitaria-crece-durante-la-primera-mitad-de-2024/",
-      "image": "/La-inversión-publicitaria-crece-durante-la-primera-mitad-de-2024.jpg"
+      "image": "/La-inversion-publicitaria-crece-durante-la-primera-mitad-de-2024.jpg"
     },
     {
       "id": "8",
@@ -1707,7 +1744,7 @@
       "year": "2025",
       "summary": "Entrevista al músico Paul Thin sobre la percepción de El Triunfito y la valoración del talento en la industria musical española.",
       "url": "https://as.com/tikitakas/musica/paul-thin-a-dia-de-hoy-se-sigue-pensando-que-el-triunfito-es-menos-musico-y-es-completamente-falso-n/",
-      "image": "/Paul-Thin:-“A-día-de-hoy,-se-sigue-pensando-que-el-triunfito-es-menos-músico,-y-es-completamente-falso”.jpeg"
+      "image": "/Paul-Thin--A-dia-de-hoy--se-sigue-pensando-que-el-triunfito-es-menos-musico--y-es-completamente-falso.jpeg"
     },
     {
       "id": "9",
@@ -1716,7 +1753,7 @@
       "year": "2025",
       "summary": "Entrevista al fotógrafo y cineasta sobre su obra 365º, el proyecto \"Mil y Una Noches\", y la relación entre arte, mercado y precariedad en la creación artística.",
       "url": "https://as.com/actualidad/sociedad/eugenio-recuenco-los-mercados-financieros-se-cargan-totalmente-la-esencia-del-arte-n/",
-      "image": "/Eugenio-Recuenco:-“Los-mercados-financieros-se-cargan-totalmente-la-esencia-del-arte”.avif"
+      "image": "/Eugenio-Recuenco--Los-mercados-financieros-se-cargan-totalmente-la-esencia-del-arte.avif"
     },
     {
       "id": "10",
@@ -1725,7 +1762,7 @@
       "year": "2025",
       "summary": "Entrevista al fotoperiodista sobre su reportaje ganador del World Press Photo 2025 \"Las sombras ya tienen nombre\", que visibiliza a los supervivientes de las cárceles sirias tras la caída de Bashar al-Ásad.",
       "url": "https://as.com/actualidad/sociedad/samuel-nacar-ganador-de-un-world-press-photo-la-sociedad-implica-al-fotoperiodista-y-al-periodista-al-menos-15-anos-de-precariedad-para-que-la-gente-confie-en-ellos-n/",
-      "image": "/Samuel-Nacar,-ganador-de-un-World-Press-Photo:-“La-sociedad-implica-al-fotoperiodista-y-al-periodista-al-menos-15-años-de-precariedad-para-que-la-gente-confíe-en-ellos”.jpg"
+      "image": "/Samuel-Nacar--ganador-de-un-World-Press-Photo--La-sociedad-implica-al-fotoperiodista-y-al-periodista-al-menos-15-anos-de-precariedad-para-que-la-gente-confie-en-ellos.jpg"
     },
     {
       "id": "11",
@@ -1734,7 +1771,7 @@
       "year": "2024",
       "summary": "Reportaje sobre la realidad de los monitores de comedor y actividades extraescolares: mal formados, mal pagados y con una responsabilidad que trasciende la simple supervisión. Su influencia invisible en el desarrollo de los niños.",
       "url": "https://elgeneracionalpost.com/actualidad/sociedad-actualidad/2024/1121/177741/los-monitores-o-la-educacion-fuera-de-las-aulas.html",
-      "image": "/Los-monitores-o-la-educación-fuera-de-las-aulas.webp"
+      "image": "/Los-monitores-o-la-educacion-fuera-de-las-aulas.webp"
     },
     {
       "id": "12",
@@ -1743,7 +1780,7 @@
       "year": "2025",
       "summary": "Crónica del concierto de Natos y Waor en el Estadio Metropolitano a rebosar, un nuevo capítulo para la historia del rap español con Fer y Gonzalo como protagonistas.",
       "url": "https://elgeneracionalpost.com/cultura/2025/0608/226187/natos-y-waor-decalogo-de-como-llevar-la-musica-underground-a-lo-mas-alto.html",
-      "image": "/Natos-y-Waor:-decálogo-de-cómo-llevar-la-música-underground-a-lo-más-alto.webp"
+      "image": "/Natos-y-Waor-decalogo-de-como-llevar-la-musica-underground-a-lo-mas-alto.webp"
     },
     {
       "id": "13",
@@ -1752,7 +1789,7 @@
       "year": "2025",
       "summary": "Crónica del concierto de Israel B en Madrid, donde el artista demostró su capacidad para llenar el escenario con su presencia en solitario.",
       "url": "https://elgeneracionalpost.com/cultura/musica/2025/0404/213129/israel-b-un-hombre-solo-con-todo-un-ejercito-en-madrid.html",
-      "image": "/Israel-B:-un-hombre-solo-con-todo-un-ejército-en-Madrid.webp"
+      "image": "/Israel-B-un-hombre-solo-con-todo-un-ejercito-en-Madrid.webp"
     },
     {
       "id": "14",
@@ -1761,7 +1798,7 @@
       "year": "2025",
       "summary": "Crónica del concierto de aniversario de Pignoise en el Movistar Arena: dos décadas de música, colaboraciones con Hens, Taburete, Rulo, Los Secretos, Loquillo y Hombres G, y una noche de nostalgia y euforia.",
       "url": "https://elgeneracionalpost.com/cultura/musica/2025/0309/206650/pignoise-llena-y-emociona-el-movistar-arena-en-su-gira-de-aniversario.html",
-      "image": "/Veinte-años-y-un-concierto-para-la-posteridad:-Pignoise-llena-y-emociona-el-Movistar-Arena-en-su-gira-de-aniversario.webp"
+      "image": "/Veinte-anos-y-un-concierto-para-la-posteridad-Pignoise-llena-y-emociona-el-Movistar-Arena.webp"
     },
     {
       "id": "15",
@@ -1770,7 +1807,7 @@
       "year": "2025",
       "summary": "Rueda de prensa previa al concierto en el Metropolitano. El dúo madrileño repasa sus inicios en una okupa de Embajadores, sus 15 años en la música y el consejo que se darían a sí mismos.",
       "url": "https://elgeneracionalpost.com/cultura/musica/2025/0606/226398/natos-y-waor-a-esos-fer-y-gonzalo-de-hace-15-anos-les-diriamos-que-se-equivoquen-todo-lo-se-tengan-que-equivocar.html",
-      "image": "/Natos-y-Waor:-«A-esos-Fer-y-Gonzalo-de-hace-15-años-les-diríamos-que-se-equivoquen-todo-lo-se-tengan-que-equivocar».webp"
+      "image": "/Natos-y-Waor-A-esos-Fer-y-Gonzalo-de-hace-15-anos-les-dirian-que-se-equivoquen.webp"
     }
   ],
   "work": [

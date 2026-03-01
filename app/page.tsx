@@ -17,58 +17,60 @@ export default function Home() {
   const about = getAbout(language);
   const t = getTranslations(language);
 
+  const profileSrc = siteInfo.profileImage ?? 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&h=800&fit=crop';
+
   return (
     <>
       <Header />
       <main className="pt-20">
-        {/* Hero Section con fondo visual suave */}
-        <section className="relative bg-gradient-to-br from-primary-50 via-gray-50 to-accent-50 dark:from-black dark:via-gray-900 dark:to-black pt-6 pb-24 md:pt-8 md:pb-32 min-h-[80vh] flex items-center">
+        {/* Hero Section con fondo visual suave - todo visible sin scroll */}
+        <section className="relative bg-gradient-to-br from-primary-50 via-gray-50 to-accent-50 dark:from-black dark:via-gray-900 dark:to-black min-h-[calc(100vh-5rem)] flex items-center justify-center py-4">
           <div className="absolute inset-0 gradient-overlay"></div>
-          <Section className="relative z-10 !pt-8 md:!pt-12 !pb-16 md:!pb-20">
-            <div className="flex flex-col md:flex-row gap-12 items-center">
-              <div className="flex-1 md:flex-[1.6] space-y-6 max-w-5xl">
-                <div>
-                  <h1 className="font-serif text-5xl md:text-6xl font-normal mb-4 text-gray-900 dark:text-gray-100 leading-tight">
-                    {siteInfo.name}
-                  </h1>
-                  <p className="text-xl md:text-2xl text-primary-700 dark:text-primary-400 mb-2 font-medium">
-                    {siteInfo.role}
-                  </p>
-                  <p className="text-primary-600 dark:text-primary-500 text-base">
-                    {siteInfo.location}
-                  </p>
+          <Section className="relative z-10 w-full !py-4 md:!py-6">
+            <div className="flex flex-col gap-6 md:gap-8">
+              <div className="text-center md:text-left">
+                <h1 className="font-serif text-4xl md:text-5xl font-normal mb-2 text-gray-900 dark:text-gray-100 leading-tight">
+                  {siteInfo.name}
+                </h1>
+                <p className="text-lg md:text-xl text-primary-700 dark:text-primary-400 mb-1 font-medium">
+                  {siteInfo.role}
+                </p>
+                <p className="text-primary-600 dark:text-primary-500 text-base">
+                  {siteInfo.location}
+                </p>
+              </div>
+
+              <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center justify-center">
+                <div className="flex-1 md:flex-[1.6] max-w-5xl order-2 md:order-1">
+                  <div className="pt-4 border-t border-primary-200 dark:border-gray-700">
+                    <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-base md:text-lg whitespace-pre-line">
+                      {about.bio}
+                    </p>
+                  </div>
                 </div>
 
-                <div className="pt-6 border-t border-primary-200 dark:border-gray-700">
-                  <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg whitespace-pre-line">
-                    {about.bio}
-                  </p>
-                </div>
-
-                <div className="flex flex-wrap gap-3">
-                  {siteInfo.languages.map((lang, index) => (
-                    <span
-                      key={index}
-                      className="px-4 py-2 bg-white dark:bg-gray-800 border border-primary-200 dark:border-gray-700 rounded-full text-sm text-primary-700 dark:text-primary-400"
-                    >
-                      {lang}
-                    </span>
-                  ))}
+                <div className="flex-1 md:flex-[1.5] relative order-1 md:order-2">
+                  <div className="relative aspect-square rounded-lg overflow-hidden shadow-2xl max-w-[320px] md:max-w-none">
+                    <Image
+                      src={profileSrc}
+                      alt={siteInfo.name}
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
                 </div>
               </div>
 
-              <div className="flex-1 md:flex-[0.9] relative">
-                <div className="relative aspect-square rounded-lg overflow-hidden shadow-2xl">
-                  <Image
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&h=800&fit=crop"
-                    alt={siteInfo.name}
-                    fill
-                    className="object-cover"
-                    priority
-                  />
-                </div>
-                <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent-400 dark:bg-accent-600 rounded-lg opacity-20"></div>
-                <div className="absolute -top-4 -left-4 w-16 h-16 bg-primary-400 dark:bg-primary-600 rounded-lg opacity-20"></div>
+              <div className="flex flex-wrap gap-3 justify-center md:justify-start">
+                {siteInfo.languages.map((lang, index) => (
+                  <span
+                    key={index}
+                    className="px-4 py-2 bg-white dark:bg-gray-800 border border-primary-200 dark:border-gray-700 rounded-full text-sm text-primary-700 dark:text-primary-400"
+                  >
+                    {lang}
+                  </span>
+                ))}
               </div>
             </div>
           </Section>

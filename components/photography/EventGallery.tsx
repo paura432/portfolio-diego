@@ -20,24 +20,25 @@ type GalleryItem =
   | { type: 'vertical-single'; photo: Photo };
 
 function buildGalleryItems(photos: Photo[]): GalleryItem[] {
-  const items: GalleryItem[] = [];
-  let i = 0;
-  while (i < photos.length) {
-    const p = photos[i];
-    const next = photos[i + 1];
-    const isVertical = p.orientation === 'vertical';
-    const nextVertical = next?.orientation === 'vertical';
-
-    if (isVertical && nextVertical) {
-      items.push({ type: 'vertical-pair', photos: [p, next] });
-      i += 2;
-    } else if (isVertical) {
-      items.push({ type: 'vertical-single', photo: p });
-      i++;
+  const verticals: Photo[] = [];
+  const horizontals: Photo[] = [];
+  for (const p of photos) {
+    if (p.orientation === 'vertical') {
+      verticals.push(p);
     } else {
-      items.push({ type: 'horizontal', photo: p });
-      i++;
+      horizontals.push(p);
     }
+  }
+  const items: GalleryItem[] = [];
+  for (let i = 0; i < verticals.length; i += 2) {
+    if (i + 1 < verticals.length) {
+      items.push({ type: 'vertical-pair', photos: [verticals[i], verticals[i + 1]] });
+    } else {
+      items.push({ type: 'vertical-single', photo: verticals[i] });
+    }
+  }
+  for (const h of horizontals) {
+    items.push({ type: 'horizontal', photo: h });
   }
   return items;
 }
@@ -62,6 +63,14 @@ export default function EventGallery({ photos, eventPlace }: EventGalleryProps) 
   const handleCloseModal = () => {
     setIsModalOpen(false);
     setSelectedPhoto(null);
+  };
+
+  const currentIndex = selectedPhoto ? photos.findIndex((p) => p.id === selectedPhoto.id) : -1;
+  const handlePrev = () => {
+    if (currentIndex > 0) setSelectedPhoto(photos[currentIndex - 1]);
+  };
+  const handleNext = () => {
+    if (currentIndex >= 0 && currentIndex < photos.length - 1) setSelectedPhoto(photos[currentIndex + 1]);
   };
 
   return (
@@ -154,6 +163,10 @@ export default function EventGallery({ photos, eventPlace }: EventGalleryProps) 
         isOpen={isModalOpen}
         onClose={handleCloseModal}
         place={eventPlace}
+        photos={photos}
+        currentIndex={currentIndex}
+        onPrev={handlePrev}
+        onNext={handleNext}
       />
     </>
   );

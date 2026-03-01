@@ -1,8 +1,9 @@
 {
   "site": {
     "name": "Diego Delgado Lerma",
-    "role": "Journalist / Journalism Student",
+    "role": "Journalist and photographer",
     "location": "Madrid, Spain",
+    "profileImage": "/diego-profile.png",
     "languages": [
       "Spanish",
       "Italian",
@@ -23,24 +24,29 @@
     "conciertos": [
       {
         "id": "vanesa-martin",
-        "title": "Vanesa Martín Concert",
+        "title": "Vanesa Martín at Movistar Arena",
         "coverImage": "/concierto-vanesa-martin/IMG_2512.jpg",
         "place": "Madrid",
         "date": "2025",
         "photos": [
           {
-            "id": "vanesa_m-1",
-            "src": "/concierto-vanesa-martin/IMG_2512.jpg",
-            "caption": "Concert moment"
-          },
-          {
             "id": "vanesa_m-3",
             "src": "/concierto-vanesa-martin/IMG_2548.jpg",
-            "caption": "Concert moment"
+            "caption": "Introduction at Movistar Arena"
+          },
+          {
+            "id": "vanesa_m-1",
+            "src": "/concierto-vanesa-martin/IMG_2512.jpg",
+            "caption": "Guitar belonging to Vanesa Martín's band"
           },
           {
             "id": "vanesa_m-5",
             "src": "/concierto-vanesa-martin/IMG_2586.jpg",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "vanesa_m-6",
+            "src": "/concierto-vanesa-martin/IMG_2586.webp",
             "caption": "Concert moment"
           },
           {
@@ -60,66 +66,66 @@
       },
       {
         "id": "antonio-orozco",
-        "title": "Antonio Orozco Concert",
+        "title": "Antonio Orozco Concert in Madrid",
         "coverImage": "/concierto-antonio-orozco/IMG_8465.webp",
         "place": "Madrid",
-        "date": "2024",
+        "date": "2025",
         "photos": [
           {
             "id": "antonio_-1",
             "src": "/concierto-antonio-orozco/IMG_8465.webp",
-            "caption": "Concert moment"
+            "caption": "Start of the concert, representing the theme of his album \"El Tiempo no es oro\""
           },
           {
             "id": "antonio_-2",
             "src": "/concierto-antonio-orozco/IMG_8504.webp",
-            "caption": "Concert moment"
+            "caption": "Orozco at Movistar Arena"
           },
           {
             "id": "antonio_-3",
             "src": "/concierto-antonio-orozco/IMG_8584.webp",
-            "caption": "Concert moment"
+            "caption": "Orozco at Movistar Arena"
           },
           {
             "id": "antonio_-4",
             "src": "/concierto-antonio-orozco/IMG_8805.webp",
-            "caption": "Concert moment"
+            "caption": "The Barcelona artist during the first song of the concert"
           },
           {
             "id": "antonio_-5",
             "src": "/concierto-antonio-orozco/IMG_8885.webp",
-            "caption": "Concert moment"
+            "caption": "Giving it his all on stage"
           },
           {
             "id": "antonio_-6",
             "src": "/concierto-antonio-orozco/IMG_8929.webp",
-            "caption": "Concert moment"
+            "caption": "Orozco clapping along to one of his songs"
           },
           {
             "id": "antonio_-7",
             "src": "/concierto-antonio-orozco/IMG_8976.webp",
-            "caption": "Concert moment"
+            "caption": "The singer under the lights of the former Wizink Center"
           },
           {
             "id": "antonio_-8",
             "src": "/concierto-antonio-orozco/IMG_9010.webp",
-            "caption": "Concert moment"
+            "caption": "The artist and composer, visibly moved"
           },
           {
             "id": "antonio_-9",
             "src": "/concierto-antonio-orozco/IMG_9061.webp",
-            "caption": "Concert moment"
+            "caption": "The artist and composer, visibly moved"
           },
           {
             "id": "antonio_-10",
             "src": "/concierto-antonio-orozco/IMG_9077.webp",
-            "caption": "Concert moment"
+            "caption": "Antonio Orozco and his performance at Movistar Arena"
           }
         ]
       },
       {
         "id": "israel-b",
-        "title": "Israel B Concert",
+        "title": "Israel B at La Riviera",
         "coverImage": "/concierto-israel-b/IMG_0573.webp",
         "place": "Madrid",
         "date": "2025",
@@ -127,6 +133,14 @@
           {
             "id": "israel_b-1",
             "src": "/concierto-israel-b/IMG_0573.webp",
+            "caption": "Urban artist Israel B starting his concert at La Riviera",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
+          },
+          {
+            "id": "israel_b-2",
+            "src": "/concierto-israel-b/IMG_0573_q88.webp",
             "caption": "Concert moment",
             "orientation": "vertical",
             "width": 1365,
@@ -135,11 +149,24 @@
           {
             "id": "israel_b-3",
             "src": "/concierto-israel-b/IMG_0842.webp",
+            "caption": "The audience and the rapper"
+          },
+          {
+            "id": "israel_b-4",
+            "src": "/concierto-israel-b/IMG_0842_q88.webp",
             "caption": "Concert moment"
           },
           {
             "id": "israel_b-5",
             "src": "/concierto-israel-b/IMG_0895.webp",
+            "caption": "An attendee recording the performance with her phone",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
+          },
+          {
+            "id": "israel_b-6",
+            "src": "/concierto-israel-b/IMG_0895_q88.webp",
             "caption": "Concert moment",
             "orientation": "vertical",
             "width": 1365,
@@ -148,6 +175,14 @@
           {
             "id": "israel_b-7",
             "src": "/concierto-israel-b/IMG_0902.webp",
+            "caption": "Israel B pointing, moved, at his audience",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
+          },
+          {
+            "id": "israel_b-8",
+            "src": "/concierto-israel-b/IMG_0902_q88.webp",
             "caption": "Concert moment",
             "orientation": "vertical",
             "width": 1365,
@@ -156,6 +191,14 @@
           {
             "id": "israel_b-9",
             "src": "/concierto-israel-b/IMG_1150.webp",
+            "caption": "The rapper from Orcasitas under the lights of La Riviera",
+            "orientation": "vertical",
+            "width": 1365,
+            "height": 2048
+          },
+          {
+            "id": "israel_b-10",
+            "src": "/concierto-israel-b/IMG_1150_q88.webp",
             "caption": "Concert moment",
             "orientation": "vertical",
             "width": 1365,
@@ -164,16 +207,41 @@
           {
             "id": "israel_b-11",
             "src": "/concierto-israel-b/IMG_1396.webp",
+            "caption": "From left to right, Ergo Pro, Israel B and Cruz Cafuné on stage"
+          },
+          {
+            "id": "israel_b-12",
+            "src": "/concierto-israel-b/IMG_1396_q88.webp",
             "caption": "Concert moment"
           },
           {
             "id": "israel_b-13",
             "src": "/concierto-israel-b/IMG_1415.webp",
+            "caption": "From left to right, Ergo Pro, Israel B and Cruz Cafuné"
+          },
+          {
+            "id": "israel_b-14",
+            "src": "/concierto-israel-b/IMG_1415_1.webp",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "israel_b-15",
+            "src": "/concierto-israel-b/IMG_1415_1_q88.webp",
+            "caption": "Concert moment"
+          },
+          {
+            "id": "israel_b-16",
+            "src": "/concierto-israel-b/IMG_1415_q88.webp",
             "caption": "Concert moment"
           },
           {
             "id": "israel_b-17",
             "src": "/concierto-israel-b/IMG_1437.webp",
+            "caption": "The Canarian artist during one of the collaborations with Israel B"
+          },
+          {
+            "id": "israel_b-18",
+            "src": "/concierto-israel-b/IMG_1437_q88.webp",
             "caption": "Concert moment"
           }
         ]
@@ -188,52 +256,47 @@
           {
             "id": "pignoise-1",
             "src": "/concierto-pignoise/IMG_7829.webp",
-            "caption": "Concert moment"
+            "caption": "Álvaro Benito, band vocalist; in the background, Héctor Polo, drums"
           },
           {
             "id": "pignoise-2",
             "src": "/concierto-pignoise/IMG_7836.webp",
-            "caption": "Concert moment"
+            "caption": "Pablo Alonso, backing vocalist, during the performance"
           },
           {
             "id": "pignoise-3",
             "src": "/concierto-pignoise/IMG_7859.webp",
-            "caption": "Concert moment"
+            "caption": "Benito playing guitar while singing"
           },
           {
             "id": "pignoise-4",
             "src": "/concierto-pignoise/IMG_7862.webp",
-            "caption": "Concert moment"
-          },
-          {
-            "id": "pignoise-5",
-            "src": "/concierto-pignoise/IMG_7910.webp",
-            "caption": "Concert moment"
+            "caption": "Benito playing guitar while singing"
           },
           {
             "id": "pignoise-6",
             "src": "/concierto-pignoise/IMG_7928.webp",
-            "caption": "Concert moment"
+            "caption": "Alonso under the stage lights"
           },
           {
             "id": "pignoise-7",
             "src": "/concierto-pignoise/IMG_7930.webp",
-            "caption": "Concert moment"
+            "caption": "Benito during the performance"
           },
           {
             "id": "pignoise-8",
             "src": "/concierto-pignoise/IMG_7942.webp",
-            "caption": "Concert moment"
+            "caption": "From left to right, Jesús Mateos, Álvaro Benito, Pablo Alonso and Héctor Polo"
           },
           {
             "id": "pignoise-9",
             "src": "/concierto-pignoise/IMG_7967.webp",
-            "caption": "Concert moment"
+            "caption": "Pignoise at Movistar Arena"
           },
           {
             "id": "pignoise-10",
             "src": "/concierto-pignoise/IMG_7969.webp",
-            "caption": "Concert moment"
+            "caption": "Benito introducing himself to the audience"
           }
         ]
       },
@@ -247,12 +310,12 @@
           {
             "id": "c2-1",
             "src": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1200&h=800&fit=crop",
-            "caption": "Concert moment"
+            "caption": "Main festival stage"
           },
           {
             "id": "c2-2",
             "src": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200&h=800&fit=crop",
-            "caption": "Concert moment"
+            "caption": "Audience atmosphere"
           }
         ]
       }
@@ -260,7 +323,7 @@
     "carreras": [
       {
         "id": "fuentetoba-2025",
-        "title": "Fuentetoba 2025",
+        "title": "Fuentetoba, the last round of the 2025 Spanish Hard Enduro Championship",
         "coverImage": "/FUENTETOBA 2025/IMG_6620.webp",
         "place": "Soria, Spain",
         "date": "2025",
@@ -268,148 +331,127 @@
           {
             "id": "ft1",
             "src": "/FUENTETOBA 2025/IMG_6620.webp",
-            "caption": "Action during the race"
+            "caption": "Race start grid"
           },
           {
             "id": "ft2",
             "src": "/FUENTETOBA 2025/IMG_6820.webp",
-            "caption": "Action during the race"
+            "caption": "Silvia Piñeiro, Spanish Hard Enduro Cup champion"
           },
           {
             "id": "ft3",
             "src": "/FUENTETOBA 2025/IMG_6852.webp",
-            "caption": "Action during the race"
+            "caption": "Piñeiro during the race"
           },
           {
             "id": "ft4",
             "src": "/FUENTETOBA 2025/IMG_6864.webp",
-            "caption": "Action during the race"
+            "caption": "Trial section of the circuit"
           },
           {
             "id": "ft5",
             "src": "/FUENTETOBA 2025/IMG_7114.webp",
-            "caption": "Action during the race"
+            "caption": "Amateur riders during the race"
           },
           {
             "id": "ft6",
             "src": "/FUENTETOBA 2025/IMG_7129.webp",
-            "caption": "Action during the race"
+            "caption": "Amateur riders during the race"
           },
           {
             "id": "ft7",
             "src": "/FUENTETOBA 2025/IMG_7241.webp",
-            "caption": "Action during the race"
+            "caption": "One of the most demanding climbs"
           },
           {
             "id": "ft8",
             "src": "/FUENTETOBA 2025/IMG_7347.webp",
-            "caption": "Action during the race"
+            "caption": "Action during the event"
           },
           {
             "id": "ft9",
             "src": "/FUENTETOBA 2025/IMG_7447.webp",
-            "caption": "Action during the race"
+            "caption": "Action during the event"
           },
           {
             "id": "ft10",
             "src": "/FUENTETOBA 2025/IMG_7534.webp",
-            "caption": "Action during the race"
+            "caption": "Amateur rider assessing how to tackle one of the circuit climbs"
           },
           {
             "id": "ft11",
             "src": "/FUENTETOBA 2025/IMG_7575.webp",
-            "caption": "Action during the race"
+            "caption": "Rider holding his bike to prevent it from falling down a ravine"
           },
           {
             "id": "ft12",
             "src": "/FUENTETOBA 2025/IMG_7669.webp",
-            "caption": "Action during the race"
+            "caption": "Francesc Moret, current Spanish Hard Enduro champion, passing through one of the climbs"
           },
           {
             "id": "ft13",
             "src": "/FUENTETOBA 2025/IMG_7674.webp",
-            "caption": "Action during the race"
+            "caption": "Eric Miquel, Championship runner-up, on Moret's tail"
           },
           {
             "id": "ft14",
             "src": "/FUENTETOBA 2025/IMG_7685.webp",
-            "caption": "Action during the race"
-          },
-          {
-            "id": "ft15",
-            "src": "/FUENTETOBA 2025/IMG_7729.webp",
-            "caption": "Action during the race"
-          },
-          {
-            "id": "ft16",
-            "src": "/FUENTETOBA 2025/IMG_7813.webp",
-            "caption": "Action during the race",
-            "orientation": "vertical",
-            "width": 1365,
-            "height": 2048
+            "caption": "Andorran rider Marc Font on the fast section of the circuit"
           },
           {
             "id": "ft17",
             "src": "/FUENTETOBA 2025/IMG_7837.webp",
-            "caption": "Action during the race"
+            "caption": "A group of marshals helping a rider stuck on a climb"
           },
           {
             "id": "ft18",
             "src": "/FUENTETOBA 2025/IMG_7874.webp",
-            "caption": "Action during the race"
+            "caption": "Font, who finished third in the standings"
           },
           {
             "id": "ft19",
             "src": "/FUENTETOBA 2025/IMG_7933.webp",
-            "caption": "Action during the race"
+            "caption": "Moret celebrating his national title"
           },
           {
             "id": "ft20",
             "src": "/FUENTETOBA 2025/IMG_7942.webp",
-            "caption": "Action during the race"
+            "caption": "Moret celebrating his national title"
           },
           {
             "id": "ft21",
             "src": "/FUENTETOBA 2025/IMG_8024.webp",
-            "caption": "Action during the race"
+            "caption": "The Spanish Hard Enduro champion's bike"
           },
           {
             "id": "ft22",
             "src": "/FUENTETOBA 2025/IMG_8045.webp",
-            "caption": "Action during the race"
+            "caption": "Moret and his parents posing for the cameras"
           },
           {
             "id": "ft23",
             "src": "/FUENTETOBA 2025/IMG_8069.webp",
-            "caption": "Action during the race"
-          },
-          {
-            "id": "ft24",
-            "src": "/FUENTETOBA 2025/IMG_8086.webp",
-            "caption": "Action during the race",
-            "orientation": "vertical",
-            "width": 1365,
-            "height": 2048
+            "caption": "Miquel and Moret chatting after the race"
           },
           {
             "id": "ft25",
             "src": "/FUENTETOBA 2025/IMG_8105.webp",
-            "caption": "Action during the race"
+            "caption": "Super Enduro session to close the Fuentetoba event"
           },
           {
             "id": "ft26",
             "src": "/FUENTETOBA 2025/IMG_8208.webp",
-            "caption": "Action during the race"
+            "caption": "Super Enduro session"
           },
           {
             "id": "ft27",
             "src": "/FUENTETOBA 2025/IMG_8345.webp",
-            "caption": "Action during the race"
+            "caption": "Super Enduro session"
           },
           {
             "id": "ft28",
             "src": "/FUENTETOBA 2025/IMG_8348.webp",
-            "caption": "Action during the race"
+            "caption": "Super Enduro session"
           }
         ]
       },
@@ -1654,7 +1696,7 @@
       "year": "2025",
       "summary": "Interview with the musician about his independent career and his search for his own identity away from family comparisons.",
       "url": "https://as.com/tikitakas/musica/teo-lucadamo-yo-he-hecho-canciones-para-pillar-un-camino-propio-nunca-he-querido-que-se-me-asocie-con-la-carrera-de-mi-madre-n/",
-      "image": "/Teo-Lucadamo:-“Nunca-he-querido-que-se-me-asocie-con-la-carrera-de-mi-madre”.avif"
+      "image": "/Teo-Lucadamo--Nunca-he-querido-que-se-me-asocie-con-la-carrera-de-mi-madre.avif"
     },
     {
       "id": "3",
@@ -1672,7 +1714,7 @@
       "year": "2024",
       "summary": "During the National Marketing Awards gala, Víctor Conde announced he is leaving the general director position after 11 years to lead the I International Marketing Meeting and institutional relations with Latin America.",
       "url": "https://diario.infoperiodistas.info/victor-conde-deja-su-cargo-como-director-general-de-amkt/",
-      "image": "/Víctor-Conde-deja-su-cargo-como-director-general-de-AMKT.jpg"
+      "image": "/Victor-Conde-deja-su-cargo-como-director-general-de-AMKT.jpg"
     },
     {
       "id": "5",
@@ -1708,7 +1750,7 @@
       "year": "2025",
       "summary": "Interview with musician Paul Thin about the perception of El Triunfito and the valuation of talent in the Spanish music industry.",
       "url": "https://as.com/tikitakas/musica/paul-thin-a-dia-de-hoy-se-sigue-pensando-que-el-triunfito-es-menos-musico-y-es-completamente-falso-n/",
-      "image": "/Paul-Thin:-“A-día-de-hoy,-se-sigue-pensando-que-el-triunfito-es-menos-músico,-y-es-completamente-falso”.jpeg"
+      "image": "/Paul-Thin--A-dia-de-hoy--se-sigue-pensando-que-el-triunfito-es-menos-musico--y-es-completamente-falso.jpeg"
     },
     {
       "id": "9",
@@ -1717,7 +1759,7 @@
       "year": "2025",
       "summary": "Interview with the photographer and filmmaker about his 365º work, the \"One Thousand and One Nights\" project, and the relationship between art, market and precariousness in artistic creation.",
       "url": "https://as.com/actualidad/sociedad/eugenio-recuenco-los-mercados-financieros-se-cargan-totalmente-la-esencia-del-arte-n/",
-      "image": "/Eugenio-Recuenco:-“Los-mercados-financieros-se-cargan-totalmente-la-esencia-del-arte”.avif"
+      "image": "/Eugenio-Recuenco--Los-mercados-financieros-se-cargan-totalmente-la-esencia-del-arte.avif"
     },
     {
       "id": "10",
@@ -1726,7 +1768,7 @@
       "year": "2025",
       "summary": "Interview with the photojournalist about his World Press Photo 2025 winning reportage \"The shadows now have a name\", which gives visibility to survivors of Syrian prisons after the fall of Bashar al-Assad.",
       "url": "https://as.com/actualidad/sociedad/samuel-nacar-ganador-de-un-world-press-photo-la-sociedad-implica-al-fotoperiodista-y-al-periodista-al-menos-15-anos-de-precariedad-para-que-la-gente-confie-en-ellos-n/",
-      "image": "/Samuel-Nacar,-ganador-de-un-World-Press-Photo:-“La-sociedad-implica-al-fotoperiodista-y-al-periodista-al-menos-15-años-de-precariedad-para-que-la-gente-confíe-en-ellos”.jpg"
+      "image": "/Samuel-Nacar--ganador-de-un-World-Press-Photo--La-sociedad-implica-al-fotoperiodista-y-al-periodista-al-menos-15-anos-de-precariedad-para-que-la-gente-confie-en-ellos.jpg"
     },
     {
       "id": "11",

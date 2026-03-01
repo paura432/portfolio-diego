@@ -16,6 +16,7 @@ export interface SiteInfo {
   name: string;
   role: string;
   location: string;
+  profileImage?: string;
   languages: string[];
 }
 
