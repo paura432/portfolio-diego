@@ -1,0 +1,150 @@
+{
+  "about": {
+    "bio": "Me apasionan la imagen, el texto y el deporte. Contar historias —con cámara o con palabras— es el eje de mi trabajo. Redacción, fotografía, edición y creación audiovisual son los pilares de mi perfil profesional.\n\nDesde 2018 creo contenido para el canal de YouTube EnduroDesinquieto, especializado en Hard Enduro. He gestionado y producido proyectos multiplataforma en El Arco y he trabajado como redactor, cronista y fotógrafo en El Generacional, cubriendo eventos culturales y deportivos. Además, he adquirido experiencia en gestión de medios en Infoperiodistas y en dinámica de redacción en la sección de Actualidad de Diario AS.",
+    "focus": ["Política", "Sociedad", "Cultura", "Internacional"]
+  },
+  "photography": {
+    "intro": "La fotografía documental me permite capturar momentos que reflejan la realidad social y humana. Cada imagen cuenta una historia, documenta un instante de verdad que merece ser preservado y compartido."
+  },
+  "work": [
+    {
+      "id": "1",
+      "role": "Grado en Periodismo",
+      "organization": "Universidad Carlos III de Madrid",
+      "description": "GETAFE (MADRID)"
+    },
+    {
+      "id": "6",
+      "role": "Creación de contenido audiovisual",
+      "organization": "EnduroDesinquieto",
+      "description": "Desde 2018, he trabajado en tareas organizativas y creación de contenido audiovisual en redes sociales para el canal de Youtube especializado en Hard Enduro, EnduroDesinquieto (@Endurodesinquieto). He grabado material audiovisual para los videos del medio, y he realizado reportajes fotográficos y entrevistas adaptadas a su sector deportivo."
+    },
+    {
+      "id": "5",
+      "role": "Podcast propio. Creación de contenido",
+      "organization": "El Arco",
+      "description": "Podcast propio. Creación de contenido, participación y gestión de redes sociales del medio de comunicación El Arco, presente en TikTok, Spotify, Instagram, Youtube y X (+1000 seguidores en total) @elarcopod."
+    },
+    {
+      "id": "4",
+      "role": "Redactor digital",
+      "organization": "Infoperiodistas",
+      "description": "Redacción digital del diario, gestión y actualización de la base de datos del medio. He escrito sobre todos los temas y apartados que ofrece el medio: desde medios de comunicación y salud hasta nombramientos y agencias. Eventos cubiertos a destacar: Gala de los Premios Nacionales del Marketing 2024."
+    },
+    {
+      "id": "3",
+      "role": "Colaborador, redactor, cronista y fotógrafo",
+      "organization": "El Generacional",
+      "description": "Colaborador, redactor, cronista y fotógrafo del diario digital El Generacional. Escribo para las diversas secciones del medio, cubro y fotografío eventos. También gestiono el contenido de redes sociales de sus diferentes perfiles. Eventos cubiertos a destacar: ElRow Town Madrid 2024, Time Warp Festival 2024, Final Internacional de Red Bull Batalla 2024, diversos conciertos en salas y estadios como La Riviera o el Movistar Arena, entre otros."
+    },
+    {
+      "id": "2",
+      "role": "Redactor digital",
+      "organization": "Diario AS",
+      "description": "Redacción digital del diario, concretamente en su sección de \"Actualidad\". He escrito noticias de todos sus apartados: Sociedad, Política, Ciencia, Economía y Sorteos. También he realizado entrevistas a diversas personalidades, principalmente de redes sociales y música. Algunas de estas comprenden a los fotógrafos profesionales Eugenio Recuenco y Samuel Nacar (este último ganador de un World Press Photo); o los cantantes y artistas Teo Lucadamo y Guitarricadelafuente."
+    }
+  ],
+  "reports": [
+    { "id": "1", "title": "Guitarricadelafuente: \"Internacionalmente, estamos viviendo un momento en el que lo español es guay\"", "summary": "Entrevista al cantautor castellonense sobre su álbum \"Spanish Leather\", el folclore renovado y el momento internacional de la música española. Desde sus inicios con covers hasta viralizar el folk contemporáneo." },
+    { "id": "2", "title": "Teo Lucadamo: \"Yo he hecho canciones para pillar un camino propio, nunca he querido que se me asocie con la carrera de mi madre\"", "summary": "Entrevista al músico sobre su trayectoria independiente y su búsqueda de una identidad propia alejada de las comparaciones familiares." },
+    { "id": "3", "title": "El incendio de Delicias en imágenes", "summary": "Fotorrelato del incendio en la calle Párroco Eusebio Cuenca, en la zona de Espacio Delicias y el Museo del Ferrocarril de Madrid." },
+    { "id": "4", "title": "Víctor Conde deja su cargo como director general de AMKT", "summary": "Durante la gala de los Premios Nacionales del Marketing, Víctor Conde anunció que deja la dirección general tras 11 años para liderar el I Encuentro Internacional del Marketing y las relaciones institucionales con Latinoamérica." },
+    { "id": "5", "title": "Una mujer palestina abraza el cuerpo de su sobrina ganadora del World Press Photo del año", "summary": "Cobertura de la imagen ganadora del World Press Photo que retrata el conflicto en Palestina a través de un abrazo entre una mujer y el cuerpo de su sobrina." },
+    { "id": "6", "title": "El absentismo laboral, un problema nacional", "summary": "Análisis del absentismo laboral en España y su impacto en el tejido empresarial y la economía nacional." },
+    { "id": "7", "title": "La inversión publicitaria crece durante la primera mitad de 2024", "summary": "Reportaje sobre la evolución del mercado publicitario español y el crecimiento de la inversión en el primer semestre del año." },
+    { "id": "8", "title": "Paul Thin: \"A día de hoy se sigue pensando que El Triunfito es menos músico y es completamente falso\"", "summary": "Entrevista al músico Paul Thin sobre la percepción de El Triunfito y la valoración del talento en la industria musical española." },
+    { "id": "9", "title": "Eugenio Recuenco: \"Los mercados financieros se cargan totalmente la esencia del arte\"", "summary": "Entrevista al fotógrafo y cineasta sobre su obra 365º, el proyecto \"Mil y Una Noches\", y la relación entre arte, mercado y precariedad en la creación artística." },
+    { "id": "10", "title": "Samuel Nacar, ganador de un World Press Photo: \"La sociedad implica al fotoperiodista y al periodista al menos 15 años de precariedad para que la gente confíe en ellos\"", "summary": "Entrevista al fotoperiodista sobre su reportaje ganador del World Press Photo 2025 \"Las sombras ya tienen nombre\", que visibiliza a los supervivientes de las cárceles sirias tras la caída de Bashar al-Ásad." },
+    { "id": "11", "title": "Los monitores o la educación fuera de las aulas", "summary": "Reportaje sobre la realidad de los monitores de comedor y actividades extraescolares: mal formados, mal pagados y con una responsabilidad que trasciende la simple supervisión. Su influencia invisible en el desarrollo de los niños." },
+    { "id": "12", "title": "Natos y Waor: decálogo de cómo llevar la música underground a lo más alto", "summary": "Crónica del concierto de Natos y Waor en el Estadio Metropolitano a rebosar, un nuevo capítulo para la historia del rap español con Fer y Gonzalo como protagonistas." },
+    { "id": "13", "title": "Israel B: un hombre solo con todo un ejército en Madrid", "summary": "Crónica del concierto de Israel B en Madrid, donde el artista demostró su capacidad para llenar el escenario con su presencia en solitario." },
+    { "id": "14", "title": "Veinte años y un concierto para la posteridad: Pignoise llena y emociona el Movistar Arena en su gira de aniversario", "summary": "Crónica del concierto de aniversario de Pignoise en el Movistar Arena: dos décadas de música, colaboraciones con Hens, Taburete, Rulo, Los Secretos, Loquillo y Hombres G, y una noche de nostalgia y euforia." },
+    { "id": "15", "title": "Natos y Waor: \"A esos Fer y Gonzalo de hace 15 años les diríamos que se equivoquen todo lo se tengan que equivocar\"", "summary": "Rueda de prensa previa al concierto en el Metropolitano. El dúo madrileño repasa sus inicios en una okupa de Embajadores, sus 15 años en la música y el consejo que se darían a sí mismos." }
+  ],
+  "photographyCaptions": {
+    "conciertos": {
+      "vanesa-martin": [
+        "Momento del concierto",
+        "Presentación ante el Movistar Arena",
+        "Guitarra perteneciente a la banda de Vanesa Martín"
+      ],
+      "antonio-orozco": [
+        "Inicio del concierto, representando la temática de su álbum, \"El Tiempo no es oro\"",
+        "Orozco ante el Movistar Arena",
+        "El artista barcelonés en la primera canción del concierto",
+        "Dándolo todo en el escenario",
+        "Orozco palmeando para una de sus canciones",
+        "El cantante bajo la luz del antiguo Wizink Center",
+        "El artista y compositor, visiblemente emocionado",
+        "Antonio Orozco, y su actuación en el Movistar Arena"
+      ],
+      "israel-b": [
+        "El artista urbano Israel B iniciando su concierto en La Riviera",
+        "Momento del concierto",
+        "El público y el rapero",
+        "Una asistente graba la actuación con su teléfono móvil",
+        "Israel B señalando, emocionado, a su público",
+        "El rapero de Orcasitas bajo la luz de La Riviera",
+        "De izquierda a derecha, Ergo Pro, Israel B y Cruz Cafuné en el escenario",
+        "De izquierda a derecha, Ergo Pro, Israel B y Cruz Cafuné",
+        "El artista canario durante una de las colaboraciones con Israel B"
+      ],
+      "Los 20 años de Pignoise": [
+        "Álvaro Benito, vocalista de la banda; de fondo, Héctor Polo, batería",
+        "Pablo Alonso, corista, durante la actuación",
+        "Benito tocando la guitarra mientras canta",
+        "Alonso bajo los focos del escenario",
+        "Benito durante la actuación",
+        "De izquierda a derecha, Jesús Mateos, Álvaro Benito, Pablo Alonso y Héctor Polo",
+        "Pignoise en el Movistar Arena",
+        "Benito presentándose al público"
+      ],
+      "festival-barcelona": [
+        "Escenario principal del festival",
+        "Ambiente del público"
+      ]
+    },
+    "carreras": {
+      "fuentetoba-2025": [
+        "Parrilla de salida de la carrera",
+        "Silvia Piñeiro, campeona de la Copa de España de Hard Enduro",
+        "Piñeiro durante la carrera",
+        "Sección de trial del circuito",
+        "Pilotos amateur durante la carrera",
+        "Una de las subidas más exigentes",
+        "Acción durante la cita",
+        "Piloto amateur valorando cómo realizar una de las subidas del circuito",
+        "Piloto agarra su moto para evitar que caiga por un barranco",
+        "Francesc Moret, actual campeón de España de Hard Enduro, a su paso por una de las subidas",
+        "Eric Miquel, subcamepeón del Campeonato, a la estela de Moret",
+        "El piloto andorrano, Marc Font, por la zona rápida del circuito",
+        "Un grupo de marshalls ayudan a un piloto estancado en una subida",
+        "Font, que acabó tercero en la clasificación",
+        "Moret celebrando su título nacional",
+        "La moto del campeón de España de Hard Enduro",
+        "Moret y sus padres posando para las cámaras",
+        "Miquel y Moret charlando tras la carrera",
+        "Sesión de Super Enduro para dar fin a la cita en Fuentetoba",
+        "Sesión de Super Enduro"
+      ],
+      "san-silvestre-endurera-2024": ["Acción durante la carrera"],
+      "tudela-veguin-2025": ["Acción durante la carrera"],
+      "hixpania-hard-enduro-2025": ["Acción durante la carrera"],
+      "la-pesquera-2025": ["Acción durante la carrera"]
+    },
+    "fotoReportages": {
+      "manifestacion-estudiantil": ["Estudiantes en la manifestación", "Momento de la protesta"],
+      "mercado-lavapies": ["Vendedores en el mercado", "Vida cotidiana en el barrio"]
+    },
+    "coberturas": {
+      "goya-2026": ["Momento de la cobertura"],
+      "incendio-museo-ferrocarril": ["Momento de la cobertura"],
+      "mani-alquileres-2024": ["Momento de la cobertura"],
+      "mani-flotilla-2025": ["Momento de la cobertura"],
+      "mani-palestina": ["Momento de la cobertura"],
+      "entrevista-julieta-pona": ["Momento de la cobertura"],
+      "evento-cultural-madrid": ["Momento del evento", "Arte y expresión cultural"],
+      "evento-deportivo-valencia": ["Acción del evento", "Festival en vivo"]
+    }
+  }
+}

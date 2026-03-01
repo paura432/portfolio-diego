@@ -34,18 +34,8 @@
             "caption": "Concert moment"
           },
           {
-            "id": "vanesa_m-2",
-            "src": "/concierto-vanesa-martin/IMG_2512.webp",
-            "caption": "Concert moment"
-          },
-          {
             "id": "vanesa_m-3",
             "src": "/concierto-vanesa-martin/IMG_2548.jpg",
-            "caption": "Concert moment"
-          },
-          {
-            "id": "vanesa_m-4",
-            "src": "/concierto-vanesa-martin/IMG_2548.webp",
             "caption": "Concert moment"
           },
           {
@@ -54,18 +44,8 @@
             "caption": "Concert moment"
           },
           {
-            "id": "vanesa_m-6",
-            "src": "/concierto-vanesa-martin/IMG_2586.webp",
-            "caption": "Concert moment"
-          },
-          {
             "id": "vanesa_m-7",
             "src": "/concierto-vanesa-martin/IMG_2599.jpg",
-            "caption": "Concert moment"
-          },
-          {
-            "id": "vanesa_m-8",
-            "src": "/concierto-vanesa-martin/IMG_2599.webp",
             "caption": "Concert moment"
           },
           {
@@ -153,34 +133,13 @@
             "height": 2048
           },
           {
-            "id": "israel_b-2",
-            "src": "/concierto-israel-b/IMG_0573_q88.webp",
-            "caption": "Concert moment",
-            "orientation": "vertical",
-            "width": 1365,
-            "height": 2048
-          },
-          {
             "id": "israel_b-3",
             "src": "/concierto-israel-b/IMG_0842.webp",
             "caption": "Concert moment"
           },
           {
-            "id": "israel_b-4",
-            "src": "/concierto-israel-b/IMG_0842_q88.webp",
-            "caption": "Concert moment"
-          },
-          {
             "id": "israel_b-5",
             "src": "/concierto-israel-b/IMG_0895.webp",
-            "caption": "Concert moment",
-            "orientation": "vertical",
-            "width": 1365,
-            "height": 2048
-          },
-          {
-            "id": "israel_b-6",
-            "src": "/concierto-israel-b/IMG_0895_q88.webp",
             "caption": "Concert moment",
             "orientation": "vertical",
             "width": 1365,
@@ -195,24 +154,8 @@
             "height": 2048
           },
           {
-            "id": "israel_b-8",
-            "src": "/concierto-israel-b/IMG_0902_q88.webp",
-            "caption": "Concert moment",
-            "orientation": "vertical",
-            "width": 1365,
-            "height": 2048
-          },
-          {
             "id": "israel_b-9",
             "src": "/concierto-israel-b/IMG_1150.webp",
-            "caption": "Concert moment",
-            "orientation": "vertical",
-            "width": 1365,
-            "height": 2048
-          },
-          {
-            "id": "israel_b-10",
-            "src": "/concierto-israel-b/IMG_1150_q88.webp",
             "caption": "Concert moment",
             "orientation": "vertical",
             "width": 1365,
@@ -224,38 +167,13 @@
             "caption": "Concert moment"
           },
           {
-            "id": "israel_b-12",
-            "src": "/concierto-israel-b/IMG_1396_q88.webp",
-            "caption": "Concert moment"
-          },
-          {
             "id": "israel_b-13",
             "src": "/concierto-israel-b/IMG_1415.webp",
             "caption": "Concert moment"
           },
           {
-            "id": "israel_b-14",
-            "src": "/concierto-israel-b/IMG_1415_1.webp",
-            "caption": "Concert moment"
-          },
-          {
-            "id": "israel_b-15",
-            "src": "/concierto-israel-b/IMG_1415_1_q88.webp",
-            "caption": "Concert moment"
-          },
-          {
-            "id": "israel_b-16",
-            "src": "/concierto-israel-b/IMG_1415_q88.webp",
-            "caption": "Concert moment"
-          },
-          {
             "id": "israel_b-17",
             "src": "/concierto-israel-b/IMG_1437.webp",
-            "caption": "Concert moment"
-          },
-          {
-            "id": "israel_b-18",
-            "src": "/concierto-israel-b/IMG_1437_q88.webp",
             "caption": "Concert moment"
           }
         ]
