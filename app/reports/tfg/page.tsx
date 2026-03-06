@@ -2,8 +2,6 @@
 
 import Image from 'next/image';
 import Section from '@/components/Section';
-import ArticleCard from '@/components/ArticleCard';
-import { getReports } from '@/lib/content';
 import { useTheme } from '@/contexts/ThemeContext';
 import { getTranslations } from '@/lib/i18n';
 
@@ -12,21 +10,10 @@ const TFG_URL = 'https://tfgdiegodelgadolerma.myportfolio.com/tfg';
 export default function TFGPage() {
   const { language } = useTheme();
   const t = getTranslations(language);
-  const reports = getReports(language);
 
   return (
-    <Section className="bg-black">
-      <div className="space-y-0">
-        {reports.map((report, index) => (
-          <div
-            key={report.id}
-            className="py-12 border-b border-gray-800 last:border-b-0 bg-black"
-          >
-            <ArticleCard report={report} isFirst={index === 0} />
-          </div>
-        ))}
-        {/* TFG como último apartado */}
-        <div className="py-12 border-b border-gray-800 last:border-b-0 bg-black">
+    <Section className="bg-black py-12 sm:py-16">
+      <div className="py-12">
           <div className="max-w-4xl">
             <div className="grid md:grid-cols-3 gap-6 items-start">
               <div className="md:col-span-1">
@@ -76,7 +63,6 @@ export default function TFGPage() {
               </div>
             </div>
           </div>
-        </div>
       </div>
     </Section>
   );

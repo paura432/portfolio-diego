@@ -1,8 +1,8 @@
 import { redirect } from 'next/navigation';
 
 /**
- * Redirige /reports a /reports/tfg
+ * Redirige /reports a /reports/diario-as
  */
 export default function ReportsPage() {
-  redirect('/reports/tfg');
+  redirect('/reports/diario-as');
 }

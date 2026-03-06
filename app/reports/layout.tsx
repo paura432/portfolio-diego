@@ -50,12 +50,17 @@ export default function ReportsLayout({
               <p className="text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6 sm:mb-10">
                 {t.reports.subtitle}
               </p>
-              <ReportsSelector tfgLabel={t.reports.tfg} />
+              <ReportsSelector
+                diarioAsLabel={t.reports.diarioAs}
+                infoperiodistasLabel={t.reports.infoperiodistas}
+                elGeneracionalLabel={t.reports.elGeneracional}
+                tfgLabel={t.reports.tfg}
+              />
             </div>
           </Section>
         </section>
 
-        {/* Contenido TFG */}
+        {/* Contenido del medio */}
         <div className="bg-white dark:bg-black">{children}</div>
       </main>
       <Footer />
