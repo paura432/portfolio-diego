@@ -75,6 +75,7 @@ export default function ArticleCard({ report, isFirst = false }: ArticleCardProp
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 33vw"
+              unoptimized={imageUrl.startsWith('/')}
             />
           </div>
         </div>

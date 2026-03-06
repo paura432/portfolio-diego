@@ -235,6 +235,7 @@ function GalleryPhotoItem({
           <Image
             src={photo.src}
             alt={photo.caption}
+            unoptimized
             fill
             quality={90}
             className="transition-transform duration-500 ease-out group-hover:scale-105 group-active:scale-[1.02] object-cover"
@@ -250,6 +251,7 @@ function GalleryPhotoItem({
           <Image
             src={photo.src}
             alt={photo.caption}
+            unoptimized
             width={photo.width}
             height={photo.height}
             quality={95}
@@ -266,6 +268,7 @@ function GalleryPhotoItem({
           <Image
             src={photo.src}
             alt={photo.caption}
+            unoptimized
             fill
             quality={95}
             className={`transition-transform duration-500 ease-out group-hover:scale-105 group-active:scale-[1.02] ${isHorizontal ? 'object-cover' : 'object-contain'}`}
