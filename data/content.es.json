@@ -286,7 +286,7 @@
     "carreras": [
       {
         "id": "fuentetoba-2025",
-        "title": "Fuentetoba, la última cita del Campeonato de España de Hard Enduro de 2025",
+        "title": "Fuentetoba, la última cita del Campeonato de España de Hard Enduro 2025",
         "description": "Última cita del Campeonato de España de Hard Enduro en Soria.",
         "coverImage": "/FUENTETOBA 2025/IMG_6620.webp",
         "place": "Soria, España",
@@ -340,7 +340,7 @@
           {
             "id": "ft10",
             "src": "/FUENTETOBA 2025/IMG_7534.webp",
-            "caption": "Piloto amateur valorando cómo realizar una de las subidas del circuito"
+            "caption": "Piloto valorando cómo realizar una de las subidas del circuito"
           },
           {
             "id": "ft11",
@@ -422,7 +422,7 @@
       {
         "id": "san-silvestre-endurera-2024",
         "title": "San Silvestre Endurera 2024",
-        "description": "Carrera de Hard Enduro para despedir el año.",
+        "description": "La mítica carrera de Hard Enduro para despedir el año.",
         "coverImage": "/SAN SILVESTRE ENDURERA 2024/IMG_3581.webp",
         "place": "España",
         "date": "2024",
@@ -430,32 +430,32 @@
           {
             "id": "sse1",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3581.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Mario Román esperando el pistoletazo de salida"
           },
           {
             "id": "sse2",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3599.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Pilotos calentando motores"
           },
           {
             "id": "sse3",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3634.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Primera vuelta de la cita"
           },
           {
             "id": "sse4",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3643.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Un toro observando desde un corral cercano al circuito"
           },
           {
             "id": "sse5",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3655.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Piloto enfrentándose a una de las subidas de la carrera"
           },
           {
             "id": "sse6",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_3736.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Hilera de pilotos"
           },
           {
             "id": "sse7",
@@ -480,7 +480,7 @@
           {
             "id": "sse11",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_4381.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Piloto atravesando un charco"
           },
           {
             "id": "sse12",
@@ -521,7 +521,7 @@
           {
             "id": "sse18",
             "src": "/SAN SILVESTRE ENDURERA 2024/IMG_5087.webp",
-            "caption": "Acción durante la carrera",
+            "caption": "David Alonso, campeón del mundo de Moto3, durante la carrera",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -531,7 +531,7 @@
       {
         "id": "tudela-veguin-2025",
         "title": "Tudela Veguín 2025",
-        "description": "Competición de Hard Enduro en las montañas asturianas.",
+        "description": "Ecuador del Campeonato Nacional de Hard Enduro en las montañas asturianas.a continuación, algunas imágenes del cronometraje y de la carrera larga",
         "coverImage": "/TUDELA VEGUÍN 2025/IMG_9724.webp",
         "place": "Asturias, España",
         "date": "2025",
@@ -539,37 +539,37 @@
           {
             "id": "tv1",
             "src": "/TUDELA VEGUÍN 2025/IMG_8671.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Piloto superando una de las subidas del circuito, durante el cronometraje"
           },
           {
             "id": "tv2",
             "src": "/TUDELA VEGUÍN 2025/IMG_8679.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Piloto superando una de las subidas del circuito"
           },
           {
             "id": "tv3",
             "src": "/TUDELA VEGUÍN 2025/IMG_8702.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Marc Font afrontando un tramo de la carrera"
           },
           {
             "id": "tv4",
             "src": "/TUDELA VEGUÍN 2025/IMG_8710.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Piloto, cansado y manchado de barro, en una de las subidas"
           },
           {
             "id": "tv5",
             "src": "/TUDELA VEGUÍN 2025/IMG_8755.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Tramo del circuito de Tudela Veguín"
           },
           {
             "id": "tv6",
             "src": "/TUDELA VEGUÍN 2025/IMG_8772.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Mario Román, en cabeza"
           },
           {
             "id": "tv7",
             "src": "/TUDELA VEGUÍN 2025/IMG_8892.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Francesc Moret sobreponiendose de una caída"
           },
           {
             "id": "tv8",
@@ -579,7 +579,7 @@
           {
             "id": "tv9",
             "src": "/TUDELA VEGUÍN 2025/IMG_9060.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Eic Miquel en un tramo del circuito"
           },
           {
             "id": "tv10",
@@ -589,22 +589,22 @@
           {
             "id": "tv11",
             "src": "/TUDELA VEGUÍN 2025/IMG_9268.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Román durante la sesión de Super Enduro de la cita"
           },
           {
             "id": "tv12",
             "src": "/TUDELA VEGUÍN 2025/IMG_9335.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "El público asturiano observando la Sesión de Super Enduro en Tudela Veguín"
           },
           {
             "id": "tv13",
             "src": "/TUDELA VEGUÍN 2025/IMG_9436.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Marc Fernández, campeón junior del mundial de Super Enduro, en la parrilla de salida de la carrera larga"
           },
           {
             "id": "tv14",
             "src": "/TUDELA VEGUÍN 2025/IMG_9495.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Font durante la carrera larga"
           },
           {
             "id": "tv15",
@@ -614,42 +614,17 @@
           {
             "id": "tv16",
             "src": "/TUDELA VEGUÍN 2025/IMG_9597.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Un piloto arranca su moto a pie mientras se forma un atasco"
           },
           {
             "id": "tv17",
             "src": "/TUDELA VEGUÍN 2025/IMG_9606.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "La subida más exigente de la cita, a la vista de marshalls y fotógrafos"
           },
           {
             "id": "tv18",
             "src": "/TUDELA VEGUÍN 2025/IMG_9724.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "tv19",
-            "src": "/TUDELA VEGUÍN 2025/IMG_9745.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "tv20",
-            "src": "/TUDELA VEGUÍN 2025/IMG_9756.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "tv21",
-            "src": "/TUDELA VEGUÍN 2025/IMG_9774.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "tv22",
-            "src": "/TUDELA VEGUÍN 2025/IMG_9779.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "tv23",
-            "src": "/TUDELA VEGUÍN 2025/IMG_9781.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Máxima expectación al inicio de la subida"
           }
         ]
       },
