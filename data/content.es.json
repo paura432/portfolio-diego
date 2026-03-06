@@ -212,69 +212,6 @@
         ]
       },
       {
-        "id": "vanesa-martin",
-        "title": "Vanesa Martín en el Movistar Arena",
-        "description": "La cantante malagueña en una noche memorable en el Movistar Arena.",
-        "coverImage": "/concierto-vanesa-martin/IMG_2548.webp",
-        "place": "Madrid",
-        "date": "2025",
-        "photos": [
-          {
-            "id": "vanesa_m-2",
-            "src": "/concierto-vanesa-martin/IMG_2548.webp",
-            "caption": "Presentación ante el Movistar Arena"
-          },
-          {
-            "id": "vanesa_m-3",
-            "src": "/concierto-vanesa-martin/IMG_2586.webp",
-            "caption": "Momento del concierto"
-          },
-          {
-            "id": "vanesa_m-4",
-            "src": "/concierto-vanesa-martin/IMG_2599.webp",
-            "caption": "Momento del concierto"
-          },
-          {
-            "id": "vanesa_m-5",
-            "src": "/concierto-vanesa-martin/IMG_2748.webp",
-            "caption": "Momento del concierto",
-            "orientation": "vertical",
-            "width": 4000,
-            "height": 6000
-          },
-          {
-            "id": "vanesa_m-6",
-            "src": "/concierto-vanesa-martin/IMG_2781.webp",
-            "caption": "Momento del concierto"
-          },
-          {
-            "id": "vanesa_m-7",
-            "src": "/concierto-vanesa-martin/IMG_2833.webp",
-            "caption": "Momento del concierto"
-          },
-          {
-            "id": "vanesa_m-8",
-            "src": "/concierto-vanesa-martin/IMG_2870.webp",
-            "caption": "Momento del concierto"
-          },
-          {
-            "id": "vanesa_m-9",
-            "src": "/concierto-vanesa-martin/IMG_2915.webp",
-            "caption": "Momento del concierto"
-          },
-          {
-            "id": "vanesa_m-10",
-            "src": "/concierto-vanesa-martin/IMG_3039.webp",
-            "caption": "Momento del concierto"
-          },
-          {
-            "id": "vanesa_m-11",
-            "src": "/concierto-vanesa-martin/IMG_3066.webp",
-            "caption": "Momento del concierto"
-          }
-        ]
-      },
-      {
         "id": "pignoise",
         "title": "Concierto de Pignoise",
         "description": "Veinte años de Pignoise celebrados en el Movistar Arena con colaboraciones históricas.",
