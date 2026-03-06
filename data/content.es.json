@@ -630,56 +630,56 @@
       },
       {
         "id": "hixpania-hard-enduro-2025",
-        "title": "Hixpania Hard Enduro 2025",
-        "description": "Una de las pruebas más exigentes del calendario nacional.",
+        "title": "El Mundial de Hard Enduro a su paso por España: la histórica Hixpania",
+        "description": "Cada año, el Campeonato Mundial de Hard Enduro (HEWC, de sus siglas en inglés), siempre hay una cita marcada con la cruz en el calendario. En 2025, Aguilar de Campoo se volvió a llenar de motos, aficionados y mucho gas para ver a los mejores del planeta de la categoría",
         "coverImage": "/HIXPANIA HARD ENDURO 2025/IMG_1015.webp",
-        "place": "Castilla y León, España",
+        "place": "Palencia, Castilla y León, España",
         "date": "2025",
         "photos": [
           {
             "id": "hhe1",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1015.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Paddock y fanzone de la carrera"
           },
           {
             "id": "hhe2",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1022.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Entrada de la fanzone, a rebosar"
           },
           {
             "id": "hhe3",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1033.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Los pilotos observan y estudian la subida final del circuito"
           },
           {
             "id": "hhe4",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1063.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Pilotos analizando el tramo"
           },
           {
             "id": "hhe5",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1081.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Un competidor en el primer tramo del trazado"
           },
           {
             "id": "hhe6",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1118.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Sandra Gómez, única mujer participante en la categoría Pro, a su paso por la primera fase de la carrera"
           },
           {
             "id": "hhe7",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1169.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "El piloto madrileño,Mario Román, durante los primeros compases del circuito"
           },
           {
             "id": "hhe8",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1173.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Graham Jarvis, piloto británico y leyenda del motociclismo off road, a su paso por la orilla del Embalse de Aguilar"
           },
           {
             "id": "hhe9",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1184.webp",
-            "caption": "Acción durante la carrera",
+            "caption": "Vistas del Embalse de Aguilar desde el circuito",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -687,32 +687,32 @@
           {
             "id": "hhe10",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1218.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Todas las edades cuentan con sus respectivas motos"
           },
           {
             "id": "hhe11",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1230.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Un piloto realiza una subida ante la presencia de los aficionados"
           },
           {
             "id": "hhe12",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1278.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Alfredo Gómez, campeón del mundo de Trial, durante la Hixpania"
           },
           {
             "id": "hhe13",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1303.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera a orillas del Embalse"
           },
           {
             "id": "hhe14",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1322.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Lancha de la Guardia Civil, encargada de la seguridad de la carrera por ese tramo"
           },
           {
             "id": "hhe15",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1348.webp",
-            "caption": "Acción durante la carrera",
+            "caption": "Román, a su paso por la playa del Embalse",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -720,80 +720,70 @@
           {
             "id": "hhe16",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1384.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Bajada a la playa del Embalse de Aguilar, una de las zonas más llamativas del circuito"
           },
           {
             "id": "hhe17",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1416.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Un piloto grita de emoción al superar un tramo del trazado"
           },
           {
             "id": "hhe18",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1452.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Nadie se quiere perder el paso de los mejores"
           },
           {
             "id": "hhe19",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1533.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "El piloto andorrano, Marc Font, a su entrada a una zona de trial del circuito"
           },
           {
             "id": "hhe20",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1580.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Alfredo Gómez, a su paso por la zona de trial"
           },
           {
             "id": "hhe21",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1600.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Sandra Gómez, quien acabó en el top 30 de la clasificiación"
           },
           {
             "id": "hhe22",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1611.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Billy Bolt, piloto británico y mlticampeón del mundo de Hard Enduro y Super Enduro, acabó tercero en la Hixpania"
           },
           {
             "id": "hhe23",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1615.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "hhe24",
-            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1624.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "El alemán, Manuel Lettenbichler, acabó la carrera cuarto, pero finalizó la campaña siendo campeón del mundo de Hard Enduro 2025"
           },
           {
             "id": "hhe25",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1667.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Todas las miradas van a Bolt"
           },
           {
             "id": "hhe26",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1681.webp",
-            "caption": "Acción durante la carrera",
+            "caption": "Font, realizando una de las últimas subidas del circuito",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
           },
           {
-            "id": "hhe27",
-            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1689.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
             "id": "hhe28",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1694.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Román al inicio del último tramo de la carrera"
           },
           {
             "id": "hhe29",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1717.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Un piloto afronta uno de los desafíos finales de la Hixpania"
           },
           {
             "id": "hhe30",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1721.webp",
-            "caption": "Acción durante la carrera",
+            "caption": "Desde lo alto del barranco, el pública observa a los competidores",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -801,32 +791,32 @@
           {
             "id": "hhe31",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1739.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "De izquierda a derecha, Billy Bolt, Mario Román y Manuel Lettenbichler, los tres favoritos"
           }
         ]
       },
       {
         "id": "la-pesquera-2025",
-        "title": "La Pesquera 2025",
-        "description": "Carrera de Hard Enduro en Castilla-La Mancha.",
+        "title": "Penúltima carrera del Campeonato de España de 2025, en el pequeño pueblo conquense de La Pesquera",
+        "description": "En la profundidad de la Reserva Natural de las Hoces del Cabriel, entre Cuenca y la Comunidad Valenciana, el torneo nacional de Hard Enduro de 2025 tuvo la antesala de su gran final",
         "coverImage": "/LA PESQUERA 2025/IMG_5232.webp",
-        "place": "Castilla-La Mancha, España",
+        "place": "Cuenca, Castilla-La Mancha, España",
         "date": "2025",
         "photos": [
           {
             "id": "lp1",
             "src": "/LA PESQUERA 2025/IMG_5232.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Pilotos preparándose en la parrilla de salida"
           },
           {
             "id": "lp2",
             "src": "/LA PESQUERA 2025/IMG_5266.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Pistoletazo y arranque de la cita"
           },
           {
             "id": "lp3",
             "src": "/LA PESQUERA 2025/IMG_5280.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Un aficionado graba la salida"
           },
           {
             "id": "lp4",
@@ -846,7 +836,7 @@
           {
             "id": "lp7",
             "src": "/LA PESQUERA 2025/IMG_5367.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Un piloto arrastra su moto para superar una subida"
           },
           {
             "id": "lp8",
@@ -861,22 +851,17 @@
           {
             "id": "lp10",
             "src": "/LA PESQUERA 2025/IMG_5480.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante una de las bajadas del circuito"
           },
           {
             "id": "lp11",
             "src": "/LA PESQUERA 2025/IMG_5552.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "lp12",
-            "src": "/LA PESQUERA 2025/IMG_5575.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Un piloto comienza la trazada de una de las subidas"
           },
           {
             "id": "lp13",
             "src": "/LA PESQUERA 2025/IMG_5577.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "La flecha marca el camino"
           },
           {
             "id": "lp14",
@@ -886,22 +871,22 @@
           {
             "id": "lp15",
             "src": "/LA PESQUERA 2025/IMG_5781.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "El piloto andorrano, Marc Font, empujando su moto para retomar la marcha"
           },
           {
             "id": "lp16",
             "src": "/LA PESQUERA 2025/IMG_5825.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Eric Miquel, uno de los principales aspirantes al título, estudiando el trazado"
           },
           {
             "id": "lp17",
             "src": "/LA PESQUERA 2025/IMG_5865.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la subida más exigente de la carrera"
           },
           {
             "id": "lp18",
             "src": "/LA PESQUERA 2025/IMG_5876.webp",
-            "caption": "Acción durante la carrera",
+            "caption": "Acción durante la subida más exigente de la carrera",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -909,7 +894,7 @@
           {
             "id": "lp19",
             "src": "/LA PESQUERA 2025/IMG_5897.webp",
-            "caption": "Acción durante la carrera",
+            "caption": "Un piloto observa el siguiente obstáculo",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -917,42 +902,32 @@
           {
             "id": "lp20",
             "src": "/LA PESQUERA 2025/IMG_5925.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "lp21",
-            "src": "/LA PESQUERA 2025/IMG_5953.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la subida más exigente de la carrera"
           },
           {
             "id": "lp22",
             "src": "/LA PESQUERA 2025/IMG_6018.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la subida más exigente de la carrera, donde se van acumulando pilotos"
           },
           {
             "id": "lp23",
             "src": "/LA PESQUERA 2025/IMG_6054.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la subida más exigente de la carrera"
           },
           {
             "id": "lp24",
             "src": "/LA PESQUERA 2025/IMG_6065.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Pol Pinyol, piloto catalán, durante el trazado"
           },
           {
             "id": "lp25",
             "src": "/LA PESQUERA 2025/IMG_6069.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Un grupo de aficionados observando la sección más difícil del circuito"
           },
           {
             "id": "lp26",
             "src": "/LA PESQUERA 2025/IMG_6105.webp",
-            "caption": "Acción durante la carrera"
-          },
-          {
-            "id": "lp27",
-            "src": "/LA PESQUERA 2025/IMG_6114.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Sandra Gómez, única mujer participante de la carrera, analizando el terreno"
           },
           {
             "id": "lp28",
@@ -969,8 +944,8 @@
     "coberturas": [
       {
         "id": "goya-2026",
-        "title": "Premios Goya 2026",
-        "description": "Cobertura de la gala de los Premios Goya.",
+        "title": "Encuentro de de Nominados de la 40 edición de los Premios Goya, en el Real Casino de Madrid",
+        "description": "Antes de la gran ceremonia celebrada en Barcelona, el 2 de febrero de 2026, los aspirantes a estatuillas posaron ante los medios en el histórico edificio madrileño",
         "coverImage": "/goya-2026/IMG_0004.webp",
         "place": "Madrid",
         "date": "2026",
@@ -978,50 +953,42 @@
           {
             "id": "goya_202-1",
             "src": "/goya-2026/IMG_0004.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "De izquierda a derceha, Susana Abaitua"
           },
           {
             "id": "goya_202-2",
             "src": "/goya-2026/IMG_0121.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Álvaro Cervantes, nominado a Mejor Actor de Reparto por su papel en 'Sorda', posando para las cámaras"
           },
           {
             "id": "goya_202-3",
             "src": "/goya-2026/IMG_0176.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Julio Peña Fernández, nominado a mejor actor revelación por su interpretación en 'El Cautivo'"
           },
           {
             "id": "goya_202-4",
             "src": "/goya-2026/IMG_0207.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Manolo Solo, nominado a Mejor Actor Protagonista por su papel en el fil 'Una quinta portuguesa'"
           },
           {
             "id": "goya_202-5",
             "src": "/goya-2026/IMG_0236.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Alba Flores, nominada a Mejor Película Documental y a Mejor Canción Original por su trabajo en 'Flores para Antonio', posando para las cámaras"
           },
           {
             "id": "goya_202-6",
             "src": "/goya-2026/IMG_0254.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "De izquierda a derecha, Elena Molina, codirectora de 'Flores para Antonio', y Alba Flores"
           },
           {
             "id": "goya_202-7",
             "src": "/goya-2026/IMG_0277.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Flores atendiendo a los medios de comunicación desplegados en el Real Casino de Madrid"
           },
           {
             "id": "goya_202-8",
             "src": "/goya-2026/IMG_0293.webp",
-            "caption": "Momento de la cobertura"
-          },
-          {
-            "id": "goya_202-9",
-            "src": "/goya-2026/IMG_0304.webp",
-            "caption": "Momento de la cobertura",
-            "orientation": "vertical",
-            "width": 4000,
-            "height": 6000
+            "caption": "José Miguel Conejo Torres, conocido como Leiva, nominado a Mejor Canción Original por 'Hasta que me quede sin voz', documental dedicado a su vida"
           },
           {
             "id": "goya_202-10",
@@ -1031,12 +998,12 @@
           {
             "id": "goya_202-11",
             "src": "/goya-2026/IMG_0409.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "José Ramón Soroiz, nominado a Mejor Actor Protagonista por su actuación en 'Maspalomas', posando en la alfombra roja"
           },
           {
             "id": "goya_202-12",
             "src": "/goya-2026/IMG_9545.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Blanca Soroa, nominada a Mejor Actriz Protagonista por su papel en 'Los Domingos'"
           },
           {
             "id": "goya_202-13",
@@ -1046,12 +1013,12 @@
           {
             "id": "goya_202-14",
             "src": "/goya-2026/IMG_9809.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Tamar Novas, nominado a Mejor Actor de Reparto por su papel en 'Rondallas'"
           },
           {
             "id": "goya_202-15",
             "src": "/goya-2026/IMG_9846.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Hugo Welzel, nominado a Mejor Actor Revelación por su interpretación en 'Enemigos'"
           },
           {
             "id": "goya_202-16",
