@@ -39,9 +39,10 @@
     "title": "Reportajes",
     "subtitle": "Selección de trabajos periodísticos realizados durante mi formación académica y colaboraciones con medios.",
     "readMore": "Leer más",
-    "diarioAs": "Diario AS",
-    "infoperiodistas": "Infoperiodistas",
-    "elGeneracional": "El Generacional",
+    "tfg": "TFG",
+    "tfgTitle": "¿Cómo se muestra la esencia de lo extraordinario?",
+    "tfgSummary": "El Hard Enduro es una modalidad desapercibida, a veces oculta a ojos del mundo. Trabajo de Fin de Grado sobre su representación mediática y el canal EnduroDesinquieto.",
+    "tfgView": "Ver TFG",
     "viewAll": "Ver todo el contenido"
   },
   "work": {
