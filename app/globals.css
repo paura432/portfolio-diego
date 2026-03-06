@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Coolvetica - fuente principal del portfolio */
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('/fuente/Coolvetica%20Rg.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('/fuente/Coolvetica%20Rg%20It.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('/fuente/Coolvetica%20Hv%20Comp.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -14,7 +39,7 @@
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* Tipografía editorial: serif para títulos */
+  /* Coolvetica para todo: títulos y cuerpo */
   h1, h2, h3, h4, h5, h6 {
     @apply font-serif;
   }
