@@ -51,7 +51,7 @@ export default function EventCover({ event, category }: EventCoverProps) {
   const href = `/photography/${category}/${event.id}`;
 
   return (
-    <Link href={href}>
+    <Link href={href} scroll={false}>
       <div
         ref={coverRef}
         className={`group relative overflow-hidden bg-gray-100 dark:bg-gray-900 rounded-lg transition-all duration-700 ease-out cursor-pointer hover:shadow-2xl min-h-[240px] sm:min-h-[280px] md:min-h-[360px] lg:min-h-[400px] ${
@@ -67,6 +67,7 @@ export default function EventCover({ event, category }: EventCoverProps) {
           fill
           className="object-cover transition-transform duration-500 ease-out group-hover:scale-105"
           sizes="(max-width: 768px) 100vw, 50vw"
+          unoptimized
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 md:p-8">

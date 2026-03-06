@@ -130,6 +130,7 @@ export default function PhotoModal({ photo, isOpen, onClose, place, photos = [],
           className="object-contain"
           sizes="100vw"
           priority
+          unoptimized
         />
       </div>
 

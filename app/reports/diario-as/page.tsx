@@ -11,7 +11,6 @@ export default function DiarioAsPage() {
   const allReports = getReports(language);
   const t = getTranslations(language);
 
-  // Filtrar reportajes de AS.com y AS.com Tikitakas
   const diarioAsReports = allReports.filter(
     (report) => report.medium === 'AS.com' || report.medium === 'AS.com Tikitakas'
   );

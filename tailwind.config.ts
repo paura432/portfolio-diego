@@ -11,8 +11,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['Georgia', 'Times New Roman', 'serif'],
-        sans: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+        sans: ['Coolvetica', 'Helvetica Neue', 'Arial', 'sans-serif'],
+        serif: ['Coolvetica', 'Helvetica Neue', 'Arial', 'sans-serif'],
       },
       colors: {
         primary: {

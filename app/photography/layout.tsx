@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { usePathname } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Section from '@/components/Section';
@@ -14,11 +15,22 @@ export default function PhotographyLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const pathname = usePathname();
   const { language } = useTheme();
   const photography = getPhotography(language);
   const t = getTranslations(language);
   const [scrollY, setScrollY] = useState(0);
   const heroRef = useRef<HTMLElement>(null);
+
+  // Ocultar hero cuando estamos dentro de un álbum (ej: /photography/conciertos/vanesa-martin)
+  const isAlbumDetail = /^\/photography\/[^/]+\/[^/]+$/.test(pathname);
+
+  // Al entrar en un álbum, hacer scroll al inicio del contenido (evita que suba al hero)
+  useEffect(() => {
+    if (isAlbumDetail) {
+      window.scrollTo(0, 0);
+    }
+  }, [isAlbumDetail]);
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -36,7 +48,8 @@ export default function PhotographyLayout({
     <>
       <Header />
       <main className="pt-16 sm:pt-20 bg-gray-50 dark:bg-black">
-        {/* Hero Section */}
+        {/* Hero Section - oculto dentro de un álbum para mostrar las fotos directamente */}
+        {!isAlbumDetail && (
         <section
           ref={heroRef}
           className="relative bg-gradient-to-br from-primary-100 via-gray-50 to-accent-50 dark:from-black dark:via-gray-900 dark:to-black py-12 sm:py-16 md:py-20 min-h-[40vh] sm:min-h-[50vh] flex items-center"
@@ -60,8 +73,9 @@ export default function PhotographyLayout({
             </div>
           </Section>
         </section>
+        )}
 
-        {/* Contenido de la categoría (conciertos o carreras) */}
+        {/* Contenido de la categoría (conciertos, carreras, coberturas) o álbum */}
         <div className="bg-white dark:bg-black">{children}</div>
       </main>
       <Footer />

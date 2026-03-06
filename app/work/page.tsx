@@ -57,19 +57,27 @@ export default function WorkPage() {
           </Section>
         </section>
 
-        {/* Timeline */}
-        <Section className="bg-white dark:bg-black py-12 sm:py-16">
-          <div className="relative">
-            {/* Timeline Line */}
-            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary-300 via-accent-300 to-primary-300 dark:from-primary-600 dark:via-accent-600 dark:to-primary-600 hidden md:block"></div>
-
-            <div className="space-y-12">
-              {work.map((item, index) => (
+        {/* Timeline en dos columnas tipo folio: ancho completo */}
+        <div className="w-full bg-white dark:bg-black py-12 sm:py-16 lg:py-20 min-h-screen">
+          <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-12 xl:px-16">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 xl:gap-24 items-start">
+            {/* Columna izquierda: primera mitad */}
+            <div className="relative space-y-12 lg:pl-6">
+              <div className="hidden lg:block absolute left-0 top-0 bottom-0 w-0.5 min-h-full bg-gradient-to-b from-primary-300 via-accent-300 to-primary-300 dark:from-primary-600 dark:via-accent-600 dark:to-primary-600" />
+              {work.slice(0, Math.ceil(work.length / 2)).map((item) => (
+                <WorkItem key={item.id} item={item} />
+              ))}
+            </div>
+            {/* Columna derecha: el resto */}
+            <div className="relative space-y-12 lg:pl-6">
+              <div className="hidden lg:block absolute left-0 top-0 bottom-0 w-0.5 min-h-full bg-gradient-to-b from-primary-300 via-accent-300 to-primary-300 dark:from-primary-600 dark:via-accent-600 dark:to-primary-600" />
+              {work.slice(Math.ceil(work.length / 2)).map((item) => (
                 <WorkItem key={item.id} item={item} />
               ))}
             </div>
           </div>
-        </Section>
+        </div>
+        </div>
       </main>
       <Footer />
     </>
@@ -110,15 +118,14 @@ function WorkItem({ item }: { item: any }) {
   return (
     <div 
       ref={itemRef}
-      className={`relative pl-0 md:pl-20 transition-all duration-700 ease-out ${
+      className={`relative transition-all duration-700 ease-out ${
         isVisible 
           ? 'opacity-100 translate-y-0' 
           : 'opacity-0 translate-y-8'
       }`}
     >
       {/* Timeline Dot */}
-      <div className="absolute left-6 top-2 w-4 h-4 bg-accent-500 dark:bg-accent-400 rounded-full border-4 border-white dark:border-gray-800 shadow-lg hidden md:block"></div>
-
+      <div className="absolute -left-6 top-2 w-4 h-4 bg-accent-500 dark:bg-accent-400 rounded-full border-4 border-white dark:border-gray-800 shadow-lg hidden lg:block -translate-x-1/2" />
       <div className="bg-gradient-to-br from-gray-50 to-white dark:from-gray-900 dark:to-black p-6 sm:p-8 rounded-lg border border-gray-200 dark:border-gray-800 hover:shadow-lg transition-shadow">
         <div className="mb-4">
           <span className="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 rounded-full text-xs font-medium">
