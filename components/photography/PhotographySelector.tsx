@@ -26,7 +26,7 @@ export default function PhotographySelector({
   const isCoberturas = pathname === '/photography/coberturas';
 
   const linkClass = (isActive: boolean) =>
-    `px-5 py-2.5 rounded-xl font-medium text-sm tracking-wide transition-all duration-200 ${
+    `px-3 sm:px-4 md:px-5 py-2 sm:py-2.5 rounded-lg sm:rounded-xl font-medium text-xs sm:text-sm tracking-wide transition-all duration-200 ${
       isActive
         ? 'bg-white dark:bg-gray-800 text-gray-900 dark:text-white shadow-sm'
         : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'
@@ -34,7 +34,7 @@ export default function PhotographySelector({
 
   return (
     <nav
-      className="inline-flex p-1 rounded-2xl bg-gray-100/90 dark:bg-gray-900/90 border border-gray-200 dark:border-gray-700"
+      className="inline-flex p-1 rounded-xl sm:rounded-2xl bg-gray-100/90 dark:bg-gray-900/90 border border-gray-200 dark:border-gray-700"
       aria-label="Selección de categoría fotográfica"
     >
       <div className="flex flex-wrap gap-0.5">

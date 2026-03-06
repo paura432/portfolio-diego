@@ -22,14 +22,14 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="pt-20">
+      <main className="pt-16 sm:pt-20">
         {/* Hero Section con fondo visual suave - todo visible sin scroll */}
         <section className="relative bg-gradient-to-br from-primary-50 via-gray-50 to-accent-50 dark:from-black dark:via-gray-900 dark:to-black min-h-[calc(100vh-5rem)] flex items-center justify-center py-4">
           <div className="absolute inset-0 gradient-overlay"></div>
-          <Section className="relative z-10 w-full !py-4 md:!py-6">
+          <Section className="relative z-10 w-full !py-4 sm:!py-5 md:!py-6">
             <div className="flex flex-col gap-6 md:gap-8">
               <div className="text-center md:text-left">
-                <h1 className="font-serif text-4xl md:text-5xl font-normal mb-2 text-gray-900 dark:text-gray-100 leading-tight">
+                <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal mb-2 text-gray-900 dark:text-gray-100 leading-tight">
                   {siteInfo.name}
                 </h1>
                 <p className="text-lg md:text-xl text-primary-700 dark:text-primary-400 mb-1 font-medium">
@@ -78,12 +78,12 @@ export default function Home() {
 
         {/* Quick Links Section */}
         <Section className="bg-white dark:bg-black">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             <a
               href="/photography"
-              className="group p-8 bg-gradient-to-br from-primary-50 to-primary-100 dark:from-gray-900 dark:to-black rounded-lg hover:shadow-lg transition-all border border-gray-200 dark:border-gray-800"
+              className="group p-6 sm:p-8 bg-gradient-to-br from-primary-50 to-primary-100 dark:from-gray-900 dark:to-black rounded-lg hover:shadow-lg transition-all border border-gray-200 dark:border-gray-800"
             >
-              <h3 className="font-serif text-2xl mb-2 text-primary-900 dark:text-primary-300 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">
+              <h3 className="font-serif text-xl sm:text-2xl mb-2 text-primary-900 dark:text-primary-300 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">
                 {t.home.quickLinks.photography}
               </h3>
               <p className="text-primary-700 dark:text-primary-400 text-sm">
@@ -92,9 +92,9 @@ export default function Home() {
             </a>
             <a
               href="/reports"
-              className="group p-8 bg-gradient-to-br from-accent-50 to-accent-100 dark:from-gray-900 dark:to-black rounded-lg hover:shadow-lg transition-all border border-gray-200 dark:border-gray-800"
+              className="group p-6 sm:p-8 bg-gradient-to-br from-accent-50 to-accent-100 dark:from-gray-900 dark:to-black rounded-lg hover:shadow-lg transition-all border border-gray-200 dark:border-gray-800"
             >
-              <h3 className="font-serif text-2xl mb-2 text-accent-900 dark:text-accent-300 group-hover:text-primary-700 dark:group-hover:text-primary-400 transition-colors">
+              <h3 className="font-serif text-xl sm:text-2xl mb-2 text-accent-900 dark:text-accent-300 group-hover:text-primary-700 dark:group-hover:text-primary-400 transition-colors">
                 {t.home.quickLinks.reports}
               </h3>
               <p className="text-accent-700 dark:text-accent-400 text-sm">
@@ -103,9 +103,9 @@ export default function Home() {
             </a>
             <a
               href="/work"
-              className="group p-8 bg-gradient-to-br from-warm-50 to-warm-100 dark:from-gray-900 dark:to-black rounded-lg hover:shadow-lg transition-all border border-gray-200 dark:border-gray-800"
+              className="group p-6 sm:p-8 bg-gradient-to-br from-warm-50 to-warm-100 dark:from-gray-900 dark:to-black rounded-lg hover:shadow-lg transition-all border border-gray-200 dark:border-gray-800 sm:col-span-2 lg:col-span-1"
             >
-              <h3 className="font-serif text-2xl mb-2 text-warm-900 dark:text-warm-300 group-hover:text-primary-700 dark:group-hover:text-primary-400 transition-colors">
+              <h3 className="font-serif text-xl sm:text-2xl mb-2 text-warm-900 dark:text-warm-300 group-hover:text-primary-700 dark:group-hover:text-primary-400 transition-colors">
                 {t.home.quickLinks.experience}
               </h3>
               <p className="text-warm-700 dark:text-warm-400 text-sm">
