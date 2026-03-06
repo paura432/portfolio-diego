@@ -19,26 +19,24 @@ type GalleryItem =
   | { type: 'vertical-pair'; photos: [Photo, Photo] }
   | { type: 'vertical-single'; photo: Photo };
 
+/** Construye items manteniendo el orden original del array de fotos */
 function buildGalleryItems(photos: Photo[]): GalleryItem[] {
-  const verticals: Photo[] = [];
-  const horizontals: Photo[] = [];
-  for (const p of photos) {
-    if (p.orientation === 'vertical') {
-      verticals.push(p);
-    } else {
-      horizontals.push(p);
-    }
-  }
   const items: GalleryItem[] = [];
-  for (let i = 0; i < verticals.length; i += 2) {
-    if (i + 1 < verticals.length) {
-      items.push({ type: 'vertical-pair', photos: [verticals[i], verticals[i + 1]] });
+  let i = 0;
+  while (i < photos.length) {
+    const p = photos[i];
+    if (p.orientation === 'vertical') {
+      if (i + 1 < photos.length && photos[i + 1].orientation === 'vertical') {
+        items.push({ type: 'vertical-pair', photos: [p, photos[i + 1]] });
+        i += 2;
+      } else {
+        items.push({ type: 'vertical-single', photo: p });
+        i += 1;
+      }
     } else {
-      items.push({ type: 'vertical-single', photo: verticals[i] });
+      items.push({ type: 'horizontal', photo: p });
+      i += 1;
     }
-  }
-  for (const h of horizontals) {
-    items.push({ type: 'horizontal', photo: h });
   }
   return items;
 }
