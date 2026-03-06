@@ -6,7 +6,6 @@ import { usePathname } from 'next/navigation';
 interface PhotographySelectorProps {
   conciertosLabel: string;
   carrerasLabel: string;
-  fotoReportagesLabel: string;
   coberturasLabel: string;
 }
 
@@ -16,13 +15,11 @@ interface PhotographySelectorProps {
 export default function PhotographySelector({
   conciertosLabel,
   carrerasLabel,
-  fotoReportagesLabel,
   coberturasLabel,
 }: PhotographySelectorProps) {
   const pathname = usePathname();
   const isConciertos = pathname === '/photography/conciertos';
   const isCarreras = pathname === '/photography/carreras';
-  const isFotoReportages = pathname === '/photography/foto-reportages';
   const isCoberturas = pathname === '/photography/coberturas';
 
   const linkClass = (isActive: boolean) =>
@@ -49,12 +46,6 @@ export default function PhotographySelector({
           className={linkClass(isCarreras)}
         >
           {carrerasLabel}
-        </Link>
-        <Link
-          href="/photography/foto-reportages"
-          className={linkClass(isFotoReportages)}
-        >
-          {fotoReportagesLabel}
         </Link>
         <Link
           href="/photography/coberturas"

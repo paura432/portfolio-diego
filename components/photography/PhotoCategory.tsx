@@ -6,7 +6,7 @@ import EventCover from './EventCover';
 interface PhotoCategoryProps {
   title: string;
   events: PhotoEvent[];
-  category: string; // 'conciertos', 'carreras', 'foto-reportages', 'coberturas'
+  category: string; // 'conciertos', 'carreras', 'coberturas'
 }
 
 /**

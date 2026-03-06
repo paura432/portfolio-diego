@@ -609,31 +609,6 @@
             "id": "tv18",
             "src": "/TUDELA VEGUÍN 2025/IMG_9724.webp",
             "caption": "Action during the race"
-          },
-          {
-            "id": "tv19",
-            "src": "/TUDELA VEGUÍN 2025/IMG_9745.webp",
-            "caption": "Action during the race"
-          },
-          {
-            "id": "tv20",
-            "src": "/TUDELA VEGUÍN 2025/IMG_9756.webp",
-            "caption": "Action during the race"
-          },
-          {
-            "id": "tv21",
-            "src": "/TUDELA VEGUÍN 2025/IMG_9774.webp",
-            "caption": "Action during the race"
-          },
-          {
-            "id": "tv22",
-            "src": "/TUDELA VEGUÍN 2025/IMG_9779.webp",
-            "caption": "Action during the race"
-          },
-          {
-            "id": "tv23",
-            "src": "/TUDELA VEGUÍN 2025/IMG_9781.webp",
-            "caption": "Action during the race"
           }
         ]
       },
@@ -767,11 +742,6 @@
             "caption": "Action during the race"
           },
           {
-            "id": "hhe24",
-            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1624.webp",
-            "caption": "Action during the race"
-          },
-          {
             "id": "hhe25",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1667.webp",
             "caption": "Action during the race"
@@ -783,11 +753,6 @@
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
-          },
-          {
-            "id": "hhe27",
-            "src": "/HIXPANIA HARD ENDURO 2025/IMG_1689.webp",
-            "caption": "Action during the race"
           },
           {
             "id": "hhe28",
@@ -878,11 +843,6 @@
             "caption": "Action during the race"
           },
           {
-            "id": "lp12",
-            "src": "/LA PESQUERA 2025/IMG_5575.webp",
-            "caption": "Action during the race"
-          },
-          {
             "id": "lp13",
             "src": "/LA PESQUERA 2025/IMG_5577.webp",
             "caption": "Action during the race"
@@ -929,11 +889,6 @@
             "caption": "Action during the race"
           },
           {
-            "id": "lp21",
-            "src": "/LA PESQUERA 2025/IMG_5953.webp",
-            "caption": "Action during the race"
-          },
-          {
             "id": "lp22",
             "src": "/LA PESQUERA 2025/IMG_6018.webp",
             "caption": "Action during the race"
@@ -959,11 +914,6 @@
             "caption": "Action during the race"
           },
           {
-            "id": "lp27",
-            "src": "/LA PESQUERA 2025/IMG_6114.webp",
-            "caption": "Action during the race"
-          },
-          {
             "id": "lp28",
             "src": "/LA PESQUERA 2025/IMG_6131.webp",
             "caption": "Action during the race",
@@ -974,7 +924,6 @@
         ]
       }
     ],
-    "fotoReportages": [],
     "coberturas": [
       {
         "id": "goya-2026",
@@ -1023,14 +972,6 @@
             "id": "goya_202-8",
             "src": "/goya-2026/IMG_0293.webp",
             "caption": "Coverage moment"
-          },
-          {
-            "id": "goya_202-9",
-            "src": "/goya-2026/IMG_0304.webp",
-            "caption": "Coverage moment",
-            "orientation": "vertical",
-            "width": 4000,
-            "height": 6000
           },
           {
             "id": "goya_202-10",

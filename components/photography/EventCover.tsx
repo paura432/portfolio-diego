@@ -9,7 +9,7 @@ import { getTranslations } from '@/lib/i18n';
 
 interface EventCoverProps {
   event: PhotoEvent;
-  category: string; // 'conciertos', 'carreras', 'foto-reportages', 'coberturas'
+  category: string; // 'conciertos', 'carreras', 'coberturas'
 }
 
 /**

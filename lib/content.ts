@@ -35,7 +35,7 @@ export function getPhotography(language: Language = 'es') {
  * Obtiene un evento de fotografía por categoría e ID
  */
 export function getPhotoEvent(
-  category: 'conciertos' | 'carreras' | 'fotoReportages' | 'coberturas',
+  category: 'conciertos' | 'carreras' | 'coberturas',
   eventId: string,
   language: Language = 'es'
 ) {
@@ -48,7 +48,7 @@ export function getPhotoEvent(
  * Obtiene todos los eventos de una categoría de fotografía
  */
 export function getPhotoEvents(
-  category: 'conciertos' | 'carreras' | 'fotoReportages' | 'coberturas',
+  category: 'conciertos' | 'carreras' | 'coberturas',
   language: Language = 'es'
 ) {
   const photography = getPhotography(language);

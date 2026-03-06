@@ -55,7 +55,6 @@ export default function PhotographyLayout({
               <PhotographySelector
                 conciertosLabel={t.photography.conciertos}
                 carrerasLabel={t.photography.carreras}
-                fotoReportagesLabel={t.photography.fotoReportages}
                 coberturasLabel={t.photography.coberturas}
               />
             </div>

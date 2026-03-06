@@ -29,7 +29,6 @@ export interface Photography {
   intro: string;
   conciertos: PhotoEvent[];
   carreras: PhotoEvent[];
-  fotoReportages: PhotoEvent[];
   coberturas: PhotoEvent[];
 }
 

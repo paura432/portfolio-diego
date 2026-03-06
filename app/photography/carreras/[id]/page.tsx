@@ -52,6 +52,11 @@ export default function CarreraEventPage() {
         <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-normal mb-3 sm:mb-4 text-gray-900 dark:text-white">
           {event.title}
         </h1>
+        {event.description && (
+          <p className="text-gray-600 dark:text-gray-400 text-base sm:text-lg leading-relaxed max-w-3xl mb-4">
+            {event.description}
+          </p>
+        )}
         <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-base sm:text-lg text-gray-600 dark:text-gray-400">
           <span>{event.place}</span>
           {event.date && (
