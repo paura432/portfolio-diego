@@ -33,21 +33,21 @@ export default function ReportsLayout({
   return (
     <>
       <Header />
-      <main className="pt-20 bg-black">
+      <main className="pt-16 sm:pt-20 bg-black">
         {/* Hero Section */}
         <section
           ref={heroRef}
-          className="bg-black py-20 min-h-[50vh] flex items-center"
+          className="bg-black py-12 sm:py-16 md:py-20 min-h-[40vh] sm:min-h-[50vh] flex items-center"
         >
           <Section className="relative z-10 w-full">
             <div
               className="max-w-3xl transition-opacity duration-300"
               style={{ opacity: getTextOpacity() }}
             >
-              <h1 className="font-serif text-5xl md:text-6xl font-normal mb-6 text-white">
+              <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal mb-4 sm:mb-6 text-white">
                 {t.reports.title}
               </h1>
-              <p className="text-xl text-gray-300 leading-relaxed mb-10">
+              <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed mb-6 sm:mb-10">
                 {t.reports.subtitle}
               </p>
               <ReportsSelector

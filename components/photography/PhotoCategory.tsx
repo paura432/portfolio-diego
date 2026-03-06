@@ -16,10 +16,10 @@ interface PhotoCategoryProps {
 export default function PhotoCategory({ title, events, category }: PhotoCategoryProps) {
   return (
     <section>
-      <h2 className="font-serif text-2xl md:text-3xl font-normal text-gray-900 dark:text-white mb-10 tracking-tight">
+      <h2 className="font-serif text-xl sm:text-2xl md:text-3xl font-normal text-gray-900 dark:text-white mb-6 sm:mb-8 md:mb-10 tracking-tight">
         {title}
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
         {events.map((event) => (
           <EventCover 
             key={event.id} 

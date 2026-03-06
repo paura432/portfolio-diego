@@ -54,15 +54,12 @@ export default function EventCover({ event, category }: EventCoverProps) {
     <Link href={href}>
       <div
         ref={coverRef}
-        className={`group relative overflow-hidden bg-gray-100 dark:bg-gray-900 rounded-lg transition-all duration-700 ease-out cursor-pointer hover:shadow-2xl ${
+        className={`group relative overflow-hidden bg-gray-100 dark:bg-gray-900 rounded-lg transition-all duration-700 ease-out cursor-pointer hover:shadow-2xl min-h-[240px] sm:min-h-[280px] md:min-h-[360px] lg:min-h-[400px] ${
           isVisible 
             ? 'opacity-100 translate-y-0' 
             : 'opacity-0 translate-y-8'
         }`}
-        style={{
-          aspectRatio: '4/3',
-          minHeight: '400px',
-        }}
+        style={{ aspectRatio: '4/3' }}
       >
         <Image
           src={event.coverImage}
@@ -72,8 +69,8 @@ export default function EventCover({ event, category }: EventCoverProps) {
           sizes="(max-width: 768px) 100vw, 50vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">
-          <h3 className="font-serif text-2xl md:text-3xl font-normal text-white mb-2 leading-tight">
+        <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 md:p-8">
+          <h3 className="font-serif text-xl sm:text-2xl md:text-3xl font-normal text-white mb-1 sm:mb-2 leading-tight">
             {event.title}
           </h3>
           <div className="flex items-center gap-3 text-sm text-gray-300">
