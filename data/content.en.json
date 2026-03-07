@@ -24,7 +24,7 @@
       {
         "id": "vanesa-martin",
         "title": "Vanesa Martín at Movistar Arena",
-        "description": "The singer from Málaga on a memorable night at Movistar Arena.",
+        "description": "The singer and composer from Málaga filled Madrid's Movistar Arena for her 'Casa Mía Tour 2025'. On this occasion, the capital had the chance to hear her new self-titled album live.",
         "coverImage": "/concierto-vanesa-martin/IMG_2548.webp",
         "place": "Madrid",
         "date": "2025",
@@ -32,22 +32,22 @@
           {
             "id": "vanesa_m-2",
             "src": "/concierto-vanesa-martin/IMG_2548.webp",
-            "caption": "Introduction at Movistar Arena"
+            "caption": "Vanesa Martín introducing herself at Movistar Arena"
           },
           {
             "id": "vanesa_m-3",
             "src": "/concierto-vanesa-martin/IMG_2586.webp",
-            "caption": "Concert moment"
+            "caption": "The artist, moved, letting the audience sing"
           },
           {
             "id": "vanesa_m-4",
             "src": "/concierto-vanesa-martin/IMG_2599.webp",
-            "caption": "Concert moment"
+            "caption": "The singer pointing at the audience"
           },
           {
             "id": "vanesa_m-5",
             "src": "/concierto-vanesa-martin/IMG_2748.webp",
-            "caption": "Concert moment",
+            "caption": "Martín with one of her guitarists",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -55,12 +55,12 @@
           {
             "id": "vanesa_m-6",
             "src": "/concierto-vanesa-martin/IMG_2781.webp",
-            "caption": "Concert moment"
+            "caption": "Photographers and videographers pointing at the artist"
           },
           {
             "id": "vanesa_m-7",
             "src": "/concierto-vanesa-martin/IMG_2833.webp",
-            "caption": "Concert moment"
+            "caption": "Vanesa Martín's band"
           },
           {
             "id": "vanesa_m-8",
