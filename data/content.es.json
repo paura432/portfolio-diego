@@ -1200,8 +1200,8 @@
       },
       {
         "id": "mani-flotilla-2025",
-        "title": "Manifestación Flotilla por Palestina",
-        "description": "Manifestación Flotilla por Palestina.",
+        "title": "Manifestación en Madrid a causa del arresto de la 'Flotilla de la Libertad'",
+        "description": "La 'Flotilla de la Libertad' es un grupo de activistas que se han dedicado a organizar viajes en barco para llevar ayuda humanitaria",
         "coverImage": "/MANI FLOTILLA 2025/IMG_1779.webp",
         "place": "Madrid",
         "date": "2025",
@@ -1313,7 +1313,7 @@
       {
         "id": "mani-palestina",
         "title": "Manifestación por Palestina",
-        "description": "Manifestación en apoyo al pueblo palestino.",
+        "description": "El 15 de octubre de 2025, España vivió una huelga general durante todo el día que culminó con manifestaciones multitudinarias en las principales ciudades del país. Los motivos: el apoyo al pueblo palestino y la exigencia de imponer sanciones más duras a Israel, entre otros. Estas son algunas imágenes de la concentración que se produjo en la capital, Madrid.",
         "coverImage": "/mani-palestina/IMG_3685.jpeg",
         "place": "Madrid",
         "date": "2024",
@@ -1430,8 +1430,8 @@
       },
       {
         "id": "entrevista-julieta-pona",
-        "title": "Entrevista a Julieta Pona",
-        "description": "Sesión fotográfica con la periodista Julieta Pona.",
+        "title": "Entrevista a Julieta",
+        "description": "Sesión fotográfica con la artista y compositora catalana Julieta Gracián, con motivo de una entrevista realizada por parte de El Generacional en el Bastardo Hostel, en Madrid.",
         "coverImage": "/entrevista-julieta-pona/IMG_8629.webp",
         "place": "Madrid",
         "date": "2025",
@@ -1439,7 +1439,7 @@
           {
             "id": "entrevis-1",
             "src": "/entrevista-julieta-pona/IMG_8539.webp",
-            "caption": "Momento de la cobertura",
+            "caption": "La cantante barcelonesa durante la conversación con El Generacional",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1447,7 +1447,7 @@
           {
             "id": "entrevis-2",
             "src": "/entrevista-julieta-pona/IMG_8541.webp",
-            "caption": "Momento de la cobertura",
+            "caption": "La cantante barcelonesa durante la conversación con El Generacional en el hotel ",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1455,32 +1455,32 @@
           {
             "id": "entrevis-3",
             "src": "/entrevista-julieta-pona/IMG_8560.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Momento de la entrevista"
           },
           {
             "id": "entrevis-4",
             "src": "/entrevista-julieta-pona/IMG_8583.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Momento de la entrevista"
           },
           {
             "id": "entrevis-5",
             "src": "/entrevista-julieta-pona/IMG_8587.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Momento de la entrevista"
           },
           {
             "id": "entrevis-6",
             "src": "/entrevista-julieta-pona/IMG_8619.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Julieta posando en la azotea del Bastardo Hostel"
           },
           {
             "id": "entrevis-7",
             "src": "/entrevista-julieta-pona/IMG_8622.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Julieta posando en la azotea del Bastardo Hostel"
           },
           {
             "id": "entrevis-8",
             "src": "/entrevista-julieta-pona/IMG_8629.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Julieta posando en la azotea del Bastardo Hostel"
           }
         ]
       }
