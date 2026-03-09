@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Section from '@/components/Section';
 import { getWork } from '@/lib/content';
+import type { WorkSubEntry } from '@/types/content';
 import { useTheme } from '@/contexts/ThemeContext';
 import { getTranslations } from '@/lib/i18n';
 
@@ -127,20 +128,42 @@ function WorkItem({ item }: { item: any }) {
       {/* Timeline Dot */}
       <div className="absolute -left-6 top-2 w-4 h-4 bg-accent-500 dark:bg-accent-400 rounded-full border-4 border-white dark:border-gray-800 shadow-lg hidden lg:block -translate-x-1/2" />
       <div className="bg-gradient-to-br from-gray-50 to-white dark:from-gray-900 dark:to-black p-6 sm:p-8 rounded-lg border border-gray-200 dark:border-gray-800 hover:shadow-lg transition-shadow">
-        <div className="mb-4">
-          <span className="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 rounded-full text-xs font-medium">
-            {item.dates}
-          </span>
-        </div>
-        <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-normal mb-2 text-gray-900 dark:text-gray-100">
-          {item.role}
-        </h2>
-        <p className="text-xl text-primary-700 dark:text-primary-400 mb-4 font-medium">
-          {item.organization}
-        </p>
-        <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-base sm:text-lg">
-          {item.description}
-        </p>
+        {item.subEntries ? (
+          <div className="space-y-6">
+            {item.subEntries.map((sub: WorkSubEntry, i: number) => (
+              <div key={i}>
+                <div className="mb-2">
+                  <span className="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 rounded-full text-xs font-medium">
+                    {sub.dates}
+                  </span>
+                </div>
+                <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-normal mb-1 text-gray-900 dark:text-gray-100">
+                  {sub.role}
+                </h2>
+                <p className="text-xl text-primary-700 dark:text-primary-400">
+                  {sub.organization}
+                </p>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <>
+            <div className="mb-4">
+              <span className="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 rounded-full text-xs font-medium">
+                {item.dates}
+              </span>
+            </div>
+            <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-normal mb-2 text-gray-900 dark:text-gray-100">
+              {item.role}
+            </h2>
+            <p className="text-xl text-primary-700 dark:text-primary-400 mb-4 font-medium">
+              {item.organization}
+            </p>
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-base sm:text-lg">
+              {item.description}
+            </p>
+          </>
+        )}
       </div>
     </div>
   );

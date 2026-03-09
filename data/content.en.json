@@ -1215,8 +1215,8 @@
       },
       {
         "id": "mani-flotilla-2025",
-        "title": "Flotilla for Palestine demonstration",
-        "description": "Flotilla for Palestine demonstration.",
+        "title": "Demonstration in Madrid following the arrest of the 'Freedom Flotilla'",
+        "description": "Hours after the arrest by Israeli authorities in international waters of the contingent of activists who departed from Barcelona to Gaza City, Madrid took to the streets.",
         "coverImage": "/MANI FLOTILLA 2025/IMG_1779.webp",
         "place": "Madrid",
         "date": "2025",
@@ -1224,12 +1224,12 @@
           {
             "id": "mani_flo-1",
             "src": "/MANI FLOTILLA 2025/IMG_1779.webp",
-            "caption": "Coverage moment"
+            "caption": "National Police cordoning off the march in Puerta del Sol"
           },
           {
             "id": "mani_flo-2",
             "src": "/MANI FLOTILLA 2025/IMG_1801.webp",
-            "caption": "Coverage moment",
+            "caption": "A woman waves a Palestinian flag in Puerta del Sol",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1237,32 +1237,32 @@
           {
             "id": "mani_flo-3",
             "src": "/MANI FLOTILLA 2025/IMG_1806.webp",
-            "caption": "Coverage moment"
+            "caption": "A banner surrounded by flags demanding a 'definitive ceasefire' for the Palestinian population"
           },
           {
             "id": "mani_flo-4",
             "src": "/MANI FLOTILLA 2025/IMG_1897.webp",
-            "caption": "Coverage moment"
+            "caption": "A man holds a sign on one of the streets near the central square"
           },
           {
             "id": "mani_flo-5",
             "src": "/MANI FLOTILLA 2025/IMG_1944.webp",
-            "caption": "Coverage moment"
+            "caption": "Flags waving in front of the Cercanías entrance at Sol"
           },
           {
             "id": "mani_flo-6",
             "src": "/MANI FLOTILLA 2025/IMG_2036.webp",
-            "caption": "Coverage moment"
+            "caption": "A young woman encourages the march with a megaphone"
           },
           {
             "id": "mani_flo-7",
             "src": "/MANI FLOTILLA 2025/IMG_2042.webp",
-            "caption": "Coverage moment"
+            "caption": "Young people chanting slogans during the demonstration"
           },
           {
             "id": "mani_flo-8",
             "src": "/MANI FLOTILLA 2025/IMG_2180.webp",
-            "caption": "Coverage moment",
+            "caption": "The Palestinian flag raised in front of the Congress of Deputies",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1270,12 +1270,12 @@
           {
             "id": "mani_flo-9",
             "src": "/MANI FLOTILLA 2025/IMG_2215.webp",
-            "caption": "Coverage moment"
+            "caption": "Two women hold a banner in support of the Palestinian people"
           },
           {
             "id": "mani_flo-10",
             "src": "/MANI FLOTILLA 2025/IMG_2283.webp",
-            "caption": "Coverage moment",
+            "caption": "A man with megaphones and a speaker marching through the Neptune fountain roundabout",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1283,17 +1283,17 @@
           {
             "id": "mani_flo-11",
             "src": "/MANI FLOTILLA 2025/IMG_2290.webp",
-            "caption": "Coverage moment"
+            "caption": "Riot police containing the crowd of demonstrators near the Ritz hotel"
           },
           {
             "id": "mani_flo-12",
             "src": "/MANI FLOTILLA 2025/IMG_2320.webp",
-            "caption": "Coverage moment"
+            "caption": "A woman holds her gaze against a riot police officer"
           },
           {
             "id": "mani_flo-13",
             "src": "/MANI FLOTILLA 2025/IMG_2330.webp",
-            "caption": "Coverage moment",
+            "caption": "A woman chanting demonstration slogans in front of a riot police officer",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1301,42 +1301,42 @@
           {
             "id": "mani_flo-14",
             "src": "/MANI FLOTILLA 2025/IMG_2334.webp",
-            "caption": "Coverage moment"
+            "caption": "A group of young people hold the Palestinian flag in front of the police"
           },
           {
             "id": "mani_flo-15",
             "src": "/MANI FLOTILLA 2025/IMG_2380.webp",
-            "caption": "Coverage moment"
+            "caption": "Three young people embrace in front of the riot police"
           },
           {
             "id": "mani_flo-16",
             "src": "/MANI FLOTILLA 2025/IMG_2410.webp",
-            "caption": "Coverage moment"
+            "caption": "A group of demonstrators raise their arms while sitting on the ground at the Neptune fountain roundabout"
           },
           {
             "id": "mani_flo-17",
             "src": "/MANI FLOTILLA 2025/IMG_2438.webp",
-            "caption": "Coverage moment"
+            "caption": "A group of young people chant pro-Palestine slogans"
           },
           {
             "id": "mani_flo-18",
             "src": "/MANI FLOTILLA 2025/IMG_2458.webp",
-            "caption": "Coverage moment"
+            "caption": "The lower pavements of the Palace Hotel occupied by thousands of demonstrators"
           }
         ]
       },
       {
         "id": "mani-palestina",
-        "title": "Demonstration for Palestine",
-        "description": "Demonstration in support of the Palestinian people.",
+        "title": "General strike for Palestine in Madrid",
+        "description": "On October 15, 2025, Spain experienced a nationwide general strike throughout the day that culminated in massive demonstrations in the country's main cities. The reasons: support for the Palestinian people and the demand for harsher sanctions against Israel, among others. These are some images from the gathering that took place in the capital, Madrid.",
         "coverImage": "/mani-palestina/IMG_3685.jpeg",
         "place": "Madrid",
-        "date": "2024",
+        "date": "2025",
         "photos": [
           {
             "id": "mani_pal-1",
             "src": "/mani-palestina/IMG_3685.jpeg",
-            "caption": "Coverage moment",
+            "caption": "A young woman on another demonstrator's shoulders at Cibeles square",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1344,22 +1344,22 @@
           {
             "id": "mani_pal-2",
             "src": "/mani-palestina/IMG_4211.jpeg",
-            "caption": "Coverage moment"
+            "caption": "Gran Vía in Madrid with Victor Hugo street during the march"
           },
           {
             "id": "mani_pal-3",
             "src": "/mani-palestina/IMG_4257.jpeg",
-            "caption": "Coverage moment"
+            "caption": "A demonstrator wearing a kufiya holds a protest banner"
           },
           {
             "id": "mani_pal-4",
             "src": "/mani-palestina/IMG_4294.jpeg",
-            "caption": "Coverage moment"
+            "caption": "A man leads a group of demonstrators with a megaphone"
           },
           {
             "id": "mani_pal-5",
             "src": "/mani-palestina/IMG_4416.jpeg",
-            "caption": "Coverage moment",
+            "caption": "A demonstrator carries a speaker and a horn while covering his face with the characteristic Palestinian scarf",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1367,7 +1367,7 @@
           {
             "id": "mani_pal-6",
             "src": "/mani-palestina/IMG_4449.jpeg",
-            "caption": "Coverage moment",
+            "caption": "A man holds a sign protesting the genocide in Gaza",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1375,17 +1375,17 @@
           {
             "id": "mani_pal-7",
             "src": "/mani-palestina/IMG_4793.jpeg",
-            "caption": "Coverage moment"
+            "caption": "A closed kiosk with graffiti in support of the demonstration"
           },
           {
             "id": "mani_pal-8",
             "src": "/mani-palestina/IMG_4852.jpeg",
-            "caption": "Coverage moment"
+            "caption": "A young man wearing a Palestine football shirt leads the march towards Callao square"
           },
           {
             "id": "mani_pal-9",
             "src": "/mani-palestina/IMG_4869.jpeg",
-            "caption": "Coverage moment",
+            "caption": "The group of demonstrators upon arrival at Callao",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1393,37 +1393,37 @@
           {
             "id": "mani_pal-10",
             "src": "/mani-palestina/IMG_4948.jpeg",
-            "caption": "Coverage moment"
+            "caption": "A contingent of demonstrators hold a banner in front of the police deployment"
           },
           {
             "id": "mani_pal-11",
             "src": "/mani-palestina/IMG_4958.jpeg",
-            "caption": "Coverage moment"
+            "caption": "Two young people hold hands minutes before the police charge"
           },
           {
             "id": "mani_pal-12",
             "src": "/mani-palestina/IMG_4981.jpeg",
-            "caption": "Coverage moment"
+            "caption": "Demonstrators approaching the National Police riot officers"
           },
           {
             "id": "mani_pal-13",
             "src": "/mani-palestina/IMG_5085.jpeg",
-            "caption": "Coverage moment"
+            "caption": "Demonstrators approaching the National Police riot officers"
           },
           {
             "id": "mani_pal-14",
             "src": "/mani-palestina/IMG_5095.jpeg",
-            "caption": "Coverage moment"
+            "caption": "A group of young people raise their arms while chanting pro-Palestine slogans"
           },
           {
             "id": "mani_pal-15",
             "src": "/mani-palestina/IMG_5120.jpeg",
-            "caption": "Coverage moment"
+            "caption": "A police officer containing the advance of the demonstrators"
           },
           {
             "id": "mani_pal-16",
             "src": "/mani-palestina/IMG_5125.jpeg",
-            "caption": "Coverage moment",
+            "caption": "A photographer taking a shot among the attendees",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1431,12 +1431,12 @@
           {
             "id": "mani_pal-17",
             "src": "/mani-palestina/IMG_5144.jpeg",
-            "caption": "Coverage moment"
+            "caption": "A woman wearing a kufiya during the demonstration"
           },
           {
             "id": "mani_pal-18",
             "src": "/mani-palestina/IMG_5183.jpeg",
-            "caption": "Coverage moment",
+            "caption": "A TV cameraman filming the demonstration, with a banner tied to the camera",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1643,8 +1643,20 @@
       "id": "1",
       "role": "Journalism Degree",
       "organization": "Universidad Carlos III de Madrid",
-      "dates": "2021–Present",
-      "description": "GETAFE (MADRID)"
+      "dates": "2021–2025",
+      "description": "",
+      "subEntries": [
+        {
+          "role": "Journalism Degree",
+          "organization": "Universidad Carlos III de Madrid",
+          "dates": "2021–2025"
+        },
+        {
+          "role": "Degree in Communication and Cultural Industries",
+          "organization": "Universitat de Barcelona",
+          "dates": "Sep 2023–Jan 2024"
+        }
+      ]
     },
     {
       "id": "6",
