@@ -46,13 +46,19 @@ export function getPhotoEvent(
 
 /**
  * Obtiene todos los eventos de una categoría de fotografía
+ * Ordenados por fecha: el más reciente primero
  */
 export function getPhotoEvents(
   category: 'conciertos' | 'carreras' | 'coberturas',
   language: Language = 'es'
 ) {
   const photography = getPhotography(language);
-  return photography[category];
+  const events = [...photography[category]];
+  return events.sort((a, b) => {
+    const yearA = parseInt(a.date || '0', 10);
+    const yearB = parseInt(b.date || '0', 10);
+    return yearB - yearA; // Más reciente primero
+  });
 }
 
 /**
