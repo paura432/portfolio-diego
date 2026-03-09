@@ -1201,7 +1201,7 @@
       {
         "id": "mani-flotilla-2025",
         "title": "Manifestación en Madrid a causa del arresto de la 'Flotilla de la Libertad'",
-        "description": "La 'Flotilla de la Libertad' es un grupo de activistas que se han dedicado a organizar viajes en barco para llevar ayuda humanitaria",
+        "description": "Pocas horas después del arresto por parte de las autoridades israelíes en aguas internacionales del contigente de activistas que partieron desde Barcelona hasta Ciudad de Gaza, el pueblo madrileño salió a la calle.",
         "coverImage": "/MANI FLOTILLA 2025/IMG_1779.webp",
         "place": "Madrid",
         "date": "2025",
@@ -1209,12 +1209,12 @@
           {
             "id": "mani_flo-1",
             "src": "/MANI FLOTILLA 2025/IMG_1779.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Un pelotón de la Policía Nacional acordona la marcha en la Puerta del Sol"
           },
           {
             "id": "mani_flo-2",
             "src": "/MANI FLOTILLA 2025/IMG_1801.webp",
-            "caption": "Momento de la cobertura",
+            "caption": "Una mujer ondea una bandera palestina en la Puerta del Sol",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1222,32 +1222,32 @@
           {
             "id": "mani_flo-3",
             "src": "/MANI FLOTILLA 2025/IMG_1806.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Una pancarta rodeada de banderas reivindica el 'alto al fuego definitivo' hacia la población palestina"
           },
           {
             "id": "mani_flo-4",
             "src": "/MANI FLOTILLA 2025/IMG_1897.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Un hombre sujeta un cartel en una de las calles aledañas a la céntrica plaza de la capital"
           },
           {
             "id": "mani_flo-5",
             "src": "/MANI FLOTILLA 2025/IMG_1944.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Banderas ondeando enfrente de la boca de Cercanías de Sol"
           },
           {
             "id": "mani_flo-6",
             "src": "/MANI FLOTILLA 2025/IMG_2036.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Una joven alienta la marcha con un megáfono"
           },
           {
             "id": "mani_flo-7",
             "src": "/MANI FLOTILLA 2025/IMG_2042.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Jóvenes gritando consignas durante la manifestación"
           },
           {
             "id": "mani_flo-8",
             "src": "/MANI FLOTILLA 2025/IMG_2180.webp",
-            "caption": "Momento de la cobertura",
+            "caption": "La bandera de Palestina alzada enfrente del Congreso de los Diputados",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1255,12 +1255,12 @@
           {
             "id": "mani_flo-9",
             "src": "/MANI FLOTILLA 2025/IMG_2215.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Dos mujeres sostienen una pancarta en apoyo al pueblo palestino"
           },
           {
             "id": "mani_flo-10",
             "src": "/MANI FLOTILLA 2025/IMG_2283.webp",
-            "caption": "Momento de la cobertura",
+            "caption": "Un hombre, equipado con megáfonos y un altavoz, marcha por la rotonda de la fuente de Neptuno",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1268,17 +1268,17 @@
           {
             "id": "mani_flo-11",
             "src": "/MANI FLOTILLA 2025/IMG_2290.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Policias antidisturbios conteniendo a la masa de manifestantes en las cercanías del hotel Ritz"
           },
           {
             "id": "mani_flo-12",
             "src": "/MANI FLOTILLA 2025/IMG_2320.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Una mujer aguanta la mirada a un policía antidisturbios"
           },
           {
             "id": "mani_flo-13",
             "src": "/MANI FLOTILLA 2025/IMG_2330.webp",
-            "caption": "Momento de la cobertura",
+            "caption": "Una mujer grita cánticos de la manifestación frente a un policía antidisturbios",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1286,42 +1286,42 @@
           {
             "id": "mani_flo-14",
             "src": "/MANI FLOTILLA 2025/IMG_2334.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Un grupo de jóvenes sostienen la bandera palestina frente a los operarios de la Policía"
           },
           {
             "id": "mani_flo-15",
             "src": "/MANI FLOTILLA 2025/IMG_2380.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Tres jóvenes se abrazan frente a los policías antidisturbios"
           },
           {
             "id": "mani_flo-16",
             "src": "/MANI FLOTILLA 2025/IMG_2410.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Un grupo de manifestantes alzan los brazos sentados en el suelo, en la rotonda de la fuente de Neptuno"
           },
           {
             "id": "mani_flo-17",
             "src": "/MANI FLOTILLA 2025/IMG_2438.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Un grupo de jovénes entonan consignas propalestinas"
           },
           {
             "id": "mani_flo-18",
             "src": "/MANI FLOTILLA 2025/IMG_2458.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Las aceras inferiores del Hotel Palace ocupadas por miles de manifestantes"
           }
         ]
       },
       {
         "id": "mani-palestina",
-        "title": "Manifestación por Palestina",
+        "title": "Huelga general por Palestina en Madrid",
         "description": "El 15 de octubre de 2025, España vivió una huelga general durante todo el día que culminó con manifestaciones multitudinarias en las principales ciudades del país. Los motivos: el apoyo al pueblo palestino y la exigencia de imponer sanciones más duras a Israel, entre otros. Estas son algunas imágenes de la concentración que se produjo en la capital, Madrid.",
         "coverImage": "/mani-palestina/IMG_3685.jpeg",
         "place": "Madrid",
-        "date": "2024",
+        "date": "2025",
         "photos": [
           {
             "id": "mani_pal-1",
             "src": "/mani-palestina/IMG_3685.jpeg",
-            "caption": "Momento de la cobertura",
+            "caption": "Una joven a hombros de otro manifestante se concentra en la plaza de Cibeles",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1329,22 +1329,22 @@
           {
             "id": "mani_pal-2",
             "src": "/mani-palestina/IMG_4211.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "La Gran Vía de Madrid con la calle de Victor Hugo, durante la marcha"
           },
           {
             "id": "mani_pal-3",
             "src": "/mani-palestina/IMG_4257.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "Una manifestante vestida con una 'kufiya' sujeta una pancarta reivindicativa"
           },
           {
             "id": "mani_pal-4",
             "src": "/mani-palestina/IMG_4294.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "Un hombre lidera un grupo de manifestantes con un megáfono"
           },
           {
             "id": "mani_pal-5",
             "src": "/mani-palestina/IMG_4416.jpeg",
-            "caption": "Momento de la cobertura",
+            "caption": "Un manifestante porta un altavoz junto a una bocina mientras se cubre la cara con el pañuelo característico de Palestina",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1352,7 +1352,7 @@
           {
             "id": "mani_pal-6",
             "src": "/mani-palestina/IMG_4449.jpeg",
-            "caption": "Momento de la cobertura",
+            "caption": "Un hombre sujeta un cartel en protesta del genocidio en Gaza",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1360,17 +1360,17 @@
           {
             "id": "mani_pal-7",
             "src": "/mani-palestina/IMG_4793.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "Un quiosco cerrado con 'grafittis' en apoyo al motivo de la manifestación"
           },
           {
             "id": "mani_pal-8",
             "src": "/mani-palestina/IMG_4852.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "Un joven vistiendo una camiseta de fútbol de Palestina se adelanta en la marcha hacia la plaza de Callao"
           },
           {
             "id": "mani_pal-9",
             "src": "/mani-palestina/IMG_4869.jpeg",
-            "caption": "Momento de la cobertura",
+            "caption": "El grupo de manifestantes a su llegada a Callao",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1378,37 +1378,37 @@
           {
             "id": "mani_pal-10",
             "src": "/mani-palestina/IMG_4948.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "Un contingente de manifestantes sujetan una pancarta frente al despliegue policial"
           },
           {
             "id": "mani_pal-11",
             "src": "/mani-palestina/IMG_4958.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "Dos jóvenes se dan la mano minutos previos a la carga policial"
           },
           {
             "id": "mani_pal-12",
             "src": "/mani-palestina/IMG_4981.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "Los manifestantes acercandose a los agentes de antidisturbios de la Policía Nacional"
           },
           {
             "id": "mani_pal-13",
             "src": "/mani-palestina/IMG_5085.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "Los manifestantes acercandose a los agentes de antidisturbios de la Policía Nacional"
           },
           {
             "id": "mani_pal-14",
             "src": "/mani-palestina/IMG_5095.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "Un grupo de jóvenes alzan los brazos mientras entonan cánticos pro-palestinos"
           },
           {
             "id": "mani_pal-15",
             "src": "/mani-palestina/IMG_5120.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "Un efectivo de la Policia manteniendo el avance de los manifestantes"
           },
           {
             "id": "mani_pal-16",
             "src": "/mani-palestina/IMG_5125.jpeg",
-            "caption": "Momento de la cobertura",
+            "caption": "Una fotógrafa realiza una toma en medio de los asistentes",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -1416,12 +1416,12 @@
           {
             "id": "mani_pal-17",
             "src": "/mani-palestina/IMG_5144.jpeg",
-            "caption": "Momento de la cobertura"
+            "caption": "Una mujer cubierta por una kufiya durante la manifestación"
           },
           {
             "id": "mani_pal-18",
             "src": "/mani-palestina/IMG_5183.jpeg",
-            "caption": "Momento de la cobertura",
+            "caption": "Un camarógrafo de televisión grabando la manifestación, con una pancarta atada a la cámara",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
