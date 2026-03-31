@@ -1,6 +1,15 @@
 'use client';
 
-import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import {
+  createContext,
+  useContext,
+  useState,
+  useEffect,
+  useCallback,
+  useRef,
+  startTransition,
+  ReactNode,
+} from 'react';
 
 type Language = 'es' | 'en';
 
@@ -12,7 +21,13 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>('es');
+  const [language, setLanguageState] = useState<Language>('es');
+  /** Evita que el primer persist sobrescriba localStorage antes de leer la preferencia guardada */
+  const skipFirstLanguagePersist = useRef(true);
+
+  const setLanguage = useCallback((lang: Language) => {
+    startTransition(() => setLanguageState(lang));
+  }, []);
 
   useEffect(() => {
     // Modo oscuro siempre activo
@@ -20,14 +35,18 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   }, []);
 
   useEffect(() => {
-    // Cargar preferencia de idioma guardada
+    // Cargar preferencia sin startTransition para evitar flash de idioma al hidratar
     const savedLang = localStorage.getItem('language') as Language | null;
-    if (savedLang) {
-      setLanguage(savedLang);
+    if (savedLang === 'es' || savedLang === 'en') {
+      setLanguageState(savedLang);
     }
   }, []);
 
   useEffect(() => {
+    if (skipFirstLanguagePersist.current) {
+      skipFirstLanguagePersist.current = false;
+      return;
+    }
     localStorage.setItem('language', language);
   }, [language]);
 

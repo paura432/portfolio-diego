@@ -11,7 +11,7 @@ export default function CarrerasPage() {
   const t = getTranslations(language);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
+    <div className="w-full min-w-0 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
       <PhotoCategory
         title={t.photography.carreras}
         events={events}

@@ -66,8 +66,9 @@ export default function PhotoModal({ photo, isOpen, onClose, place, photos = [],
     >
       {/* Botón de cerrar */}
       <button
+        type="button"
         onClick={onClose}
-        className="absolute top-4 right-4 z-10 p-2 text-white/90 hover:text-white transition-colors touch-manipulation"
+        className="absolute z-10 p-2 min-h-[44px] min-w-[44px] inline-flex items-center justify-center text-white/90 hover:text-white transition-colors touch-manipulation top-[max(0.75rem,env(safe-area-inset-top))] right-[max(0.75rem,env(safe-area-inset-right))]"
         aria-label="Cerrar"
       >
         <svg
@@ -88,11 +89,12 @@ export default function PhotoModal({ photo, isOpen, onClose, place, photos = [],
       {/* Flecha izquierda - foto anterior */}
       {hasPrev && (
         <button
+          type="button"
           onClick={(e) => {
             e.stopPropagation();
             onPrev!();
           }}
-          className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 p-2 sm:p-3 rounded-full bg-black/50 hover:bg-black/70 text-white/90 hover:text-white transition-all touch-manipulation"
+          className="absolute left-[max(0.5rem,env(safe-area-inset-left))] sm:left-4 top-1/2 -translate-y-1/2 z-10 p-2 sm:p-3 min-h-[44px] min-w-[44px] inline-flex items-center justify-center rounded-full bg-black/50 hover:bg-black/70 text-white/90 hover:text-white transition-colors touch-manipulation"
           aria-label="Foto anterior"
         >
           <svg className="w-8 h-8 sm:w-10 sm:h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -104,11 +106,12 @@ export default function PhotoModal({ photo, isOpen, onClose, place, photos = [],
       {/* Flecha derecha - foto siguiente */}
       {hasNext && (
         <button
+          type="button"
           onClick={(e) => {
             e.stopPropagation();
             onNext!();
           }}
-          className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 p-2 sm:p-3 rounded-full bg-black/50 hover:bg-black/70 text-white/90 hover:text-white transition-all touch-manipulation"
+          className="absolute right-[max(0.5rem,env(safe-area-inset-right))] sm:right-4 top-1/2 -translate-y-1/2 z-10 p-2 sm:p-3 min-h-[44px] min-w-[44px] inline-flex items-center justify-center rounded-full bg-black/50 hover:bg-black/70 text-white/90 hover:text-white transition-colors touch-manipulation"
           aria-label="Foto siguiente"
         >
           <svg className="w-8 h-8 sm:w-10 sm:h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -126,20 +129,21 @@ export default function PhotoModal({ photo, isOpen, onClose, place, photos = [],
           src={photo.src}
           alt={photo.caption}
           fill
-          quality={95}
+          quality={75}
           className="object-contain"
           sizes="100vw"
           priority
-          unoptimized
+          fetchPriority="high"
+          decoding="async"
         />
       </div>
 
       {/* Pie de foto superpuesto en la parte inferior */}
       <div
-        className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 via-black/80 to-transparent px-4 sm:px-6 py-6 sm:py-8"
+        className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 via-black/80 to-transparent px-4 sm:px-6 pt-6 sm:pt-8 pb-[max(1.5rem,env(safe-area-inset-bottom))] sm:pb-8"
         onClick={(e) => e.stopPropagation()}
       >
-        <h3 className="font-serif text-base sm:text-xl md:text-2xl font-normal text-white mb-1">
+        <h3 className="font-serif text-base sm:text-xl md:text-2xl font-normal text-white mb-1 break-words [overflow-wrap:anywhere]">
           {photo.caption}
         </h3>
         {(photo.place || place) && (

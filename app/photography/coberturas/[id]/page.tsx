@@ -1,74 +1,36 @@
-'use client';
+import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+import AlbumEventPage from '@/components/photography/AlbumEventPage';
+import { buildAlbumPageMetadata } from '@/lib/albumPageMetadata';
+import { getPhotoEvent, getPhotoEventIds } from '@/lib/content';
 
-import { useParams } from 'next/navigation';
-import Link from 'next/link';
-import { getPhotoEvent } from '@/lib/content';
-import { useTheme } from '@/contexts/ThemeContext';
-import EventGallery from '@/components/photography/EventGallery';
-import { getTranslations } from '@/lib/i18n';
+export const dynamic = 'force-static';
 
-export default function CoberturaEventPage() {
-  const { language } = useTheme();
-  const params = useParams();
-  const id = params.id as string;
-  const t = getTranslations(language);
-  
-  const event = getPhotoEvent('coberturas', id, language);
+export function generateStaticParams() {
+  return getPhotoEventIds('coberturas').map((id) => ({ id }));
+}
 
-  if (!event) {
-    return (
-      <div className="max-w-7xl mx-auto px-4 md:px-6 py-12 text-center">
-        <h1 className="text-2xl mb-4">Evento no encontrado</h1>
-        <Link href="/photography/coberturas" className="text-primary-600 dark:text-primary-400">
-          Volver a coberturas
-        </Link>
-      </div>
-    );
-  }
+export function generateMetadata({
+  params,
+}: {
+  params: { id: string };
+}): Metadata {
+  return buildAlbumPageMetadata('coberturas', params.id);
+}
 
+export default function CoberturaAlbumPage({
+  params,
+}: {
+  params: { id: string };
+}) {
+  const eventEs = getPhotoEvent('coberturas', params.id, 'es');
+  const eventEn = getPhotoEvent('coberturas', params.id, 'en');
+  if (!eventEs || !eventEn) notFound();
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
-      <Link
-        href="/photography/coberturas"
-        className="inline-flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white mb-6 sm:mb-8 transition-colors text-sm sm:text-base"
-      >
-        <svg
-          className="w-5 h-5"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M15 19l-7-7 7-7"
-          />
-        </svg>
-        {t.photography.backTo} {t.photography.coberturas}
-      </Link>
-
-      <div className="mb-8 sm:mb-12">
-        <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-normal mb-3 sm:mb-4 text-gray-900 dark:text-white">
-          {event.title}
-        </h1>
-        {event.description && (
-          <p className="text-gray-600 dark:text-gray-400 text-base sm:text-lg leading-relaxed max-w-3xl mb-4">
-            {event.description}
-          </p>
-        )}
-        <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-base sm:text-lg text-gray-600 dark:text-gray-400">
-          <span>{event.place}</span>
-          {event.date && (
-            <>
-              <span>•</span>
-              <span>{event.date}</span>
-            </>
-          )}
-        </div>
-      </div>
-
-      <EventGallery photos={event.photos} eventPlace={event.place} />
-    </div>
+    <AlbumEventPage
+      category="coberturas"
+      eventEs={eventEs}
+      eventEn={eventEn}
+    />
   );
 }

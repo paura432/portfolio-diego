@@ -30,10 +30,11 @@ export default function PhotoGrid({ photos }: PhotoGridProps) {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-        {photos.map((photo) => (
-          <PhotoGridItem 
-            key={photo.id} 
+        {photos.map((photo, index) => (
+          <PhotoGridItem
+            key={photo.id}
             photo={photo}
+            index={index}
             onClick={() => handlePhotoClick(photo)}
           />
         ))}
@@ -48,7 +49,15 @@ export default function PhotoGrid({ photos }: PhotoGridProps) {
 }
 
 // Componente para cada foto del grid con efecto de aparición
-function PhotoGridItem({ photo, onClick }: { photo: Photo; onClick: () => void }) {
+function PhotoGridItem({
+  photo,
+  index,
+  onClick,
+}: {
+  photo: Photo;
+  index: number;
+  onClick: () => void;
+}) {
   const [isVisible, setIsVisible] = useState(false);
   const photoRef = useRef<HTMLElement | null>(null);
 
@@ -81,7 +90,7 @@ function PhotoGridItem({ photo, onClick }: { photo: Photo; onClick: () => void }
   return (
     <figure 
       ref={photoRef}
-      className={`group space-y-4 transition-all duration-700 ease-out ${
+      className={`group space-y-4 transition-[opacity,transform] duration-300 ease-out ${
         isVisible 
           ? 'opacity-100 translate-y-0' 
           : 'opacity-0 translate-y-8'
@@ -89,7 +98,7 @@ function PhotoGridItem({ photo, onClick }: { photo: Photo; onClick: () => void }
     >
           <div 
             onClick={onClick}
-            className="relative aspect-[4/3] bg-gray-100 dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg group-hover:shadow-2xl transition-all duration-300 cursor-pointer"
+            className="relative aspect-[4/3] bg-gray-100 dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg group-hover:shadow-2xl transition-[box-shadow,transform] duration-300 cursor-pointer touch-manipulation"
           >
             <Image
               src={photo.src}
@@ -97,6 +106,10 @@ function PhotoGridItem({ photo, onClick }: { photo: Photo; onClick: () => void }
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-500"
               sizes="(max-width: 768px) 100vw, 50vw"
+              quality={75}
+              priority={index < 2}
+              fetchPriority={index < 2 ? 'high' : 'auto'}
+              decoding="async"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">

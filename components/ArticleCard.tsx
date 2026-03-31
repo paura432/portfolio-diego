@@ -59,7 +59,7 @@ export default function ArticleCard({ report, isFirst = false }: ArticleCardProp
   return (
     <article
       ref={articleRef}
-      className={`max-w-4xl transition-all duration-700 ease-out ${
+      className={`max-w-4xl transition-[opacity,transform] duration-300 ease-out ${
         isVisible 
           ? 'opacity-100 translate-y-0' 
           : 'opacity-0 translate-y-8'
@@ -75,7 +75,10 @@ export default function ArticleCard({ report, isFirst = false }: ArticleCardProp
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 33vw"
-              unoptimized={imageUrl.startsWith('/')}
+              quality={78}
+              priority={isFirst}
+              fetchPriority={isFirst ? 'high' : 'auto'}
+              decoding="async"
             />
           </div>
         </div>

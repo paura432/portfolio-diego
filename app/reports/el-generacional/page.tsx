@@ -29,7 +29,7 @@ export default function ElGeneracionalPage() {
       </div>
       <div className="pt-12 pb-8 text-center">
         <a
-          href="https://elgeneracionalpost.com/author/diego-delgado-lerma/"
+          href="https://elgeneracionalpost.com/author/diegolerma277"
           target="_blank"
           rel="noopener noreferrer"
           className="group inline-flex items-center gap-2 text-gray-300 hover:text-white font-medium transition-colors underline underline-offset-4 decoration-2"

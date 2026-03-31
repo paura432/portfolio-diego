@@ -30,7 +30,10 @@ export default function TFGPage() {
                       fill
                       className="object-cover transition-transform duration-300 group-hover:scale-[1.02]"
                       sizes="(max-width: 768px) 100vw, 33vw"
-                      unoptimized
+                      quality={80}
+                      priority
+                      fetchPriority="high"
+                      decoding="async"
                     />
                   </div>
                 </a>

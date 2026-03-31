@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Section from '@/components/Section';
 import { getWork } from '@/lib/content';
+import type { WorkSubEntry } from '@/types/content';
 import { useTheme } from '@/contexts/ThemeContext';
 import { getTranslations } from '@/lib/i18n';
 
@@ -16,27 +17,31 @@ export default function WorkPage() {
   const { language } = useTheme();
   const work = getWork(language);
   const t = getTranslations(language);
-  const [scrollY, setScrollY] = useState(0);
   const heroRef = useRef<HTMLElement>(null);
+  const titleRef = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
+    let raf = 0;
     const handleScroll = () => {
-      setScrollY(window.scrollY);
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => {
+        const hero = heroRef.current;
+        const title = titleRef.current;
+        if (!hero || !title) return;
+        const scrollY = window.scrollY;
+        const heroHeight = hero.offsetHeight;
+        const opacity = Math.max(0, 1 - scrollY / (heroHeight * 0.5));
+        title.style.opacity = String(opacity);
+      });
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+    return () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
-
-  // Calcular opacidad del texto basado en scroll
-  const getTextOpacity = () => {
-    if (!heroRef.current) return 1;
-    const heroHeight = heroRef.current.offsetHeight;
-    const opacity = Math.max(0, 1 - scrollY / (heroHeight * 0.5));
-    return opacity;
-  };
-
-  const textOpacity = getTextOpacity();
 
   return (
     <>
@@ -48,9 +53,9 @@ export default function WorkPage() {
           className="bg-gradient-to-br from-primary-100 via-gray-50 to-accent-50 dark:from-black dark:via-gray-900 dark:to-black py-12 sm:py-16 md:py-20 min-h-[40vh] sm:min-h-[50vh] flex items-center"
         >
           <Section>
-            <h1 
-              className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal mb-4 text-gray-900 dark:text-white transition-opacity duration-300"
-              style={{ opacity: textOpacity }}
+            <h1
+              ref={titleRef}
+              className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal mb-4 text-gray-900 dark:text-white"
             >
               {t.work.title}
             </h1>
@@ -118,7 +123,7 @@ function WorkItem({ item }: { item: any }) {
   return (
     <div 
       ref={itemRef}
-      className={`relative transition-all duration-700 ease-out ${
+      className={`relative transition-[opacity,transform] duration-300 ease-out ${
         isVisible 
           ? 'opacity-100 translate-y-0' 
           : 'opacity-0 translate-y-8'
@@ -127,20 +132,42 @@ function WorkItem({ item }: { item: any }) {
       {/* Timeline Dot */}
       <div className="absolute -left-6 top-2 w-4 h-4 bg-accent-500 dark:bg-accent-400 rounded-full border-4 border-white dark:border-gray-800 shadow-lg hidden lg:block -translate-x-1/2" />
       <div className="bg-gradient-to-br from-gray-50 to-white dark:from-gray-900 dark:to-black p-6 sm:p-8 rounded-lg border border-gray-200 dark:border-gray-800 hover:shadow-lg transition-shadow">
-        <div className="mb-4">
-          <span className="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 rounded-full text-xs font-medium">
-            {item.dates}
-          </span>
-        </div>
-        <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-normal mb-2 text-gray-900 dark:text-gray-100">
-          {item.role}
-        </h2>
-        <p className="text-xl text-primary-700 dark:text-primary-400 mb-4 font-medium">
-          {item.organization}
-        </p>
-        <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-base sm:text-lg">
-          {item.description}
-        </p>
+        {item.subEntries ? (
+          <div className="space-y-6">
+            {item.subEntries.map((sub: WorkSubEntry, i: number) => (
+              <div key={i}>
+                <div className="mb-2">
+                  <span className="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 rounded-full text-xs font-medium">
+                    {sub.dates}
+                  </span>
+                </div>
+                <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-normal mb-1 text-gray-900 dark:text-gray-100">
+                  {sub.role}
+                </h2>
+                <p className="text-xl text-primary-700 dark:text-primary-400">
+                  {sub.organization}
+                </p>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <>
+            <div className="mb-4">
+              <span className="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 rounded-full text-xs font-medium">
+                {item.dates}
+              </span>
+            </div>
+            <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-normal mb-2 text-gray-900 dark:text-gray-100">
+              {item.role}
+            </h2>
+            <p className="text-xl text-primary-700 dark:text-primary-400 mb-4 font-medium">
+              {item.organization}
+            </p>
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-base sm:text-lg">
+              {item.description}
+            </p>
+          </>
+        )}
       </div>
     </div>
   );

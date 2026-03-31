@@ -1201,7 +1201,7 @@
       {
         "id": "mani-flotilla-2025",
         "title": "Manifestación en Madrid a causa del arresto de la 'Flotilla de la Libertad'",
-        "description": "Pocas horas después del arresto por parte de las autoridades israelíes en aguas internacionales del contigente de activistas que partieron desde Barcelona hasta Ciudad de Gaza, el pueblo madrileño salió a la calle.",
+        "description": "Pocas horas después del arresto por parte de las autoridades israelíes en aguas internacionales del contingente de activistas que partieron desde Barcelona hasta Ciudad de Gaza, el pueblo madrileño salió a la calle.",
         "coverImage": "/MANI FLOTILLA 2025/IMG_1779.webp",
         "place": "Madrid",
         "date": "2025",
@@ -1301,7 +1301,7 @@
           {
             "id": "mani_flo-17",
             "src": "/MANI FLOTILLA 2025/IMG_2438.webp",
-            "caption": "Un grupo de jovénes entonan consignas propalestinas"
+            "caption": "Un grupo de jóvenes entonan consignas propalestinas"
           },
           {
             "id": "mani_flo-18",
@@ -1388,12 +1388,12 @@
           {
             "id": "mani_pal-12",
             "src": "/mani-palestina/IMG_4981.jpeg",
-            "caption": "Los manifestantes acercandose a los agentes de antidisturbios de la Policía Nacional"
+            "caption": "Los manifestantes acercándose a los agentes de antidisturbios de la Policía Nacional"
           },
           {
             "id": "mani_pal-13",
             "src": "/mani-palestina/IMG_5085.jpeg",
-            "caption": "Los manifestantes acercandose a los agentes de antidisturbios de la Policía Nacional"
+            "caption": "Los manifestantes acercándose a los agentes de antidisturbios de la Policía Nacional"
           },
           {
             "id": "mani_pal-14",
@@ -1628,8 +1628,20 @@
       "id": "1",
       "role": "Grado en Periodismo",
       "organization": "Universidad Carlos III de Madrid",
-      "dates": "2021–Act.",
-      "description": "GETAFE (MADRID)"
+      "dates": "2021–2025",
+      "description": "",
+      "subEntries": [
+        {
+          "role": "Grado en Periodismo",
+          "organization": "Universidad Carlos III de Madrid",
+          "dates": "2021–2025"
+        },
+        {
+          "role": "Grado en Comunicación e Industrias Culturales",
+          "organization": "Universitat de Barcelona",
+          "dates": "Sep 2023–Ene 2024"
+        }
+      ]
     },
     {
       "id": "6",

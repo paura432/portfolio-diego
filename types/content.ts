@@ -64,12 +64,20 @@ export interface Report {
   image?: string;
 }
 
+export interface WorkSubEntry {
+  role: string;
+  organization: string;
+  dates: string;
+}
+
 export interface WorkExperience {
   id: string;
   role: string;
   organization: string;
   dates: string;
   description: string;
+  /** Entradas con títulos separados dentro del mismo cuadro */
+  subEntries?: WorkSubEntry[];
 }
 
 export interface Contact {
