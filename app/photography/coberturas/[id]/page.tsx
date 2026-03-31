@@ -17,7 +17,7 @@ export default function CoberturaEventPage() {
 
   if (!event) {
     return (
-      <div className="max-w-7xl mx-auto px-4 md:px-6 py-12 text-center">
+      <div className="w-full min-w-0 max-w-7xl mx-auto px-4 md:px-6 py-12 text-center text-gray-900 dark:text-gray-100">
         <h1 className="text-2xl mb-4">Evento no encontrado</h1>
         <Link href="/photography/coberturas" className="text-primary-600 dark:text-primary-400">
           Volver a coberturas
@@ -27,7 +27,7 @@ export default function CoberturaEventPage() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
+    <div className="w-full min-w-0 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
       <Link
         href="/photography/coberturas"
         className="inline-flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white mb-6 sm:mb-8 transition-colors text-sm sm:text-base"
@@ -48,12 +48,12 @@ export default function CoberturaEventPage() {
         {t.photography.backTo} {t.photography.coberturas}
       </Link>
 
-      <div className="mb-8 sm:mb-12">
-        <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-normal mb-3 sm:mb-4 text-gray-900 dark:text-white">
+      <div className="mb-8 sm:mb-12 min-w-0">
+        <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-normal mb-3 sm:mb-4 text-gray-900 dark:text-white break-words hyphens-auto">
           {event.title}
         </h1>
         {event.description && (
-          <p className="text-gray-600 dark:text-gray-400 text-base sm:text-lg leading-relaxed max-w-3xl mb-4">
+          <p className="text-gray-600 dark:text-gray-400 text-base sm:text-lg leading-relaxed max-w-3xl mb-4 break-words">
             {event.description}
           </p>
         )}

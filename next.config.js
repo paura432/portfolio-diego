@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    formats: ['image/avif', 'image/webp'],
+    /** Visitas repetidas: el servidor cachea variantes optimizadas más tiempo */
+    minimumCacheTTL: 2678400,
     remotePatterns: [
       {
         protocol: 'https',

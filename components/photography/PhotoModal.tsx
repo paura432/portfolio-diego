@@ -66,6 +66,7 @@ export default function PhotoModal({ photo, isOpen, onClose, place, photos = [],
     >
       {/* Botón de cerrar */}
       <button
+        type="button"
         onClick={onClose}
         className="absolute top-4 right-4 z-10 p-2 text-white/90 hover:text-white transition-colors touch-manipulation"
         aria-label="Cerrar"
@@ -88,11 +89,12 @@ export default function PhotoModal({ photo, isOpen, onClose, place, photos = [],
       {/* Flecha izquierda - foto anterior */}
       {hasPrev && (
         <button
+          type="button"
           onClick={(e) => {
             e.stopPropagation();
             onPrev!();
           }}
-          className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 p-2 sm:p-3 rounded-full bg-black/50 hover:bg-black/70 text-white/90 hover:text-white transition-all touch-manipulation"
+          className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 p-2 sm:p-3 rounded-full bg-black/50 hover:bg-black/70 text-white/90 hover:text-white transition-colors touch-manipulation"
           aria-label="Foto anterior"
         >
           <svg className="w-8 h-8 sm:w-10 sm:h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -104,11 +106,12 @@ export default function PhotoModal({ photo, isOpen, onClose, place, photos = [],
       {/* Flecha derecha - foto siguiente */}
       {hasNext && (
         <button
+          type="button"
           onClick={(e) => {
             e.stopPropagation();
             onNext!();
           }}
-          className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 p-2 sm:p-3 rounded-full bg-black/50 hover:bg-black/70 text-white/90 hover:text-white transition-all touch-manipulation"
+          className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 p-2 sm:p-3 rounded-full bg-black/50 hover:bg-black/70 text-white/90 hover:text-white transition-colors touch-manipulation"
           aria-label="Foto siguiente"
         >
           <svg className="w-8 h-8 sm:w-10 sm:h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -126,11 +129,12 @@ export default function PhotoModal({ photo, isOpen, onClose, place, photos = [],
           src={photo.src}
           alt={photo.caption}
           fill
-          quality={95}
+          quality={75}
           className="object-contain"
           sizes="100vw"
           priority
-          unoptimized
+          fetchPriority="high"
+          decoding="async"
         />
       </div>
 

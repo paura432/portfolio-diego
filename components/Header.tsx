@@ -33,7 +33,7 @@ export default function Header() {
     }`;
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-[1100] bg-white/95 dark:bg-black/95 backdrop-blur-sm border-b border-gray-200 dark:border-gray-800 shadow-sm">
+    <header className="fixed top-0 left-0 right-0 z-[1100] bg-white dark:bg-black border-b border-gray-200 dark:border-gray-800 shadow-sm">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between py-3 sm:py-4">
           {/* Logo/Name */}

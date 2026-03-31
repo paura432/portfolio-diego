@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -19,8 +19,8 @@ export default function PhotographyLayout({
   const { language } = useTheme();
   const photography = getPhotography(language);
   const t = getTranslations(language);
-  const [scrollY, setScrollY] = useState(0);
   const heroRef = useRef<HTMLElement>(null);
+  const heroTextRef = useRef<HTMLDivElement>(null);
 
   // Ocultar hero cuando estamos dentro de un álbum (ej: /photography/conciertos/vanesa-martin)
   const isAlbumDetail = /^\/photography\/[^/]+\/[^/]+$/.test(pathname);
@@ -32,17 +32,28 @@ export default function PhotographyLayout({
     }
   }, [isAlbumDetail]);
 
+  // Opacidad del hero sin setState en scroll (evita re-renders y mejora LCP/INP)
   useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY);
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  const getTextOpacity = () => {
-    if (!heroRef.current) return 1;
-    const heroHeight = heroRef.current.offsetHeight;
-    return Math.max(0, 1 - scrollY / (heroHeight * 0.5));
-  };
+    if (isAlbumDetail) return;
+    let raf = 0;
+    const handleScroll = () => {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => {
+        const hero = heroRef.current;
+        const text = heroTextRef.current;
+        if (!hero || !text) return;
+        const scrollY = window.scrollY;
+        const heroHeight = hero.offsetHeight;
+        text.style.opacity = String(Math.max(0, 1 - scrollY / (heroHeight * 0.5)));
+      });
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+    return () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [isAlbumDetail]);
 
   return (
     <>
@@ -56,8 +67,8 @@ export default function PhotographyLayout({
         >
           <Section className="relative z-10 w-full">
             <div
+              ref={heroTextRef}
               className="max-w-3xl transition-opacity duration-300"
-              style={{ opacity: getTextOpacity() }}
             >
               <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal mb-4 sm:mb-6 text-gray-900 dark:text-white">
                 {t.photography.title}
@@ -76,7 +87,7 @@ export default function PhotographyLayout({
         )}
 
         {/* Contenido de la categoría (conciertos, carreras, coberturas) o álbum */}
-        <div className="bg-white dark:bg-black">{children}</div>
+        <div className="w-full min-w-0 bg-white dark:bg-black">{children}</div>
       </main>
       <Footer />
     </>

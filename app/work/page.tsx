@@ -17,27 +17,31 @@ export default function WorkPage() {
   const { language } = useTheme();
   const work = getWork(language);
   const t = getTranslations(language);
-  const [scrollY, setScrollY] = useState(0);
   const heroRef = useRef<HTMLElement>(null);
+  const titleRef = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
+    let raf = 0;
     const handleScroll = () => {
-      setScrollY(window.scrollY);
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => {
+        const hero = heroRef.current;
+        const title = titleRef.current;
+        if (!hero || !title) return;
+        const scrollY = window.scrollY;
+        const heroHeight = hero.offsetHeight;
+        const opacity = Math.max(0, 1 - scrollY / (heroHeight * 0.5));
+        title.style.opacity = String(opacity);
+      });
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+    return () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
-
-  // Calcular opacidad del texto basado en scroll
-  const getTextOpacity = () => {
-    if (!heroRef.current) return 1;
-    const heroHeight = heroRef.current.offsetHeight;
-    const opacity = Math.max(0, 1 - scrollY / (heroHeight * 0.5));
-    return opacity;
-  };
-
-  const textOpacity = getTextOpacity();
 
   return (
     <>
@@ -49,9 +53,9 @@ export default function WorkPage() {
           className="bg-gradient-to-br from-primary-100 via-gray-50 to-accent-50 dark:from-black dark:via-gray-900 dark:to-black py-12 sm:py-16 md:py-20 min-h-[40vh] sm:min-h-[50vh] flex items-center"
         >
           <Section>
-            <h1 
-              className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal mb-4 text-gray-900 dark:text-white transition-opacity duration-300"
-              style={{ opacity: textOpacity }}
+            <h1
+              ref={titleRef}
+              className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal mb-4 text-gray-900 dark:text-white"
             >
               {t.work.title}
             </h1>
@@ -119,7 +123,7 @@ function WorkItem({ item }: { item: any }) {
   return (
     <div 
       ref={itemRef}
-      className={`relative transition-all duration-700 ease-out ${
+      className={`relative transition-[opacity,transform] duration-300 ease-out ${
         isVisible 
           ? 'opacity-100 translate-y-0' 
           : 'opacity-0 translate-y-8'

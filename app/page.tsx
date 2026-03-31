@@ -56,7 +56,11 @@ export default function Home() {
                       alt={siteInfo.name}
                       fill
                       className="object-cover"
+                      sizes="(max-width: 768px) min(100vw, 320px), 42vw"
+                      quality={85}
                       priority
+                      fetchPriority="high"
+                      decoding="async"
                     />
                   </div>
                 </div>
@@ -81,7 +85,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             <a
               href="/photography"
-              className="group p-6 sm:p-8 bg-gradient-to-br from-primary-50 to-primary-100 dark:from-gray-900 dark:to-black rounded-lg hover:shadow-lg transition-all border border-gray-200 dark:border-gray-800"
+              className="group p-6 sm:p-8 bg-gradient-to-br from-primary-50 to-primary-100 dark:from-gray-900 dark:to-black rounded-lg hover:shadow-lg transition-[box-shadow,color] border border-gray-200 dark:border-gray-800"
             >
               <h3 className="font-serif text-xl sm:text-2xl mb-2 text-primary-900 dark:text-primary-300 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">
                 {t.home.quickLinks.photography}
@@ -92,7 +96,7 @@ export default function Home() {
             </a>
             <a
               href="/reports"
-              className="group p-6 sm:p-8 bg-gradient-to-br from-accent-50 to-accent-100 dark:from-gray-900 dark:to-black rounded-lg hover:shadow-lg transition-all border border-gray-200 dark:border-gray-800"
+              className="group p-6 sm:p-8 bg-gradient-to-br from-accent-50 to-accent-100 dark:from-gray-900 dark:to-black rounded-lg hover:shadow-lg transition-[box-shadow,color] border border-gray-200 dark:border-gray-800"
             >
               <h3 className="font-serif text-xl sm:text-2xl mb-2 text-accent-900 dark:text-accent-300 group-hover:text-primary-700 dark:group-hover:text-primary-400 transition-colors">
                 {t.home.quickLinks.reports}
@@ -103,7 +107,7 @@ export default function Home() {
             </a>
             <a
               href="/work"
-              className="group p-6 sm:p-8 bg-gradient-to-br from-warm-50 to-warm-100 dark:from-gray-900 dark:to-black rounded-lg hover:shadow-lg transition-all border border-gray-200 dark:border-gray-800 sm:col-span-2 lg:col-span-1"
+              className="group p-6 sm:p-8 bg-gradient-to-br from-warm-50 to-warm-100 dark:from-gray-900 dark:to-black rounded-lg hover:shadow-lg transition-[box-shadow,color] border border-gray-200 dark:border-gray-800 sm:col-span-2 lg:col-span-1"
             >
               <h3 className="font-serif text-xl sm:text-2xl mb-2 text-warm-900 dark:text-warm-300 group-hover:text-primary-700 dark:group-hover:text-primary-400 transition-colors">
                 {t.home.quickLinks.experience}
