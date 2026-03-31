@@ -1,5 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  compiler: {
+    removeConsole:
+      process.env.NODE_ENV === 'production'
+        ? { exclude: ['error', 'warn'] }
+        : false,
+  },
   images: {
     formats: ['image/avif', 'image/webp'],
     /** Visitas repetidas: el servidor cachea variantes optimizadas más tiempo */

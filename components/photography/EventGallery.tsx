@@ -70,7 +70,10 @@ export default function EventGallery({ photos, eventPlace }: EventGalleryProps) 
     setSelectedPhoto(null);
   }, []);
 
-  const currentIndex = selectedPhoto ? photos.findIndex((p) => p.id === selectedPhoto.id) : -1;
+  const currentIndex = useMemo(
+    () => (selectedPhoto ? photos.findIndex((p) => p.id === selectedPhoto.id) : -1),
+    [selectedPhoto, photos]
+  );
   const handlePrev = useCallback(() => {
     setSelectedPhoto((prev) => {
       if (!prev) return null;
@@ -90,11 +93,11 @@ export default function EventGallery({ photos, eventPlace }: EventGalleryProps) 
 
   return (
     <>
-      <div className="flex flex-wrap gap-2 mb-6 md:mb-8">
+      <div className="flex flex-wrap gap-2 mb-6 md:mb-8" role="toolbar" aria-label={t.photography.viewList + ' / ' + t.photography.viewGrid}>
         <button
           type="button"
           onClick={() => startTransition(() => setViewMode('list'))}
-          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors touch-manipulation ${
+          className={`min-h-[44px] min-w-[44px] px-4 rounded-lg text-sm font-medium transition-colors touch-manipulation inline-flex items-center justify-center ${
             viewMode === 'list'
               ? 'bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900'
               : 'bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
@@ -105,7 +108,7 @@ export default function EventGallery({ photos, eventPlace }: EventGalleryProps) 
         <button
           type="button"
           onClick={() => startTransition(() => setViewMode('grid'))}
-          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors touch-manipulation ${
+          className={`min-h-[44px] min-w-[44px] px-4 rounded-lg text-sm font-medium transition-colors touch-manipulation inline-flex items-center justify-center ${
             viewMode === 'grid'
               ? 'bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900'
               : 'bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
@@ -267,9 +270,11 @@ const GalleryPhotoItem = memo(function GalleryPhotoItem({
             sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
             {...imgCommon}
           />
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-150" />
-          <div className="pointer-events-none absolute bottom-0 left-0 right-0 p-2 sm:p-3 transform translate-y-2 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-[opacity,transform] duration-150">
-            <p className="text-white text-xs font-medium line-clamp-2">{photo.caption}</p>
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 max-sm:opacity-40 transition-opacity duration-150" />
+          <div className="pointer-events-none absolute bottom-0 left-0 right-0 p-2 sm:p-3 transform translate-y-2 group-hover:translate-y-0 max-sm:translate-y-0 opacity-0 group-hover:opacity-100 max-sm:opacity-100 transition-[opacity,transform] duration-150">
+            <p className="text-white text-xs font-medium line-clamp-2 break-words [overflow-wrap:anywhere]">
+              {photo.caption}
+            </p>
           </div>
         </>
       ) : hasDimensions ? (
@@ -284,9 +289,11 @@ const GalleryPhotoItem = memo(function GalleryPhotoItem({
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, (max-width: 1536px) 1280px, 1536px"
             {...imgCommon}
           />
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-150 rounded-md sm:rounded-lg" />
-          <div className="pointer-events-none absolute bottom-0 left-0 right-0 p-3 sm:p-4 transform translate-y-2 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-[opacity,transform] duration-150">
-            <p className="text-white text-xs sm:text-sm font-medium line-clamp-2">{photo.caption}</p>
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 max-sm:opacity-40 transition-opacity duration-150 rounded-md sm:rounded-lg" />
+          <div className="pointer-events-none absolute bottom-0 left-0 right-0 p-3 sm:p-4 transform translate-y-2 group-hover:translate-y-0 max-sm:translate-y-0 opacity-0 group-hover:opacity-100 max-sm:opacity-100 transition-[opacity,transform] duration-150">
+            <p className="text-white text-xs sm:text-sm font-medium line-clamp-2 break-words [overflow-wrap:anywhere]">
+              {photo.caption}
+            </p>
           </div>
         </div>
       ) : (
@@ -306,9 +313,11 @@ const GalleryPhotoItem = memo(function GalleryPhotoItem({
             }
             {...imgCommon}
           />
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-150" />
-          <div className="pointer-events-none absolute bottom-0 left-0 right-0 p-3 sm:p-4 transform translate-y-2 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-[opacity,transform] duration-150">
-            <p className="text-white text-xs sm:text-sm font-medium line-clamp-2">{photo.caption}</p>
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 max-sm:opacity-40 transition-opacity duration-150" />
+          <div className="pointer-events-none absolute bottom-0 left-0 right-0 p-3 sm:p-4 transform translate-y-2 group-hover:translate-y-0 max-sm:translate-y-0 opacity-0 group-hover:opacity-100 max-sm:opacity-100 transition-[opacity,transform] duration-150">
+            <p className="text-white text-xs sm:text-sm font-medium line-clamp-2 break-words [overflow-wrap:anywhere]">
+              {photo.caption}
+            </p>
           </div>
         </>
       )}

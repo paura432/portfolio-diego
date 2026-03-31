@@ -24,7 +24,7 @@ export default function EventCover({ event, category, priority = false }: EventC
   const href = `/photography/${category}/${event.id}`;
 
   return (
-    <Link href={href} scroll={false}>
+    <Link href={href} scroll={false} className="block min-w-0">
       <div
         className="cv-auto group relative overflow-hidden bg-gray-100 dark:bg-gray-900 rounded-lg transition-[box-shadow,transform] duration-200 ease-out cursor-pointer hover:shadow-2xl min-h-[240px] sm:min-h-[280px] md:min-h-[360px] lg:min-h-[400px]"
         style={{ aspectRatio: '4/3' }}
@@ -45,16 +45,19 @@ export default function EventCover({ event, category, priority = false }: EventC
           <h3 className="font-serif text-xl sm:text-2xl md:text-3xl font-normal text-white mb-1 sm:mb-2 leading-tight break-words hyphens-auto">
             {event.title}
           </h3>
-          <div className="flex items-center gap-3 text-sm text-gray-300">
-            <span>{event.place}</span>
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-gray-300 min-w-0">
+            <span className="break-words">{event.place}</span>
             {event.date && (
               <>
-                <span>•</span>
+                <span aria-hidden>•</span>
                 <span>{event.date}</span>
               </>
             )}
-            <span>•</span>
-            <span>{event.photos.length} {event.photos.length === 1 ? t.photography.photo : t.photography.photos}</span>
+            <span aria-hidden>•</span>
+            <span className="shrink-0">
+              {event.photos.length}{' '}
+              {event.photos.length === 1 ? t.photography.photo : t.photography.photos}
+            </span>
           </div>
         </div>
       </div>

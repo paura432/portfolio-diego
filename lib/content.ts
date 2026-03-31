@@ -62,6 +62,16 @@ export function getPhotoEvents(
 }
 
 /**
+ * IDs de eventos para generateStaticParams (mismos id en ES/EN)
+ */
+export function getPhotoEventIds(
+  category: 'conciertos' | 'carreras' | 'coberturas'
+): string[] {
+  const photography = getPhotography('es');
+  return photography[category].map((e) => e.id);
+}
+
+/**
  * Obtiene todos los reportajes según el idioma
  */
 export function getReports(language: Language = 'es') {

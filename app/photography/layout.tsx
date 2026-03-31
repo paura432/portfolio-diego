@@ -25,12 +25,14 @@ export default function PhotographyLayout({
   // Ocultar hero cuando estamos dentro de un álbum (ej: /photography/conciertos/vanesa-martin)
   const isAlbumDetail = /^\/photography\/[^/]+\/[^/]+$/.test(pathname);
 
-  // Al entrar en un álbum, hacer scroll al inicio del contenido (evita que suba al hero)
+  // Scroll arriba al entrar en un álbum o al cambiar de un álbum a otro (misma ruta “detalle”)
   useEffect(() => {
     if (isAlbumDetail) {
-      window.scrollTo(0, 0);
+      requestAnimationFrame(() => {
+        window.scrollTo(0, 0);
+      });
     }
-  }, [isAlbumDetail]);
+  }, [isAlbumDetail, pathname]);
 
   // Opacidad del hero sin setState en scroll (evita re-renders y mejora LCP/INP)
   useEffect(() => {
