@@ -20,6 +20,13 @@ export default function RootLayout({
     <html lang="es" className="dark" suppressHydrationWarning>
       <head>
         <link rel="dns-prefetch" href="https://images.unsplash.com" />
+        <link
+          rel="preload"
+          href="/fuente/Coolvetica%20Rg.otf"
+          as="font"
+          type="font/otf"
+          crossOrigin="anonymous"
+        />
       </head>
       <body className="antialiased">
         <ThemeProvider>

@@ -249,7 +249,7 @@ const GalleryPhotoItem = memo(function GalleryPhotoItem({
       aria-label={photo.caption}
       onClick={handleClick}
       onKeyDown={handleKeyDown}
-      className={`cv-auto group relative overflow-hidden bg-gray-100 dark:bg-gray-900 rounded-md sm:rounded-lg cursor-pointer hover:shadow-xl w-full min-w-0 transition-[box-shadow] duration-200 ${
+      className={`group relative overflow-hidden bg-gray-100 dark:bg-gray-900 rounded-md sm:rounded-lg cursor-pointer hover:shadow-xl w-full min-w-0 transition-[box-shadow] duration-200 ${
         isGrid
           ? 'aspect-square min-h-[120px]'
           : hasDimensions

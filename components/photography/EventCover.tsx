@@ -26,7 +26,7 @@ export default function EventCover({ event, category, priority = false }: EventC
   return (
     <Link href={href} scroll={false} className="block min-w-0">
       <div
-        className="cv-auto group relative overflow-hidden bg-gray-100 dark:bg-gray-900 rounded-lg transition-[box-shadow,transform] duration-200 ease-out cursor-pointer hover:shadow-2xl min-h-[240px] sm:min-h-[280px] md:min-h-[360px] lg:min-h-[400px]"
+        className="group relative overflow-hidden bg-gray-100 dark:bg-gray-900 rounded-lg transition-[box-shadow,transform] duration-200 ease-out cursor-pointer hover:shadow-2xl min-h-[240px] sm:min-h-[280px] md:min-h-[360px] lg:min-h-[400px]"
         style={{ aspectRatio: '4/3' }}
       >
         <Image
