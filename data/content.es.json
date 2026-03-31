@@ -19,7 +19,7 @@
     ]
   },
   "photography": {
-    "intro": "La fotografía documental me permite capturar momentos que reflejan la realidad social y humana. Cada imagen cuenta una historia, documenta un instante de verdad que merece ser preservado y compartido.",
+    "intro": "La fotografía documental me permite capturar momentos que reflejan la realidad social y humana. Cada imagen cuenta una historia, documenta un instante de verdad que merece ser preservado y compartido. Aquí hay algunas de mis fotografías en conciertos, carreras deportivas y eventos y sucesos que he ido realizando con los años.",
     "conciertos": [
       {
         "id": "antonio-orozco",
@@ -765,14 +765,14 @@
           {
             "id": "hhe31",
             "src": "/HIXPANIA HARD ENDURO 2025/IMG_1739.webp",
-            "caption": "De izquierda a derecha, Billy Bolt, Mario Román y Manuel Lettenbichler, los tres favoritos"
+            "caption": "De izquierda a derecha, Billy Bolt, Mario Román y Manuel Lettenbichler, los tres favoritos."
           }
         ]
       },
       {
         "id": "la-pesquera-2025",
         "title": "Penúltima carrera del Campeonato de España de 2025",
-        "description": "En la profundidad de la Reserva Natural de las Hoces del Cabriel, entre Cuenca y la Comunidad Valenciana, el torneo nacional de Hard Enduro de 2025 tuvo la antesala de su gran final",
+        "description": "En la profundidad de la Reserva Natural de las Hoces del Cabriel, entre Cuenca y la Comunidad Valenciana, el torneo nacional de Hard Enduro de 2025 tuvo la antesala de su gran final.",
         "coverImage": "/LA PESQUERA 2025/IMG_5232.webp",
         "place": "Cuenca, Castilla-La Mancha, España",
         "date": "2025",
@@ -780,87 +780,87 @@
           {
             "id": "lp1",
             "src": "/LA PESQUERA 2025/IMG_5232.webp",
-            "caption": "Pilotos preparándose en la parrilla de salida"
+            "caption": "Pilotos preparándose en la parrilla de salida."
           },
           {
             "id": "lp2",
             "src": "/LA PESQUERA 2025/IMG_5266.webp",
-            "caption": "Pistoletazo y arranque de la cita"
+            "caption": "Pistoletazo y arranque de la cita."
           },
           {
             "id": "lp3",
             "src": "/LA PESQUERA 2025/IMG_5280.webp",
-            "caption": "Un aficionado graba la salida"
+            "caption": "Un aficionado graba la salida."
           },
           {
             "id": "lp4",
             "src": "/LA PESQUERA 2025/IMG_5291.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera."
           },
           {
             "id": "lp5",
             "src": "/LA PESQUERA 2025/IMG_5314.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera."
           },
           {
             "id": "lp6",
             "src": "/LA PESQUERA 2025/IMG_5347.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera."
           },
           {
             "id": "lp7",
             "src": "/LA PESQUERA 2025/IMG_5367.webp",
-            "caption": "Un piloto arrastra su moto para superar una subida"
+            "caption": "Un piloto arrastra su moto para superar una subida."
           },
           {
             "id": "lp8",
             "src": "/LA PESQUERA 2025/IMG_5392.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera."
           },
           {
             "id": "lp9",
             "src": "/LA PESQUERA 2025/IMG_5397.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera."
           },
           {
             "id": "lp10",
             "src": "/LA PESQUERA 2025/IMG_5480.webp",
-            "caption": "Acción durante una de las bajadas del circuito"
+            "caption": "Acción durante una de las bajadas del circuito."
           },
           {
             "id": "lp11",
             "src": "/LA PESQUERA 2025/IMG_5552.webp",
-            "caption": "Un piloto comienza la trazada de una de las subidas"
+            "caption": "Un piloto comienza la trazada de una de las subidas."
           },
           {
             "id": "lp13",
             "src": "/LA PESQUERA 2025/IMG_5577.webp",
-            "caption": "La flecha marca el camino"
+            "caption": "La flecha marca el camino."
           },
           {
             "id": "lp14",
             "src": "/LA PESQUERA 2025/IMG_5644.webp",
-            "caption": "Acción durante la carrera"
+            "caption": "Acción durante la carrera."
           },
           {
             "id": "lp15",
             "src": "/LA PESQUERA 2025/IMG_5781.webp",
-            "caption": "El piloto andorrano, Marc Font, empujando su moto para retomar la marcha"
+            "caption": "El piloto andorrano, Marc Font, empujando su moto para retomar la marcha."
           },
           {
             "id": "lp16",
             "src": "/LA PESQUERA 2025/IMG_5825.webp",
-            "caption": "Eric Miquel, uno de los principales aspirantes al título, estudiando el trazado"
+            "caption": "Eric Miquel, uno de los principales aspirantes al título, estudiando el trazado."
           },
           {
             "id": "lp17",
             "src": "/LA PESQUERA 2025/IMG_5865.webp",
-            "caption": "Acción durante la subida más exigente de la carrera"
+            "caption": "Acción durante la subida más exigente de la carrera."
           },
           {
             "id": "lp18",
             "src": "/LA PESQUERA 2025/IMG_5876.webp",
-            "caption": "Acción durante la subida más exigente de la carrera",
+            "caption": "Acción durante la subida más exigente de la carrera.",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -868,7 +868,7 @@
           {
             "id": "lp19",
             "src": "/LA PESQUERA 2025/IMG_5897.webp",
-            "caption": "Un piloto observa el siguiente obstáculo",
+            "caption": "Un piloto observa el siguiente obstáculo.",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -876,37 +876,37 @@
           {
             "id": "lp20",
             "src": "/LA PESQUERA 2025/IMG_5925.webp",
-            "caption": "Acción durante la subida más exigente de la carrera"
+            "caption": "Acción durante la subida más exigente de la carrera."
           },
           {
             "id": "lp22",
             "src": "/LA PESQUERA 2025/IMG_6018.webp",
-            "caption": "Acción durante la subida más exigente de la carrera, donde se van acumulando pilotos"
+            "caption": "Acción durante la subida más exigente de la carrera, donde se van acumulando pilotos."
           },
           {
             "id": "lp23",
             "src": "/LA PESQUERA 2025/IMG_6054.webp",
-            "caption": "Acción durante la subida más exigente de la carrera"
+            "caption": "Acción durante la subida más exigente de la carrera."
           },
           {
             "id": "lp24",
             "src": "/LA PESQUERA 2025/IMG_6065.webp",
-            "caption": "Pol Pinyol, piloto catalán, durante el trazado"
+            "caption": "Pol Pinyol, piloto catalán, durante el trazado."
           },
           {
             "id": "lp25",
             "src": "/LA PESQUERA 2025/IMG_6069.webp",
-            "caption": "Un grupo de aficionados observando la sección más difícil del circuito"
+            "caption": "Un grupo de aficionados observando la sección más difícil del circuito."
           },
           {
             "id": "lp26",
             "src": "/LA PESQUERA 2025/IMG_6105.webp",
-            "caption": "Sandra Gómez, única mujer participante de la carrera, analizando el terreno"
+            "caption": "Sandra Gómez, única mujer participante de la carrera, analizando el terreno."
           },
           {
             "id": "lp28",
             "src": "/LA PESQUERA 2025/IMG_6131.webp",
-            "caption": "Acción durante la carrera",
+            "caption": "Acción durante la carrera.",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
@@ -926,87 +926,87 @@
           {
             "id": "goya_202-1",
             "src": "/goya-2026/IMG_0004.webp",
-            "caption": "De izquierda a derceha, Bernat Vilaplana, montador y editor de cine; Susana Abaitua, nominada a Mejor Actriz Protagonista por 'Un fantasma en la batalla'; y Mariano García Marty, profesional de efectos especiales"
+            "caption": "De izquierda a derceha, Bernat Vilaplana, montador y editor de cine; Susana Abaitua, nominada a Mejor Actriz Protagonista por 'Un fantasma en la batalla'; y Mariano García Marty, profesional de efectos especiales."
           },
           {
             "id": "goya_202-2",
             "src": "/goya-2026/IMG_0121.webp",
-            "caption": "Álvaro Cervantes, nominado a Mejor Actor de Reparto por su papel en 'Sorda', posando para las cámaras"
+            "caption": "Álvaro Cervantes, nominado a Mejor Actor de Reparto por su papel en 'Sorda', posando para las cámaras."
           },
           {
             "id": "goya_202-3",
             "src": "/goya-2026/IMG_0176.webp",
-            "caption": "Julio Peña Fernández, nominado a Mejor Actor Revelación por su interpretación en 'El Cautivo'"
+            "caption": "Julio Peña Fernández, nominado a Mejor Actor Revelación por su interpretación en 'El Cautivo'."
           },
           {
             "id": "goya_202-4",
             "src": "/goya-2026/IMG_0207.webp",
-            "caption": "Manolo Solo, nominado a Mejor Actor Protagonista por su papel en el fil 'Una quinta portuguesa'"
+            "caption": "Manolo Solo, nominado a Mejor Actor Protagonista por su papel en el fil 'Una quinta portuguesa'."
           },
           {
             "id": "goya_202-5",
             "src": "/goya-2026/IMG_0236.webp",
-            "caption": "Alba Flores, nominada a Mejor Película Documental y a Mejor Canción Original por su trabajo en 'Flores para Antonio', posando para las cámaras"
+            "caption": "Alba Flores, nominada a Mejor Película Documental y a Mejor Canción Original por su trabajo en 'Flores para Antonio', posando para las cámaras."
           },
           {
             "id": "goya_202-6",
             "src": "/goya-2026/IMG_0254.webp",
-            "caption": "De izquierda a derecha, Elena Molina, codirectora de 'Flores para Antonio', y Alba Flores"
+            "caption": "De izquierda a derecha, Elena Molina, codirectora de 'Flores para Antonio', y Alba Flores."
           },
           {
             "id": "goya_202-7",
             "src": "/goya-2026/IMG_0277.webp",
-            "caption": "Flores atendiendo a los medios de comunicación desplegados en el Real Casino de Madrid"
+            "caption": "Flores atendiendo a los medios de comunicación desplegados en el Real Casino de Madrid."
           },
           {
             "id": "goya_202-8",
             "src": "/goya-2026/IMG_0293.webp",
-            "caption": "José Miguel Conejo Torres, conocido como Leiva, nominado a Mejor Canción Original por 'Hasta que me quede sin voz', documental dedicado a su vida"
+            "caption": "José Miguel Conejo Torres, conocido como Leiva, nominado a Mejor Canción Original por 'Hasta que me quede sin voz', documental dedicado a su vida."
           },
           {
             "id": "goya_202-10",
             "src": "/goya-2026/IMG_0321.webp",
-            "caption": "José Ramón Soroiz, nominado a Mejor Actor Protagonista por su actuación en 'Maspalomas', posando en la alfombra roja"
+            "caption": "José Ramón Soroiz, nominado a Mejor Actor Protagonista por su actuación en 'Maspalomas', posando en la alfombra roja."
           },
           {
             "id": "goya_202-11",
             "src": "/goya-2026/IMG_0409.webp",
-            "caption": "Blanca Soroa, nominada a Mejor Actriz Protagonista por su papel en 'Los Domingos'"
+            "caption": "Blanca Soroa, nominada a Mejor Actriz Protagonista por su papel en 'Los Domingos'."
           },
           {
             "id": "goya_202-12",
             "src": "/goya-2026/IMG_9545.webp",
-            "caption": "Momento de la cobertura"
+            "caption": "Momento de la cobertura."
           },
           {
             "id": "goya_202-13",
             "src": "/goya-2026/IMG_9626.webp",
-            "caption": "Tamar Novas, nominado a Mejor Actor de Reparto por su papel en 'Rondallas'"
+            "caption": "Tamar Novas, nominado a Mejor Actor de Reparto por su papel en 'Rondallas'."
           },
           {
             "id": "goya_202-14",
             "src": "/goya-2026/IMG_9809.webp",
-            "caption": "Hugo Welzel, nominado a Mejor Actor Revelación por su interpretación en 'Enemigos'"
+            "caption": "Hugo Welzel, nominado a Mejor Actor Revelación por su interpretación en 'Enemigos'."
           },
           {
             "id": "goya_202-15",
             "src": "/goya-2026/IMG_9846.webp",
-            "caption": "Cineastas posan con tres estatuillas simbólicas una de las obras nominadas"
+            "caption": "Cineastas posan con tres estatuillas simbólicas una de las obras nominadas."
           },
           {
             "id": "goya_202-16",
             "src": "/goya-2026/IMG_9931.webp",
-            "caption": "Vanesa Romero, nominada a Mejor Cortometraje de Ficción por su dirección en 'Sexo a los 70'"
+            "caption": "Vanesa Romero, nominada a Mejor Cortometraje de Ficción por su dirección en 'Sexo a los 70'."
           },
           {
             "id": "goya_202-17",
             "src": "/goya-2026/IMG_9952.webp",
-            "caption": "Romero posando para las cámaras"
+            "caption": "Romero posando para las cámaras."
           },
           {
             "id": "goya_202-18",
             "src": "/goya-2026/IMG_9972.webp",
-            "caption": "Susana Abaitua, riendo ante los fotógrafos"
+            "caption": "Susana Abaitua, riendo ante los fotógrafos."
           }
         ]
       },
@@ -1447,7 +1447,7 @@
           {
             "id": "entrevis-2",
             "src": "/entrevista-julieta-pona/IMG_8541.webp",
-            "caption": "La cantante barcelonesa durante la conversación con El Generacional en el hotel ",
+            "caption": "La cantante barcelonesa durante la conversación con El Generacional en el hotel",
             "orientation": "vertical",
             "width": 4000,
             "height": 6000
